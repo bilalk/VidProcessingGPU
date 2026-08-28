@@ -1,0 +1,532 @@
+{
+  "reels": [
+    {
+      "id": "ar-en-025",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "Airport Panic & Rescue",
+      "seed": 41001,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "frenetic micro-tonal oud with fast electronic glitch beats, panicked rhythm, 128bpm",
+      "words": [
+        "أين",
+        "جوازي",
+        "Where",
+        "passport"
+      ],
+      "lines": [
+        {
+          "id": 1,
+          "speaker": "voice_src2",
+          "text": "أين جوازي؟ لقد اختفى!",
+          "start": 0.0,
+          "end": 2.5
+        },
+        {
+          "id": 2,
+          "speaker": "voice_tgt",
+          "text": "Where is my passport? It disappeared!",
+          "start": 2.6,
+          "end": 5.5
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": 1,
+          "start_time": 0.0,
+          "end_time": 5.5,
+          "image_prompt": "Cinematic side profile of a panicked traveler tearing through a leather backpack at a glowing sci-fi terminal neon departure gate, hyper-detailed 8k, photorealistic FLUX style, dramatic side lighting.",
+          "motion": "ken_burns_zoom_in_to_backpack",
+          "audio_sync": "Matches lines 1 and 2 perfectly. Voice must play strictly over this terminal scene."
+        }
+      ]
+    },
+    {
+      "id": "ar-en-026",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "Lost Oasis Map Trade",
+      "seed": 41002,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "ambient desert wind synth with low dark sub-bass drone, mysterious, 70bpm",
+      "words": [
+        "هذه",
+        "الخريطة",
+        "This",
+        "map"
+      ],
+      "lines": [
+        {
+          "id": 1,
+          "speaker": "voice_src",
+          "text": "هذه الخريطة مزيفة تماماً.",
+          "start": 0.0,
+          "end": 2.8
+        },
+        {
+          "id": 2,
+          "speaker": "voice_tgt2",
+          "text": "This map is completely fake.",
+          "start": 2.9,
+          "end": 6.0
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": 1,
+          "start_time": 0.0,
+          "end_time": 6.0,
+          "image_prompt": "Close up shot of weathered hands holding an ancient glowing holographic parchment inside a dark nomadic tent, dust motes floating in sunbeams, hyper-detailed fabric textures.",
+          "motion": "ken_burns_pan_down_to_hands",
+          "audio_sync": "Matches lines 1 and 2 perfectly. Voice must overlay exactly on the map visual."
+        }
+      ]
+    },
+    {
+      "id": "zh-en-025",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "Cyberpunk Street Food Negotiation",
+      "seed": 41003,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "cyberpunk industrial techno with heavy modular synthesis and metallic clangs, aggressive tempo, 140bpm",
+      "words": [
+        "太贵了",
+        "便宜点",
+        "Too",
+        "expensive"
+      ],
+      "lines": [
+        {
+          "id": 1,
+          "speaker": "voice_src2",
+          "text": "这也太贵了！便宜点。",
+          "start": 0.0,
+          "end": 3.0
+        },
+        {
+          "id": 2,
+          "speaker": "voice_tgt",
+          "text": "This is too expensive! Make it cheaper.",
+          "start": 3.1,
+          "end": 6.2
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": 1,
+          "start_time": 0.0,
+          "end_time": 6.2,
+          "image_prompt": "First-person perspective looking at a robotic street vendor cooking glowing blue noodles under rainy neon billboard signs, steam rising into a dark futuristic sky, detailed metal chassis.",
+          "motion": "ken_burns_zoom_out_from_wok",
+          "audio_sync": "Matches lines 1 and 2 perfectly. Ensure dialogue triggers over the robotic vendor scene."
+        }
+      ]
+    },
+    {
+      "id": "zh-en-026",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "Neon Alley Chase Warning",
+      "seed": 41004,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "fast rhythmic digital Taiko drums mixed with synthwave bassline, high adrenaline, 135bpm",
+      "words": [
+        "快跑",
+        "后面",
+        "Run",
+        "behind"
+      ],
+      "lines": [
+        {
+          "id": 1,
+          "speaker": "voice_src",
+          "text": "快跑！别回头看后面！",
+          "start": 0.0,
+          "end": 2.5
+        },
+        {
+          "id": 2,
+          "speaker": "voice_tgt2",
+          "text": "Run fast! Do not look behind you!",
+          "start": 2.6,
+          "end": 5.5
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": 1,
+          "start_time": 0.0,
+          "end_time": 5.5,
+          "image_prompt": "Cinematic dynamic motion blur photograph of a rain-slicked dark alleyway reflecting multi-colored neon Kanji signs, dark silhouettes approaching rapidly from the background.",
+          "motion": "ken_burns_pan_left_rapidly",
+          "audio_sync": "Matches lines 1 and 2 perfectly. Voiceover timing must precisely trace this emergency alley visual."
+        }
+      ]
+    },
+    {
+      "id": "en-ar-025",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "Deep Sea Submarine Breakdown",
+      "seed": 41005,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "deep echolocating sonar pings over dark slow cello texture, claustrophobic pressure, 60bpm",
+      "words": [
+        "Pressure",
+        "dropping",
+        "الضغط",
+        "ينخفض"
+      ],
+      "lines": [
+        {
+          "id": 1,
+          "speaker": "voice_src2",
+          "text": "The hull pressure is dropping fast!",
+          "start": 0.0,
+          "end": 2.8
+        },
+        {
+          "id": 2,
+          "speaker": "voice_tgt2",
+          "text": "ضغط الهيكل ينخفض بسرعة!",
+          "start": 2.9,
+          "end": 6.0
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": 1,
+          "start_time": 0.0,
+          "end_time": 6.0,
+          "image_prompt": "Interior view of a tight submarine cockpit drenched in flashing red emergency strobe lights, analog pressure gauges spinning wildly into danger zones, condensation on glass.",
+          "motion": "ken_burns_zoom_in_to_gauge",
+          "audio_sync": "Matches lines 1 and 2 perfectly. Audio must align completely with the red-alert gauge visual."
+        }
+      ]
+    },
+    {
+      "id": "en-ar-026",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "Bio-Dome Plant Oxygen Leak",
+      "seed": 41006,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "eerie biological organic pads with bubbling water sounds, sci-fi bioluminescent mood, 80bpm",
+      "words": [
+        "Breathe",
+        "slowly",
+        "تنفس",
+        "ببطء"
+      ],
+      "lines": [
+        {
+          "id": 1,
+          "speaker": "voice_src",
+          "text": "Breathe slowly, our oxygen tank leaked.",
+          "start": 0.0,
+          "end": 3.2
+        },
+        {
+          "id": 2,
+          "speaker": "voice_tgt",
+          "text": "تنفس ببطء، لقد تسرب خزان الأكسجين الخاص بنا.",
+          "start": 3.3,
+          "end": 7.0
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": 1,
+          "start_time": 0.0,
+          "end_time": 7.0,
+          "image_prompt": "Macro shot of futuristic botanist suit visor fogging up inside an overgrown greenhouse filled with bioluminescent glowing giant purple ferns, soft cosmic dust.",
+          "motion": "ken_burns_pan_up_visor",
+          "audio_sync": "Matches lines 1 and 2 perfectly. Speech triggers exactly on the foggy visor visual."
+        }
+      ]
+    },
+    {
+      "id": "en-zh-025",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "Time Traveler Bureaucracy",
+      "seed": 41007,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "quirky baroque harpsichord layered with retro-futuristic digital clock ticks, fast comedic pacing, 115bpm",
+      "words": [
+        "Wrong",
+        "century",
+        "错误",
+        "世纪"
+      ],
+      "lines": [
+        {
+          "id": 1,
+          "speaker": "voice_src2",
+          "text": "Sorry, you arrived in the wrong century.",
+          "start": 0.0,
+          "end": 3.0
+        },
+        {
+          "id": 2,
+          "speaker": "voice_tgt2",
+          "text": "抱歉，你抵达到错误的世纪了。",
+          "start": 3.1,
+          "end": 6.2
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": 1,
+          "start_time": 0.0,
+          "end_time": 6.2,
+          "image_prompt": "An ornate steampunk registration desk manned by an advanced silver humanoid robot wearing Victorian spectacles, counting massive stacks of golden clock gears.",
+          "motion": "ken_burns_zoom_in_to_spectacles",
+          "audio_sync": "Matches lines 1 and 2 perfectly. Voice must lock onto this Victorian robot scene."
+        }
+      ]
+    },
+    {
+      "id": "en-zh-026",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "Quantum Portal Core Overload",
+      "seed": 41008,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "intense low brass swells with chaotic synthesized pitch bends, massive scientific catastrophe vibe, 130bpm",
+      "words": [
+        "Close",
+        "portal",
+        "关闭",
+        "传送门"
+      ],
+      "lines": [
+        {
+          "id": 1,
+          "speaker": "voice_src",
+          "text": "Close the portal before it destabilizes!",
+          "start": 0.0,
+          "end": 2.9
+        },
+        {
+          "id": 2,
+          "speaker": "voice_tgt",
+          "text": "在传送门不稳定之前把它关闭！",
+          "start": 3.0,
+          "end": 6.1
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": 1,
+          "start_time": 0.0,
+          "end_time": 6.1,
+          "image_prompt": "A swirling cosmic vortex of brilliant magenta and cyan energy leaking out of a massive broken metallic ring structure in an abandoned laboratory, lightning arcs.",
+          "motion": "ken_burns_zoom_out_from_vortex",
+          "audio_sync": "Matches lines 1 and 2 perfectly. Audio lines map exactly onto this unstable vortex visual."
+        }
+      ]
+    },
+    {
+      "id": "en-es-025",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "Haunted Antique Shop Auction",
+      "seed": 41009,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "dark classical detuned violin plucks with ghostly echoes, slow gothic mystery, 85bpm",
+      "words": [
+        "Who",
+        "bought",
+        "Quién",
+        "compró"
+      ],
+      "lines": [
+        {
+          "id": 1,
+          "speaker": "voice_src2",
+          "text": "Who bought this floating porcelain doll?",
+          "start": 0.0,
+          "end": 2.8
+        },
+        {
+          "id": 2,
+          "speaker": "voice_tgt2",
+          "text": "¿Quién compró esta muñeca de porcelana flotante?",
+          "start": 2.9,
+          "end": 6.0
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": 1,
+          "start_time": 0.0,
+          "end_time": 6.0,
+          "image_prompt": "Creepy Victorian doll floating three inches above a dust-covered velvet podium, surrounding shadow shapes watching from the dim background of an auction house.",
+          "motion": "ken_burns_zoom_in_to_doll",
+          "audio_sync": "Matches lines 1 and 2 perfectly. Voiceover strictly layered over the floating doll scene."
+        }
+      ]
+    },
+    {
+      "id": "en-es-026",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "Cursed Mirror Revelation",
+      "seed": 41010,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "shimmering glass harmonica with sudden deep horror sub-drop, spine-chilling suspense, 75bpm",
+      "words": [
+        "Look",
+        "reflection",
+        "Mira",
+        "reflejo"
+      ],
+      "lines": [
+        {
+          "id": 1,
+          "speaker": "voice_src",
+          "text": "Look closely, your reflection isn't moving.",
+          "start": 0.0,
+          "end": 3.2
+        },
+        {
+          "id": 2,
+          "speaker": "voice_tgt",
+          "text": "Mira de cerca, tu reflejo no se está moviendo.",
+          "start": 3.3,
+          "end": 6.8
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": 1,
+          "start_time": 0.0,
+          "end_time": 6.8,
+          "image_prompt": "A tarnished silver gothic mirror displaying a static, unmoving silhouette, while the foreground shows dust drifting away rapidly in an asymmetric pattern.",
+          "motion": "ken_burns_pan_right_mirror",
+          "audio_sync": "Matches lines 1 and 2 perfectly. Keep audio matching this static reflection shot."
+        }
+      ]
+    },
+    {
+      "id": "es-en-025",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "Stranded Mars Rover Mechanic",
+      "seed": 41011,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "space ambient deep hum with lonely high electric guitar echo chords, isolation mood, 65bpm",
+      "words": [
+        "Motor",
+        "roto",
+        "Engine",
+        "broken"
+      ],
+      "lines": [
+        {
+          "id": 1,
+          "speaker": "voice_src2",
+          "text": "El motor principal está totalmente roto.",
+          "start": 0.0,
+          "end": 2.7
+        },
+        {
+          "id": 2,
+          "speaker": "voice_tgt2",
+          "text": "The main engine is totally broken.",
+          "start": 2.8,
+          "end": 5.6
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": 1,
+          "start_time": 0.0,
+          "end_time": 5.6,
+          "image_prompt": "Detailed mechanical view inside a smoking rusty rover engine compartment on bright orange Mars soil, a massive dust storm brewing on the far horizon.",
+          "motion": "ken_burns_zoom_in_to_sparks",
+          "audio_sync": "Matches lines 1 and 2 perfectly. Voice must lock timing over this broken Mars engine."
+        }
+      ]
+    },
+    {
+      "id": "es-en-026",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "Alien Artifact Activation",
+      "seed": 41012,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "ethereal celestial choir with alien crystal synth bell patterns, wonder and majesty, 90bpm",
+      "words": [
+        "Está",
+        "vivo",
+        "It",
+        "alive"
+      ],
+      "lines": [
+        {
+          "id": 1,
+          "speaker": "voice_src",
+          "text": "¡Increíble! El artefacto está vivo.",
+          "start": 0.0,
+          "end": 2.5
+        },
+        {
+          "id": 2,
+          "speaker": "voice_tgt",
+          "text": "Incredible! The artifact is alive.",
+          "start": 2.6,
+          "end": 5.2
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": 1,
+          "start_time": 0.0,
+          "end_time": 5.2,
+          "image_prompt": "A geometric black monolith crackling with golden bio-luminescent pathways opening up like a puzzle box in a dark extraterrestrial cavern.",
+          "motion": "ken_burns_zoom_out_monolith",
+          "audio_sync": "Matches lines 1 and 2 perfectly. Dialogue sync target is this glowing alien monolith structure."
+        }
+      ]
+    }
+  ]
+}

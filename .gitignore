@@ -1,0 +1,28 @@
+# --- media / heavy binary artifacts (never commit) ---
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.safetensors
+*.pt
+*.pth
+*.wav
+*.mp3
+*.aac
+*.bin
+*.ckpt
+*.tar
+*.tar.gz
+*.deb
+
+# --- python ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- OS / editors ---
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
