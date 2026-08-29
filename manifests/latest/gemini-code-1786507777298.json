@@ -1,0 +1,340 @@
+{
+  "reels": [
+    {
+      "id": "ar-en-025",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "astronomy",
+      "seed": 41001,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "ambient synth with slow hand drum beats, mystical cosmos atmosphere",
+      "words": [
+        {"src": "سحر", "tgt": "magic", "translit": "siḥr"},
+        {"src": "تسمية", "tgt": "naming", "translit": "tasmiya"},
+        {"src": "سماء", "tgt": "sky", "translit": "samāʾ"}
+      ],
+      "lines": [
+        {"src": "هل تعلم أن أكثر من مئتي نجم في السماء تحمل أسماءً عربية أصيلة؟", "tgt": "Did you know that over two hundred stars in the sky carry authentic Arabic names?", "translit": "hal taʿlamu ʾanna ʾakthara min miʾatay najmin fī s-samāʾi taḥmilu ʾasmāʾan ʿarabiyyatan ʾaṣīla?"},
+        {"src": "اكتشف العلماء سحر هذه الأسماء القديمة مثل الدبران والطائر.", "tgt": "Scientists discovered the magic of these ancient names like Aldebaran and Altair.", "translit": "iktashafa l-ʿulamāʾu siḥra hādhihi l-ʾasmāʾi l-qadīmati mithla ad-dabarāni wa-ṭ-ṭāʾir."},
+        {"src": "يعكس هذا التسمية الدقيقة الإرث العلمي الفلكي العظيم.", "tgt": "This precise naming reflects a grand astronomical scientific legacy.", "translit": "yaʿkisu hādhā t-tasmiyatu d-daqīqatu l-irtha l-ʿilmiyya l-falakiyya l-ʿaẓīm."}
+      ],
+      "scenes": [
+        "wide establishing shot of a vast desert observatory dome under a pitch-black night sky blanketed with glowing stars, a 34-year-old Arab astrophysicist in a dark charcoal sweater holding a vintage brass celestial globe, crisp night air, cinematic film still, vertical composition",
+        "same desert observatory location, same 34-year-old Arab astrophysicist in a dark charcoal sweater, now pointing a laser beam toward a bright constellation in the clear sky, examining a starry chart overlay with Arabic calligraphy labels, intense curious expression, cinematic film still, vertical composition",
+        "same desert observatory location, same 34-year-old Arab astrophysicist in a dark charcoal sweater, now looking through a modern optical telescope eyepiece as starlight illuminates his face, smiling in awe, soft blue night glow, cinematic film still, vertical composition",
+        "same desert observatory location, same 34-year-old Arab astrophysicist in a dark charcoal sweater, now standing calmly outside under the Milky Way arch, peaceful cosmic backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "ar-en-026",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "craftsmanship",
+      "seed": 41002,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "rhythmic hammer strikes with soft wooden flute, focused artisan tempo",
+      "words": [
+        {"src": "نقش", "tgt": "engraving", "translit": "naqsh"},
+        {"src": "صلابة", "tgt": "hardness", "translit": "ṣalāba"},
+        {"src": "بريق", "tgt": "luster", "translit": "barīq"}
+      ],
+      "lines": [
+        {"src": "لماذا كان السيف الدمشقي يعتبر أقوى سلاح في العالم القديم؟", "tgt": "Why was the Damascus sword considered the strongest weapon in the ancient world?", "translit": "limādhā kāna s-sayfu d-dimashqiyyu yuʿtabaru ʾaqwā silāḥin fī l-ʿālami l-qadīm?"},
+        {"src": "يجمع هذا النقش الفريد على الفولاذ بين صلابة المرونة والحدة.", "tgt": "This unique pattern on steel combines resilience, hardness, and sharpness.", "translit": "yajmaʿu hādhā n-naqshu l-farīdu ʿalā l-fūlādhi bayna ṣalābati l-marūnati wa-l-ḥidda."},
+        {"src": "يمنحه هذا أسلوب التصنيع بريقاً متموجاً يشبه الماء الجاري.", "tgt": "This manufacturing style grants it a wavy luster resembling running water.", "translit": "yamnaḥuhu hādhā ʾuslūbu t-taṣnīʿi barīqan mutamawwijan yushbihu l-māʾa l-jārī."}
+      ],
+      "scenes": [
+        "wide establishing shot of an ancient stone blacksmith forge, a 40-year-old Arab swordsmith wearing a protective leather apron over a dark grey tunic holding a forged curved blade with intricate wavy pattern, glowing orange forge fire, cinematic film still, vertical composition",
+        "same ancient forge location, same 40-year-old Arab swordsmith wearing a protective leather apron, now using a small chisel to inspect the fine engraved Damascus steel patterns under direct lamp light, focused passionate expression, fiery amber highlights, cinematic film still, vertical composition",
+        "same ancient forge location, same 40-year-old Arab swordsmith wearing a protective leather apron, now polishing the gleaming steel blade as it reflects bright light with a watery luster, proud satisfied smile, cinematic film still, vertical composition",
+        "same ancient forge location, same 40-year-old Arab swordsmith wearing a protective leather apron, now resting the polished sword on a dark velvet display stand, peaceful historic atmosphere, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "zh-en-025",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "botany",
+      "seed": 41003,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "peaceful bamboo xun and gentle plucked strings, meditative nature rhythm",
+      "words": [
+        {"src": "竹子", "tgt": "bamboo", "translit": "zhúzi"},
+        {"src": "韧性", "tgt": "flexibility", "translit": "rènxìng"},
+        {"src": "君子", "tgt": "gentleman", "translit": "jūnzǐ"}
+      ],
+      "lines": [
+        {"src": "为什么竹子能在狂风暴雨中弯曲却永不折断？", "tgt": "Why can bamboo bend in fierce storms without ever breaking?", "translit": "wèishénme zhúzi néng zài kuángfēng bàoyǔ zhōng wānqū què yǒng bù zhéduàn?"},
+        {"src": "其特殊的空心结构赋予了它极强的韧性。", "tgt": "Its special hollow structure endows it with remarkable flexibility.", "translit": "qí tèshū de kōngxīn jiégòu fùyǔ le tā jí qiáng de rènxìng."},
+        {"src": "古人因此将竹子视为高洁君子的象征。", "tgt": "Ancients thus regarded bamboo as a symbol of an honorable gentleman.", "translit": "gǔrén yīncǐ jiāng zhúzi shì wéi gāojié jūnzǐ de xiàngzhēng."}
+      ],
+      "scenes": [
+        "wide shot of a dense green bamboo forest during a rainstorm, a 29-year-old Chinese botanist wearing a beige waterproof coat standing on a stone path watching tall green bamboo stalks swaying gracefully in the wind, soft mist mist, cinematic film still, vertical composition",
+        "same bamboo forest, same 29-year-old Chinese botanist wearing a beige waterproof coat, now examining a cross-section of a bamboo stalk up close, holding a magnifying loupe, noting its hollow rings, intense scientific curiosity, cinematic film still, vertical composition",
+        "same bamboo forest, same 29-year-old Chinese botanist wearing a beige waterproof coat, now smiling gently as sunlight breaks through storm clouds illuminating pristine wet green bamboo leaves, peaceful golden sunbeams, cinematic film still, vertical composition",
+        "same bamboo forest, same 29-year-old Chinese botanist wearing a beige waterproof coat, now standing calmly on the dry sunlit trail, serene natural backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "zh-en-026",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "architecture",
+      "seed": 41004,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "dignified temple bell chime and soft string pads, spacious solemn rhythm",
+      "words": [
+        {"src": "榫卯", "tgt": "mortise and tenon", "translit": "sǔnmǎo"},
+        {"src": "抗震", "tgt": "earthquake resistance", "translit": "kàngzhèn"},
+        {"src": "智慧", "tgt": "wisdom", "translit": "zhìhuì"}
+      ],
+      "lines": [
+        {"src": "为何不用一颗钉子的紫禁城大殿能抵御千年的强震？", "tgt": "Why can Forbidden City halls built without a single nail withstand thousands of years of earthquakes?", "translit": "wèihé bù yòng yī kē dīngzi de zǐjìnchéng dàdiàn néng dǐyù qiānnián de qiángzhèn?"},
+        {"src": "巧妙的榫卯木质结构提供了惊人的抗震弹性。", "tgt": "Ingenious mortise and tenon wooden joints provide astonishing earthquake resistance elasticity.", "translit": "qiǎomiǎo de sǔnmǎo mùzhì jiégòu tígōng le jīngrén de kàngzhèn tánxìng."},
+        {"src": "这种免用金属的连结展现了古人的建筑智慧。", "tgt": "This metal-free interlocking connection displays ancient architectural wisdom.", "translit": "zhè zhǒng miǎn yòng jīnshǔ de liánjiē zhǎnxiàn le gǔrén de jiànzhù zhìhuì."}
+      ],
+      "scenes": [
+        "wide shot of a grand traditional Chinese temple wooden courtyard, a 31-year-old Chinese architect wearing a navy sweater holding two interlocking hand-carved wooden joint blocks, red temple pillars in background, bright daylight, cinematic film still, vertical composition",
+        "same temple courtyard, same 31-year-old Chinese architect wearing a navy sweater, now demonstrating how the mortise and tenon joint slides together seamlessly without nails or glue, extreme close-up focus on hands and timber precision, cinematic film still, vertical composition",
+        "same temple courtyard, same 31-year-old Chinese architect wearing a navy sweater, now gazing up in admiration at the vast intricate wooden eaves of the ancient temple roof, warm golden hour sunlight, cinematic film still, vertical composition",
+        "same temple courtyard, same 31-year-old Chinese architect wearing a navy sweater, now standing peacefully in the courtyard under soft dusk sky, quiet historic backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-ar-025",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "medicine",
+      "seed": 41005,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "gentle santur plucked notes with soft pads, historic medical rhythm",
+      "words": [
+        {"src": "canon", "tgt": "قَانُون", "translit": "qānūn"},
+        {"src": "quarantine", "tgt": "حَجْر صِحِّي", "translit": "ḥajr ṣiḥḥī"},
+        {"src": "diagnosis", "tgt": "تَشْخِيص", "translit": "tashkhīṣ"}
+      ],
+      "lines": [
+        {"src": "How did a thousand-year-old Arabic medical encyclopedia lay the foundation for modern hospitals?", "tgt": "كيف وضع موسوعة طبية عربية عمرها ألف عام الأساس للمستشفيات الحديثة؟", "translit": "kayfa waḍaʿa mawsūʿatun ṭibbiyyatun ʿarabiyyatun ʿumruhā ʾalfu ʿāmin al-ʾasāsa li-l-mustashfayāti l-ḥadītha?"},
+        {"src": "Ibn Sina's Canon of Medicine introduced systematic quarantine protocols.", "tgt": "أدخل كتاب قانون الطب لابن سينا بروتوكولات الحجر الصحي المنظمة.", "translit": "ʾadkhala kitābu qānūni ṭ-ṭibbi li-ibni sīnā burūtūkūlāti l-ḥajri ṣ-ṣiḥḥiyyi l-munaẓẓama."},
+        {"src": "His work revolutionized clinical observation and disease diagnosis worldwide.", "tgt": "أحدث عمله ثورة في الملاحظة السريرية وتشخيص الأمراض حول العالم.", "translit": "ʾaḥdatha ʿamaluhu thawratan fī l-mulāḥaẓati s-sarīriyyati wa-tashkhīṣi l-ʾamrāḍi ḥawla l-ʿālam."}
+      ],
+      "scenes": [
+        "wide shot inside an ancient stone courtyard hospital library, a 33-year-old Arab medical historian wearing a dark olive linen shirt holding a large leather-bound manuscript book, warm sunlight streaming through arched windows, medicinal herb jars on wooden shelves, cinematic film still, vertical composition",
+        "same hospital library, same 33-year-old Arab medical historian wearing a dark olive linen shirt, now examining handwritten Arabic medical diagrams of human anatomy on aged parchment, focused curious expression, cinematic film still, vertical composition",
+        "same hospital library, same 33-year-old Arab medical historian wearing a dark olive linen shirt, now smiling while comparing the ancient manuscript text to a modern tablet screen, warm directional lighting, cinematic film still, vertical composition",
+        "same hospital library, same 33-year-old Arab medical historian wearing a dark olive linen shirt, now standing peacefully beside a sunlit stone window garden, serene academic backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-ar-026",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "geography",
+      "seed": 41006,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "ethereal cello and soft oud strumming, adventurous exploratory rhythm",
+      "words": [
+        {"src": "atlas", "tgt": "أَطْلَس", "translit": "ʾaṭlas"},
+        {"src": "cartography", "tgt": "رَسْم الخَرَائِط", "translit": "rasm al-kharāʾiṭ"},
+        {"src": "globe", "tgt": "كُرَة أرْضِيَّة", "translit": "kura ʾarḍiyya"}
+      ],
+      "lines": [
+        {"src": "Why was the world map drawn upside down by medieval Arab geographers?", "tgt": "لماذا رسم الجغرافيون العرب القدامى خريطة العالم مقلوبة؟", "translit": "limādhā rasama l-jughrāfiyyūna l-ʿarabu l-qudāmā kharīṭata l-ʿālami maqlūba?"},
+        {"src": "Al-Idrisi placed south at the top to highlight cartography precision.", "tgt": "وضع الإدريسي الجنوب في الأعلى لإنتاج رسم الخرائط دقيق.", "translit": "waḍaʿa l-idrīsiyyu j-janūba fī l-ʾaʿlā li-ʾintāji rasmi l-kharāʾiṭi daqīq."},
+        {"src": "His silver globe masterpiece mapped continents with extraordinary detail.", "tgt": "ثبتت كرته الأرضية الفضية قارات بدقة متناهية.", "translit": "thabbatat kuratuhu l-ʾarḍiyyatu l-fiḍḍiyyatu qārrātin bi-diqqatin mutanāhiya."}
+      ],
+      "scenes": [
+        "wide shot of a historic study room, a 30-year-old Arab cartographer wearing a beige linen robe holding an upside-down circular parchment world map, giant silver globe sitting on a mahogany table, warm sunset light through window, cinematic film still, vertical composition",
+        "same study room, same 30-year-old Arab cartographer wearing a beige linen robe, now using brass dividers to measure coastlines on the detailed silver globe surface, intense focused expression, cinematic film still, vertical composition",
+        "same study room, same 30-year-old Arab cartographer wearing a beige linen robe, now tracing trade routes on a large leather-bound atlas, bright golden light illuminating the desk, cinematic film still, vertical composition",
+        "same study room, same 30-year-old Arab cartographer wearing a beige linen robe, now standing calmly beside the glowing silver globe under evening twilight, peaceful historical environment, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-zh-025",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "gastronomy",
+      "seed": 41007,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "playful Guzheng plucks and warm acoustic guitar, culinary rhythm",
+      "words": [
+        {"src": "broth", "tgt": "汤汁", "translit": "tāngzhī"},
+        {"src": "gelatin", "tgt": "皮冻", "translit": "pídòng"},
+        {"src": "steam", "tgt": "蒸汽", "translit": "zhēngqì"}
+      ],
+      "lines": [
+        {"src": "How do chefs seal rich hot soup inside a delicate paper-thin dumpling?", "tgt": "大厨是如何将鲜美的热汤封装进薄如纸张的饺子皮中的？", "translit": "dàchú shì rúhé jiāng xiānměi de rè tāng fēngzhuāng jìn báo rú zhǐzhāng de jiǎozi pí zhōng de?"},
+        {"src": "Chilled pork gelatin melts into flavorful broth when heated.", "tgt": "冷却的猪皮冻在受热后融化成浓郁的汤汁。", "translit": "lěngquè de zhū pídòng zài shòurè hòu rónghuà chéng nóngyù de tāngzhī."},
+        {"src": "Hot steam transforms the filling into a savory culinary wonder.", "tgt": "炽热的蒸汽将馅料升华为一道绝妙的美食奇迹。", "translit": "chìrè de zhēngqì jiāng xiànliào shēnghuá wéi yī dào juémiào de měishí qíjī."}
+      ],
+      "scenes": [
+        "wide shot of a bustling traditional dim sum kitchen, a 28-year-old Chinese chef wearing a clean white chef coat and apron lifting the lid off a stacked bamboo steamer, white steam rising gracefully, warm kitchen lighting, cinematic film still, vertical composition",
+        "same kitchen setting, same 28-year-old Chinese chef wearing a white chef coat, now carefully folding delicate pleats onto a small soup dumpling with solid broth gelatin inside, extreme close-up on skilled hands, cinematic film still, vertical composition",
+        "same kitchen setting, same 28-year-old Chinese chef wearing a white chef coat, now holding a spoon as rich soup bursts gently from a steamed soup dumpling, smiling proudly, soft golden light reflection, cinematic film still, vertical composition",
+        "same kitchen setting, same 28-year-old Chinese chef wearing a white chef coat, now standing beside steaming bamboo baskets on a clean wooden counter, cozy culinary backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-zh-026",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "invention",
+      "seed": 41008,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "gentle acoustic piano build with soft strings, inspirational rhythm",
+      "words": [
+        {"src": "pulp", "tgt": "纸浆", "translit": "zhǐjiāng"},
+        {"src": "bark", "tgt": "树皮", "translit": "shùpí"},
+        {"src": "mesh", "tgt": "抄纸网", "translit": "chāozhǐwǎng"}
+      ],
+      "lines": [
+        {"src": "How did tree bark and old rags replace heavy stone tablets worldwide?", "tgt": "树皮和旧布头是如何取代笨重的石板并改变世界的？", "translit": "shùpí hé jiù bùtóu shì rúhé qǔdài bènzhòng de shíbǎn bìng gǎibiàn shìjiè de?"},
+        {"src": "Cai Lun soaked soaked mulberry bark to forge smooth liquid pulp.", "tgt": "蔡伦将桑树皮浸泡打碎，调制出平滑的液体纸浆。", "translit": "cài lún jiāng sāngshùpí jìnpào dǎsuì, tiáozhì chū pínghuá de yètǐ zhǐjiāng."},
+        {"src": "Filtering pulp through fine bamboo mesh birthed modern paper making.", "tgt": "通过细竹抄纸网过滤纸浆，诞生了现代造纸术。", "translit": "tōngguò xì zhú chāozhǐwǎng guòlǜ zhǐjiāng, dànshēng le xiàndài zàozhǐshù."}
+      ],
+      "scenes": [
+        "wide shot of an ancient Chinese papermaking courtyard, a 30-year-old Chinese artisan wearing a dark grey linen tunic dipping a fine rectangular bamboo mesh frame into a large stone vat of white liquid pulp, morning sunlight streaming through trees, cinematic film still, vertical composition",
+        "same papermaking courtyard, same 30-year-old Chinese artisan wearing a dark grey linen tunic, now carefully lifting the mesh frame to reveal a thin even layer of wet pulp, intense focused expression, water dripping back into vat, cinematic film still, vertical composition",
+        "same papermaking courtyard, same 30-year-old Chinese artisan wearing a dark grey linen tunic, now peeling a dry smooth white sheet of paper off a sunlit wooden drying board, broad triumphant smile, cinematic film still, vertical composition",
+        "same papermaking courtyard, same 30-year-old Chinese artisan wearing a dark grey linen tunic, now standing beside neat stacks of dried handmade paper under warm evening light, peaceful historic backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-es-025",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "culture",
+      "seed": 41009,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "warm acoustic guitar chords with soft shaker rhythm, inviting tempo",
+      "words": [
+        {"src": "siesta", "tgt": "siesta", "translit": ""},
+        {"src": "digest", "tgt": "digestión", "translit": ""},
+        {"src": "wellbeing", "tgt": "bienestar", "translit": ""}
+      ],
+      "lines": [
+        {"src": "Why do millions in Mediterranean countries pause life for an afternoon siesta?", "tgt": "¿Por qué millones en países mediterráneos pausan su vida para una siesta?", "translit": ""},
+        {"src": "Taking a short nap during peak heat helps the body digest and recharge.", "tgt": "Tomar una breve siesta durante el calor máximo ayuda a la digestión y recarga energía.", "translit": ""},
+        {"src": "This traditional habit boosts mental clarity, heart health, and daily wellbeing.", "tgt": "Este hábito tradicional mejora la claridad mental, la salud del corazón y el bienestar diario.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of a sun-drenched Spanish village square at 2 PM, a 30-year-old Spanish man wearing a white linen shirt closing the wooden shutters of a whitewashed home, quiet empty cobblestone street outside, warm golden light, cinematic film still, vertical composition",
+        "same village home interior, same 30-year-old Spanish man wearing a white linen shirt, now resting comfortably on a shaded sofa near an open window breeze, calm serene expression, soft diffused afternoon light, cinematic film still, vertical composition",
+        "same village home interior, same 30-year-old Spanish man wearing a white linen shirt, now waking up fully energized, smiling while pouring a glass of cool water near the window, warm bright sunlight, cinematic film still, vertical composition",
+        "same village home interior, same 30-year-old Spanish man wearing a white linen shirt, now stepping out onto the sunlit balcony looking over the lively afternoon street, peaceful lifestyle backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-es-026",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "art",
+      "seed": 41010,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "dramatic classical guitar strumming, vibrant artistic tempo",
+      "words": [
+        {"src": "mosaic", "tgt": "mosaico", "translit": ""},
+        {"src": "tile", "tgt": "azulejo", "translit": ""},
+        {"src": "craft", "tgt": "artesanía", "translit": ""}
+      ],
+      "lines": [
+        {"src": "How did vibrant ceramic tiles turn simple street walls into outdoor museums?", "tgt": "¿Cómo convirtieron los azulejos de cerámica paredes simples en museos al aire libre?", "translit": ""},
+        {"src": "Artisans place each hand-painted ceramic tile into complex mosaic patterns.", "tgt": "Los artesanos colocan cada azulejo pintado a mano en complejos mosaicos.", "translit": ""},
+        {"src": "This traditional craft preserved architectural beauty across centuries.", "tgt": "Esta artesanía tradicional conservó la belleza arquitectónica a través de siglos.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of a bright Spanish courtyard, a 28-year-old Spanish female ceramicist wearing a beige apron over a blue t-shirt standing before a wall covered in intricate blue and yellow ceramic tiles, morning sunlight glowing on glazed surfaces, cinematic film still, vertical composition",
+        "same courtyard setting, same 28-year-old Spanish female ceramicist wearing a beige apron, now carefully placing a hand-painted blue ceramic tile into a mortar mosaic grid on the wall, focused precise hands, cinematic film still, vertical composition",
+        "same courtyard setting, same 28-year-old Spanish female ceramicist wearing a beige apron, now stepping back with a joyful smile to admire the completed vibrant geometric mosaic mural, warm golden hour sunbeams, cinematic film still, vertical composition",
+        "same courtyard setting, same 28-year-old Spanish female ceramicist wearing a beige apron, now sitting peacefully on a stone bench beside the tiled fountain, serene artistic backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "es-en-025",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "architecture",
+      "seed": 41011,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "ethereal organ and violin pads, majestic grand tempo",
+      "words": [
+        {"src": "spire", "tgt": "spire", "translit": ""},
+        {"src": "facade", "tgt": "facade", "translit": ""},
+        {"src": "genius", "tgt": "genius", "translit": ""}
+      ],
+      "lines": [
+        {"src": "¿Cómo logró una catedral inconclusa convertirse en la maravilla más famosa del mundo?", "tgt": "How did an unfinished cathedral become the most famous wonder in the world?", "translit": ""},
+        {"src": "Gaudí diseñó cada aguja y fachada inspirándose en las formas de la naturaleza.", "tgt": "Gaudí designed every spire and facade taking inspiration from nature's forms.", "translit": ""},
+        {"src": "Esta obra maestra sigue viva demostrando el genio humano sin límites.", "tgt": "This masterpiece lives on demonstrating limitless human genius.", "translit": ""}
+      ],
+      "scenes": [
+        "wide establishing shot of the towering Sagrada Familia cathedral in Barcelona, a 29-year-old Spanish architect wearing a navy trench coat looking up at the organic stone spires against a blue morning sky, warm sunlight illuminating stone carvings, cinematic film still, vertical composition",
+        "same cathedral location, same 29-year-old Spanish architect wearing a navy trench coat, now studying tree-branch shaped interior columns inside as rainbow light pours through stained glass windows, astonished expression, cinematic film still, vertical composition",
+        "same cathedral location, same 29-year-old Spanish architect wearing a navy trench coat, now examining detailed original architectural blueprints on a wooden desk inside the museum hall, bright directional lighting, cinematic film still, vertical composition",
+        "same cathedral location, same 29-year-old Spanish architect wearing a navy trench coat, now standing peacefully in the sunlit park facing the majestic facade at sunset, serene architectural backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "es-en-026",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "gastronomy",
+      "seed": 41012,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "cheerful acoustic guitar and light cajón drum, warm culinary rhythm",
+      "words": [
+        {"src": "sofrito", "tgt": "aromatic base", "translit": ""},
+        {"src": "socarrat", "tgt": "crispy rice layer", "translit": ""},
+        {"src": "azafrán", "tgt": "saffron", "translit": ""}
+      ],
+      "lines": [
+        {"src": "¿Por qué el arroz quemado en el fondo de la paella es la parte más codiciada?", "tgt": "Why is the burnt rice at the bottom of the paella pan the most prized part?", "translit": ""},
+        {"src": "Este codiciado socarrat se forma al caramelizar el sofrito con azafrán puro.", "tgt": "This prized socarrat forms when caramelizing the aromatic base with pure saffron.", "translit": ""},
+        {"src": "Esa capa crujiente concentra todo el sabor auténtico de la tradición.", "tgt": "That crispy layer concentrates all the authentic flavor of tradition.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of a sunlit outdoor garden kitchen, a 32-year-old Spanish chef wearing a white jacket standing over a large wide steel paella pan resting on an open wood fire, golden rice sizzling, outdoor Mediterranean backdrop, cinematic film still, vertical composition",
+        "same garden kitchen setting, same 32-year-old Spanish chef wearing a white jacket, now using a wooden spoon to pinch red saffron threads into the simmering yellow rice pan, intense focused culinary precision, cinematic film still, vertical composition",
+        "same garden kitchen setting, same 32-year-old Spanish chef wearing a white jacket, now scraping a spoon along the bottom of the paella pan revealing the golden crispy socarrat rice layer, smiling proudly, bright natural sunlight, cinematic film still, vertical composition",
+        "same garden kitchen setting, same 32-year-old Spanish chef wearing a white jacket, now standing peacefully beside the finished paella pan as family gathers around the table, warm joyful atmosphere, cinematic film still, vertical composition"
+      ]
+    }
+  ]
+}

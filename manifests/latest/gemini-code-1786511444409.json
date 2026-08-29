@@ -1,0 +1,352 @@
+{
+  "reels": [
+    {
+      "id": "ar-en-025",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "invention",
+      "seed": 41001,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "rhythmic frame drum with mysterious kanun, intriguing historical tempo",
+      "words": [
+        {"src": "ساعة", "tgt": "clock", "translit": "sāʿa"},
+        {"src": "عجلة", "tgt": "gear", "translit": "ʿajala"},
+        {"src": "فيل", "tgt": "elephant", "translit": "fīl"}
+      ],
+      "lines": [
+        {"src": "كيف استطاع الجزري قياس الوقت بدقة باستخدام فيل مائي قبل ثمانية قرون؟", "tgt": "How was Al-Jazari able to measure time accurately using a water elephant eight centuries ago?", "translit": "kayfa staṭāʿa l-Jazarīyu qiyāsa l-waqti bi-diqqatin bi-stikhdāmi fīlin māʾīyin qabla thamāniyati qurūn?"},
+        {"src": "تحركت كل عجلة خفية داخل الساعة بفضل تدفق الماء المحسوب.", "tgt": "Every hidden gear inside the clock moved thanks to the calculated flow of water.", "translit": "taḥarrakat kullu ʿajalatin khafiyyatin dākhila s-sāʿati bi-faḍli tadaffuqi l-māʾi l-maḥsūb."},
+        {"src": "دمج ذلك الاختراع العجيب ثقافة العالم في مجسم فيل نحاسي عظيم.", "tgt": "That wondrous invention merged world cultures into a grand brass elephant sculpture.", "translit": "damaja dhālika l-ikhtirāʿu l-ʿajību thaqāfata l-ʿālami fī mujassami fīlin nuḥāsīyin ʿaẓīm."},
+        {"src": "دمج ذلك الاختراع العجيب ثقافة العالم في مجسم فيل نحاسي عظيم.", "tgt": "That wondrous invention merged world cultures into a grand brass elephant sculpture.", "translit": "damaja dhālika l-ikhtirāʿu l-ʿajību thaqāfata l-ʿālami fī mujassami fīlin nuḥāsīyin ʿaẓīm."}
+      ],
+      "scenes": [
+        "wide shot of an ancient Islamic engineering workshop, a 35-year-old Arab inventor in a dark green kaftan inspecting a massive brass elephant clock, warm lantern light casting intricate shadows on stone walls, cinematic film still, vertical composition",
+        "same ancient workshop, same 35-year-old Arab inventor in a dark green kaftan, now adjusting a bronze gear mechanism connected to water pipes inside the open side of the elephant sculpture, extreme close-up of intricate mechanical cogs, cinematic film still, vertical composition",
+        "same ancient workshop, same 35-year-old Arab inventor in a dark green kaftan, now watching a small mechanical dragon figure drop a brass ball into a bowl on top of the elephant clock as water flows, smiling in success, cinematic film still, vertical composition",
+        "same ancient workshop, same 35-year-old Arab inventor in a dark green kaftan, now standing proudly beside the silent completed elephant clock resting under soft morning window light, peaceful historic backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "ar-en-026",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "geography",
+      "seed": 41002,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "ambient acoustic oud with soft reverb, majestic desert exploration pace",
+      "words": [
+        {"src": "واحة", "tgt": "oasis", "translit": "wāḥa"},
+        {"src": "سراب", "tgt": "mirage", "translit": "sarāb"},
+        {"src": "نخيل", "tgt": "palms", "translit": "nakhīl"}
+      ],
+      "lines": [
+        {"src": "لماذا تبدو بعض البحيرات الصحراوية وكأنها تبتعد كلما اقتربت منها؟", "tgt": "Why do some desert lakes seem to move away the closer you get to them?", "translit": "limādhā tabdū baʿḍu l-buḥayrāti ṣ-ṣaḥrāwiyyatu wa-ka-ʾannahā tabtaʿidu kulla-mā qtarabta minhā?"},
+        {"src": "يخدع هذا السراب المرئي المسافرين برسم صور خيالية على الرمال.", "tgt": "This visual mirage tricks travelers by painting imaginary images on the sand.", "translit": "yakhdaʿu hādhā s-sarābu l-marʾiyyu l-musāfirīna bi-rasmi ṣuwarin khiyāliyyatin ʿalā r-rimāl."},
+        {"src": "لكن واحة حقيقية محاطة بأشجار نخيل خضراء ظهرت أخيراً لتنقذهم.", "tgt": "But a real oasis surrounded by green palms finally appeared to save them.", "translit": "lākin wāḥatan ḥaqīqiyyatan muḥāṭatan bi-ʾashjāri nakhīlin khaḍrāʾa ẓaharat ʾakhīran li-tanqidhahum."},
+        {"src": "لكن واحة حقيقية محاطة بأشجار نخيل خضراء ظهرت أخيراً لتنقذهم.", "tgt": "But a real oasis surrounded by green palms finally appeared to save them.", "translit": "lākin wāḥatan ḥaqīqiyyatan muḥāṭatan bi-ʾashjāri nakhīlin khaḍrāʾa ẓaharat ʾakhīran li-tanqidhahum."}
+      ],
+      "scenes": [
+        "wide shot of a vast scorching desert, a 28-year-old Arab explorer in a blue thobe and white turban gazing at a shimmering heat haze reflecting blue sky on distant dunes, intense midday sun glare, cinematic film still, vertical composition",
+        "same vast desert, same 28-year-old Arab explorer in a blue thobe and white turban, now shielding his eyes with his hand as the shimmering water reflection vanishes into dry yellow sand, tired frustrated expression, cinematic film still, vertical composition",
+        "same desert location, same 28-year-old Arab explorer in a blue thobe and white turban, now kneeling joyfully beside a crystal clear natural water pool fed by lush green palm trees, splashing cold water on his face, cinematic film still, vertical composition",
+        "same desert oasis, same 28-year-old Arab explorer in a blue thobe and white turban, now sitting peacefully under shade of tall palm trees by the water at golden hour, serene natural landscape, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "zh-en-025",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "geology",
+      "seed": 41003,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "dignified guqin and ambient synth, reflective ancient geological rhythm",
+      "words": [
+        {"src": "丹霞", "tgt": "Danxia landform", "translit": "dānxiá"},
+        {"src": "色素", "tgt": "pigment", "translit": "sèsù"},
+        {"src": "地层", "tgt": "strata", "translit": "dìcéng"}
+      ],
+      "lines": [
+        {"src": "为什么张掖的山峰会呈现出如彩虹般绚丽的斑斓色彩？", "tgt": "Why do the peaks of Zhangye display brilliant rainbow-like colors?", "translit": "wèishénme Zhāngyè de shānfēng huì chéngxiàn chū rú cǎihóng bān xuànlì de bānlán sèsǎi?"},
+        {"src": "数千万年矿物色素在红砂岩地层中沉淀堆积。", "tgt": "Tens of millions of years of mineral pigments accumulated within red sandstone strata.", "translit": "shù qiānwàn nián kuàngwù sèsù zài hóng shāyán dìcéng zhōng chéndiàn tuījī."},
+        {"src": "地壳运动雕琢出了绝美的丹霞奇观。", "tgt": "Tectonic crustal movements carved out the stunning Danxia marvel.", "translit": "dìqiào yùndòng diāozhuó chū le juéměi de dānxiá qíguān."},
+        {"src": "地壳运动雕琢出了绝美的丹霞奇观。", "tgt": "Tectonic crustal movements carved out the stunning Danxia marvel.", "translit": "dìqiào yùndòng diāozhuó chū le juéměi de dānxiá qíguān."}
+      ],
+      "scenes": [
+        "wide shot of a vibrant rainbow mountain range, a 26-year-old Chinese geologist in a red outdoor jacket and backpack standing on a wooden boardwalk overlook staring at striped red, yellow, and blue rock hills, bright morning sun, cinematic film still, vertical composition",
+        "same mountain overlook, same 26-year-old Chinese geologist in a red outdoor jacket, now using a magnifying loupe to closely examine iron oxide mineral deposits inside a piece of red sandstone rock, intense scientific focus, cinematic film still, vertical composition",
+        "same mountain overlook, same 26-year-old Chinese geologist in a red outdoor jacket, now holding up a geological chart showing ancient lake sediment layers against sweeping colorful mountain ridges behind, smiling brightly, cinematic film still, vertical composition",
+        "same mountain overlook, same 26-year-old Chinese geologist in a red outdoor jacket, now sitting peacefully on a wooden bench watching golden sunset rays illuminate the colorful rock strata, calm majestic landscape, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "zh-en-026",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "biology",
+      "seed": 41004,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "delicate guzheng plucks and gentle flute, curious natural rhythm",
+      "words": [
+        {"src": "虫草", "tgt": "cordyceps", "translit": "chóngcǎo"},
+        {"src": "真菌", "tgt": "fungus", "translit": "zhēnjūn"},
+        {"src": "雪山", "tgt": "snow mountain", "translit": "xuěshān"}
+      ],
+      "lines": [
+        {"src": "为什么同一种生物会在冬天是昆虫，到了夏天却变成了植物？", "tgt": "Why is the same organism an insect in winter, but turns into a plant in summer?", "translit": "wèishénme tóng yī zhǒng shēngwù huì zài dōngtiān shì kūnchóng, dào le xiàtiān què biànchéng le zhíwù?"},
+        {"src": "独特的真菌在高原地下侵入幼虫体内生长。", "tgt": "A unique fungus infects and grows inside caterpillar larvae underground on the plateau.", "translit": "dútè de zhēnjūn zài gāoyuán dìxià qīnrù yòuchóng tǐnèi shēngzhǎng."},
+        {"src": "这种珍贵的冬虫夏草只生长在极高海拔的雪山草甸上。", "tgt": "This precious cordyceps grows only on high-altitude snow mountain meadows.", "translit": "zhè zhǒng zhēnguì de dōngchóngxiàcǎo zhǐ shēngzhǎng zài jí gāo hǎibá de xuěshān cǎodiàn shàng."},
+        {"src": "这种珍贵的冬虫夏草只生长在极高海拔的雪山草甸上。", "tgt": "This precious cordyceps grows only on high-altitude snow mountain meadows.", "translit": "zhè zhǒng zhēnguì de dōngchóngxiàcǎo zhǐ shēngzhǎng zài jí gāo hǎibá de xuěshān cǎodiàn shàng."}
+      ],
+      "scenes": [
+        "wide shot of a Tibetan alpine meadow under snow-capped peaks, a 30-year-old Chinese researcher in a yellow padded coat kneeling on grass searching carefully among alpine flowers, crisp mountain air, morning sunlight, cinematic film still, vertical composition",
+        "same alpine meadow, same 30-year-old Chinese researcher in a yellow padded coat, now gently brushing away soil with a small brush to reveal a dark cordyceps specimen emerging from a caterpillar body in the dirt, extreme close-up, cinematic film still, vertical composition",
+        "same alpine meadow, same 30-year-old Chinese researcher in a yellow padded coat, now holding up the rare cordyceps specimen against the backdrop of towering snow mountains, triumphant smile, bright clear daylight, cinematic film still, vertical composition",
+        "same alpine meadow, same 30-year-old Chinese researcher in a yellow padded coat, now standing calmly looking across the vast mountain valley at sunset, peaceful pristine nature backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-ar-025",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "maritime",
+      "seed": 41005,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "light rhythmic ocean percussion with soft woodwinds, nautical journey tempo",
+      "words": [
+        {"src": "dhow", "tgt": "شِراعِيّ", "translit": "shirāʿīy"},
+        {"src": "latex", "tgt": "صَمْغ", "translit": "ṣamgh"},
+        {"src": "monsoon", "tgt": "مَوْسِمِيّة", "translit": "mawsimiyya"}
+      ],
+      "lines": [
+        {"src": "How did ancient Arabian sailors navigate ocean storms without using a single iron nail?", "tgt": "كيف أبحر البحارة العرب القدامى في العواصف دون استخدام مسمار حديدي واحد؟", "translit": "kayfa ʾabḥara l-baḥḥāratu l-ʿarabu l-qudāmā fī l-ʿawāṣifi dūna stikhdāmi mismārin ḥadīdiyyin wāḥid?"},
+        {"src": "They stitched wooden dhow planks together using coconut fiber and sealed them with tree latex.", "tgt": "خاطوا ألواح السفن الشراعية بألياف الهند وسدوها بصمغ الشجر.", "translit": "khāṭū ʾalwāḥa s-sufuni sh-shirāʿiyyati bi-ʾalyāfi l-hindi wa-saddūhā bi-ṣamghi sh-shajar."},
+        {"src": "These flexible hulls easily rode the fierce Indian Ocean monsoon winds.", "tgt": "ركبت هذه الهياكل المرنة ركوباً سهلاً مع رياح المحيط الموسمية.", "translit": "rakibat hādhihi l-hayākilu l-marinatu rukūban sahlan maʿa riyāḥi l-muḥīṭi l-mawsimiyya."},
+        {"src": "These flexible hulls easily rode the fierce Indian Ocean monsoon winds.", "tgt": "ركبت هذه الهياكل المرنة ركوباً سهلاً مع رياح المحيط الموسمية.", "translit": "rakibat hādhihi l-hayākilu l-marinatu rukūban sahlan maʿa riyāḥi l-muḥīṭi l-mawsimiyya."}
+      ],
+      "scenes": [
+        "wide shot of a historic coastal shipyard, a 32-year-old Arab shipbuilder in a beige linen shirt standing on the wooden deck of a large traditional wooden dhow, bright blue ocean and clear sky background, cinematic film still, vertical composition",
+        "same coastal shipyard, same 32-year-old Arab shipbuilder in a beige linen shirt, now pulling thick coconut fiber rope tightly through drilled holes to sew teak wood planks together without nails, extreme close-up on hands and timber, cinematic film still, vertical composition",
+        "same coastal shipyard, same 32-year-old Arab shipbuilder in a beige linen shirt, now applying sticky dark tree latex resin along stitched wooden seams to waterproof the hull, focused determined expression, cinematic film still, vertical composition",
+        "same coastal location, same 32-year-old Arab shipbuilder in a beige linen shirt, now watching the completed dhow sail gracefully into turquoise waters under warm sunset light, peaceful maritime setting, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-ar-026",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "botany",
+      "seed": 41006,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "intricate santur plucked notes with soft pads, rare flora atmosphere",
+      "words": [
+        {"src": "resin", "tgt": "صَمْغِيّة", "translit": "ṣamghiyya"},
+        {"src": "dragon", "tgt": "تِنّين", "translit": "tinnīn"},
+        {"src": "archipelago", "tgt": "أَرْخَبِيل", "translit": "ʾarkhabīl"}
+      ],
+      "lines": [
+        {"src": "Why does the mysterious Dragon Blood tree bleed thick red liquid when cut?", "tgt": "لماذا تنزف شجرة دم الأخوين سائل أحمر كثيف عند قطعها؟", "translit": "limādhā tanzifu shajaratu dami l-ʾakhawayni sāʾilan ʾaḥmara kathīfan ʿinda qatʿihā?"},
+        {"src": "This rare resin protected the umbrella-shaped tree from harsh island heat.", "tgt": "حمت هذه المادة الصمغية الشجرة مظلية الشكل من حرارة الجزيرة.", "translit": "ḥamat hādhihi l-māddatu ṣ-ṣamghiyyatu sh-shajarata maẓalliyyata sh-shakli min ḥarārati l-jazīra."},
+        {"src": "It grows exclusively on the isolated Socotra archipelago in the Indian Ocean.", "tgt": "تنمو حصرياً في أرخبيل سقطرى المعزول في المحيط الهندي.", "translit": "tanmū ḥaṣriyyan fī ʾarkhabīli suquṭrā l-maʿzūli fī l-muḥīṭi l-hindī."},
+        {"src": "It grows exclusively on the isolated Socotra archipelago in the Indian Ocean.", "tgt": "تنمو حصرياً في أرخبيل سقطرى المعزول في المحيط الهندي.", "translit": "tanmū ḥaṣriyyan fī ʾarkhabīli suquṭrā l-maʿzūli fī l-muḥīṭi l-hindī."}
+      ],
+      "scenes": [
+        "wide shot of a alien-like mountain plateau filled with umbrella-shaped Dragon Blood trees, a 29-year-old Arab botanist in a khaki shirt standing beside a large tree trunk looking up at its dense green canopy, bright sunlight, cinematic film still, vertical composition",
+        "same mountain plateau, same 29-year-old Arab botanist in a khaki shirt, now examining a small natural nick in the tree bark as thick dark red sap drips slowly into a glass sample vial, extreme close-up, amazed expression, cinematic film still, vertical composition",
+        "same mountain plateau, same 29-year-old Arab botanist in a khaki shirt, now holding up the vial of glowing red resin against the unique umbrella canopy silhouettes, smiling brightly, cinematic film still, vertical composition",
+        "same mountain plateau, same 29-year-old Arab botanist in a khaki shirt, now sitting peacefully under a Dragon Blood tree looking over cliffs toward the ocean at sunset, tranquil exotic backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-zh-025",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "paleontology",
+      "seed": 41007,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "dramatic low strings and mysterious flute, evolutionary discovery tempo",
+      "words": [
+        {"src": "amber", "tgt": "琥珀", "translit": "hǔpò"},
+        {"src": "feather", "tgt": "羽毛", "translit": "yǔmáo"},
+        {"src": "fossil", "tgt": "化石", "translit": "huàshí"}
+      ],
+      "lines": [
+        {"src": "How did a golden drop of tree sap preserve a 99-million-year-old dinosaur tail?", "tgt": "一滴金黄色的树脂是如何保存下九千九百万年前的恐龙尾巴的？", "translit": "yī dī jīn huángsè de shùzhī shì rúhé bǎocún xià jiǔ qiān jiǔ bǎi wàn nián qián de kǒnglóng wěiba de?"},
+        {"src": "Encased in clear amber, delicate soft feather structures remained perfectly intact.", "tgt": "包裹在透明的琥珀中，纤细的羽毛结构保存得完好无损。", "translit": "bāoguǒ zài tòumíng de hǔpò zhōng, xiānxì de yǔmáo jiégòu bǎocún de wánhǎo wúsǔn."},
+        {"src": "This extraordinary fossil proved that many ancient dinosaurs were actually feathered.", "tgt": "这块不寻常的化石证明了许多古代恐龙实际上长有羽毛。", "translit": "zhè kuài bù xúncháng de huàshí zhèngmíng le xǔduō gǔdài kǒnglóng shíjí shàng zhǎng yǒu yǔmáo."},
+        {"src": "This extraordinary fossil proved that many ancient dinosaurs were actually feathered.", "tgt": "这块不寻常的化石证明了许多古代恐龙实际上长有羽毛。", "translit": "zhè kuài bù xúncháng de huàshí zhèngmíng le xǔduō gǔdài kǒnglóng shíjí shàng zhǎng yǒu yǔmáo."}
+      ],
+      "scenes": [
+        "wide shot of a clean modern paleontology laboratory, a 28-year-old Chinese female paleontologist wearing a dark blazer holding a translucent golden amber stone under a bright desk lamp, micro-microscope in background, cinematic film still, vertical composition",
+        "same paleontology lab, same 28-year-old Chinese female paleontologist wearing a dark blazer, now looking through a stereo microscope at tiny fuzzy brown feather barbs preserved inside the golden amber, extreme close-up focus, shocked astonished expression, cinematic film still, vertical composition",
+        "same paleontology lab, same 28-year-old Chinese female paleontologist wearing a dark blazer, now holding the glowing amber stone up toward a digital display showing a 3D feathered dinosaur model reconstruction, smiling joyfully, cinematic film still, vertical composition",
+        "same paleontology lab, same 28-year-old Chinese female paleontologist wearing a dark blazer, now sitting peacefully at her clean desk looking at illuminated glass fossil display cases, serene scientific setting, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-zh-026",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "acoustics",
+      "seed": 41008,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "gentle resonant brass bell chime with ambient piano, acoustic mystery rhythm",
+      "words": [
+        {"src": "echo", "tgt": "回音", "translit": "huíyīn"},
+        {"src": "concentric", "tgt": "同心", "translit": "tóngxīn"},
+        {"src": "refraction", "tgt": "折射", "translit": "zhéshè"}
+      ],
+      "lines": [
+        {"src": "How can a quiet whisper travel hundreds of feet around a smooth circular brick wall?", "tgt": "低声的细语是如何沿着光滑的圆形砖墙传播数百英尺的？", "translit": "dī shēng de xìyǔ shì rúhé yánzhe guānghuá de yuánxíng zhuānqiáng chuánbō shù bǎi yīngchǐ de?"},
+        {"src": "Concentric curved stone walls guide acoustic soundwaves along their surface without loss.", "tgt": "同心圆弧形石墙引导着声波沿着墙面无损传播。", "translit": "tóngxīn yuán húxíng shíqiáng yǐndǎo zhe shēngbō yánzhe qiángmiàn wú sǔn chuánbō."},
+        {"src": "This continuous wave refraction creates Beijing's famous Echo Wall phenomenon.", "tgt": "这种声波连续折射创造了北京著名的回音壁奇观。", "translit": "zhè zhǒng shēngbō liánxù zhéshè chuàngzào le Běijīng zhùmíng de Huíyīnbì qíguān."},
+        {"src": "This continuous wave refraction creates Beijing's famous Echo Wall phenomenon.", "tgt": "这种声波连续折射创造了北京著名的回音壁奇观。", "translit": "zhè zhǒng shēngbō liánxù zhéshè chuàngzào le Běijīng zhùmíng de Huíyīnbì qíguān."}
+      ],
+      "scenes": [
+        "wide shot of a sunny ancient temple courtyard with smooth curved red brick walls, a 27-year-old Chinese male physicist in a dark grey jacket pressing his ear against the smooth red stone surface, bright blue sky above, cinematic film still, vertical composition",
+        "same temple courtyard, same 27-year-old Chinese male physicist in a dark grey jacket, now whispering softly toward the red wall while gesturing to his colleague standing a hundred meters away along the curve, fascinated curious expression, cinematic film still, vertical composition",
+        "same temple courtyard, same 27-year-old Chinese male physicist in a dark grey jacket, now smiling broadly as he clearly hears the crystal-clear acoustic echo response coming around the wall, warm afternoon sun, cinematic film still, vertical composition",
+        "same temple courtyard, same 27-year-old Chinese male physicist in a dark grey jacket, now sitting calmly on a stone bench beside the circular red Echo Wall at sunset, serene atmospheric scene, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-es-025",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "nature",
+      "seed": 41009,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "ambient synth pads with soft woodwinds, natural phenomenon rhythm",
+      "words": [
+        {"src": "lightning", "tgt": "relámpago", "translit": ""},
+        {"src": "marsh", "tgt": "pantano", "translit": ""},
+        {"src": "methane", "tgt": "metano", "translit": ""}
+      ],
+      "lines": [
+        {"src": "Why does a single river mouth in Venezuela produce 1.2 million lightning strikes every year?", "tgt": "¿Por qué la desembocadura de un río en Venezuela produce 1,2 millones de relámpagos al año?", "translit": ""},
+        {"src": "Rising methane gas from surrounding tropical marsh areas feeds endless electric storms.", "tgt": "El gas metano ascendente del pantano tropical alimenta tormentas eléctricas sin fin.", "translit": ""},
+        {"src": "This Catatumbo phenomenon creates a natural lighthouse visible hundred of miles away.", "tgt": "Este fenómeno del Catatumbo crea un faro natural visible a cientos de millas.", "translit": ""},
+        {"src": "This Catatumbo phenomenon creates a natural lighthouse visible hundred of miles away.", "tgt": "Este fenómeno del Catatumbo crea un faro natural visible a cientos de millas.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of a dark tropical lake shoreline at dusk, a 31-year-old Spanish meteorologist wearing an orange waterproof jacket standing on a wooden pier watching brilliant lightning bolts illuminate dark purple storm clouds over the water, cinematic film still, vertical composition",
+        "same lake pier, same 31-year-old Spanish meteorologist wearing an orange waterproof jacket, now pointing a scientific spectrometer device toward the surrounding tropical marsh grass where gas bubbles rise, focused intense expression, flash of purple lightning, cinematic film still, vertical composition",
+        "same lake pier, same 31-year-old Spanish meteorologist wearing an orange waterproof jacket, now smiling in awe as multiple silent electric lightning strikes light up the entire night sky above the lake without rain, cinematic film still, vertical composition",
+        "same lake pier, same 31-year-old Spanish meteorologist wearing an orange waterproof jacket, now standing peacefully on the quiet dock as early dawn breaks over calm purple lake waters, serene natural backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-es-026",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "oceanography",
+      "seed": 41010,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "deep ocean pads with subtle marimba plucks, undersea mystery pace",
+      "words": [
+        {"src": "halocline", "tgt": "haloclina", "translit": ""},
+        {"src": "sinkhole", "tgt": "cenote", "translit": ""},
+        {"src": "salinity", "tgt": "salinidad", "translit": ""}
+      ],
+      "lines": [
+        {"src": "How can an underwater river flow beneath the surface of a ocean sinkhole?", "tgt": "¿Cómo puede fluir un río submarino bajo la superficie de un cenote?", "translit": ""},
+        {"src": "A sharp halocline layer separates fresh water from heavy saltwater due to density and salinity.", "tgt": "Una clara capa de haloclina separa el agua dulce del agua salada por densidad y salinidad.", "translit": ""},
+        {"src": "This optical illusion creates a surreal liquid river flowing inside submerged caves.", "tgt": "Esta ilusión óptica crea un río líquido irreal que fluye dentro de cuevas sumergidas.", "translit": ""},
+        {"src": "This optical illusion creates a surreal liquid river flowing inside submerged caves.", "tgt": "Esta ilusión óptica crea un río líquido irreal que fluye dentro de cuevas sumergidas.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of a sunlit Mexican jungle cenote pool, a 29-year-old Spanish scuba diver wearing a black wetsuit holding a waterproof flashlight swimming down into crystal clear turquoise water surrounded by hanging tree roots, cinematic film still, vertical composition",
+        "same underwater cenote caving, same 29-year-old Spanish scuba diver wearing a black wetsuit, now hovering just above a blurry misty cloud layer where fresh and salt water meet, examining the halocline boundary with flashlight beam, extreme close-up underwater focus, cinematic film still, vertical composition",
+        "same underwater cenote cave, same 29-year-old Spanish scuba diver wearing a black wetsuit, now shining light down on a dark river-like layer of hydrogen sulfide gas flowing like a river bed along the cave floor beneath the salt water, amazed expression behind mask, cinematic film still, vertical composition",
+        "same jungle cenote pool surface, same 29-year-old Spanish scuba diver wearing a black wetsuit, now floating peacefully on his back looking up at green jungle canopy and sunbeams breaking through water surface, calm serene setting, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "es-en-025",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "history",
+      "seed": 41011,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "melancholic classical guitar with soft cello, historic mystery rhythm",
+      "words": [
+        {"src": "aqueduct", "tgt": "aqueduct", "translit": ""},
+        {"src": "granite", "tgt": "granite", "translit": ""},
+        {"src": "friction", "tgt": "friction", "translit": ""}
+      ],
+      "lines": [
+        {"src": "¿Cómo ha permanecido en pie el acueducto de Segovia durante dos千 años sin argamasa?", "tgt": "How has the Segovia aqueduct stood for two thousand years without mortar?", "translit": ""},
+        {"src": "Cincuenta mil bloques de granito tallados se sostienen únicamente por fricción y equilibrio.", "tgt": "Fifty thousand carved granite blocks hold together purely through friction and balance.", "translit": ""},
+        {"src": "Esta maravilla de ingeniería romana transportó agua pura cruzando valles profundos.", "tgt": "This Roman engineering marvel transported pure water across deep valleys.", "translit": ""},
+        {"src": "Esta maravilla de ingeniería romana transportó agua pura cruzando valles profundos.", "tgt": "This Roman engineering marvel transported pure water across deep valleys.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of the towering Roman aqueduct arches in Segovia, a 30-year-old Spanish civil engineer in a dark blue coat looking up at double-tiered granite stone arches against a clear morning sky, sunbeams hitting weathered gray stone, cinematic film still, vertical composition",
+        "same aqueduct location, same 30-year-old Spanish civil engineer in a dark blue coat, now standing on a high inspection walkway running his hand along the dry joint between two raw granite blocks, noticing zero mortar or cement, intense curious expression, cinematic film still, vertical composition",
+        "same aqueduct location, same 30-year-old Spanish civil engineer in a dark blue coat, now looking at a 3D structural balance diagram on a tablet screen while pointing up at the key stones at the top of the arches, warm sunlight glow, cinematic film still, vertical composition",
+        "same aqueduct location, same 30-year-old Spanish civil engineer in a dark blue coat, now sitting calmly on a plaza bench as golden sunset light illuminates the massive historic arches, serene architectural backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "es-en-026",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "culture",
+      "seed": 41012,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "lively acoustic guitar and hand claps, passionate celebratory rhythm",
+      "words": [
+        {"src": "castell", "tgt": "human tower", "translit": ""},
+        {"src": "anxaneta", "tgt": "top climber child", "translit": ""},
+        {"src": "pinya", "tgt": "crowd base", "translit": ""}
+      ],
+      "lines": [
+        {"src": "¿Cómo logran los catalanes construir torres humanas de diez pisos de altura sólo con fe?", "tgt": "How do Catalans build ten-story human towers using pure faith?", "translit": ""},
+        {"src": "Una multitud apretada forma la pinya base para sostener a los escaladores.", "tgt": "A tightly packed crowd forms the pinya base to support the climbers.", "translit": ""},
+        {"src": "El niño anxaneta corona la cumbre levantando la mano en señal de victoria.", "tgt": "The young anxaneta child crowns the summit raising a hand in victory.", "translit": ""},
+        {"src": "El niño anxaneta corona la cumbre levantando la mano en señal de victory.", "tgt": "The young anxaneta child crowns the summit raising a hand in victory.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of a crowded historic Catalan town square, a 27-year-old Spanish photographer in a green jacket holding a camera while standing at the edge of a massive human tower structure reaching high into the sky, bright sunny day, cheering crowds, cinematic film still, vertical composition",
+        "same town square, same 27-year-old Spanish photographer in a green jacket, now focusing his camera lens on the tightly interlocked arms of dozens of people forming the dense pinya base support ring, intense unified emotion, cinematic film still, vertical composition",
+        "same town square, same 27-year-old Spanish photographer in a green jacket, now capturing a close-up shot of a brave child climber raising four fingers at the very top of the human tower, golden sunlight flare, emotional joyful atmosphere, cinematic film still, vertical composition",
+        "same town square, same 27-year-old Spanish photographer in a green jacket, now standing peacefully in the square after the tower safely disassembles, smiling with townspeople, warm festive backdrop, cinematic film still, vertical composition"
+      ]
+    }
+  ]
+}

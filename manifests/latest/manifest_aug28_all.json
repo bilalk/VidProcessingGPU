@@ -1,0 +1,1204 @@
+{
+ "reels": [
+  {
+   "id": "ar-en-059",
+   "channel": "arabic-to-english",
+   "pair": "ar-en",
+   "topic": "acoustics",
+   "seed": 41035,
+   "voice_src": "ar-SA-ZariyahNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "ar-SA-HamedNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "ambient acoustic oud with soft stone hall resonance, architectural rhythm",
+   "words": [
+    {
+     "src": "همس",
+     "tgt": "whisper",
+     "translit": "hams"
+    },
+    {
+     "src": "جدار",
+     "tgt": "wall",
+     "translit": "jidār"
+    },
+    {
+     "src": "صوت",
+     "tgt": "sound",
+     "translit": "ṣawt"
+    }
+   ],
+   "lines": [
+    {
+     "src": "كيف يستطيع قصر الحمراء نقل الهمس الخافت عبر قاعة ضخمة دون ميكروفون؟",
+     "tgt": "How can the Alhambra palace convey a faint whisper across a massive hall without a microphone?",
+     "translit": "kayfa yastaṭīʿu qasru l-ḥamrāʾi naqla l-hamsi l-khāfiti ʿabra qāʿatin ḍakhmatin dūna mīkrūfūn?"
+    },
+    {
+     "src": "يركز الجدار المقوس ذو المقرنصات الدقيقة كل موجة صوتية بنجاح.",
+     "tgt": "The curved wall with delicate muqarnas focuses every sound wave successfully.",
+     "translit": "yurakkizu l-jidāru l-muqawwasu dhū l-muqarnaṣāti d-daqīqati kulla mawjatin ṣawtiyyatin bi-najāḥ."
+    },
+    {
+     "src": "صمم المهندسون هذه الهندسة الصوتية لإحباط التجسس على الحكام.",
+     "tgt": "Engineers designed this acoustic geometry to thwart spying on rulers.",
+     "translit": "ṣammama l-muhandisūna hādhihi l-handasata ṣ-ṣawtiyyata li-ʾiḥbāṭi t-tajassusi ʿalā l-ḥukkām."
+    }
+   ],
+   "scenes": [
+    "wide shot of a grand stone hall inside the Alhambra palace, a 32-year-old Arab architect in a dark green kaftan whispering into a carved plaster wall corner, LTX motion: slow-motion tracking shot following sound wave reverberations through vaulted stone arches, warm sunlight through geometric windows, cinematic film still, vertical composition",
+    "same grand palace hall, same 32-year-old Arab architect in a dark green kaftan, now leaning close to complex honeycomb muqarnas ceiling vaulting, LTX motion: macro camera glide along intricate carved plasterwork highlighting acoustic channel curves, cinematic film still, vertical composition",
+    "same grand palace hall, same 32-year-old Arab architect in a dark green kaftan, now listening clearly to his colleague speaking sixty feet away across the vast hall, LTX motion: rack focus from the far colleague to the architect smiling in technical astonishment, cinematic film still, vertical composition",
+    "same grand palace hall, same 32-year-old Arab architect in a dark green kaftan, now standing peacefully by a sunlit archway overlooking an outdoor courtyard fountain, LTX motion: subtle pan across flowing water basins with soft light reflecting on stone pillars, serene historic backdrop, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "ar-en-060",
+   "channel": "arabic-to-english",
+   "pair": "ar-en",
+   "topic": "hydrology",
+   "seed": 41036,
+   "voice_src": "ar-SA-ZariyahNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "ar-SA-HamedNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "ambient water droplets and soft frame drum beat, subterranean flow tempo",
+   "words": [
+    {
+     "src": "قناة",
+     "tgt": "aqueduct channel",
+     "translit": "qanāt"
+    },
+    {
+     "src": "جبل",
+     "tgt": "mountain",
+     "translit": "jabal"
+    },
+    {
+     "src": "تبخر",
+     "tgt": "evaporation",
+     "translit": "tabakhkhur"
+    }
+   ],
+   "lines": [
+    {
+     "src": "كيف نجحت القنوات الحجرية المخفية تحت الأرض في تحويل الصحراء القاحلة إلى مزارع؟",
+     "tgt": "How did hidden underground stone aqueducts succeed in turning arid desert into farms?",
+     "translit": "kayfa najaḥati l-qanawātu l-ḥajariyyatu l-mukhfayyatu taḥta l-ʾarḍi fī taḥwīli ṣ-ṣaḥrāʾi l-qāḥilati ʾilā mazāriʿ?"
+    },
+    {
+     "src": "تنقل كل قناة مياه الأمطار الذائبة من جبل بعيد دون فقدان.",
+     "tgt": "Every aqueduct channel transports melted rainwater from a distant mountain without loss.",
+     "translit": "tanqulu kullu qanātin miyāha l-ʾamṭāri dh-dhāʾibata min jabalin baʿīdin dūna fiqdān."
+    },
+    {
+     "src": "يحمي النفق المظلم المياه العذبة من حرارة الشتاء وحظر تبخر المياه.",
+     "tgt": "The dark tunnel protects fresh water from harsh heat and prevents water evaporation.",
+     "translit": "yaḥmī n-nanfaqū l-muẓlimu l-miyāha l-ʿadhbata min ḥarārati sh-shitāʾi wa-ḥaẓri tabakhkhuri l-miyāh."
+    }
+   ],
+   "scenes": [
+    "wide shot of a dry desert valley in Oman, a 30-year-old Arab hydrologist in a beige linen shirt standing beside a vertical access shaft leading into an underground Falaj water system, LTX motion: aerial crane shot lowering down into the stone shaft opening under bright sun, cinematic film still, vertical composition",
+    "same desert location underground, same 30-year-old Arab hydrologist in a beige linen shirt, now holding a lantern inside a cool stone-lined water tunnel, LTX motion: close-up fluid dynamics shot of clear mountain water rushing across smooth rock channels past his boots, cinematic film still, vertical composition",
+    "same desert location, same 30-year-old Arab hydrologist in a beige linen shirt, now standing where the underground channel emerges into green palm groves, LTX motion: camera tilt up following water splashing into irrigation canals nourishing lush date palms, cinematic film still, vertical composition",
+    "same desert location, same 30-year-old Arab hydrologist in a beige linen shirt, now standing peacefully in the palm grove at golden hour, LTX motion: slow-motion breeze swaying green palm fronds with glowing sunlight filtering through leaves, serene agricultural backdrop, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "zh-en-061",
+   "channel": "chinese-to-english",
+   "pair": "zh-en",
+   "topic": "optics",
+   "seed": 41037,
+   "voice_src": "zh-CN-XiaoxiaoNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "zh-CN-YunxiNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "delicate guzheng notes with airy synth pads, optical discovery pace",
+   "words": [
+    {
+     "src": "透光",
+     "tgt": "light-transmitting",
+     "translit": "tòuguāng"
+    },
+    {
+     "src": "曲率",
+     "tgt": "curvature",
+     "translit": "qūlǜ"
+    },
+    {
+     "src": "折射",
+     "tgt": "reflection",
+     "translit": "zhéshè"
+    }
+   ],
+   "lines": [
+    {
+     "src": "为什么一块看似不透明的汉代青铜镜能将背面的铭文投影到墙上？",
+     "tgt": "Why can an apparently opaque Han Dynasty bronze mirror project its backside inscriptions onto a wall?",
+     "translit": "wèishénme yī kuài kàn sì bù tòumíng de Hàn dài qīngtóng jìng néng jiāng bèimiàn de míngwén tóuyǐng dào qiáng shàng?"
+    },
+    {
+     "src": "这种神奇的透光镜在铸造冷却时产生了肉眼不可见的极微小曲率。",
+     "tgt": "This magical light-transmitting mirror produced microscopic curvatures invisible to human eyes during cooling.",
+     "translit": "zhè zhǒng shénqí de tòuguāng jìng zài zhùzào lěngquè shí chǎnshēng le ròuyǎn bùkějiàn de jí wēixiǎo qūlǜ."
+    },
+    {
+     "src": "当阳光照射镜面，差异反射呈现出完美的图案折射。",
+     "tgt": "When sunlight hits the polished mirror face, differential reflection displays perfect pattern reflections.",
+     "translit": "dāng yángguāng zhàoshè jìngmiàn, chāyì fǎnshè chéngxiàn chū wánměi de tú'àn zhéshè."
+    }
+   ],
+   "scenes": [
+    "wide shot of a clean museum physics laboratory, a 27-year-old Chinese female physicist in a grey blazer holding an ancient polished bronze mirror up to a direct sunlight beam, LTX motion: slow camera pan following the sunbeam hitting the mirror and reflecting onto a dark stone wall, cinematic film still, vertical composition",
+    "same museum laboratory, same 27-year-old Chinese female physicist in a grey blazer, now examining the glowing projected dragon light pattern appearing clearly on the wall, LTX motion: sharp zoom-in onto the bright projected light pattern showing fine edge detail, cinematic film still, vertical composition",
+    "same museum laboratory, same 27-year-old Chinese female physicist in a grey blazer, now using an optical laser scanner, LTX motion: red laser line sweeping smoothly across the brass mirror surface measuring microscopic curvature variations, cinematic film still, vertical composition",
+    "same museum laboratory, same 27-year-old Chinese female physicist in a grey blazer, now sitting calmly beside illuminated glass museum display cases, LTX motion: gentle camera push-in past glowing glass artifact cases, serene scientific backdrop, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "zh-en-062",
+   "channel": "chinese-to-english",
+   "pair": "zh-en",
+   "topic": "horticulture",
+   "seed": 41038,
+   "voice_src": "zh-CN-XiaoxiaoNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "zh-CN-YunxiNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "gentle bamboo flute with soft string plucks, tranquil botanical rhythm",
+   "words": [
+    {
+     "src": "盆景",
+     "tgt": "penjing bonsai",
+     "translit": "pénjǐng"
+    },
+    {
+     "src": "截根",
+     "tgt": "root pruning",
+     "translit": "jiégēn"
+    },
+    {
+     "src": "长寿",
+     "tgt": "longevity",
+     "translit": "chángshòu"
+    }
+   ],
+   "lines": [
+    {
+     "src": "古代园艺师是如何将几百岁的古树封印在掌心大小的瓷盆中的？",
+     "tgt": "How did ancient horticulturists seal centuries-old trees inside palm-sized porcelain pots?",
+     "translit": "gǔdài yuányìshī shì rúhé jiāng jǐ bǎi suì de gǔshù fēngyìn zài zhǎngxīn dàxiǎo de cíběn zhōng de?"
+    },
+    {
+     "src": "精妙的盆景截根技术实现了树木的自然微缩与优雅造型。",
+     "tgt": "Exquisite penjing root pruning technique achieves natural tree miniaturization and elegant shaping.",
+     "translit": "jīngmiào de pénjǐng jiégēn jìshù shíxiàn le shùmù de zìrán wēisuō yǔ yōuyǎ xàoxíng."
+    },
+    {
+     "src": "这些活着的艺术品代代相传，象征着自然的生命长寿。",
+     "tgt": "These living artworks pass down through generations, symbolizing natural longevity.",
+     "translit": "zhèxiē huó zhe de yìshùpǐn dài dài xiāngchuán, xiàngzhēng zhe zìrán de shēngmìng chángshòu."
+    }
+   ],
+   "scenes": [
+    "wide shot of a sunlit traditional Suzhou courtyard garden, a 31-year-old Chinese horticulturist in a dark green linen shirt trimming a 300-year-old miniature pine penjing tree in a ceramic pot, LTX motion: slow-motion tracking shot around the ceramic pot highlighting delicate pine needle clusters, cinematic film still, vertical composition",
+    "same courtyard garden, same 31-year-old Chinese horticulturist in a dark green linen shirt, now using brass shears, LTX motion: close-up macro action shot of shears snipping fine roots inside the soil with tiny soil particles shifting, cinematic film still, vertical composition",
+    "same courtyard garden, same 31-year-old Chinese horticulturist in a dark green linen shirt, now stepping back to admire the miniature tree, LTX motion: warm sunbeam flare moving across gnarled ancient bark textures as he smiles, cinematic film still, vertical composition",
+    "same courtyard garden, same 31-year-old Chinese horticulturist in a dark green linen shirt, now sitting beside the penjing tree on a stone table, LTX motion: peaceful static camera with soft evening shadows lengthening across garden paving stones, serene botanical scene, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-ar-063",
+   "channel": "english-to-arabic",
+   "pair": "en-ar",
+   "topic": "navigation",
+   "seed": 41039,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "ar-SA-ZariyahNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "ar-SA-HamedNeural",
+   "music": "intricate lute strums with gentle ocean percussion, celestial navigation tempo",
+   "words": [
+    {
+     "src": "kamal card",
+     "tgt": "لوح قياس",
+     "translit": "lōḥ qiyās"
+    },
+    {
+     "src": "latitude",
+     "tgt": "خط عرض",
+     "translit": "khaṭṭ ʿarḍ"
+    },
+    {
+     "src": "horizon",
+     "tgt": "أفق",
+     "translit": "ʾufuq"
+    }
+   ],
+   "lines": [
+    {
+     "src": "How did Arab navigators calculate sea coordinates using only a knotted string and a wooden card?",
+     "tgt": "كيف حسب الملاحون العرب الإحداثيات البحرية باستخدام خيط معقود وبطاقة خشبية فقط؟",
+     "translit": "kayfa ḥasaba l-millāḥūna l-ʿarabu l-ʾiḥdāthiyyāti l-baḥriyyata bi-stikhdāmi khayṭin maʿqūdin wa-biṭāqatin khashabiyyatin faqaṭ?"
+    },
+    {
+     "src": "Holding the kamal string between teeth aligned the card edge with the Polaris star and horizon.",
+     "tgt": "ربط خيط لوح القياس بين الأسنان طابق حافة البطاقة بين نجم الجدي والأفق.",
+     "translit": "rabṭu khayṭi lōḥi qiyāsi bayna l-ʾasnāni ṭābaqa ḥāffata l-biṭāqati bayna najmi l-jadyi wa-l-ʾufuq."
+    },
+    {
+     "src": "This simple tool accurately calculated latitude to cross open ocean waters safely.",
+     "tgt": "حدد هذا أداة البسيطة خط عرض بدقة للعبور عبر المحيط بآمان.",
+     "translit": "ḥaddada hādhā ʾadātu l-basīṭatu khaṭṭa ʿarḍin bi-diqqatin li-l-ʿubūri ʿabra l-muḥīṭi bi-ʾāmān."
+    }
+   ],
+   "scenes": [
+    "wide shot of a wooden ship deck at night under starry skies, a 33-year-old Arab navigator in a navy blue tunic holding a wooden rectangle with knotted string held between his teeth, LTX motion: dynamic ocean vessel roll as starry sky moves behind the mast, cinematic film still, vertical composition",
+    "same ship deck at night, same 33-year-old Arab navigator in a navy blue tunic, now aligning the wooden card, LTX motion: close-up camera tilt aligning the top card edge with a bright twinkling North Star and bottom edge with dark horizon waves, cinematic film still, vertical composition",
+    "same ship deck at night, same 33-year-old Arab navigator in a navy blue tunic, now checking string knots on a scroll, LTX motion: lantern flame flickering softly in breeze casting dynamic warm shadows across nautical charts, cinematic film still, vertical composition",
+    "same ship deck at dusk, same 33-year-old Arab navigator in a navy blue tunic, now standing at the bow, LTX motion: smooth forward camera push following ocean swells reflecting twilight sky colors, peaceful maritime setting, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-ar-064",
+   "channel": "english-to-arabic",
+   "pair": "en-ar",
+   "topic": "geology",
+   "seed": 41040,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "ar-SA-ZariyahNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "ar-SA-HamedNeural",
+   "music": "ambient acoustic plucked notes with deep drone, desert geology rhythm",
+   "words": [
+    {
+     "src": "crystal",
+     "tgt": "بلورة",
+     "translit": "ballūra"
+    },
+    {
+     "src": "evaporation",
+     "tgt": "تبخر",
+     "translit": "tabakhkhur"
+    },
+    {
+     "src": "petal",
+     "tgt": "بتلة",
+     "translit": "batala"
+    }
+   ],
+   "lines": [
+    {
+     "src": "How do giant stone desert roses bloom out of dry sand without a single drop of rain?",
+     "tgt": "كيف تنمو ورود الصحراء الحجرية من الرمال الجافة دون قطرة مطر واحدة؟",
+     "translit": "kayfa tanmū wurūdu ṣ-ṣaḥrāʾi l-ḥajariyyatu mina r-rimāli l-jāffati dūna qaṭrati maṭarin wāḥidah?"
+    },
+    {
+     "src": "Subterranean salt water evaporation crystallizes gypsum minerals into petrified petal shapes.",
+     "tgt": "شكل تبخر المياه المالحة الجوفية بلورة معادن الجبس في شكل بتلات حجرية.",
+     "translit": "shakkala tabakhkhuru l-miyāhi l-māliḥati l-jawfiyyati ballūrata maʿādini l-jibsi fī shakli batalātin ḥajariyyah."
+    },
+    {
+     "src": "These natural geological sand formations create eternal stone flower fields under desert heat.",
+     "tgt": "أنتج هذه التكوينات الجيولوجية حقول زهور حجرية دائمة تحت حرارة الصحراء.",
+     "translit": "ʾāntaja hādhihi t-takwīnātu l-jiyūlūjiyyatu ḥuqūla zuhūrin ḥajariyyatin dāʾimatan taḥta ḥarārati ṣ-ṣaḥrāʾ."
+    }
+   ],
+   "scenes": [
+    "wide shot of a vast dry salt flat desert, a 28-year-old Arab geologist in khaki field gear kneeling on dry cracked earth holding a sand desert rose crystal cluster, LTX motion: slow 360-degree orbit shot around the geologist with bright sunlight reflections on salt flats, cinematic film still, vertical composition",
+    "same dry salt flat desert, same 28-year-old Arab geologist in khaki field gear, now using a loupe lens, LTX motion: macro focus shift across sharp blade-like mineral petal structures embedded with fine sand grains, cinematic film still, vertical composition",
+    "same salt flat desert, same 28-year-old Arab geologist in khaki field gear, now holding up the stone rose, LTX motion: camera tilt following brilliant glints of sunlight sparkling off mineral crystal edges, cinematic film still, vertical composition",
+    "same salt flat desert, same 28-year-old Arab geologist in khaki field gear, now sitting on a rock at sunset, LTX motion: serene time-lapse shot of sky shifting into deep golden and purple twilight over crystal fields, serene natural backdrop, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-zh-065",
+   "channel": "english-to-chinese",
+   "pair": "en-zh",
+   "topic": "zoology",
+   "seed": 41041,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "zh-CN-XiaoxiaoNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "zh-CN-YunxiNeural",
+   "music": "gentle bamboo flute with soft synth pads, rare wildlife rhythm",
+   "words": [
+    {
+     "src": "dolphins",
+     "tgt": "海豚",
+     "translit": "hǎitún"
+    },
+    {
+     "src": "pigment",
+     "tgt": "色素",
+     "translit": "sèsù"
+    },
+    {
+     "src": "flush",
+     "tgt": "充血",
+     "translit": "chōngxuè"
+    }
+   ],
+   "lines": [
+    {
+     "src": "Why do rare Indo-Pacific humpback dolphins turn bright pink as they swim in warm river estuaries?",
+     "tgt": "为什么珍稀的中华白海豚在温暖的河口游泳时会变成鲜艳的粉红色？",
+     "translit": "wèishénme zhēnxī de Zhōnghuá bái hǎitún zài wēnnuǎn de hékǒu yóuyǒng shí huì biànchéng xiānyàn de fěnhóngsè?"
+    },
+    {
+     "src": "Adults lack skin pigment, so blood vessels flush to the surface to regulate body temperature.",
+     "tgt": "成海豚缺乏皮肤色素，因此皮下血管充血以调节体温。",
+     "translit": "chéng hǎitún quēfá pífū sèsù, yīncǐ píxià xuèguǎn chōngxuè yǐ tiáojié tǐwēn."
+    },
+    {
+     "src": "This natural blushing ocean mammal thrives in protected Pearl River delta waters.",
+     "tgt": "这种天然会脸红的海洋哺乳动物在受保护的珠江口水域繁衍。",
+     "translit": "zhè zhǒng zìrán huì liǎnhóng de hǎiyáng bǔrǔ dòngwù zài shòu bǎohù de Zhūjiāngkǒu shuǐyù fányǎn."
+    }
+   ],
+   "scenes": [
+    "wide shot of a sunlit tropical river estuary, a 29-year-old Chinese marine biologist in a yellow waterproof jacket on a boat deck looking into blue waters, LTX motion: dynamic ocean wave pitching with sunlight sparkles splashing over boat hull, cinematic film still, vertical composition",
+    "same research boat location, same 29-year-old Chinese marine biologist in a yellow waterproof jacket, now looking through binoculars, LTX motion: slow-motion capture of bright pink dolphins arching gracefully above water spray, cinematic film still, vertical composition",
+    "same research boat location, same 29-year-old Chinese marine biologist in a yellow waterproof jacket, now taking telephoto photos, LTX motion: extreme close-up tracking shot on pink dolphin dorsal fin showing flushing skin capillaries under water droplets, cinematic film still, vertical composition",
+    "same research boat location, same 29-year-old Chinese marine biologist in a yellow waterproof jacket, now leaning on boat railing, LTX motion: serene camera pan across gentle golden hour water ripples, quiet ocean conservation scene, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-zh-066",
+   "channel": "english-to-chinese",
+   "pair": "en-zh",
+   "topic": "sericulture",
+   "seed": 41042,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "zh-CN-XiaoxiaoNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "zh-CN-YunxiNeural",
+   "music": "warm guzheng plucks with steady acoustic piano, historic craft pace",
+   "words": [
+    {
+     "src": "filament",
+     "tgt": "丝纤",
+     "translit": "sīxiān"
+    },
+    {
+     "src": "unwind",
+     "tgt": "缫丝",
+     "translit": "sāosī"
+    },
+    {
+     "src": "protein",
+     "tgt": "蛋白",
+     "translit": "dànbái"
+    }
+   ],
+   "lines": [
+    {
+     "src": "How can a single silkworm cocoon yield a continuous shimmering thread nearly one kilometer long?",
+     "tgt": "单个微小的蚕茧是如何拉出一根长达一公里的连续闪亮丝纤的？",
+     "translit": "dān gè wēixiǎo de cánjiǎn shì rúhé lā chū yī gēn cháng dá yī gōnglǐ de liánxù shǎnliàng sīxiān de?"
+    },
+    {
+     "src": "Soaking cocoons in hot water softens natural sericin protein, allowing artisans to unwind the continuous filament.",
+     "tgt": "将蚕茧浸泡在热水中能软化天然丝胶蛋白，使工匠能够顺利缫丝。",
+     "translit": "jiāng cánjiǎn jìnpào zài rèshuǐ zhōng néng ruǎnhuà zìrán sījiāo dànbái, shǐ gōngjiàng nénggòu shùnlì sāosī."
+    },
+    {
+     "src": "This remarkable natural protein fiber revolutionized luxury textile history worldwide.",
+     "tgt": "这种卓越的天然蛋白质纤维彻底改变了全球奢华纺织史。",
+     "translit": "zhè zhǒng zhuóyuè de zìrán dànbaízì xiānwéi chèdǐ gǎibiàn le quánqiú shēhuá fǎngzhī shǐ."
+    }
+   ],
+   "scenes": [
+    "wide shot of a historic sericulture workshop, a 30-year-old Chinese female artisan in a dark green tunic beside steaming copper water basins with white cocoons, LTX motion: rising steam physics drifting smoothly through warm morning window sunbeams, cinematic film still, vertical composition",
+    "same sericulture workshop, same 30-year-old Chinese female artisan in a dark green tunic, now using bamboo sticks, LTX motion: macro focus shot picking up a single ultra-fine shimmering silk thread end from floating cocoons, cinematic film still, vertical composition",
+    "same sericulture workshop, same 30-year-old Chinese female artisan in a dark green tunic, now guiding the silk thread onto a wooden wheel reel, LTX motion: smooth rotational motion of the spinning wooden wheel pulling fine silk thread continuously, cinematic film still, vertical composition",
+    "same sericulture workshop, same 30-year-old Chinese female artisan in a dark green tunic, now standing beside wooden spools, LTX motion: slow tracking camera past golden raw silk spools glowing in quiet evening light, peaceful historic backdrop, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-es-067",
+   "channel": "english-to-spanish",
+   "pair": "en-es",
+   "topic": "speleology",
+   "seed": 41043,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "es-ES-ElviraNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "es-ES-AlvaroNeural",
+   "music": "deep cave drone pads with slow echo chime plucks, subterranean discovery rhythm",
+   "words": [
+    {
+     "src": "crystals",
+     "tgt": "cristales"
+    },
+    {
+     "src": "magma",
+     "tgt": "magma"
+    },
+    {
+     "src": "selenite",
+     "tgt": "selenita"
+    }
+   ],
+   "lines": [
+    {
+     "src": "How did an underground cave grow translucent gypsum crystals as long as school buses?",
+     "tgt": "¿Cómo hizo una cueva subterránea para hacer crecer cristales de yeso del tamaño de autobuses?"
+    },
+    {
+     "src": "Heat from a deep magma chamber kept mineral water trapped at fifty degrees for half a million years.",
+     "tgt": "El calor del magma profundo mantuvo el agua mineral atrapada a cincuenta grados durante medio millón de años."
+    },
+    {
+     "src": "This stable thermal environment allowed giant pure selenite pillars to crystallize uninterrupted.",
+     "tgt": "Este entorno térmico estable permitió que columnas gigantes de selenita pura cristalizaran sin interrupción."
+    }
+   ],
+   "scenes": [
+    "wide shot of Naica giant crystal cave chamber, a 32-year-old Spanish speleologist in an orange suit and helmet holding a lantern among giant white selenite crystals, LTX motion: slow low-angle crane tracking shot past massive translucent crystal pillars glowing in cave shadows, cinematic film still, vertical composition",
+    "same crystal cave chamber, same 32-year-old Spanish speleologist in an orange suit, now touching a gypsum crystal pillar, LTX motion: macro focus on hand touching sharp faceted translucent crystal surface showing internal light refraction, cinematic film still, vertical composition",
+    "same crystal cave chamber, same 32-year-old Spanish speleologist in an orange suit, now shining a flashlight through selenite, LTX motion: light beam travelling through clear crystal column scattering bright white laser-like rays across cave floor, cinematic film still, vertical composition",
+    "same crystal cave chamber, same 32-year-old Spanish speleologist in an orange suit, now standing surrounded by giant crystals, LTX motion: static wide shot with subtle lantern light flickering across giant selenite beams, peaceful surreal backdrop, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-es-068",
+   "channel": "english-to-spanish",
+   "pair": "en-es",
+   "topic": "geology",
+   "seed": 41044,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "es-ES-ElviraNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "es-ES-AlvaroNeural",
+   "music": "ambient acoustic guitar with soft percussion, desert geological pace",
+   "words": [
+    {
+     "src": "salt flat",
+     "tgt": "salar"
+    },
+    {
+     "src": "lithium",
+     "tgt": "litio"
+    },
+    {
+     "src": "crust",
+     "tgt": "corteza"
+    }
+   ],
+   "lines": [
+    {
+     "src": "How does a vast salt flat turn into the world's largest mirror every rainy season?",
+     "tgt": "¿Cómo se convierte un vasto salar en el espejo más grande del mundo cada temporada de lluvias?"
+    },
+    {
+     "src": "A thin layer of rainwater rests atop a dense white lithium salt crust across thousands of miles.",
+     "tgt": "Una delgada capa de agua descansa sobre la densa corteza de sal blanca y litio."
+    },
+    {
+     "src": "This flawless water layer reflects the sky perfectly creating a breathtaking illusion of floating.",
+     "tgt": "Esta capa de agua perfecta refleja el cielo creando la ilusión de estar flotando."
+    }
+   ],
+   "scenes": [
+    "wide shot of Uyuni salt flat covered in thin rainwater, a 28-year-old Spanish geologist in a dark blue coat walking across wet white salt reflecting clouds, LTX motion: sweeping low camera glide showing steps creating gentle water ripples across the sky reflection, cinematic film still, vertical composition",
+    "same wet salt flat, same 28-year-old Spanish geologist in a dark blue coat, now kneeling to inspect salt tiles, LTX motion: extreme close-up focus on clear water over white hexagonal salt crust patterns, cinematic film still, vertical composition",
+    "same wet salt flat, same 28-year-old Spanish geologist in a dark blue coat, now standing arms open wide, LTX motion: wide drone-style rotation showing clouds perfectly mirrored above and below her with no horizon, cinematic film still, vertical composition",
+    "same wet salt flat, same 28-year-old Spanish geologist in a dark blue coat, now sitting on a stool at sunset, LTX motion: sunset time-lapse showing vibrant pink and purple sky colors mirroring smoothly on the water surface, serene landscape backdrop, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "es-en-069",
+   "channel": "spanish-to-english",
+   "pair": "es-en",
+   "topic": "mycology",
+   "seed": 41045,
+   "voice_src": "es-ES-ElviraNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "es-ES-AlvaroNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "mysterious acoustic guitar plucks with ambient cello, forest foraging pace",
+   "words": [
+    {
+     "src": "trufa",
+     "tgt": "truffle"
+    },
+    {
+     "src": "espora",
+     "tgt": "spore"
+    },
+    {
+     "src": "aroma",
+     "tgt": "aroma"
+    }
+   ],
+   "lines": [
+    {
+     "src": "¿Cómo logra un hongo subterráneo producir un aroma tan intenso para ser encontrado bajo tierra?",
+     "tgt": "How does a subterranean fungus produce an aroma so intense to be found underground?"
+    },
+    {
+     "src": "La trufa negra libera compuestos aromáticos potentes para atraer animales y dispersar sus esporas.",
+     "tgt": "The black truffle releases potent aromatic compounds to attract animals and spread its spores."
+    },
+    {
+     "src": "Esta joya gastronómica crece en simbiosis con las raíces de los robles mediterráneos.",
+     "tgt": "This culinary gem grows in symbiosis with the roots of Mediterranean oak trees."
+    }
+   ],
+   "scenes": [
+    "wide shot of a sunlit Mediterranean oak forest floor, a 30-year-old Spanish truffle hunter in a brown jacket kneeling beside a Lagotto Romagnolo dog digging gently, LTX motion: tracking shot through sunbeams following dog unearthing soil under oak roots, cinematic film still, vertical composition",
+    "same oak forest floor, same 30-year-old Spanish truffle hunter in a brown jacket, now using a hand trowel, LTX motion: macro action shot carefully lifting dark knobby black truffle from damp dark soil, cinematic film still, vertical composition",
+    "same oak forest floor, same 30-year-old Spanish truffle hunter in a brown jacket, now bringing the truffle to his nose, LTX motion: slow-motion focus on hunter smiling in delight while dog nuzzles his hand in warm sunlight, cinematic film still, vertical composition",
+    "same oak forest floor, same 30-year-old Spanish truffle hunter in a brown jacket, now standing in the oak grove holding a basket, LTX motion: gentle pan across sunlit oak trees with falling autumn leaves drifting through light rays, serene forest environment, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "es-en-070",
+   "channel": "spanish-to-english",
+   "pair": "es-en",
+   "topic": "gastronomy",
+   "seed": 41046,
+   "voice_src": "es-ES-ElviraNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "es-ES-AlvaroNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "cheerful acoustic guitar finger-picking with soft percussion, warm culinary rhythm",
+   "words": [
+    {
+     "src": "curación",
+     "tgt": "curing"
+    },
+    {
+     "src": "veteado",
+     "tgt": "marbling"
+    },
+    {
+     "src": "loncha",
+     "tgt": "slice"
+    }
+   ],
+   "lines": [
+    {
+     "src": "¿Por qué el jamón ibérico de bellota requiere hasta cuatro años de curación en bodegas de montaña?",
+     "tgt": "Why does acorn-fed Iberian ham require up to four years of curing in mountain cellars?"
+    },
+    {
+     "src": "El aire fresco de la sierra seca la carne permitiendo que la grasa de bellota penetre el músculo.",
+     "tgt": "Fresh mountain air dries the meat allowing acorn fat to penetrate the muscle marbling."
+    },
+    {
+     "src": "Cada fina loncha cortada a mano ofrece una textura suave y un sabor gastronómico legendario.",
+     "tgt": "Every thin hand-cut slice offers a smooth texture and legendary culinary flavor."
+    }
+   ],
+   "scenes": [
+    "wide shot of an authentic dim mountain curing cellar, a 32-year-old Spanish master ham cutter in a white shirt and dark apron inspecting cured hams hanging from ceiling beams, LTX motion: slow camera glide down rows of curing hams with soft warm cellar spotlighting, cinematic film still, vertical composition",
+    "same mountain curing cellar, same 32-year-old Spanish master ham cutter in a white shirt, now using a carving knife, LTX motion: high-speed close-up of flexible blade slicing translucent paper-thin ham showing shiny white fat marbling, cinematic film still, vertical composition",
+    "same mountain curing cellar, same 32-year-old Spanish master ham cutter in a white shirt, now presenting a fan of thin ham slices on a plate, LTX motion: slow rack focus from glistening ham slices to cutter's proud smiling face, cinematic film still, vertical composition",
+    "same mountain cellar location, same 32-year-old Spanish master ham cutter in a white shirt, now standing in the cellar doorway, LTX motion: static wide shot looking over sunlit mountain oak hills as warm breeze passes through door frame, quiet culinary backdrop, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "ar-en-071",
+   "channel": "arabic-to-english",
+   "pair": "ar-en",
+   "topic": "metallurgy",
+   "seed": 41047,
+   "voice_src": "ar-SA-ZariyahNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "ar-SA-HamedNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "rhythmic anvil strikes with low cello pulse, intense forge atmosphere",
+   "words": [
+    {
+     "src": "سيف",
+     "tgt": "sword",
+     "translit": "sayf"
+    },
+    {
+     "src": "فولاذ",
+     "tgt": "steel",
+     "translit": "fūlādh"
+    },
+    {
+     "src": "مرونة",
+     "tgt": "flexibility",
+     "translit": "marūna"
+    }
+   ],
+   "lines": [
+    {
+     "src": "كيف استطاع الفولاذ الدمشقي الانحناء دون أن ينكسر في المعارك؟",
+     "tgt": "How was Damascus steel able to bend without breaking in battles?",
+     "translit": "kayfa staṭāʿa l-fūlādhu d-dimashqiyyu l-inḥināʾa dūna ʾan yankasira fī l-maʿārik?"
+    },
+    {
+     "src": "دمج الحدادون القدامى أنابيب الكربون الدقيقة داخل السيف أثناء الطرق.",
+     "tgt": "Ancient blacksmiths merged carbon nanotubes inside the sword during hammering.",
+     "translit": "damaja l-ḥaddādūna l-qudāmā ʾanābība l-karbūni d-daqīqata dākhila s-sayfi ʾathnāʾa ṭ-ṭarq."
+    },
+    {
+     "src": "منحت هذه التقنية السرية المعدن مرونة فائقة وحدة أسطورية.",
+     "tgt": "This secret technique granted the metal superior flexibility and legendary sharpness.",
+     "translit": "manaḥat hādhihi t-taqniyyatu s-sirriyyatu l-maʿdana marūnatan fāʾiqatan wa-ḥiddatan ʾusṭūriyya."
+    }
+   ],
+   "scenes": [
+    "wide shot of a dark stone forge in Damascus, a 38-year-old Arab blacksmith in a heavy leather apron holding a glowing orange steel sword blade over an anvil, LTX motion: rapid hammer strikes causing orange sparks to fly with realistic particle physics, fiery forge glow, cinematic film still, vertical composition",
+    "same dark stone forge, same 38-year-old Arab blacksmith in a heavy leather apron, now hammering the glowing steel blade on the anvil, LTX motion: high-speed close-up of iron hammer impacting red-hot metal with realistic heat distortion and flying embers, intense focused face, cinematic film still, vertical composition",
+    "same dark stone forge, same 38-year-old Arab blacksmith in a heavy leather apron, now testing the cooled sword, LTX motion: slow-motion fluid bending of the curved blade without snapping, highlighting realistic metal elasticity and watery steel pattern reflections, cinematic film still, vertical composition",
+    "same dark stone forge, same 38-year-old Arab blacksmith in a heavy leather apron, now standing proudly beside the silent completed Damascus sword resting on a dark velvet stand, LTX motion: subtle camera pan across the wavy metal pattern under soft morning window light, peaceful historic backdrop, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "ar-en-072",
+   "channel": "arabic-to-english",
+   "pair": "ar-en",
+   "topic": "zoology",
+   "seed": 41048,
+   "voice_src": "ar-SA-ZariyahNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "ar-SA-HamedNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "gentle acoustic oud plucks with soft wind textures, desert wild rhythm",
+   "words": [
+    {
+     "src": "مها",
+     "tgt": "oryx",
+     "translit": "mahā"
+    },
+    {
+     "src": "شرايين",
+     "tgt": "arteries",
+     "translit": "sharāyīn"
+    },
+    {
+     "src": "حرارة",
+     "tgt": "heat",
+     "translit": "ḥarāra"
+    }
+   ],
+   "lines": [
+    {
+     "src": "كيف تمنع المها العربية ارتفاع حرارة دماغها في صحراء تتجاوز الخمسين مئوية؟",
+     "tgt": "How does the Arabian Oryx prevent its brain from overheating in fifty-degree heat?",
+     "translit": "kayfa tamnaʿu l-mahā l-ʿarabiyyatu rtifāʿa ḥarārati dimāghihā fī ṣaḥrāʾa tatajāwazu l-khamsīna miʾawiyyah?"
+    },
+    {
+     "src": "تمتلك شبكة شرايين فريدة تبرد الدم المتجه للرأس عبر الأنف.",
+     "tgt": "It possesses a unique network of arteries that cools blood flowing to the head through the nose.",
+     "translit": "tamliku shabakata sharāyīna farīdatan tubarridu d-dama l-muttajaha li-r-raʾsi ʿabra l-ʾanf."
+    },
+    {
+     "src": "تسمح هذه التكييفات البيولوجية للحيوان بالبقاء تحت أشد حرارة القاحلة.",
+     "tgt": "These biological adaptations allow the animal to survive under extreme arid heat.",
+     "translit": "tasmaḥu hādhihi t-takayyufātu l-biyūlūjiyyatu li-l-ḥayawāni bi-l-baqāʾi taḥta ʾashaddi ḥarārati l-qāḥila."
+    }
+   ],
+   "scenes": [
+    "wide shot of blazing sand dunes in a nature reserve, a 30-year-old Arab zoologist in khaki safari gear standing on a dune crest watching a herd of white Arabian Oryx walking, LTX motion: realistic fluid movement of heat haze shimmering over wind-blown sand dunes, cinematic film still, vertical composition",
+    "same desert reserve, same 30-year-old Arab zoologist in khaki safari gear, now looking through high-powered binoculars at a white Oryx resting under an acacia tree, LTX motion: slow-motion zoom onto the Oryx's flaring nostrils with realistic breathing chest movements, cinematic film still, vertical composition",
+    "same desert reserve, same 30-year-old Arab zoologist in khaki safari gear, now reviewing a thermal diagram on a tablet screen, LTX motion: dynamic camera tilt showing cool blue thermal blood flow moving through carotid arteries to the brain, cinematic film still, vertical composition",
+    "same desert reserve, same 30-year-old Arab zoologist in khaki safari gear, now standing calmly watching the Oryx herd silhouette against a deep orange sunset, LTX motion: gentle slow pan across sand dunes with wind blowing loose sand across the ridge, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "zh-en-073",
+   "channel": "chinese-to-english",
+   "pair": "zh-en",
+   "topic": "textiles",
+   "seed": 41049,
+   "voice_src": "zh-CN-XiaoxiaoNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "zh-CN-YunxiNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "delicate guzheng plucks with airy flute, refined artisan rhythm",
+   "words": [
+    {
+     "src": "缂丝",
+     "tgt": "Kesi silk weaving",
+     "translit": "kèsī"
+    },
+    {
+     "src": "梭子",
+     "tgt": "shuttle",
+     "translit": "suōzi"
+    },
+    {
+     "src": "双面",
+     "tgt": "double-sided",
+     "translit": "shuāngmiàn"
+    }
+   ],
+   "lines": [
+    {
+     "src": "为什么古代宫廷里的寸级缂丝织物能换取同等重量的纯金？",
+     "tgt": "Why could an inch of ancient palace Kesi silk fabric be exchanged for pure gold?",
+     "translit": "wèishénme gǔdài gōngtíng lǐ de cùn jí kèsī zhīwù néng huànqǔ tóngděng zhòngliàng de chúnjīn?"
+    },
+    {
+     "src": "工匠使用极小的梭子在断开的纬线间逐彩雕琢。",
+     "tgt": "Artisans use tiny shuttles to carve colors individually between broken weft threads.",
+     "translit": "gōngjiàng shǐyòng jí xiǎo de suōzi zài duànkāi de wěixiàn jiān zhú cǎi diāozhuó."
+    },
+    {
+     "src": "这项绝技织造出的图案呈现出正反一致的双面奇观。",
+     "tgt": "The patterns woven by this skill present a double-sided spectacle identical on front and back.",
+     "translit": "zhè xiàng juéjì zhīzào chū de tú'àn chéngxiàn chū zhèngfǎn yīzhì de shuāngmiàn qíguān."
+    }
+   ],
+   "scenes": [
+    "wide shot of a sunlit Suzhou silk workshop, a 28-year-old Chinese female weaver in a dark red silk tunic sitting at a large wooden manual loom, LTX motion: slow tracking shot showing mechanical movement of loom harnesses and silk threads under warm sunlight, cinematic film still, vertical composition",
+    "same silk workshop, same 28-year-old Chinese female weaver in a dark red silk tunic, now guiding a tiny wooden shuttle through warp threads, LTX motion: high-speed macro shot of hands darting across threads with realistic silk tension physics, cinematic film still, vertical composition",
+    "same silk workshop, same 28-year-old Chinese female weaver in a dark red silk tunic, now holding up a completed Kesi silk tapestry, LTX motion: smooth 180-degree rotation of the tapestry revealing identical peacock patterns on both front and back sides, cinematic film still, vertical composition",
+    "same silk workshop, same 28-year-old Chinese female weaver in a dark red silk tunic, now sitting peacefully beside hanging rolls of vibrant silk fabric, LTX motion: gentle breeze swaying hanging silk ribbons in warm golden hour light, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "zh-en-074",
+   "channel": "chinese-to-english",
+   "pair": "zh-en",
+   "topic": "astronomy",
+   "seed": 41050,
+   "voice_src": "zh-CN-XiaoxiaoNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "zh-CN-YunxiNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "spacious electronic pads with slow pulse chimes, deep space exploration pace",
+   "words": [
+    {
+     "src": "天眼",
+     "tgt": "FAST telescope",
+     "translit": "tiānyǎn"
+    },
+    {
+     "src": "洼地",
+     "tgt": "sinkhole basin",
+     "translit": "wādì"
+    },
+    {
+     "src": "脉冲星",
+     "tgt": "pulsar",
+     "translit": "màichōngxīng"
+    }
+   ],
+   "lines": [
+    {
+     "src": "人类如何利用深藏在贵州山谷中的五百米天眼听见百亿光年外的心跳？",
+     "tgt": "How do humans use the 500-meter Sky Eye in Guizhou valleys to hear heartbeats 10 billion light-years away?",
+     "translit": "rénlèi rúhé lìyòng shēn cáng zài Guìzhōu shāngǔ zhōng de wǔbǎi mǐ tiānyǎn tīngjiàn bǎi yì guāngnián wài de xīntiào?"
+    },
+    {
+     "src": "自然形成的喀斯特洼地遮蔽了绝大多数地表电波干扰。",
+     "tgt": "The naturally formed karst sinkhole basin shields out most surface radio interference.",
+     "translit": "zìrán xíngchéng de kāsītè wādì zhēbì le jué dàduōshù dìbiǎo diànbō gānrǎo."
+    },
+    {
+     "src": "它精准捕捉到了数十颗隐蔽脉冲星发出的极其微弱信号。",
+     "tgt": "It precisely captures extremely faint signals emitted by dozens of hidden pulsars.",
+     "translit": "tā jīngzhǔn bǔzhuō dào le shù shí kē yǐnbì màichōngxīng fāchū de jíqí wēiruò xìnhào."
+    }
+   ],
+   "scenes": [
+    "wide shot of a massive metallic radio telescope dish nested in green hills, a 31-year-old Chinese astrophysicist in a dark blue jacket standing on an observation deck, LTX motion: majestic upward drone camera sweep revealing the full scale of the 500-meter dish under dusk light, cinematic film still, vertical composition",
+    "same observatory deck, same 31-year-old Chinese astrophysicist in a dark blue jacket, now looking at a laptop screen, LTX motion: dynamic pulse wave signal animating across the monitor in sync with glowing blue screen reflections on his face, cinematic film still, vertical composition",
+    "same observatory deck, same 31-year-old Chinese astrophysicist in a dark blue jacket, now raising his pen as audio visualizers register a pulsar frequency, LTX motion: slow-motion dolly zoom focusing on his proud expression with animated data readouts, cinematic film still, vertical composition",
+    "same observatory deck, same 31-year-old Chinese astrophysicist in a dark blue jacket, now standing calmly watching the telescope dish, LTX motion: time-lapse motion of clouds moving above the illuminated telescope under a starry night sky, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-ar-075",
+   "channel": "english-to-arabic",
+   "pair": "en-ar",
+   "topic": "archaeology",
+   "seed": 41051,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "ar-SA-ZariyahNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "ar-SA-HamedNeural",
+   "music": "mysteriously low lute strums with ambient pads, ancient discovery rhythm",
+   "words": [
+    {
+     "src": "facade",
+     "tgt": "واجهة",
+     "translit": "wājiha"
+    },
+    {
+     "src": "cistern",
+     "tgt": "صهريج",
+     "translit": "ṣahrīj"
+    },
+    {
+     "src": "carving",
+     "tgt": "نحت",
+     "translit": "naḥt"
+    }
+   ],
+   "lines": [
+    {
+     "src": "How did Nabataean stonemasons carve an entire rose city downward into desert cliffs?",
+     "tgt": "كيف نحت النحاتون النباطيون مدينة وردية كاملة إلى الأسفل داخل الجرف؟",
+     "translit": "kayfa naḥata n-naḥḥātūna n-nabaṭiyyūna madīnatan wardiyyatan kāmilatan ʾilā l-ʾasfali dākhila l-jurf?"
+    },
+    {
+     "src": "They started at the top cliff edge, executing detailed carving step-by-step downward.",
+     "tgt": "بدأوا من أعلى حافة الجرف، منفذين كل نحت بدقة إلى الأسفل.",
+     "translit": "badaʾū min ʾaʿlā ḥāffati l-jurfi, munaffidhīna kulla naḥtin bi-diqqatin ʾilā l-ʾasfal."
+    },
+    {
+     "src": "An underground cistern system collected scarce rain flash floods inside dry stone.",
+     "tgt": "جمعت شبكة صهاريج خفية مياه السيول النادرة داخل الصخر الجاف.",
+     "translit": "jamaʿat shabakatu ṣahārīja khafiyyatin miyāha s-suyūli n-nādirata dākhila ṣ-ṣakhri l-jāff."
+    }
+   ],
+   "scenes": [
+    "wide shot of a rose-red sandstone canyon leading to the Treasury in Petra, a 29-year-old Arab archaeologist in a brown leather jacket walking through the Siq, LTX motion: slow forward push-in tracking shot through the narrow canyon walls revealing morning sunlight, cinematic film still, vertical composition",
+    "same ancient site, same 29-year-old Arab archaeologist in a brown leather jacket, now examining fine chisel marks near a carved column base, LTX motion: macro camera glide along the carved sandstone surface revealing natural rock grain textures, cinematic film still, vertical composition",
+    "same ancient site, same 29-year-old Arab archaeologist in a brown leather jacket, now inside a subterranean stone cistern, LTX motion: flashlight beam panning across carved rock water channels with realistic dust particle motion in light rays, cinematic film still, vertical composition",
+    "same ancient site, same 29-year-old Arab archaeologist in a brown leather jacket, now standing in the canyon, LTX motion: gradual sunset lighting shift turning red sandstone cliffs into deep crimson hues, peaceful historic setting, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-ar-076",
+   "channel": "english-to-arabic",
+   "pair": "en-ar",
+   "topic": "oceanography",
+   "seed": 41052,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "ar-SA-ZariyahNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "ar-SA-HamedNeural",
+   "music": "deep aquatic pads with soft acoustic plucks, ocean mystery tempo",
+   "words": [
+    {
+     "src": "coral",
+     "tgt": "مرجان",
+     "translit": "marjān"
+    },
+    {
+     "src": "salinity",
+     "tgt": "ملوحة",
+     "translit": "mulūḥa"
+    },
+    {
+     "src": "tolerance",
+     "tgt": "تحمل",
+     "translit": "taḥammul"
+    }
+   ],
+   "lines": [
+    {
+     "src": "Why are Red Sea coral reefs thriving in temperatures that bleach other oceans?",
+     "tgt": "لماذا تزدهر الشعب المرجانية في البحر الأحمر في درجات تبيّض المحيطات؟",
+     "translit": "limādhā tazdahiru sh-shuʿabu l-marjāniyyatu fī l-baḥri l-ʾaḥmari fī darajātin tubayyiḍu l-muḥīṭāt?"
+    },
+    {
+     "src": "These resilient corals developed high biological tolerance to extreme heat and high salinity.",
+     "tgt": "طورت هذه الكائنات قدرة تحمل عالية للحرارة والملوحة العالية.",
+     "translit": "ṭawwarat hādhihi l-kāʾinātu qudrata taḥammulin ʿāliyatan li-l-ḥarārati wa-l-mulūḥati l-ʿāliyah."
+    },
+    {
+     "src": "Scientists study this reef genetic code to save endangered global marine life.",
+     "tgt": "يدرس العلماء هذا الجين المرجاني المتميز لإعادة إنقاذ البيئة البحرية.",
+     "translit": "yadrusu l-ʿulamāʾu hādhā l-jīna l-marjāniyya l-mutamayyiza li-ʾiʿādati ʾinqādhi l-bīʾati l-baḥriyyah."
+    }
+   ],
+   "scenes": [
+    "wide shot of clear turquoise ocean water over a coral reef, a 33-year-old Arab marine biologist in a black wetsuit sitting on a boat edge, LTX motion: realistic water ripple fluid dynamics with sunlight refraction caustic patterns on the hull, cinematic film still, vertical composition",
+    "same ocean location underwater, same 33-year-old Arab marine biologist in a black wetsuit, now diving along bright red coral colonies, LTX motion: smooth underwater tracking camera moving alongside tropical fish swimming through swaying coral arms, cinematic film still, vertical composition",
+    "same ocean location underwater, same 33-year-old Arab marine biologist in a black wetsuit, now placing a digital sensor near brain coral, LTX motion: close-up on diver's face with realistic air bubble physics rising from regulator, cinematic film still, vertical composition",
+    "same ocean location, same 33-year-old Arab marine biologist in a black wetsuit, now resting on the boat deck, LTX motion: slow sunset camera tilt showing gentle ocean waves reflecting golden sky light, peaceful marine setting, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-zh-077",
+   "channel": "english-to-chinese",
+   "pair": "en-zh",
+   "topic": "agronomy",
+   "seed": 41053,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "zh-CN-XiaoxiaoNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "zh-CN-YunxiNeural",
+   "music": "warm flute with light acoustic plucks, golden agriculture rhythm",
+   "words": [
+    {
+     "src": "terrace",
+     "tgt": "梯田",
+     "translit": "tītián"
+    },
+    {
+     "src": "contour",
+     "tgt": "轮廓",
+     "translit": "lúnkuò"
+    },
+    {
+     "src": "gravity",
+     "tgt": "重力",
+     "translit": "zhònglì"
+    }
+   ],
+   "lines": [
+    {
+     "src": "How did mountain villagers sculpt steep slopes into gravity-fed water mirrors?",
+     "tgt": "山地村民是如何将陡峭山坡雕琢成依靠重力自流的水镜梯田的？",
+     "translit": "shāndì cūnmín shì rúhé jiāng dǒuqiào shānpō diāozhuó chéng yīkào zhònglì zìliú de shuǐjìng tītián de?"
+    },
+    {
+     "src": "Hani farmers carved thousands of terrace steps matching natural mountain contours.",
+     "tgt": "哈尼族农夫沿着天然山体轮廓开垦出数千级梯田台阶。",
+     "translit": "Hānízú nóngfū yánzhe tiānrán shāntǐ lúnkuò kāikěn chū shù qiān jí tītián táijiē."
+    },
+    {
+     "src": "Their ancient irrigation channels route forest water continuously without modern pumps.",
+     "tgt": "他们古老的灌溉水渠无需现代水泵即可将高山森林水流持续引入。",
+     "translit": "tāmen gǔlǎo de guàngài shuǐqú wúxū xiàndài shuǐbèng jíkě jiāng gāoshān sēnlín shuǐliú chíxù yǐnrù."
+    }
+   ],
+   "scenes": [
+    "wide shot of cascading flooded rice terraces reflecting golden skies like giant mirrors, a 27-year-old Chinese agronomist in a dark green vest standing on a dirt path, LTX motion: slow sweeping crane shot revealing endless terraced water mirrors reflecting drifting clouds, cinematic film still, vertical composition",
+    "same terraced mountain site, same 27-year-old Chinese agronomist in a dark green vest, now kneeling to inspect water flowing through a carved wooden channel, LTX motion: macro fluid dynamics shot of clear water trickling across mossy wood into the paddy, cinematic film still, vertical composition",
+    "same terraced mountain site, same 27-year-old Chinese agronomist in a dark green vest, now smiling alongside local farmers, LTX motion: gentle breeze causing green rice shoots and farmers' clothing to sway in golden sunlight, cinematic film still, vertical composition",
+    "same terraced mountain site, same 27-year-old Chinese agronomist in a dark green vest, now sitting on a stone ridge, LTX motion: gradual sunset time-lapse showing sky colors transforming on flooded terrace water surfaces, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-zh-078",
+   "channel": "english-to-chinese",
+   "pair": "en-zh",
+   "topic": "metallurgy",
+   "seed": 41054,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "zh-CN-XiaoxiaoNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "zh-CN-YunxiNeural",
+   "music": "deep bell resonance with slow cello pulse, ancient metalwork tempo",
+   "words": [
+    {
+     "src": "bronze",
+     "tgt": "青铜",
+     "translit": "qīngtóng"
+    },
+    {
+     "src": "alloy",
+     "tgt": "合金",
+     "translit": "héjīn"
+    },
+    {
+     "src": "scabbard",
+     "tgt": "剑鞘",
+     "translit": "jiànqiào"
+    }
+   ],
+   "lines": [
+    {
+     "src": "Why did a buried 2,500-year-old royal sword emerge from a damp tomb sharp and unrusted?",
+     "tgt": "为什么一把埋在潮湿墓穴中两千五百年的王室宝剑出土时依旧锋利如初、毫无锈迹？",
+     "translit": "wèishénme yī bǎ mái zài cháoshī mùxué zhōng liǎng qiān wǔ bǎi nián de wángshì bǎojiàn chūtǔ shí yījiù fēnglì rú chū, háo wú xiùjì?"
+    },
+    {
+     "src": "Swordsmiths forged the blade using a precise copper-tin bronze alloy ratio.",
+     "tgt": "铸剑师使用极为精确的铜锡青铜合金比例铸造了剑身。",
+     "translit": "zhùjiànshī shǐyòng jíwéi jīngquè de tóng xī qīngtóng héjīn bǐlì zhùzào le jiànshēn."
+    },
+    {
+     "src": "An airtight wooden scabbard sealed out oxygen, preserving its sharp edge for millennia.",
+     "tgt": "密封的木质剑鞘隔绝了氧气，使其锋利刃口历经千年保存完好。",
+     "translit": "mìfēng de mùzhì jiànqiào géjué le yǎngqì, shǐ qí fēnglì rènkǒu lìjīng qiānnián bǎocún wánhǎo."
+    }
+   ],
+   "scenes": [
+    "wide shot of a museum conservation lab, a 30-year-old Chinese metallurgist in a white lab coat standing beside a velvet display case holding an unrusted bronze sword, LTX motion: slow 360-degree rotation around the display case highlighting metallic reflections on the blade, cinematic film still, vertical composition",
+    "same museum lab, same 30-year-old Chinese metallurgist in a white lab coat, now using a digital magnifier, LTX motion: macro camera glide along the razor-sharp edge revealing intricate diamond geometric patterns, cinematic film still, vertical composition",
+    "same museum lab, same 30-year-old Chinese metallurgist in a white lab coat, now examining an airtight wooden scabbard, LTX motion: slow slide movement opening the scabbard with light glinting off the polished bronze surface, cinematic film still, vertical composition",
+    "same museum lab, same 30-year-old Chinese metallurgist in a white lab coat, now sitting at his workstation, LTX motion: gentle pan across illuminated glass display cases showcasing ancient bronze relics, peaceful academic setting, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-es-079",
+   "channel": "english-to-spanish",
+   "pair": "en-es",
+   "topic": "archaeology",
+   "seed": 41055,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "es-ES-ElviraNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "es-ES-AlvaroNeural",
+   "music": "Andean pan flute with slow acoustic guitar, ancient altitude rhythm",
+   "words": [
+    {
+     "src": "terrace",
+     "tgt": "andén"
+    },
+    {
+     "src": "depth",
+     "tgt": "profundidad"
+    },
+    {
+     "src": "microclimate",
+     "tgt": "microclima"
+    }
+   ],
+   "lines": [
+    {
+     "src": "How did Incas build sunken circular stone rings to test crops at high altitude?",
+     "tgt": "¿Cómo construyeron los incas anillos de piedra hundidos para probar cultivos en la altitud?"
+    },
+    {
+     "src": "Each terrace layer going down into the sinkhole creates a fifteen degree temperature drop.",
+     "tgt": "Cada capa de andén hacia la profundidad del agujero genera un cambio térmico de quince grados."
+    },
+    {
+     "src": "This design produced microclimates to domesticate wild plants for harsh mountain air.",
+     "tgt": "Este diseño produjo microclimas para domesticar plantas silvestres en el aire de montaña."
+    }
+   ],
+   "scenes": [
+    "wide shot of circular terraced stone rings in Moray Peru, a 31-year-old Spanish archaeologist in a brown jacket standing on the top rim looking down into the stone terraces, LTX motion: dramatic downward tilt shot descending into the concentric circular stone rings as morning clouds drift overhead, cinematic film still, vertical composition",
+    "same circular stone site, same 31-year-old Spanish archaeologist in a brown jacket, now using a thermal sensor on the lowest level, LTX motion: close-up tracking shot showing heat map display reacting to soil temperature changes in deep shade, cinematic film still, vertical composition",
+    "same circular stone site, same 31-year-old Spanish archaeologist in a brown jacket, now examining green maize leaves on mid-level terrace walls, LTX motion: shallow depth-of-field rack focus from green maize leaves to archaeologist's smiling face, cinematic film still, vertical composition",
+    "same circular stone site, same 31-year-old Spanish archaeologist in a brown jacket, now sitting on a stone ledge, LTX motion: sweeping wide sunset pan showing golden hour sunlight illuminating concentric terraced rings, tranquil historic landscape, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-es-080",
+   "channel": "english-to-spanish",
+   "pair": "en-es",
+   "topic": "zoology",
+   "seed": 41056,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "es-ES-ElviraNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "es-ES-AlvaroNeural",
+   "music": "ambient acoustic plucks with rainforest textures, wild nature tempo",
+   "words": [
+    {
+     "src": "canopy",
+     "tgt": "dossel"
+    },
+    {
+     "src": "fur",
+     "tgt": "pelaje"
+    },
+    {
+     "src": "camouflage",
+     "tgt": "camuflaje"
+    }
+   ],
+   "lines": [
+    {
+     "src": "Why does a thriving green plant ecosystem grow directly inside wild sloth fur?",
+     "tgt": "¿Por qué crece un ecosistema verde directamente dentro del pelaje del perezoso?"
+    },
+    {
+     "src": "Microscopic algae living inside coarse sloth hair provides green camouflage among canopy leaves.",
+     "tgt": "Algas microscópicas en el pelaje del perezoso le otorgan un camuflaje verde entre las hojas."
+    },
+    {
+     "src": "This unique partnership shields the slow animal from predators in high rainforest branches.",
+     "tgt": "Esta alianza única protege al animal de depredadores en las ramas altas del dossel."
+    }
+   ],
+   "scenes": [
+    "wide shot of dense green rainforest canopy, a 29-year-old Spanish biologist in khaki field clothes using binoculars to look up at a sloth clinging to a mossy branch, LTX motion: slow vertical jib camera rising up through broad rainforest leaves into dappled canopy light, cinematic film still, vertical composition",
+    "same rainforest canopy location, same 29-year-old Spanish biologist in khaki field clothes, now on a wooden walkway examining green algae in sloth fur, LTX motion: extreme close-up macro glide revealing micro algae filaments living inside individual fur strands, cinematic film still, vertical composition",
+    "same rainforest canopy location, same 29-year-old Spanish biologist in khaki field clothes, now taking a photo as the sloth blends into tree leaves, LTX motion: slow-motion capture of sloth turning head smoothly while blending into green leaf shadows, cinematic film still, vertical composition",
+    "same rainforest canopy location, same 29-year-old Spanish biologist in khaki field clothes, now standing on the walkway, LTX motion: peaceful wide pan across rainforest canopy as atmospheric evening mist drifts between tree tops, serene natural setting, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "es-en-081",
+   "channel": "spanish-to-english",
+   "pair": "es-en",
+   "topic": "astronomy",
+   "seed": 41057,
+   "voice_src": "es-ES-ElviraNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "es-ES-AlvaroNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "deep ambient cello with star chimes, celestial observation pace",
+   "words": [
+    {
+     "src": "pirámide",
+     "tgt": "pyramid"
+    },
+    {
+     "src": "equinoccio",
+     "tgt": "equinox"
+    },
+    {
+     "src": "serpiente",
+     "tgt": "serpent"
+    }
+   ],
+   "lines": [
+    {
+     "src": "¿Cómo logra una pirámide maya proyectar la sombra de una serpiente en movimiento durante el equinoccio?",
+     "tgt": "How does a Maya pyramid project the shadow of a moving serpent during the equinox?"
+    },
+    {
+     "src": "Los arquitectos alinearon cada escalón de piedra con la trayectoria solar exacta del equinoccio.",
+     "tgt": "Architects aligned every stone step with the exact solar path of the equinox."
+    },
+    {
+     "src": "Al atardecer, las sombras triangulares forman el cuerpo de la serpiente descendiendo por la pirámide.",
+     "tgt": "At sunset, triangular shadows form the body of the serpent descending the pyramid."
+    }
+   ],
+   "scenes": [
+    "wide shot of the Kukulkan pyramid at Chichen Itza, a 30-year-old Spanish astronomer in a beige shirt standing in a crowd watching sun shadows fall across stairs, LTX motion: time-lapse camera movement capturing golden hour shadows descending the pyramid staircase, cinematic film still, vertical composition",
+    "same pyramid site, same 30-year-old Spanish astronomer in a beige shirt, now looking closely as triangular shadows connect to a stone snake head, LTX motion: close-up tracking shot along the stone balustrade as sunlight creates the undulating serpent body shadow, cinematic film still, vertical composition",
+    "same pyramid site, same 30-year-old Spanish astronomer in a beige shirt, now photographing the completed serpent shadow illusion, LTX motion: dynamic camera pan from astronomer's camera lens up to the full illuminated shadow serpent on the stone pyramid, cinematic film still, vertical composition",
+    "same pyramid site, same 30-year-old Spanish astronomer in a beige shirt, now standing peacefully in the quiet plaza, LTX motion: serene wide shot as twilight dusk colors blanket ancient stone pyramids under emerging evening stars, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "es-en-082",
+   "channel": "spanish-to-english",
+   "pair": "es-en",
+   "topic": "maritime",
+   "seed": 41058,
+   "voice_src": "es-ES-ElviraNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "es-ES-AlvaroNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "warm classical guitar strumming with sea wave sounds, nautical rhythm",
+   "words": [
+    {
+     "src": "carabela",
+     "tgt": "caravel"
+    },
+    {
+     "src": "vela latina",
+     "tgt": "lateen sail"
+    },
+    {
+     "src": "zigzag",
+     "tgt": "zigzag"
+    }
+   ],
+   "lines": [
+    {
+     "src": "¿Cómo permitieron las velas latinas de la carabela navegar directo hacia vientos contrarios?",
+     "tgt": "How did lateen sails on the caravel allow sailing directly into head winds?"
+    },
+    {
+     "src": "El diseño de la vela latina triangular generaba sustentación permitiendo avanzar en zigzag.",
+     "tgt": "The triangular lateen sail design created air lift allowing zig-zag forward progress."
+    },
+    {
+     "src": "Esta innovación náutica abrió rutas oceánicas hacia tierras desconocidas.",
+     "tgt": "This nautical innovation opened ocean routes toward unknown lands."
+    }
+   ],
+   "scenes": [
+    "wide shot of a historic caravel vessel on blue ocean waters, a 32-year-old Spanish naval historian in a blue linen shirt standing near the helm looking up at lateen sails, LTX motion: dynamic low-angle tracking shot along ocean waves as the wooden ship pitches smoothly over sea swells, cinematic film still, vertical composition",
+    "same caravel ship deck, same 32-year-old Spanish naval historian in a blue linen shirt, now adjusting ropes on the sail rigging, LTX motion: high-speed close-up of ropes pulling taut through wooden pulleys as wind billows triangular white canvas sails, cinematic film still, vertical composition",
+    "same caravel ship deck, same 32-year-old Spanish naval historian in a blue linen shirt, now checking a brass compass while watching the hull tack, LTX motion: aerial drone shot showing the caravel slicing through white ocean foam on an alternating zig-zag tacking path, cinematic film still, vertical composition",
+    "same caravel ship deck, same 32-year-old Spanish naval historian in a blue linen shirt, now standing at the bow, LTX motion: slow peaceful camera pan following sunset golden reflections on rolling ocean waves ahead of the ship, cinematic film still, vertical composition"
+   ]
+  }
+ ]
+}

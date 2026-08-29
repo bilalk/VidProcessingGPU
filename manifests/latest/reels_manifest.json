@@ -1,0 +1,616 @@
+{
+  "reels": [
+    {
+      "id": "ar-en-025",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "natural-disaster",
+      "seed": 41001,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "words": [
+        {
+          "src": "عاصفة",
+          "tgt": "storm",
+          "translit": "ʿāṣifa"
+        },
+        {
+          "src": "ملجأ",
+          "tgt": "shelter",
+          "translit": "maljaʾ"
+        },
+        {
+          "src": "أمان",
+          "tgt": "safety",
+          "translit": "amān"
+        }
+      ],
+      "lines": [
+        {
+          "src": "العاصفة القوية تقترب من المدينة بسرعة!",
+          "tgt": "The powerful storm is approaching the city quickly!",
+          "translit": "al-ʿāṣifatu al-qawiyyatu taqtaribu mina al-madīnati bi-surʿah!"
+        },
+        {
+          "src": "يجب أن نركض فوراً لنصل إلى الملجأ القريب.",
+          "tgt": "We must run immediately to reach the nearby shelter.",
+          "translit": "yajib an narkuḍa fawran li-naṣila ilā al-maljaʾi al-qarīb."
+        },
+        {
+          "src": "الحمد لله، وصلنا أخيرًا وشعرنا بالأمان.",
+          "tgt": "Praise be to God, we finally arrived and felt safety.",
+          "translit": "al-ḥamdu lillāhi, waṣalnā akhīran wa-shaʿarnā bi-l-amān."
+        }
+      ],
+      "scenes": [
+        "Wide dynamic shot of a young man in his late 20s with short black hair and a green jacket RUNNING frantically down a dark urban street as dark storm clouds roll in above, palm trees whipping violently in the wind, street lamps flickering on, dramatic storm haze, cinematic lighting, vertical composition, smooth cinematic motion, no flicker, no jitter, stable camera movement, 4k masterpiece quality",
+        "Same dark urban street, same young man in his late 20s with short black hair and a green jacket, now pushing open a heavy metal reinforced door into a concrete underground bunker shelter, rain pouring heavily around him, emergency lighting casting orange hues, medium shot, tense atmosphere, cinematic film still, vertical composition",
+        "Same underground bunker shelter, same young man in his late 20s with short black hair and a green jacket, now sitting securely inside on a bench with a warm towel, exhaling in immense relief, emergency LED lamps casting soft light, close-up shot, emotional resolution, cinematic film still, vertical composition",
+        "Same underground bunker shelter interior, calm and peaceful, warm ambient glow, soft bokeh background showing quiet concrete seating areas, peaceful atmosphere, same young man resting quietly in the distance, gentle illumination, clear vertical space for subtitle text overlay, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "ar-en-026",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "career",
+      "seed": 41002,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "words": [
+        {
+          "src": "مقابلة",
+          "tgt": "interview",
+          "translit": "muqābala"
+        },
+        {
+          "src": "مشروع",
+          "tgt": "project",
+          "translit": "mashrūʿ"
+        },
+        {
+          "src": "نجاح",
+          "tgt": "success",
+          "translit": "najāḥ"
+        }
+      ],
+      "lines": [
+        {
+          "src": "بدأت المقابلة في المكتب الكوربوريت الكبير.",
+          "tgt": "The interview started in the large corporate office.",
+          "translit": "badaʾati al-muqābalatu fī al-maktabi al-kūrbūrīt al-kabīr."
+        },
+        {
+          "src": "عرضت تفاصيل المشروع الجديد بوضوح أمام اللجنة.",
+          "tgt": "I presented the details of the new project clearly before the committee.",
+          "translit": "ʿaraḍtu tafāṣīla al-mashrūʿi al-jadīdi bi-wuḍūḥin amāma al-lajnah."
+        },
+        {
+          "src": "أشاد الجميع بالفكرة واحتفلنا بهذا النجاح.",
+          "tgt": "Everyone praised the idea and we celebrated this success.",
+          "translit": "ashāda al-jamīʿu bi-l-fikrati wa-ḥtafalnā bi-hādhā al-najāḥ."
+        }
+      ],
+      "scenes": [
+        "Wide establishing shot of a professional woman in her early 30s with dark brown hair in a neat bun, wearing a tailored dark navy suit, entering a sleek modern high-rise conference room for an interview, floor-to-ceiling glass windows showing city skyscrapers outside, morning sunlight, polished glass table, cinematic film still, vertical composition",
+        "Same modern high-rise conference room, same professional woman in her early 30s with dark brown hair in a neat bun and a dark navy suit, medium shot, standing confidently next to a digital presentation board displaying complex architectural project blueprints, gesturing clearly to executives, warm professional lighting, cinematic film still, vertical composition",
+        "Same modern high-rise conference room, same professional woman in her early 30s with dark brown hair in a neat bun and a dark navy suit, close-up shot, smiling broadly as corporate executives stand up and applaud, bright daylight filling the room, triumph and confidence, cinematic film still, vertical composition",
+        "Same high-rise office conference room, tranquil atmosphere after the meeting, soft golden hour sunlight streaming across the sleek oak table and empty chairs, city view outside window, peaceful mood, unobstructed center area for text, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "zh-en-025",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "sports",
+      "seed": 41003,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "words": [
+        {
+          "src": "马拉松",
+          "tgt": "marathon",
+          "translit": "mǎlāsōng"
+        },
+        {
+          "src": "终点",
+          "tgt": "finish line",
+          "translit": "zhōngdiǎn"
+        },
+        {
+          "src": "奖牌",
+          "tgt": "medal",
+          "translit": "jiǎngpái"
+        }
+      ],
+      "lines": [
+        {
+          "src": "城市马拉松比赛今天早上正式开始。",
+          "tgt": "The city marathon officially began this morning.",
+          "translit": "chéngshì mǎlāsōng bǐsài jīntiān zǎoshang zhèngshì kāishǐ."
+        },
+        {
+          "src": "他在人群的欢呼声中冲向终点。",
+          "tgt": "He sprinted toward the finish line amidst the cheering crowd.",
+          "translit": "tā zài rénqún de huānhū shēng zhōng chōng xiàng zhōngdiǎn."
+        },
+        {
+          "src": "戴上金色的奖牌，他感到非常自豪。",
+          "tgt": "Wearing the golden medal, he felt extremely proud.",
+          "translit": "dài shàng jīnsè de jiǎngpái, tā gǎndào fēicháng zìháo."
+        }
+      ],
+      "scenes": [
+        "Wide shot of a male runner in his mid-20s with short athletic black hair, wearing a red running singlet and black shorts, starting his run among hundreds of runners along a wide city boulevard lined with trees, early morning sunlight, vibrant atmosphere, cinematic film still, vertical composition",
+        "Same city boulevard finish line area, same male runner in his mid-20s with short athletic black hair and a red running singlet, medium shot, sprinting with intense focus toward a bright ribbon finish line, sweat glistening on skin, spectators waving flags blurred in background, cinematic film still, vertical composition",
+        "Same finish line area, same male runner in his mid-20s with short athletic black hair and red singlet, close-up shot, beaming with a wide smile as an official hangs a heavy gold sports medal around his neck, bright sunny daylight, triumphant expression, cinematic film still, vertical composition",
+        "Same marathon finish area now quiet, late afternoon sun casting long warm shadows across the ribboned track and empty bleachers, serene athletic arena setting, clear background area for word recap overlay, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "zh-en-026",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "technology",
+      "seed": 41004,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "words": [
+        {
+          "src": "机器人",
+          "tgt": "robot",
+          "translit": "jīqìrén"
+        },
+        {
+          "src": "故障",
+          "tgt": "malfunction",
+          "translit": "gùzhàng"
+        },
+        {
+          "src": "修复",
+          "tgt": "repair",
+          "translit": "xiūfù"
+        }
+      ],
+      "lines": [
+        {
+          "src": "实验室里的智能机器人正在检测数据。",
+          "tgt": "The smart robot in the laboratory was checking data.",
+          "translit": "shíyànshì lǐ de zhìnéng jīqìrén zhèngzài jiǎncè shùjù."
+        },
+        {
+          "src": "突然，警报响起，发生了意外故障。",
+          "tgt": "Suddenly, the alarm sounded and an unexpected malfunction occurred.",
+          "translit": "tūrán, jǐngbào xiǎngqǐ, fāshēng le yìwài gùzhàng."
+        },
+        {
+          "src": "工程师迅速重新编程，成功修复了系统。",
+          "tgt": "The engineer quickly reprogrammed it and successfully repaired the system.",
+          "translit": "gōngchéngshī xùnsù chóngxīn biānchéng, chénggōng xiūfù le xìtǒng."
+        }
+      ],
+      "scenes": [
+        "Wide establishing shot inside a high-tech Robotics lab, a female engineer in her late 20s with glasses and black hair tied in a ponytail wearing a white lab coat, observing a white humanoid robot operating at a glowing glass workbench, blue LED ambient lighting, futuristic technology, cinematic film still, vertical composition",
+        "Same high-tech lab, same female engineer in her late 20s with glasses, white lab coat, medium shot, inspecting the humanoid robot as red warning lights flash on control screens indicating a system malfunction, spark smoke hovering near open service panel, tense atmosphere, cinematic film still, vertical composition",
+        "Same high-tech lab, same female engineer in her late 20s with glasses, white lab coat, close-up shot, smiling relieved as she taps a holographic tablet screen, blue diagnostic lights restoring to stable green status on the repaired robot, bright clean lighting, cinematic film still, vertical composition",
+        "Same high-tech lab interior, calm peaceful environment with steady cool blue ambient light glowing softly, modern workstation and idle robotic equipment in background, clean composition with soft focus for text card placement, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-ar-025",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "art",
+      "seed": 41005,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "words": [
+        {
+          "src": "gallery",
+          "tgt": "معرض",
+          "translit": "maʿraḍ"
+        },
+        {
+          "src": "sculpture",
+          "tgt": "تمثال",
+          "translit": "timthāl"
+        },
+        {
+          "src": "exhibition",
+          "tgt": "معرض فني",
+          "translit": "maʿraḍ fannī"
+        }
+      ],
+      "lines": [
+        {
+          "src": "The artist is WALKING into the modern art gallery.",
+          "tgt": "الفنان يسير داخل معرض الفن الحديث.",
+          "translit": "al-fannānu yasīru dākhila maʿraḍi al-fanni al-ḥadīth."
+        },
+        {
+          "src": "He carefully uncovers a stunning marble sculpture.",
+          "tgt": "يكشف بحذر عن تمثال رخامي مذهل.",
+          "translit": "yakshifu bi-ḥadharin ʿan timthālin rukhāmiyyin mudhhil."
+        },
+        {
+          "src": "The grand exhibition opened with great praise.",
+          "tgt": "افتُتح المعرض الفني الكبير بثناء عظيم.",
+          "translit": "uftutiḥa al-maʿraḍu al-fanniyyu al-kabīru bi-thanāʾin ʿaẓīm."
+        }
+      ],
+      "scenes": [
+        "Wide dynamic shot of a male artist in his late 30s with curly brown hair and a dark turtleneck sweater, WALKING briskly through high-ceilinged white art gallery halls with framed paintings on walls, dramatic directional track lighting, glossy polished floor, vertical composition, smooth cinematic motion, no flicker, no jitter, stable camera movement, 4k masterpiece quality",
+        "Same white art gallery, same male artist in his late 30s with curly brown hair and dark turtleneck sweater, medium shot, gently pulling off a silk white cloth sheet to reveal an elegant abstract white marble sculpture resting on a pedestal, soft spotlights illuminating details, cinematic film still, vertical composition",
+        "Same art gallery, same male artist in his late 30s with dark turtleneck, close-up shot, standing side by side with gallery visitors admiring the unveiled marble sculpture, warm artistic lighting, proud expression, cinematic film still, vertical composition",
+        "Same white art gallery interior, tranquil evening scene, warm spotlights softly highlighting sleek abstract sculptures on pedestals in a quiet empty room, peaceful aesthetic, spacious background suited for recap text cards, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-ar-026",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "travel",
+      "seed": 41006,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "words": [
+        {
+          "src": "passport",
+          "tgt": "جواز سفر",
+          "translit": "jawāz safar"
+        },
+        {
+          "src": "luggage",
+          "tgt": "أمتعة",
+          "translit": "amtiʿa"
+        },
+        {
+          "src": "destination",
+          "tgt": "وجهة",
+          "translit": "wijha"
+        }
+      ],
+      "lines": [
+        {
+          "src": "She double-checked her passport before boarding.",
+          "tgt": "تفحصت جواز سفرها قبل الصعود.",
+          "translit": "tafaḥḥaṣat jawāza safarihā qabla al-ṣuʿūd."
+        },
+        {
+          "src": "An official collected her heavy rolling luggage.",
+          "tgt": "جمع الموظف أمتعتها الثقيلة.",
+          "translit": "jamaʿa al-muwaẓẓafu amtiʿatahā al-thaqīlah."
+        },
+        {
+          "src": "They finally landed at their tropical destination.",
+          "tgt": "هبطوا أخيرًا في وجهتهم الاستوائية.",
+          "translit": "habaṭū akhīran fī wijhatihimi al-istiwāʾiyyah."
+        }
+      ],
+      "scenes": [
+        "Wide shot of a young woman in her mid-20s with long blonde hair wearing a beige trench coat, holding a blue passport outside a sunlit international airport terminal with huge glass windows and airplanes on the tarmac outside, crisp morning sun, cinematic film still, vertical composition",
+        "Same airport terminal, same young woman in her mid-20s with long blonde hair in a beige trench coat, medium shot, standing at the check-in desk as an airport staff member places her dark red rolling suitcase onto the baggage conveyor belt, modern bright airport interior, cinematic film still, vertical composition",
+        "Same young woman in her mid-20s with long blonde hair, now wearing a sun hat and beige coat, close-up shot, looking out an airplane window smiling as the plane descends toward a tropical island resort with blue ocean and palm trees below, sunlight beaming, cinematic film still, vertical composition",
+        "Beautiful tropical airport lounge garden terrace, peaceful palm fronds and golden sunset light framing a clean open sky backdrop, calm relaxed vacation atmosphere, ample space for word recap cards, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-zh-025",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "family-conflict",
+      "seed": 41007,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "words": [
+        {
+          "src": "argument",
+          "tgt": "争吵",
+          "translit": "zhēngchǎo"
+        },
+        {
+          "src": "apology",
+          "tgt": "道歉",
+          "translit": "dàoqiàn"
+        },
+        {
+          "src": "reconciliation",
+          "tgt": "和解",
+          "translit": "héjiě"
+        }
+      ],
+      "lines": [
+        {
+          "src": "A heated argument broke out during dinner.",
+          "tgt": "晚餐期间爆发了一场激烈的争吵。",
+          "translit": "wǎncān qījiān bàofā le yī chǎng jīliè de zhēngchǎo."
+        },
+        {
+          "src": "The son offered a sincere apology afterwards.",
+          "tgt": "随后，儿子诚恳地进行了道歉。",
+          "translit": "suíhòu, érzi chéngkěn de jìnxíng le dàoqiàn."
+        },
+        {
+          "src": "They shared a warm embrace of reconciliation.",
+          "tgt": "他们温暖相拥，达成了和解。",
+          "translit": "tāmen wēnnuǎn xiāngyōng, dáchéng le héjiě."
+        }
+      ],
+      "scenes": [
+        "Wide establishing shot inside a cozy traditional living room dining area, an older mother in her 50s with short graying hair wearing a knitted gray sweater, sitting at a wooden dining table facing her son in his early 20s with dark hair in a navy hoodie, intense dramatic lighting, emotional tension, cinematic film still, vertical composition",
+        "Same dining room, same mother in her 50s with short graying hair and gray sweater, medium shot, sitting at the table as her son in his early 20s in navy hoodie kneels nearby holding out a handwritten letter with an apologetic respectful stance, soft warm lamp light, cinematic film still, vertical composition",
+        "Same living room, same mother in gray sweater and same son in navy hoodie, close-up shot, smiling tenderly through tears as they embrace warmly, soft golden domestic lighting, heartfelt moment, cinematic film still, vertical composition",
+        "Same cozy living room, tranquil atmosphere late evening, warm amber light from table lamps softly illuminating the tidy dining table with tea cups, peaceful family home environment, uncluttered space for text overlays, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-zh-026",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "health",
+      "seed": 41008,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "words": [
+        {
+          "src": "clinic",
+          "tgt": "诊所",
+          "translit": "zhěnsuǒ"
+        },
+        {
+          "src": "diagnosis",
+          "tgt": "诊断",
+          "translit": "zhěnduàn"
+        },
+        {
+          "src": "recovery",
+          "tgt": "康复",
+          "translit": "kāngfù"
+        }
+      ],
+      "lines": [
+        {
+          "src": "He walked into the medical clinic with a knee injury.",
+          "tgt": "他带着膝盖伤走进医疗诊所。",
+          "translit": "tā dàizhe xīgài shāng zǒujìn yīliáo zhěnsuǒ."
+        },
+        {
+          "src": "The doctor explained the clear diagnosis from the scan.",
+          "tgt": "医生解释了扫描得出的明确诊断。",
+          "translit": "yīshēng jiěshì le sāomiáo déchū de míngquè zhěnduàn."
+        },
+        {
+          "src": "After weeks of care, he made a full recovery.",
+          "tgt": "经过数周的照顾，他完全康复了。",
+          "translit": "jīngguò shù zhōu de zhàogù, tā wánquán kāngfù le."
+        }
+      ],
+      "scenes": [
+        "Wide shot of a young man in his late 20s with short dark hair wearing a gray sweatshirt, walking with a subtle limp into a clean bright modern medical clinic reception area, white walls, large window letting in natural light, modern reception desk, cinematic film still, vertical composition",
+        "Same medical clinic exam room, same young man in his late 20s with gray sweatshirt, medium shot, sitting on an examination table while a friendly doctor points to a clear knee X-ray scan displayed on an illuminated wall panel, bright professional lighting, cinematic film still, vertical composition",
+        "Same medical clinic, same young man in his late 20s with gray sweatshirt, close-up shot, standing tall without pain, smiling brightly while high-fiving the doctor, bright sunlit window in background, joyful health relief, cinematic film still, vertical composition",
+        "Same modern clinic consultation room, serene and spotless environment, quiet sunny interior with soft focus medical charts in background, peaceful atmosphere, ideal clean background for word cards, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-es-025",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "celebration",
+      "seed": 41009,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "words": [
+        {
+          "src": "festival",
+          "tgt": "festival",
+          "translit": ""
+        },
+        {
+          "src": "costume",
+          "tgt": "disfraz",
+          "translit": ""
+        },
+        {
+          "src": "fireworks",
+          "tgt": "fuegos artificiales",
+          "translit": ""
+        }
+      ],
+      "lines": [
+        {
+          "src": "DANCING through the crowded plaza during the annual festival.",
+          "tgt": "Bailando por la plaza concurrida durante el festival anual.",
+          "translit": ""
+        },
+        {
+          "src": "She wore an elaborate floral costume with silk ribbons.",
+          "tgt": "Llevaba un elaborado disfraz floral con cintas de seda.",
+          "translit": ""
+        },
+        {
+          "src": "Bright fireworks illuminated the night sky above.",
+          "tgt": "Brillantes fuegos artificiales iluminaron el cielo nocturno arriba.",
+          "translit": ""
+        }
+      ],
+      "scenes": [
+        "Wide energetic shot of a young Spanish woman in her early 20s with long wavy brown hair, DANCING wildly through a sunlit cobblestone town plaza filled with colorful festival banners and cheering crowds, vibrant street festival atmosphere, festive decorations, vertical composition, smooth cinematic motion, no flicker, no jitter, stable camera movement, 4k masterpiece quality",
+        "Same town plaza, same young Spanish woman in her early 20s with long wavy brown hair, medium shot, twirling around showing off her intricate floral folk dress costume adorned with vibrant silk ribbons and lace details, sunny afternoon glow, cinematic film still, vertical composition",
+        "Same town plaza at dusk, same young Spanish woman in her early 20s with long wavy brown hair and floral costume, close-up shot, looking up amazed as brilliant red and gold fireworks burst overhead in the deep blue twilight sky, dramatic lighting, magical atmosphere, cinematic film still, vertical composition",
+        "Same historic town plaza at late night after celebration, warm hanging string lights glowing softly over cobblestone street, quiet atmospheric night scene, clear subtle background for word recap overlay, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-es-026",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "nature",
+      "seed": 41010,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "words": [
+        {
+          "src": "waterfall",
+          "tgt": "cascada",
+          "translit": ""
+        },
+        {
+          "src": "expedition",
+          "tgt": "expedición",
+          "translit": ""
+        },
+        {
+          "src": "valley",
+          "tgt": "valle",
+          "translit": ""
+        }
+      ],
+      "lines": [
+        {
+          "src": "They hiked deep into the forest on an expedition.",
+          "tgt": "Caminaron profundamente en el bosque en una expedición.",
+          "translit": ""
+        },
+        {
+          "src": "They discovered a massive roaring waterfall ahead.",
+          "tgt": "Descubrieron una enorme cascada rugiente más adelante.",
+          "translit": ""
+        },
+        {
+          "src": "The river flowed gently through the lush green valley.",
+          "tgt": "El río fluía suavemente a través del frondoso valle verde.",
+          "translit": ""
+        }
+      ],
+      "scenes": [
+        "Wide shot of a male hiker in his early 30s with short beard and black beanie wearing an orange waterproof jacket, trekking along a narrow dirt path inside a dense temperate rainforest with tall mossy trees, crisp wilderness air, cinematic film still, vertical composition",
+        "Same rainforest mountain trail, same male hiker in his early 30s with black beanie and orange jacket, medium shot, emerging onto a rocky ledge gazing in awe at a towering roaring waterfall cascading down sheer rock cliffs into mist, sunlight filtering through spray, cinematic film still, vertical composition",
+        "Same mountain gorge, same male hiker in his early 30s with orange jacket, close-up shot, kneeling by a clear calm riverbank looking out over a wide sunlit green valley surrounded by peaks, warm golden sunlight, peaceful expression, cinematic film still, vertical composition",
+        "Same tranquil valley river location, serene late afternoon landscape with soft sunlight glowing on distant forest hills and gentle water reflections, calm natural background for recap text cards, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "es-en-025",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "history",
+      "seed": 41011,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "words": [
+        {
+          "src": "fortress",
+          "tgt": "fortaleza",
+          "translit": ""
+        },
+        {
+          "src": "artifact",
+          "tgt": "artefacto",
+          "translit": ""
+        },
+        {
+          "src": "discovery",
+          "tgt": "descubrimiento",
+          "translit": ""
+        }
+      ],
+      "lines": [
+        {
+          "src": "El arqueólogo explora la antigua fortaleza de piedra.",
+          "tgt": "The archaeologist explores the ancient stone fortress.",
+          "translit": ""
+        },
+        {
+          "src": "Desenterró un artefacto de oro muy valioso.",
+          "tgt": "He unearthed a highly valuable gold artifact.",
+          "translit": ""
+        },
+        {
+          "src": "Este hallazgo es el mayor descubrimiento de su carrera.",
+          "tgt": "This find is the greatest discovery of his career.",
+          "translit": ""
+        }
+      ],
+      "scenes": [
+        "Wide establishing shot of a male archaeologist in his 40s with a short brown beard wearing a rugged khaki jacket and brimmed hat, walking inside ancient stone fortress ruins with arched stone doorways, sunbeams streaming through dusty windows, majestic historic atmosphere, cinematic film still, vertical composition",
+        "Same ancient stone fortress, same male archaeologist in his 40s with short brown beard and khaki jacket, medium shot, carefully brushing away sand from a dirt alcove to reveal a carved ancient gold artifact medallion glowing in light, focused intense expression, cinematic film still, vertical composition",
+        "Same fortress ruins, same male archaeologist in his 40s with khaki jacket and hat, close-up shot, holding up the polished golden artifact admiring its historic engravings with a triumphant smile, warm sunlight illuminating face, cinematic film still, vertical composition",
+        "Same ancient stone fortress corridor, calm late afternoon setting, dust motes floating gently in warm golden shafts of sunlight piercing ancient stone walls, peaceful historic backdrop for word recap overlays, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "es-en-026",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "music",
+      "seed": 41012,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "words": [
+        {
+          "src": "concert",
+          "tgt": "concierto",
+          "translit": ""
+        },
+        {
+          "src": "melody",
+          "tgt": "melodía",
+          "translit": ""
+        },
+        {
+          "src": "applause",
+          "tgt": "aplauso",
+          "translit": ""
+        }
+      ],
+      "lines": [
+        {
+          "src": "El concierto de guitarra comenzó en el teatro lleno.",
+          "tgt": "The guitar concert began in the crowded theater.",
+          "translit": ""
+        },
+        {
+          "src": "Una hermosa melodía llenó el silencio del salón.",
+          "tgt": "A beautiful melody filled the silence of the hall.",
+          "translit": ""
+        },
+        {
+          "src": "La multitud estalló en un fuerte aplauso al final.",
+          "tgt": "The crowd erupted in loud applause at the end.",
+          "translit": ""
+        }
+      ],
+      "scenes": [
+        "Wide shot of a young female guitarist in her mid-20s with dark curly hair wearing a dark velvet blazer, sitting on stage with an acoustic guitar in front of a packed ornate theater audience, warm stage spotlight beaming down on her, cinematic film still, vertical composition",
+        "Same ornate theater stage, same young female guitarist in her mid-20s with dark curly hair and dark velvet blazer, medium shot, playing acoustic guitar passionately, fingers pressing wooden frets, soft golden lights blurring softly in theater background, cinematic film still, vertical composition",
+        "Same stage, same young female guitarist in her mid-20s with dark curly hair and velvet blazer, close-up shot, standing up bowing gracefully as the theater crowd stands giving an enthusiastic ovation under bright stage lights, joy and pride, cinematic film still, vertical composition",
+        "Same grand theater stage after the performance, empty quiet stage illuminated by a warm solitary spotlight on an empty chair, elegant artistic aesthetic, ideal subtle background for stacked word cards, cinematic film still, vertical composition"
+      ]
+    }
+  ]
+}

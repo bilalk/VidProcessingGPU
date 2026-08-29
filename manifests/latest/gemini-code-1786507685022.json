@@ -1,0 +1,341 @@
+{
+  "reels": [
+    {
+      "id": "ar-en-025",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "history",
+      "seed": 41001,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "mysterious oud and low frame drum pulse, intriguing historic rhythm",
+      "words": [
+        {"src": "سلالة", "tgt": "lineage", "translit": "sulāla"},
+        {"src": "تحمل", "tgt": "endurance", "translit": "taḥammul"},
+        {"src": "نقاء", "tgt": "purity", "translit": "naqāʾ"}
+      ],
+      "lines": [
+        {"src": "لماذا تملك الأحصنة العربية أضلاعاً أقل من بقية الخيول؟", "tgt": "Why do Arabian horses have fewer ribs than other horses?", "translit": "limādhā tamliku l-ʾaḥṣinatu l-ʿarabiyyatu ʾaḍlāʿan ʾaqalla min baqiyyati l-khuyūl?"},
+        {"src": "تمنحها هذه السلالة المتميزة قوة تحمل خيالية في الصحراء.", "tgt": "This distinct lineage grants them incredible endurance in the desert.", "translit": "tamnaḥuhā hādhihi s-sulālatu l-mutamayyizatu quwwata taḥammulin khiyāliyyatan fī ṣ-ṣaḥrāʾ."},
+        {"src": "يحفظ البدو نقاء هذا العرق عبر آلاف السنين.", "tgt": "Bedouins preserve the purity of this breed across thousands of years.", "translit": "yaḥfaẓu l-badwu naqāʾa hādhā l-ʿirqi ʿabra ʾālāfi s-sinīn."}
+      ],
+      "scenes": [
+        "wide establishing shot of a majestic grey Arabian stallion galloping through golden desert dunes at dawn, a 30-year-old Bedouin man in a dark blue thobe and white ghutra watching from a ridge, soft morning light casting long shadows across sand ripples, cinematic film still, vertical composition",
+        "same desert ridge setting, same 30-year-old Bedouin man in a dark blue thobe and white ghutra, now standing beside the grey Arabian stallion, examining its unique high-arched neck and lean rib structure under bright morning sunlight, intense appreciative expression, cinematic film still, vertical composition",
+        "same desert setting, same 30-year-old Bedouin man in a dark blue thobe and white ghutra, now carefully placing an ornate leather bridle on the stallion's head while inspecting an ancient handwritten leather-bound lineage parchment, warm directional sunlight, cinematic film still, vertical composition",
+        "same desert setting, same 30-year-old Bedouin man in a dark blue thobe and white ghutra, now standing calmly beside the grey Arabian stallion under a golden evening sky, peaceful vast desert backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "ar-en-026",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "culture",
+      "seed": 41002,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "warm acoustic kanun and gentle percussion, inviting cultural rhythm",
+      "words": [
+        {"src": "ضيافة", "tgt": "hospitality", "translit": "ḍiyāfa"},
+        {"src": "هيل", "tgt": "cardamom", "translit": "hayl"},
+        {"src": "تقاليد", "tgt": "traditions", "translit": "taqālīd"}
+      ],
+      "lines": [
+        {"src": "هل تعلم لماذا يسكب العرب القهوة باليد اليسرى ويقدمونها باليمنى؟", "tgt": "Did you know why Arabs pour coffee with the left hand and serve with the right?", "translit": "hal taʿlamu limādhā yaskubu l-ʿarabu l-qahwata bi-l-yadi l-yusrā wa-yuqaddimūnahā bi-l-yumnā?"},
+        {"src": "تعكس هذه الضيافة احتراماً عميقاً ورائحة هيل فوّاحة.", "tgt": "This hospitality reflects deep respect and a fragrant cardamom aroma.", "translit": "taʿkisu hādhihi ḍ-ḍiyāfatu iḥtirāman ʿamīqan wa-rāʾiḥata haylin fawwāḥa."},
+        {"src": "تحافظ العائلات على هذه التقاليد العريقة لإكرام الضيف.", "tgt": "Families maintain these ancient traditions to honor the guest.", "translit": "tuḥāfiẓu l-ʿāʾilātu ʿalā hādhihi t-taqālīdi l-ʿarīqati li-ʾikrāmi ḍ-ḍayf."}
+      ],
+      "scenes": [
+        "wide shot of an ornate traditional majlis room, a 35-year-old Arab host wearing a crisp white thobe holding a brass dallah pot in his left hand, pouring steaming dark coffee into a small cup held in his right hand, warm lantern lighting, rich red carpets in background, cinematic film still, vertical composition",
+        "same traditional majlis room, same 35-year-old Arab host wearing a crisp white thobe, now extending the small coffee cup with his right hand toward a guest, steam rising from the coffee showing crushed green cardamom seeds, welcoming smile, dramatic side lighting, cinematic film still, vertical composition",
+        "same traditional majlis room, same 35-year-old Arab host wearing a crisp white thobe, now sitting with his family around a carved brass tray filled with dates and coffee cups, sharing laughter and warmth, soft ambient evening glow, cinematic film still, vertical composition",
+        "same traditional majlis room, same 35-year-old Arab host wearing a crisp white thobe, now standing peacefully beside a sunlit arched window looking over a courtyard, tranquil host atmosphere, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "zh-en-025",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "mythology",
+      "seed": 41003,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "delicate guzheng and airy flute, dreamy atmospheric melody",
+      "words": [
+        {"src": "奇幻", "tgt": "fantasy", "translit": "qíhuàn"},
+        {"src": "仙界", "tgt": "realm", "translit": "xiānjiè"},
+        {"src": "长生", "tgt": "immortality", "translit": "chángshēng"}
+      ],
+      "lines": [
+        {"src": "为什么现代人依然相信玉石能吸收天地的灵气？", "tgt": "Why do modern people still believe jade absorbs the spiritual energy of heaven and earth?", "translit": "wèishénme xiàndàirén yīrán xiāngxìn yùshí néng xīshōu tiāndì de língqì?"},
+        {"src": "这源于古代关于奇幻仙界的悠久传说。", "tgt": "This stems from ancient legends about a fantasy immortal realm.", "translit": "zhè yuányú gǔdài guānyú qíhuàn xiānjiè de yōujiǔ chuánshuō."},
+        {"src": "人们渴望借此获得健康与永恒的长生。", "tgt": "People long to obtain health and eternal immortality through it.", "translit": "rénmen kěwàng jiè cǐ huòdé jiànkāng yǔ yǒnghéng de chángshēng."}
+      ],
+      "scenes": [
+        "wide establishing shot of a mist-shrouded mountain peak, a 28-year-old Chinese woman wearing a traditional dark green hanfu dress holding an intricately carved raw jade pendant, swirling clouds around ancient stone stairs, ethereal morning sunlight, cinematic film still, vertical composition",
+        "same mountain peak setting, same 28-year-old Chinese woman wearing a dark green hanfu dress, now holding the green jade pendant up to breaking sunlight, observing glowing internal veins of the gemstone, mystical curious expression, soft volumetric lighting, cinematic film still, vertical composition",
+        "same mountain peak setting, same 28-year-old Chinese woman wearing a dark green hanfu dress, now sitting cross-legged on a smooth granite rock in deep meditation with the jade resting between her hands, golden sunbeams piercing morning mist, cinematic film still, vertical composition",
+        "same mountain peak setting, same 28-year-old Chinese woman wearing a dark green hanfu dress, now standing calmly looking out over a sea of clouds at sunrise, peaceful spiritual backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "zh-en-026",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "technology",
+      "seed": 41004,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "clean synth arpeggios, futuristic, minimal electronic pulse",
+      "words": [
+        {"src": "高铁", "tgt": "high-speed rail", "translit": "gāotiě"},
+        {"src": "硬币", "tgt": "coin", "translit": "yìngbì"},
+        {"src": "平稳", "tgt": "stability", "translit": "píngwěn"}
+      ],
+      "lines": [
+        {"src": "为何中国高铁能在时速三百五十公里时让硬币立着不倒？", "tgt": "Why can a coin stand upright on a Chinese high-speed train at 350 km/h without falling?", "translit": "wèihé zhōngguó gāotiě néng zài shísù sānbǎi wǔshí gōnglǐ shí ràng yìngbì lì zhe bù dǎo?"},
+        {"src": "这种极致的平稳得益于高精度的无缝钢轨技术。", "tgt": "This extreme stability benefits from high-precision seamless rail technology.", "translit": "zhè zhǒng jízhì de píngwěn déyì yú gāo jīngdù de wúféng gāngguǐ jìshù."},
+        {"src": "这项科技改变了数亿人的出行与生活方式。", "tgt": "This technology changed the travel and lifestyle of hundreds of millions.", "translit": "zhè xiàng kējì gǎibiàn le shù yì rén de chūxíng yǔ shēnghuó fāngshì."}
+      ],
+      "scenes": [
+        "wide interior shot of a futuristic sleek high-speed train passenger cabin, a 26-year-old Chinese male engineer wearing a blue suit sitting by a large window looking closely at a silver coin balanced vertically on the window ledge, landscape blurring outside at high speed, bright natural light, cinematic film still, vertical composition",
+        "same train cabin interior, same 26-year-old Chinese male engineer wearing a blue suit, now leaning in close to the perfectly balanced standing silver coin on the window ledge, smiling in amazement as a cup of water beside it remains completely still, sharp focus, cinematic film still, vertical composition",
+        "same train cabin interior, same 26-year-old Chinese male engineer wearing a blue suit, now pointing to a digital speed display reading 350 km/h on his tablet while gesturing to the steady coin, confident proud expression, warm cabin lighting, cinematic film still, vertical composition",
+        "same train cabin interior, same 26-year-old Chinese male engineer wearing a blue suit, now sitting back relaxed looking out the window at green countryside rolling past at dusk, tranquil modern travel scene, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-ar-025",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "invention",
+      "seed": 41005,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "intricate lute and frame drum, curious historical rhythm",
+      "words": [
+        {"src": "astrolabe", "tgt": "اسْطُرْلاب", "translit": "usṭurlāb"},
+        {"src": "navigation", "tgt": "مِلَاحَة", "translit": "milāḥa"},
+        {"src": "stars", "tgt": "نُجُوم", "translit": "nujūm"}
+      ],
+      "lines": [
+        {"src": "How did ancient scholars navigate vast deserts using a single metal disc?", "tgt": "كيف أبحر العلماء القدامى في الصحاري شاسعة باستخدام قرص معدني واحد؟", "translit": "kayfa ʾabḥara l-ʿulamāʾu l-qudāmā fī ṣ-ṣaḥārī sh-shāsiʿati bi-stikhdāmi qurṣin maʿdaniyyin wāḥid?"},
+        {"src": "The brass astrolabe revolutionized medieval navigation and astronomy.", "tgt": "أحدث الاسطرلاب النحاسي ثورة في الملاحة وعلم الفلك الفضائي.", "translit": "ʾaḥdatha l-usṭurlābu n-nuḥāsiyyu thawratan fī l-milāḥati wa-ʿilmi l-falaki l-faḍāʾī."},
+        {"src": "It unlocked precise pathways by reading the positions of the stars.", "tgt": "كشف مسارات دقيقة عبر قراءة مواقع النجوم.", "translit": "kashafa masārātin daqīqatan ʿabra qirāʾati mawāqiʿi n-nujūm."}
+      ],
+      "scenes": [
+        "wide shot of an ancient stone observatory tower under a starry night sky, a 32-year-old Arab astronomer wearing a dark green kaftan holding a brass astrolabe up toward the sky, warm lantern light illuminating intricate engraved metal rings, cinematic film still, vertical composition",
+        "same observatory setting, same 32-year-old Arab astronomer wearing a dark green kaftan, now turning a precise brass pointer ring on the astrolabe while comparing its markings to an open parchment star chart on a wooden table, intense focused expression, cinematic film still, vertical composition",
+        "same observatory setting, same 32-year-old Arab astronomer wearing a dark green kaftan, now looking through the sighting vane of the astrolabe aligned with a bright glowing constellation in the clear night sky, dramatic starlight illumination, cinematic film still, vertical composition",
+        "same observatory setting, same 32-year-old Arab astronomer wearing a dark green kaftan, now standing peacefully beside the brass astrolabe resting on a stone pedestal under the starlit sky, tranquil historic atmosphere, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-ar-026",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "architecture",
+      "seed": 41006,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "ambient acoustic oud with soft reverb, majestic slow tempo",
+      "words": [
+        {"src": "courtyard", "tgt": "فِنَاء", "translit": "fināʾ"},
+        {"src": "cooling", "tgt": "تَبْرِيد", "translit": "tabrīd"},
+        {"src": "fountain", "tgt": "نَافُورَة", "translit": "nāfūra"}
+      ],
+      "lines": [
+        {"src": "Why did ancient desert homes always feature a hidden central courtyard?", "tgt": "لماذا احتوت المنازل الصحراوية القديمة دائماً على فناء مركزي خفي؟", "translit": "limādhā ḥtawati l-manāzilu ṣ-ṣaḥrāwiyyatu l-qadīmatu dāʾiman ʿalā fināʾin markaziyyin khafiyy?"},
+        {"src": "This clever design provided natural cooling against harsh summer heat.", "tgt": "وفر هذا التصميم الذكي تبريداً طبيعياً ضد حرارة الصيف القاسية.", "translit": "waffara hādhihi t-taṣmīmu dh-dhakiyyu tabrīdan ṭabīʿiyyan ḍidda ḥarārati ṣ-ṣayfi l-qāsiya."},
+        {"src": "A trickling marble fountain creates a peaceful microclimate for families.", "tgt": "تخلق نافورة رخامية هادئة مناخاً مريحاً للعائلات.", "translit": "takhluqu nāfūratun rukhāmiyyatun hādiʾatun manākhan murīḥan li-l-ʿāʾilāt."}
+      ],
+      "scenes": [
+        "wide shot of a sunlit traditional Middle Eastern courtyard home, a 29-year-old Arab architect wearing a light beige linen shirt stepping into a shaded courtyard with carved stone arches and lush green lemon trees, bright sunlight above, soft shade below, cinematic film still, vertical composition",
+        "same courtyard setting, same 29-year-old Arab architect wearing a light beige linen shirt, now placing his hand over a bubbling central marble fountain, observing cool air currents rising from the splashing water, thoughtful curious expression, cinematic film still, vertical composition",
+        "same courtyard setting, same 29-year-old Arab architect wearing a light beige linen shirt, now sitting on a carved wooden bench with his family enjoying cool breezes while hot desert sun blazes on the roof tiles above, warm peaceful atmosphere, cinematic film still, vertical composition",
+        "same courtyard setting, same 29-year-old Arab architect wearing a light beige linen shirt, now standing calmly beside the gentle marble fountain under dappled shade, serene architectural backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-zh-025",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "culture",
+      "seed": 41007,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "gentle bamboo flute and plucked pipa, serene traditional tempo",
+      "words": [
+        {"src": "tea", "tgt": "茶叶", "translit": "cháyè"},
+        {"src": "fermentation", "tgt": "发酵", "translit": "fājiào"},
+        {"src": "vintage", "tgt": "陈年", "translit": "chénnián"}
+      ],
+      "lines": [
+        {"src": "Why can a block of aged Pu-erh tea cost more than fine gold?", "tgt": "为什么一块陈年普洱茶砖的比黄金还要昂贵？", "translit": "wèishénme yī kuài chénnián pǔ'ěr chájuān de bǐ huángjīn hái yào ángguì?"},
+        {"src": "The secret lies in natural fermentation over decades of aging.", "tgt": "秘密在于数十年陈化过程中的自然发酵。", "translit": "mìmì zàiyú shù shí nián chénhuà guòchéng zhōng de zìrán fājiào."},
+        {"src": "Each vintage brick holds a unique flavor profile treasured by connoisseurs.", "tgt": "每一块陈年茶砖都包含着品茶家珍视的独特风味。", "translit": "měi yī kuài chénnián chájuān dōu bāohán zhe pǐnchájiā zhēnshì de dútè fēngwèi."}
+      ],
+      "scenes": [
+        "wide shot of a traditional Chinese tea room, a 30-year-old Chinese tea master wearing a dark red silk jacket carefully lifting a dark compressed Pu-erh tea cake wrapped in parchment paper, warm wooden interior, soft paper lantern light, cinematic film still, vertical composition",
+        "same tea room, same 30-year-old Chinese tea master wearing a dark red silk jacket, now using a small brass pick to break off a leaf segment from the aged tea brick, examining the dark rich fermented leaves up close, focused intense expression, cinematic film still, vertical composition",
+        "same tea room, same 30-year-old Chinese tea master wearing a dark red silk jacket, now pouring deep amber tea from a clay teapot into small ceramic tasting cups, steam rising into warm directional lighting, smiling appreciatively, cinematic film still, vertical composition",
+        "same tea room, same 30-year-old Chinese tea master wearing a dark red silk jacket, now sitting peacefully at the wooden tea table with small steaming cups, quiet refined atmosphere, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-zh-026",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "history",
+      "seed": 41008,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "dignified guqin and soft cello, reflective slow tempo",
+      "words": [
+        {"src": "silk", "tgt": "丝绸", "translit": "sīchóu"},
+        {"src": "cocoon", "tgt": "蚕茧", "translit": "cánjiǎn"},
+        {"src": "trade", "tgt": "贸易", "translit": "màoyì"}
+      ],
+      "lines": [
+        {"src": "How did a tiny caterpillar cocoon create an empire's secret trade network?", "tgt": "微小的蚕茧是如何建立起帝国秘密贸易网络？", "translit": "wēixiǎo de cánjiǎn shì rúhé jiànlì qǐ dìguó mìmì màoyì wǎngluò?"},
+        {"src": "Ancient artisans unraveled delicate silk threads in complete secrecy.", "tgt": "古代工匠在极度保密的情况下拆解出纤细的丝绸线。", "translit": "gǔdài gōngjiàng zài jídù bǎomì de qíngkuàng xià chāijiě chū xiān xì de sīchóu xiàn."},
+        {"src": "This valuable fabric linked continents through lucrative global trade.", "tgt": "这种昂贵的布料通过繁荣的全球贸易连接了各大洲。", "translit": "zhè zhǒng ángguì de bùliào tōngguò fánróng de quánqiú màoyì liánjiē le gè dàzhōu."}
+      ],
+      "scenes": [
+        "wide shot of an ancient Chinese weaving workshop, a 27-year-old Chinese female weaver wearing a traditional blue cotton tunic standing beside a wooden loom holding a soft white silkworm cocoon, warm afternoon light filtering through paper windows, cinematic film still, vertical composition",
+        "same weaving workshop, same 27-year-old Chinese female weaver wearing a blue cotton tunic, now carefully pulling an ultra-thin glowing golden silk strand from a steaming bowl of water containing cocoons, delicate intense focus, cinematic film still, vertical composition",
+        "same workshop setting, same 27-year-old Chinese female weaver wearing a blue cotton tunic, now draped in vibrant shimmering red and gold woven silk fabric, smiling proudly as merchant trade carts pack rolls outside, bright golden sunlight, cinematic film still, vertical composition",
+        "same weaving workshop, same 27-year-old Chinese female weaver wearing a blue cotton tunic, now sitting quietly beside rolls of colorful silk fabric under warm evening light, serene historic backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-es-025",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "gastronomy",
+      "seed": 41009,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "warm acoustic guitar finger-picking, lively Spanish rhythm",
+      "words": [
+        {"src": "olive oil", "tgt": "aceite de oliva", "translit": ""},
+        {"src": "harvest", "tgt": "cosecha", "translit": ""},
+        {"src": "purity", "tgt": "pureza", "translit": ""}
+      ],
+      "lines": [
+        {"src": "Why is Spanish olive oil called liquid gold by chefs worldwide?", "tgt": "¿Por qué el aceite de oliva español es llamado oro líquido por cocineros de todo el mundo?", "translit": ""},
+        {"src": "The secret comes from centuries of meticulous olive harvest techniques.", "tgt": "El secreto proviene de siglos de meticulosas técnicas de cosecha de aceitunas.", "translit": ""},
+        {"src": "Cold pressing preserves exceptional flavor, health benefits, and uncompromised purity.", "tgt": "El prensado en frío conserva un sabor excepcional, beneficios para la salud y una pureza absoluta.", "translit": ""}
+      ],
+      "scenes": [
+        "wide establishing shot of a sun-drenched Andalusian olive grove, a 32-year-old Spanish olive farmer wearing a green shirt and brown leather apron holding a glass bottle of golden olive oil among sunlit olive trees, bright Mediterranean sunlight, cinematic film still, vertical composition",
+        "same olive grove setting, same 32-year-old Spanish olive farmer wearing a green shirt and brown leather apron, now carefully examining ripe green and purple olives gathered in a rustic woven basket, passionate focused expression, warm directional light, cinematic film still, vertical composition",
+        "close-up shot in a rustic stone mill, same 32-year-old Spanish olive farmer wearing a green shirt and brown leather apron, now pouring thick glistening golden extra virgin olive oil over fresh crusty bread, smiling happily, warm interior lighting, cinematic film still, vertical composition",
+        "same olive grove setting, same 32-year-old Spanish olive farmer wearing a green shirt and brown leather apron, now standing peacefully in the grove looking at the golden sunset horizon, serene agricultural backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-es-026",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "history",
+      "seed": 41010,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "solo classical guitar, melancholic and noble tempo",
+      "words": [
+        {"src": "fortress", "tgt": "fortaleza", "translit": ""},
+        {"src": "carving", "tgt": "tallado", "translit": ""},
+        {"src": "legacy", "tgt": "legado", "translit": ""}
+      ],
+      "lines": [
+        {"src": "How did a medieval hilltop fortress turn sunset light into shimmering gold?", "tgt": "¿Cómo transformó una fortaleza medieval en la cima la luz del atardecer en oro brillante?", "translit": ""},
+        {"src": "Intricate geometric wall carving reflects warm red hues across stone halls.", "tgt": "El intrincado tallado geométrico en las paredes refleja tonos rojos en los salones de piedra.", "translit": ""},
+        {"src": "This stunning palace stands as an enduring legacy of Moorish craftsmanship.", "tgt": "Este impresionante palacio perdura como un legado eterno de la artesanía morisca.", "translit": ""},
+        {"src": "This stunning palace stands as an enduring legacy of Moorish craftsmanship.", "tgt": "Este impresionante palacio perdura como un legado eterno de la artesanía morisca.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of the grand Alhambra palace fortress on a hill, a 28-year-old Spanish historian wearing a navy blazer standing in an arcade courtyard with intricate carved arches reflecting red sunset light, breathtaking golden hour glow, cinematic film still, vertical composition",
+        "same palace courtyard setting, same 28-year-old Spanish historian wearing a navy blazer, now running her fingers gently along complex geometric plaster carvings on a stone column, amazed appreciative expression, warm side lighting, cinematic film still, vertical composition",
+        "same palace courtyard setting, same 28-year-old Spanish historian wearing a navy blazer, now looking across a reflective courtyard pool glowing orange in the sunset, arched columns mirroring perfectly in the clear water, cinematic film still, vertical composition",
+        "same palace courtyard setting, same 28-year-old Spanish historian wearing a navy blazer, now sitting quietly on a stone bench under carved arches as dusk settles, serene historic atmosphere, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "es-en-025",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "culture",
+      "seed": 41011,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "dramatic flamenco guitar and rhythmic hand clapping, passionate tempo",
+      "words": [
+        {"src": "duende", "tgt": "soulful passion", "translit": ""},
+        {"src": "taconeo", "tgt": "heel tapping", "translit": ""},
+        {"src": "tablao", "tgt": "flamenco stage", "translit": ""}
+      ],
+      "lines": [
+        {"src": "¿Qué es la misteriosa emoción que los bailaores de flamenco llaman duende?", "tgt": "What is the mysterious emotion that flamenco dancers call duende?", "translit": ""},
+        {"src": "Su rápido taconeo resuena con fuerza sobre el antiguo tablao.", "tgt": "Her fast heel tapping echoes strongly over the ancient flamenco stage.", "translit": ""},
+        {"src": "Esta expresión artística nace del alma y cautiva a todos.", "tgt": "This artistic expression is born from the soul and captivates everyone.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of a dimly lit rustic Spanish tavern stage, a 26-year-old Spanish flamenco dancer wearing a ruffled red dress standing motionless in a single warm spotlight, rustic brick wall backdrop, dramatic shadows, cinematic film still, vertical composition",
+        "same tavern stage setting, same 26-year-old Spanish flamenco dancer wearing a ruffled red dress, now striking the wooden floorboards with energetic heel tapping motion blur, intense passionate facial expression, dynamic stage lighting, cinematic film still, vertical composition",
+        "same tavern stage setting, same 26-year-old Spanish flamenco dancer wearing a ruffled red dress, now twirling triumphantly with her arms raised while a guitarist plays behind her, smiling intensely under warm spotlighting, cinematic film still, vertical composition",
+        "same tavern stage setting, same 26-year-old Spanish flamenco dancer wearing a ruffled red dress, now resting on a chair onstage under soft amber lighting after performance, serene artistic backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "es-en-026",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "nature",
+      "seed": 41012,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "ambient synth pads with birdsong textures, peaceful slow evolution",
+      "words": [
+        {"src": "dehesa", "tgt": "oak meadow", "translit": ""},
+        {"src": "bellota", "tgt": "acorn", "translit": ""},
+        {"src": "ecosistema", "tgt": "ecosystem", "translit": ""}
+      ],
+      "lines": [
+        {"src": "¿Sabías que la dehesa ibérica es uno de los ecosistemas más sostenibles del mundo?", "tgt": "Did you know that the Iberian oak meadow is one of the most sustainable ecosystems in the world?", "translit": ""},
+        {"src": "Los cerdos ibéricos se alimentan de bellota silvestre bajo robles milenarios.", "tgt": "Iberian pigs feed on wild acorns under thousand-year-old oak trees.", "translit": ""},
+        {"src": "Este equilibrio perfecto entre naturaleza y hombre preserva la biodiversidad.", "tgt": "This perfect balance between nature and man preserves biodiversity.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of a sun-dappled Iberian oak meadow, a 31-year-old Spanish biologist wearing a khaki vest standing under a giant ancient oak tree looking out across rolling green pastures, soft morning sunbeams filtering through leaves, cinematic film still, vertical composition",
+        "same oak meadow setting, same 31-year-old Spanish biologist wearing a khaki vest, now kneeling to examine ripe brown acorns scattered on the rich green moss floor, focused thoughtful facial expression, warm natural lighting, cinematic film still, vertical composition",
+        "same oak meadow setting, same 31-year-old Spanish biologist wearing a khaki vest, now observing black Iberian pigs foraging peacefully beneath oak branches in the distance, smiling warmly, bright golden morning sunlight, cinematic film still, vertical composition",
+        "same oak meadow setting, same 31-year-old Spanish biologist wearing a khaki vest, now standing calmly in the peaceful meadow as golden hour sun dips behind oak silhouettes, serene nature backdrop, cinematic film still, vertical composition"
+      ]
+    }
+  ]
+}

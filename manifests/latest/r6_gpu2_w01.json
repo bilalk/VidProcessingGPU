@@ -1,0 +1,628 @@
+{
+ "reels": [
+  {
+   "id": "ar-en-031",
+   "channel": "arabic-to-english",
+   "pair": "ar-en",
+   "topic": "history",
+   "seed": 41007,
+   "voice_src": "ar-SA-ZariyahNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "ar-SA-HamedNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "solo cello, melancholic and dignified, cathedral reverb, slow tempo",
+   "words": [
+    {
+     "src": "مخطوطة",
+     "tgt": "manuscript",
+     "translit": "makhṭūṭa"
+    },
+    {
+     "src": "قلعة",
+     "tgt": "citadel",
+     "translit": "qalʿa"
+    },
+    {
+     "src": "ختم",
+     "tgt": "seal",
+     "translit": "khatm"
+    }
+   ],
+   "lines": [
+    {
+     "src": "اكتشف المؤرخ مخطوطة نادرة داخل مكتبة قديمة.",
+     "tgt": "The historian discovered a rare manuscript inside an old library.",
+     "translit": "iktashafa al-mu'arrikh makhṭūṭatan nādiratan dākhila maktabatin qadīmah."
+    },
+    {
+     "src": "وصف النص أسراراً غامضة عن القلعة المنسية.",
+     "tgt": "The text described mysterious secrets about the forgotten citadel.",
+     "translit": "waṣafa an-naṣṣu asrāran ghāmiḍatan ʿani al-qalʿati al-mansiyyah."
+    },
+    {
+     "src": "فحص الباحث الختم الملكي الأحمر بعناية شديدة.",
+     "tgt": "The researcher carefully examined the royal red wax seal.",
+     "translit": "faḥaṣa al-bāḥithu al-khatma al-malakiyya al-aḥmara bi-ʿināyatin shadīdah."
+    }
+   ],
+   "scenes": [
+    "wide shot of a dimly lit ancient stone library, a 35-year-old Arab historian wearing a charcoal blazer and white shirt holding a yellowed parchment manuscript, wooden bookshelves filled with leather books in background, warm candlelight atmosphere, cinematic film still, vertical composition",
+    "same ancient library room, same 35-year-old Arab historian wearing a charcoal blazer and white shirt, now holding the manuscript close to a magnifying glass, focusing on faint drawn maps of a stone citadel on dark aged parchment, intense focused expression, side lighting, cinematic film still, vertical composition",
+    "same ancient library room, same 35-year-old Arab historian wearing a charcoal blazer and white shirt, now inspecting a raised red wax seal stamped at the bottom of the parchment manuscript, extreme close-up on hands and royal emblem under warm directional lamp light, cinematic film still, vertical composition",
+    "same ancient library room, same 35-year-old Arab historian wearing a charcoal blazer and white shirt, now standing peacefully beside a sunlit stone arch window overlooking rolling green hills, calm tranquil mood, serene backdrop, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "ar-en-032",
+   "channel": "arabic-to-english",
+   "pair": "ar-en",
+   "topic": "technology",
+   "seed": 41008,
+   "voice_src": "ar-SA-ZariyahNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "ar-SA-HamedNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "clean synth arpeggios, futuristic, minimal electronic rhythm",
+   "words": [
+    {
+     "src": "خادم",
+     "tgt": "server",
+     "translit": "khādim"
+    },
+    {
+     "src": "تشفير",
+     "tgt": "encryption",
+     "translit": "tashfīr"
+    },
+    {
+     "src": "خارق",
+     "tgt": "breach",
+     "translit": "khāriq"
+    }
+   ],
+   "lines": [
+    {
+     "src": "تعطل الخادم الرئيسي في منتصف الليل بشكل مفاجئ.",
+     "tgt": "The main server suddenly crashed in the middle of the night.",
+     "translit": "taʿaṭṭala al-khādimu ar-ra'īsiyyu fī muntaṣafi al-layli bi-shaklin mufāji'."
+    },
+    {
+     "src": "اخترق الضوء الأحمر الشاشة معلناً عن خرق أمني.",
+     "tgt": "Red light pierced the screen announcing a security breach.",
+     "translit": "ikhtaraqa aḍ-ḍaw'u al-aḥmaru ash-shāshata muʿlinan ʿan kharqin amnī."
+    },
+    {
+     "src": "قامت المهندسة بتفعيل نظام تشفير قوي لإعادة الأمان.",
+     "tgt": "The engineer activated a strong encryption system to restore safety.",
+     "translit": "qāmat al-muhandisatu bi-tafʿīli niẓāmi tashfīrin qawiyyin li-iʿādati al-amān."
+    }
+   ],
+   "scenes": [
+    "wide shot of a dark high-tech data center, a 29-year-old Arab female engineer wearing a navy blue hoodie and glasses standing before massive glowing server racks with blinking blue lights, late night atmosphere, cold blue tone, cinematic film still, vertical composition",
+    "same high-tech data center, same 29-year-old Arab female engineer wearing a navy blue hoodie and glasses, now pointing at a large monitor flashing red alert text indicating a system security breach, alarmed expression, vivid red neon reflections on face, cinematic film still, vertical composition",
+    "same high-tech data center, same 29-year-old Arab female engineer wearing a navy blue hoodie and glasses, now rapidly typing on a glowing mechanical keyboard, screen showing active green lines of complex encryption code, confident facial expression, cinematic film still, vertical composition",
+    "same high-tech data center, same 29-year-old Arab female engineer wearing a navy blue hoodie and glasses, now standing calmly in front of stably glowing green server indicators, peaceful dark backdrop, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "zh-en-033",
+   "channel": "chinese-to-english",
+   "pair": "zh-en",
+   "topic": "nature",
+   "seed": 41009,
+   "voice_src": "zh-CN-XiaoxiaoNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "zh-CN-YunxiNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "ambient pads with birdsong textures, peaceful, slow evolution",
+   "words": [
+    {
+     "src": "瀑布",
+     "tgt": "waterfall",
+     "translit": "pùbù"
+    },
+    {
+     "src": "山谷",
+     "tgt": "valley",
+     "translit": "shāngǔ"
+    },
+    {
+     "src": "雾气",
+     "tgt": "mist",
+     "translit": "wùqì"
+    }
+   ],
+   "lines": [
+    {
+     "src": "他们在高耸的山谷中漫步。",
+     "tgt": "They strolled through the towering valley.",
+     "translit": "tāmen zài gāosǒng de shāngǔ zhōng mànbù."
+    },
+    {
+     "src": "浓重的雾气遮挡了前方的山路。",
+     "tgt": "Heavy mist obscured the mountain trail ahead.",
+     "translit": "nóngzhòng de wùqì zhēdǎng le qiánfāng de shānlù."
+    },
+    {
+     "src": "一堵壮观的瀑布出现在阳光下。",
+     "tgt": "A spectacular waterfall appeared under the sunlight.",
+     "translit": "yī dǔ zhuàngguān de pùbù chūxiàn zài yángguāng xià."
+    }
+   ],
+   "scenes": [
+    "wide establishing shot of a deep mountain gorge, a 27-year-old Chinese male hiker wearing a red waterproof jacket and black hiking pants walking along a dirt path surrounded by steep granite cliffs, early morning sunlight, serene wilderness backdrop, cinematic film still, vertical composition",
+    "same mountain gorge, same 27-year-old Chinese male hiker wearing a red waterproof jacket and black hiking pants, now standing motionless on the rocky trail engulfed in thick white mist, cautious curious expression, diffuse soft morning lighting, cinematic film still, vertical composition",
+    "same mountain gorge, same 27-year-old Chinese male hiker wearing a red waterproof jacket and black hiking pants, now gazing up at a towering cascading waterfall sparkling bright gold in breaking sunlight, water droplets in air, cinematic film still, vertical composition",
+    "same mountain gorge, same 27-year-old Chinese male hiker wearing a red waterproof jacket and black hiking pants, now resting peacefully on a smooth boulder beside calm river water, pristine nature background, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "zh-en-034",
+   "channel": "chinese-to-english",
+   "pair": "zh-en",
+   "topic": "cooking-fail",
+   "seed": 41010,
+   "voice_src": "zh-CN-XiaoxiaoNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "zh-CN-YunxiNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "warm acoustic guitar, cozy gentle finger-picking rhythm",
+   "words": [
+    {
+     "src": "搅拌",
+     "tgt": "whisk",
+     "translit": "jiǎobàn"
+    },
+    {
+     "src": "溢出",
+     "tgt": "overflow",
+     "translit": "yìchū"
+    },
+    {
+     "src": "围裙",
+     "tgt": "apron",
+     "translit": "wéiqún"
+    }
+   ],
+   "lines": [
+    {
+     "src": "她系上围裙准备制作美味蛋糕。",
+     "tgt": "She put on an apron preparing to make a delicious cake.",
+     "translit": "tā jì shàng wéiqún zhǔnbèi zhìzuò měiwèi dàngāo."
+    },
+    {
+     "src": "过度搅拌导致面糊从碗中溢出。",
+     "tgt": "Over-whisking caused batter to overflow from the bowl.",
+     "translit": "guòdù jiǎobàn dǎozhì miànhú cóng wǎn zhōng yìchū."
+    },
+    {
+     "src": "她微笑着清理干净，改做小巧饼干。",
+     "tgt": "She smiled, cleaned up, and made tiny cookies instead.",
+     "translit": "tā wēixiào zhe qīnglǐ gānjìng, gǎi zuò xiǎoqiǎo bǐnggān."
+    }
+   ],
+   "scenes": [
+    "wide establishing shot of a bright modern kitchen, a 24-year-old Chinese woman wearing a yellow linen apron over a white long-sleeve shirt standing behind a clean wooden kitchen island with baking bowls and flour jars, warm afternoon daylight, cinematic film still, vertical composition",
+    "same modern kitchen, same 24-year-old Chinese woman wearing a yellow linen apron over a white long-sleeve shirt, now holding an electric whisk as creamy yellow cake batter overflows messily down the glass bowl onto the countertop, wide-eyed surprised expression, cinematic film still, vertical composition",
+    "same modern kitchen, same 24-year-old Chinese woman wearing a yellow linen apron over a white long-sleeve shirt, now happily placing a tray of perfectly baked golden cookies onto a wooden rack, joyful laughing face, warm kitchen glow, cinematic film still, vertical composition",
+    "same modern kitchen, same 24-year-old Chinese woman wearing a yellow linen apron over a white long-sleeve shirt, now standing in the spotlessly clean kitchen holding a single cookie, peaceful cozy ambiance, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-ar-035",
+   "channel": "english-to-arabic",
+   "pair": "en-ar",
+   "topic": "travel",
+   "seed": 41011,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "ar-SA-ZariyahNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "ar-SA-HamedNeural",
+   "music": "light rhythmic percussion, wonder and anticipation, world instruments",
+   "words": [
+    {
+     "src": "passport",
+     "tgt": "جَوَاز سَفَر",
+     "translit": "jawāz safar"
+    },
+    {
+     "src": "bazaar",
+     "tgt": "سُوق",
+     "translit": "sūq"
+    },
+    {
+     "src": "spices",
+     "tgt": "تَوَابِل",
+     "translit": "tawābil"
+    }
+   ],
+   "lines": [
+    {
+     "src": "He checked his passport before entering the ancient city.",
+     "tgt": "تفقد جواز سفره قبل دخول المدينة القديمة.",
+     "translit": "tafaqqada jawāza safarihi qabla dukhūli al-madīnati al-qadīmah."
+    },
+    {
+     "src": "The bustling bazaar was filled with vibrant colors.",
+     "tgt": "كان السوق المزدحم مليئاً بالألوان الزاهية.",
+     "translit": "kāna as-sūqu al-muzdahimu malī'an bi-l-alwāni az-zāhiyah."
+    },
+    {
+     "src": "He bought fragrant spices packed in small sacks.",
+     "tgt": "اشترى توابل عطرة معبأة في أكياس صغيرة.",
+     "translit": "ishtarā tawābila ʿaṭiratan muʿabba'atan fī ak-yāsin ṣaghīrah."
+    }
+   ],
+   "scenes": [
+    "wide establishing shot outside a historic archway city entrance, a 30-year-old American man wearing a beige linen shirt and dark jeans holding a open blue passport, warm sun illuminating old stone walls, bustling street background, cinematic film still, vertical composition",
+    "same historic city location, same 30-year-old American man wearing a beige linen shirt and dark jeans, now walking down a narrow crowded market corridor beneath colorful hanging fabric lanterns and brass lamps, curious amazed expression, cinematic film still, vertical composition",
+    "same historic city location, same 30-year-old American man wearing a beige linen shirt and dark jeans, now smiling as a shopkeeper hands him small burlap bags brimming with red and yellow ground spices, rich warm sunlight on market stalls, cinematic film still, vertical composition",
+    "same historic city location, same 30-year-old American man wearing a beige linen shirt and dark jeans, now resting at a quiet courtyard tea table bathed in golden sunset light, serene travel backdrop, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-ar-036",
+   "channel": "english-to-arabic",
+   "pair": "en-ar",
+   "topic": "health",
+   "seed": 41012,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "ar-SA-ZariyahNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "ar-SA-HamedNeural",
+   "music": "soft ambient piano with healing frequencies, gentle slow tempo",
+   "words": [
+    {
+     "src": "stethoscope",
+     "tgt": "سَمَّاعَة طَبِيب",
+     "translit": "sammāʿat ṭabīb"
+    },
+    {
+     "src": "pulse",
+     "tgt": "نَبْض",
+     "translit": "nabḍ"
+    },
+    {
+     "src": "remedy",
+     "tgt": "عِلَاج",
+     "translit": "ʿilāj"
+    }
+   ],
+   "lines": [
+    {
+     "src": "The doctor held her stethoscope during the checkup.",
+     "tgt": "أمسكت الطبيبة بسماعة الطبيب أثناء الفحص.",
+     "translit": "amsakati aṭ-ṭabībatu bi-sammāʿati aṭ-ṭabībi athnā'a al-faḥṣ."
+    },
+    {
+     "src": "She monitored the patient's steady cardiac pulse.",
+     "tgt": "راقبت نبض قلب المريض المنتظم بعناية.",
+     "translit": "rāqabat nabḍa qalbi al-marīḍi al-muntaẓama bi-ʿināyath."
+    },
+    {
+     "src": "She prescribed a natural remedy for complete recovery.",
+     "tgt": "وصفت علاجاً طبيعياً للتعافي التام.",
+     "translit": "waṣafat ʿilājan ṭabīʿiyyan li-t-taʿāfī at-tāmm."
+    }
+   ],
+   "scenes": [
+    "wide shot of a clean modern medical clinic room, a 34-year-old American female doctor wearing a white lab coat over a teal blouse wearing a silver stethoscope around her neck standing next to a medical exam table, soft diffused window light, cinematic film still, vertical composition",
+    "same medical clinic room, same 34-year-old American female doctor wearing a white lab coat over a teal blouse, now holding her fingers on a seated patient's wrist to check their pulse while looking at a wall clock, calm focused expression, cinematic film still, vertical composition",
+    "same medical clinic room, same 34-year-old American female doctor wearing a white lab coat over a teal blouse, now writing a prescription note for natural herbal tea remedy next to small glass tincture bottles on a wooden desk, reassuring smile, cinematic film still, vertical composition",
+    "same medical clinic room, same 34-year-old American female doctor wearing a white lab coat over a teal blouse, now standing peacefully beside a sunlit windowsill with green houseplants, serene healing atmosphere, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-zh-037",
+   "channel": "english-to-chinese",
+   "pair": "en-zh",
+   "topic": "sports",
+   "seed": 41013,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "zh-CN-XiaoxiaoNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "zh-CN-YunxiNeural",
+   "music": "energetic percussion, upbeat driving tempo with brass stabs",
+   "words": [
+    {
+     "src": "marathon",
+     "tgt": "马拉松",
+     "translit": "mǎlāsōng"
+    },
+    {
+     "src": "cramp",
+     "tgt": "抽筋",
+     "translit": "chōujīn"
+    },
+    {
+     "src": "finish line",
+     "tgt": "终点线",
+     "translit": "zhōngdiǎnxiàn"
+    }
+   ],
+   "lines": [
+    {
+     "src": "He ran in his first city marathon today.",
+     "tgt": "他今天参加了他的第一次城市马拉松。",
+     "translit": "tā jīntiān cānjiā le tā de dì yī cì chéngshì mǎlāsōng."
+    },
+    {
+     "src": "A sudden muscle cramp slowed down his pace.",
+     "tgt": "突如其来的肌肉抽筋减慢了他的步伐。",
+     "translit": "tū rú qí lái de jīròu chōujīn jiǎnmàn le tā de bùfá."
+    },
+    {
+     "src": "He pushed through and crossed the finish line.",
+     "tgt": "他坚持了下来，冲过了终点线。",
+     "translit": "tā jiānchí le xiàlái, chōngguò le zhōngdiǎnxiàn."
+    }
+   ],
+   "scenes": [
+    "wide shot of a sunlit city street closed for a race, a 26-year-old American man wearing a blue athletic singlet and black shorts running alongside other marathon runners, morning sunlight, cheering spectators behind barriers, cinematic film still, vertical composition",
+    "same city street race route, same 26-year-old American man wearing a blue athletic singlet and black shorts, now grimacing in pain while holding his calf muscle on the asphalt road due to a severe muscle cramp, determined pained expression, cinematic film still, vertical composition",
+    "same city street race route, same 26-year-old American man wearing a blue athletic singlet and black shorts, now raising his arms triumphantly while breaking through a bright red ribbon at the finish line, joyful ecstatic face, cinematic film still, vertical composition",
+    "same city street race route, same 26-year-old American man wearing a blue athletic singlet and black shorts, now wrapped in a silver thermal blanket standing under a peaceful shaded park tree, triumphant calm atmosphere, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-zh-038",
+   "channel": "english-to-chinese",
+   "pair": "en-zh",
+   "topic": "family-conflict",
+   "seed": 41014,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "zh-CN-XiaoxiaoNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "zh-CN-YunxiNeural",
+   "music": "gentle string quartet, emotional warmth, slow legato",
+   "words": [
+    {
+     "src": "argument",
+     "tgt": "争吵",
+     "translit": "zhēngchǎo"
+    },
+    {
+     "src": "heirloom",
+     "tgt": "传家宝",
+     "translit": "chuánjiābǎo"
+    },
+    {
+     "src": "reconciliation",
+     "tgt": "和解",
+     "translit": "héjiě"
+    }
+   ],
+   "lines": [
+    {
+     "src": "A heated argument broke out over dinner.",
+     "tgt": "晚餐时爆发了一场激烈的争吵。",
+     "translit": "wǎncān shí bàofā le yī chǎng jīliè de zhēngchǎo."
+    },
+    {
+     "src": "The old silver heirloom sat between them untouched.",
+     "tgt": "古老的银质传家宝摆在他们中间，没人动过。",
+     "translit": "gǔlǎo de yínzhì chuánjiābǎo bǎi zài tāmen zhōngjiān, méi rén dòng guò."
+    },
+    {
+     "src": "A warm hug marked their peaceful reconciliation.",
+     "tgt": "一个温暖的拥抱标志着他们和平的和解。",
+     "translit": "yī gè wēnnuǎn de yǒngbào biāozhì zhe tāmen hépíng de héjiě."
+    }
+   ],
+   "scenes": [
+    "wide shot of a dining room at dusk, a 28-year-old American woman wearing a green knitted sweater sitting across a wooden table from her elder father, tense emotional atmosphere, warm overhead pendant lamp light, cinematic film still, vertical composition",
+    "same dining room, same 28-year-old American woman wearing a green knitted sweater, now looking down sadly at an antique polished silver pocket watch sitting on the table cloth between them, dramatic shadow and highlight, cinematic film still, vertical composition",
+    "same dining room, same 28-year-old American woman wearing a green knitted sweater, now smiling warmly while embracing her father tightly in a forgiving hug next to the dining table, soft cozy indoor lighting, cinematic film still, vertical composition",
+    "same dining room, same 28-year-old American woman wearing a green knitted sweater, now sitting calmly sipping tea in the peaceful room bathed in soft warm twilight light, tranquil atmosphere, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-es-039",
+   "channel": "english-to-spanish",
+   "pair": "en-es",
+   "topic": "art",
+   "seed": 41015,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "es-ES-ElviraNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "es-ES-AlvaroNeural",
+   "music": "delicate solo harp, flowing dreamy melody, soft reverb",
+   "words": [
+    {
+     "src": "canvas",
+     "tgt": "lienzo",
+     "translit": ""
+    },
+    {
+     "src": "palette",
+     "tgt": "paleta",
+     "translit": ""
+    },
+    {
+     "src": "masterpiece",
+     "tgt": "obra maestra",
+     "translit": ""
+    }
+   ],
+   "lines": [
+    {
+     "src": "She set up a blank canvas in her sunlit studio.",
+     "tgt": "Ella colocó un lienzo en blanco en su estudio iluminado.",
+     "translit": ""
+    },
+    {
+     "src": "She mixed bright oil paints on a wooden palette.",
+     "tgt": "Ella mezcló pinturas al óleo brillantes en una paleta de madera.",
+     "translit": ""
+    },
+    {
+     "src": "She revealed a breathtaking vibrant floral masterpiece.",
+     "tgt": "Ella reveló una deslumbrante obra maestra floral y vibrante.",
+     "translit": ""
+    }
+   ],
+   "scenes": [
+    "wide shot of a loft art studio with large glass windows, a 31-year-old American female painter wearing denim overalls and a white t-shirt standing before a tall white blank canvas on a wooden easel, bright morning sunlight streaming in, cinematic film still, vertical composition",
+    "same loft art studio, same 31-year-old American female painter wearing denim overalls and a white t-shirt, now holding a wooden palette splattered with red and yellow oil paints while dabbing a brush onto the canvas, focused artistic expression, cinematic film still, vertical composition",
+    "same loft art studio, same 31-year-old American female painter wearing denim overalls and a white t-shirt, now stepping back with a joyful smile to admire a complete vivid impressionist flower oil painting on the canvas, cinematic film still, vertical composition",
+    "same loft art studio, same 31-year-old American female painter wearing denim overalls and a white t-shirt, now sitting peacefully on a stool looking out the window beside her finished artwork, serene backdrop, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "en-es-040",
+   "channel": "english-to-spanish",
+   "pair": "en-es",
+   "topic": "celebration",
+   "seed": 41016,
+   "voice_src": "en-US-JennyNeural",
+   "voice_tgt": "es-ES-ElviraNeural",
+   "voice_src2": "en-US-GuyNeural",
+   "voice_tgt2": "es-ES-AlvaroNeural",
+   "music": "warm ukulele strumming, cheerful light rhythm, sunny vibe",
+   "words": [
+    {
+     "src": "confetti",
+     "tgt": "confeti",
+     "translit": ""
+    },
+    {
+     "src": "toast",
+     "tgt": "brindis",
+     "translit": ""
+    },
+    {
+     "src": "bakery",
+     "tgt": "pastelería",
+     "translit": ""
+    }
+   ],
+   "lines": [
+    {
+     "src": "They gathered outside the new family bakery.",
+     "tgt": "Se reunieron fuera de la nueva pastelería familiar.",
+     "translit": ""
+    },
+    {
+     "src": "Colorful confetti rained down over the cheering crowd.",
+     "tgt": "Confeti de colores cayó sobre la multitud entusiasmada.",
+     "translit": ""
+    },
+    {
+     "src": "Everyone raised a glass for a memorable toast.",
+     "tgt": "Todos alzaron una copa para un brindis memorable.",
+     "translit": ""
+    }
+   ],
+   "scenes": [
+    "wide shot of a charming storefront with a wooden sign, a 33-year-old American man wearing a maroon button-down shirt standing in front of a newly opened bakery with friends gathered around, morning outdoor lighting, festive decorations, cinematic film still, vertical composition",
+    "same bakery storefront, same 33-year-old American man wearing a maroon button-down shirt, now laughing with eyes open wide as bright red, blue, and gold confetti explodes into the air around him, dynamic cheerful moment, cinematic film still, vertical composition",
+    "same bakery storefront, same 33-year-old American man wearing a maroon button-down shirt, now holding up a sparkling glass juice flute alongside happy friends to make a celebratory toast, golden sunlight reflections, cinematic film still, vertical composition",
+    "same bakery storefront, same 33-year-old American man wearing a maroon button-down shirt, now standing calmly in front of the quiet decorated shop window under a warm sunset sky, peaceful celebratory backdrop, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "es-en-041",
+   "channel": "spanish-to-english",
+   "pair": "es-en",
+   "topic": "urban-life",
+   "seed": 41017,
+   "voice_src": "es-ES-ElviraNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "es-ES-AlvaroNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "soft piano, professional atmosphere, steady confident tempo",
+   "words": [
+    {
+     "src": "tranvía",
+     "tgt": "streetcar",
+     "translit": ""
+    },
+    {
+     "src": "callejón",
+     "tgt": "alleyway",
+     "translit": ""
+    },
+    {
+     "src": "mural",
+     "tgt": "mural",
+     "translit": ""
+    }
+   ],
+   "lines": [
+    {
+     "src": "El tranvía amarillo cruzó la concurrida avenida.",
+     "tgt": "The yellow streetcar crossed the busy avenue.",
+     "translit": ""
+    },
+    {
+     "src": "Él caminó por un callejón estrecho y silencioso.",
+     "tgt": "He walked through a narrow and quiet alleyway.",
+     "translit": ""
+    },
+    {
+     "src": "Encontró un gigantesco mural lleno de arte colorido.",
+     "tgt": "He found a gigantic mural full of colorful art.",
+     "translit": ""
+    }
+   ],
+   "scenes": [
+    "wide shot of a bustling European city street, a 28-year-old Spanish man wearing a black leather jacket and gray scarf watching a classic yellow streetcar glide down cobblestone tracks, bright daytime urban lighting, cinematic film still, vertical composition",
+    "same urban district, same 28-year-old Spanish man wearing a black leather jacket and gray scarf, now turning into a shady brick alleyway with soft shadows, intriguing moody perspective, cinematic film still, vertical composition",
+    "same urban district, same 28-year-old Spanish man wearing a black leather jacket and gray scarf, now looking up in awe at a massive wall covered in vibrant painted street art murals, rich vivid colors, sunlight filtering down, cinematic film still, vertical composition",
+    "same urban district, same 28-year-old Spanish man wearing a black leather jacket and gray scarf, now sitting on a bench in a quiet courtyard beside the painted wall, peaceful serene atmosphere, cinematic film still, vertical composition"
+   ]
+  },
+  {
+   "id": "es-en-042",
+   "channel": "spanish-to-english",
+   "pair": "es-en",
+   "topic": "mystery",
+   "seed": 41018,
+   "voice_src": "es-ES-ElviraNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "es-ES-AlvaroNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "tense orchestral strings with low cello pulse, building urgency, cinematic tension",
+   "words": [
+    {
+     "src": "huella",
+     "tgt": "footprint",
+     "translit": ""
+    },
+    {
+     "src": "linterna",
+     "tgt": "flashlight",
+     "translit": ""
+    },
+    {
+     "src": "pasadizo",
+     "tgt": "passageway",
+     "translit": ""
+    }
+   ],
+   "lines": [
+    {
+     "src": "Ella siguió una huella extraña en el suelo.",
+     "tgt": "She followed a strange footprint on the floor.",
+     "translit": ""
+    },
+    {
+     "src": "Encendió su linterna para iluminar la oscuridad.",
+     "tgt": "She turned on her flashlight to illuminate the darkness.",
+     "translit": ""
+    },
+    {
+     "src": "La luz reveló un pasadizo secreto tras la pared.",
+     "tgt": "The light revealed a secret passageway behind the wall.",
+     "translit": ""
+    }
+   ],
+   "scenes": [
+    "wide establishing shot of an old dusty manor hallway at night, a 30-year-old Spanish woman wearing a brown trench coat kneeling down to look at a singular muddy footprint on the wooden floorboards, dim low key lighting, cinematic film still, vertical composition",
+    "same manor hallway, same 30-year-old Spanish woman wearing a brown trench coat, now holding up a metal flashlight that casts a bright cone of white light into a dark dusty corner, focused suspicious face, cinematic film still, vertical composition",
+    "same manor hallway, same 30-year-old Spanish woman wearing a brown trench coat, now peering inside an open stone passageway revealed behind a slid-open bookshelf wall, dramatic highlights and deep shadows, cinematic film still, vertical composition",
+    "same manor hallway, same 30-year-old Spanish woman wearing a brown trench coat, now standing calmly in the dimly lit hall bathed in soft moonlight from a high window, peaceful mysterious backdrop, cinematic film still, vertical composition"
+   ]
+  }
+ ]
+}

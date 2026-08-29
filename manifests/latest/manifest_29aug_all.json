@@ -1,0 +1,940 @@
+{
+ "reels": [
+  {
+   "id": "ar-en-140",
+   "channel": "arabic-to-english",
+   "pair": "ar-en",
+   "topic": "ancient-astronomy",
+   "seed": 62000,
+   "voice_src": "ar-SA-ZariyahNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "ar-SA-HamedNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "mysterious synth pads with deep ethereal choir, slow tempo, cosmic wonder",
+   "words": [
+    {
+     "translit": "marsad",
+     "src": "مَرْصَد",
+     "tgt": "observatory"
+    },
+    {
+     "translit": "falak",
+     "src": "فَلَك",
+     "tgt": "orbit"
+    },
+    {
+     "translit": "isturlab",
+     "src": "إِسْطَرْلَاب",
+     "tgt": "astrolabe"
+    }
+   ],
+   "scenes": [
+    "A 35-year-old Arab scholar with short dark beard, wearing a deep indigo linen tunic and a light brown headscarf, stands atop a jagged sandstone cliff at dusk, holding an intricate polished brass astrolabe toward a glowing starry twilight sky, warm amber illumination catching his focused expression, surrounded by ancient stone relics and scattered parchment scrolls, cinematic film still, vertical composition, LTX motion: high-realism physics, slow atmospheric dust drift, cinematic lighting with low key desert sun",
+    "Same sandstone cliff setting, same Arab scholar in deep indigo linen tunic and light brown headscarf, now adjusting the rotating brass rings of the astrolabe with precise fingers, glowing starlight reflecting directly in his intense dark eyes as he measures the midnight horizon angle, soft lantern light casting deep shadows against textured canyon rock walls, cinematic film still, vertical composition, LTX motion: controlled physical tracking, detailed hand-eye coordination dynamics, sharp focus on instrument mechanics",
+    "Same sandstone cliff setting, same Arab scholar in deep indigo linen tunic and light brown headscarf, pointing a steady hand toward a brilliant constellation alignment appearing through the rotating instrument sight, vibrant golden celestial map markings glowing faintly on weathered brass plates, dramatic twilight horizon backdrop, cinematic film still, vertical composition, LTX motion: high-fidelity micro-texture tracking, metal reflection physics, smooth cinematic zoom focus",
+    "Same sandstone cliff setting, same Arab scholar in deep indigo linen tunic and light brown headscarf, standing peacefully with arms crossed against a vast indigo night sky filled with luminous Milky Way star clusters, soft cool moonlight illuminating the quiet desert landscape below, clean negative space ready for vocabulary cards, cinematic film still, vertical composition, LTX motion: subtle ambient motion, gentle wind texture on fabric, peaceful static background for graphic overlay"
+   ],
+   "narration": [
+    "How did ancient desert astronomers map invisible stars before modern telescopes existed?",
+    "They aligned a brass instrument with the midnight horizon to track every celestial orbit.",
+    "Now thousands gather at this modern desert observatory to unlock cosmic secrets."
+   ]
+  },
+  {
+   "id": "ar-en-141",
+   "channel": "arabic-to-english",
+   "pair": "ar-en",
+   "topic": "marine-ecosystem",
+   "seed": 62001,
+   "voice_src": "ar-SA-ZariyahNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "ar-SA-HamedNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "ambient synthetic pads with deep underwater reverb, slow flowing rhythm",
+   "words": [
+    {
+     "translit": "sha'b",
+     "src": "شَعْب",
+     "tgt": "coral reef"
+    },
+    {
+     "translit": "tayyar",
+     "src": "تَيَّار",
+     "tgt": "current"
+    },
+    {
+     "translit": "sulhafat",
+     "src": "سُلَحْفَاة",
+     "tgt": "sea turtle"
+    }
+   ],
+   "scenes": [
+    "A 28-year-old female marine biologist with long dark braided hair, wearing a sleek black wetsuit and diving gear, floats gracefully inside a vibrant turquoise Red Sea coral reef teeming with colorful reef fish, shafts of brilliant golden sunlight piercing through crystal clear azure water, cinematic film still, vertical composition, LTX motion: fluid dynamics physics, caustic light refraction simulation, slow graceful underwater drift",
+    "Same vibrant Red Sea coral reef setting, same female marine biologist in sleek black wetsuit and diving gear, now swimming alongside a massive hawksbill sea turtle gliding effortlessly through a narrow rocky underwater gorge against a rising aquatic current, bubbles rising toward the surface, cinematic film still, vertical composition, LTX motion: dynamic water turbulence simulation, organic fabric and hair sway, medium focal depth",
+    "Same vibrant Red Sea coral reef setting, same female marine biologist in sleek black wetsuit and diving gear, gently observing a large sea turtle's textured shell pattern as it navigates past intricate branching pink and purple coral formations, natural bioluminescent glow highlighting marine life details, cinematic film still, vertical composition, LTX motion: high-detail surface texture tracking, organic shell pattern reflection, crisp macro water focus",
+    "Same vibrant Red Sea coral reef setting, same female marine biologist in sleek black wetsuit and diving gear, hovering motionless in a tranquil deep blue marine sanctuary as schools of silver fish swim past a peaceful sunlit background, clean negative space for vocabulary cards, cinematic film still, vertical composition, LTX motion: minimal fluid movement, tranquil light filtering, steady serene background frame"
+   ],
+   "narration": [
+    "Why do endangered hawksbill turtles return to the exact same Red Sea coral labyrinth every spring?",
+    "A sudden underwater surge pushes nutrient-rich waters through the deep submerged canyon walls.",
+    "Watch as a majestic marine creature navigates the swirling current to reach its ancient nesting ground."
+   ]
+  },
+  {
+   "id": "zh-en-142",
+   "channel": "chinese-to-english",
+   "pair": "zh-en",
+   "topic": "architectural-engineering",
+   "seed": 62002,
+   "voice_src": "zh-CN-XiaoxiaoNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "zh-CN-YunxiNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "clean synth arpeggios, futuristic techno rhythm, minimal electronic vibe",
+   "words": [
+    {
+     "translit": "sǔn mǎo",
+     "src": "榫卯",
+     "tgt": "mortise and tenon"
+    },
+    {
+     "translit": "jié gòu",
+     "src": "结构",
+     "tgt": "structure"
+    },
+    {
+     "translit": "kàng zhèn",
+     "src": "抗震",
+     "tgt": "seismic resistance"
+    }
+   ],
+   "scenes": [
+    "A 40-year-old male Chinese timber engineer with neat black hair and wire-rimmed glasses, wearing a dark gray structured jacket and white collared shirt, stands inside a towering traditional wooden pavilion framing intricate interlocking roof beams under bright morning sunlight, cinematic film still, vertical composition, LTX motion: structural mechanics focus, high-precision rigid body physics, dramatic architectural lighting",
+    "Same traditional wooden pavilion setting, same male Chinese timber engineer in dark gray structured jacket and white collared shirt, now inspecting a precision wooden joint model with exposed mortise and tenon connections, holding a digital tablet displaying stress analysis wireframes, warm natural side lighting, cinematic film still, vertical composition, LTX motion: mechanical stress test physics, wood grain flexibility simulation, sharp focus on hand tools",
+    "Same traditional wooden pavilion setting, same male Chinese timber engineer in dark gray structured jacket and white collared shirt, pointing a gloved finger at the exact friction point where two polished cedar beams lock together seamlessly without metal fasteners, sunlight highlighting fine sawdust particles in the air, cinematic film still, vertical composition, LTX motion: macro wood grain texture tracking, high-speed impact physics, sharp focal depth",
+    "Same traditional wooden pavilion setting, same male Chinese timber engineer in dark gray structured jacket and white collared shirt, standing calmly with hands behind his back before a massive symmetric timber lattice window overlooking a misty pine courtyard, peaceful morning ambiance, clean negative space, cinematic film still, vertical composition, LTX motion: minimal environmental motion, steady architectural framing, clean lighting for text overlay"
+   ],
+   "narration": [
+    "How could ancient wooden palaces withstand devastating earthquakes without using a single metal nail?",
+    "Interlocking timber joints flex and absorb massive kinetic shockwaves during violent ground tremors.",
+    "Modern structural engineers now replicate this ancient wood engineering to protect futuristic skyscrapers."
+   ]
+  },
+  {
+   "id": "zh-en-143",
+   "channel": "chinese-to-english",
+   "pair": "zh-en",
+   "topic": "silk-road-craft",
+   "seed": 62003,
+   "voice_src": "zh-CN-XiaoxiaoNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "zh-CN-YunxiNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "delicate solo guzheng with soft ambient reverb, flowing dreamy melody",
+   "words": [
+    {
+     "translit": "cán sī",
+     "src": "蚕丝",
+     "tgt": "silk filament"
+    },
+    {
+     "translit": "zhī jī",
+     "src": "织机",
+     "tgt": "loom"
+    },
+    {
+     "translit": "rǎn liào",
+     "src": "染料",
+     "tgt": "natural dye"
+    }
+   ],
+   "scenes": [
+    "A 32-year-old female Chinese textile artisan with long dark hair tied in a loose bun, wearing a traditional cyan cotton wrap dress and indigo apron, stands inside a sunlit workshop filled with hanging spools of vibrant colored silk threads and rustic wooden looms, cinematic film still, vertical composition, LTX motion: smooth cloth simulation physics, natural fiber drape dynamics, warm artisan workshop lighting",
+    "Same sunlit workshop setting, same female Chinese textile artisan in traditional cyan cotton wrap dress and indigo apron, now operating a large wooden handloom, expertly guiding a wooden shuttle across shimmering gold and crimson silk warp threads, soft morning window light illuminating floating dust motes, cinematic film still, vertical composition, LTX motion: fluid textile movement, precise shuttle motion physics, rich color gradient simulation",
+    "Same sunlit workshop setting, same female Chinese textile artisan in traditional cyan cotton wrap dress and indigo apron, delicately examining a woven brocade pattern featuring intricate imperial dragon motifs, her fingers touching the raised metallic gold threads against a deep crimson background, cinematic film still, vertical composition, LTX motion: macro thread tension physics, high-detail fiber texture tracking, sharp focal depth on fingers",
+    "Same sunlit workshop setting, same female Chinese textile artisan in traditional cyan cotton wrap dress and indigo apron, standing serenely beside finished rolls of multicolored silk fabric stacked neatly on old wooden shelves, gentle soft-box lighting, clean negative space for vocabulary cards, cinematic film still, vertical composition, LTX motion: subtle ambient fabric flutter, peaceful workshop backdrop, static framing for text"
+   ],
+   "narration": [
+    "What secret dyeing technique made ancient Silk Road textiles shimmer with two contrasting colors?",
+    "Master artisans submerged raw silk threads into fermented indigo and crushed mineral solutions.",
+    "Witness the delicate weaving process that turned fragile cocoons into imperial garments."
+   ]
+  },
+  {
+   "id": "en-ar-144",
+   "channel": "english-to-arabic",
+   "pair": "en-ar",
+   "topic": "deep-sea-exploration",
+   "seed": 62004,
+   "voice_src": "ar-SA-ZariyahNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "ar-SA-HamedNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "tense low brass and strings, building urgency, cinematic deep sea atmosphere",
+   "words": [
+    {
+     "translit": "ghawwasah",
+     "src": "غَوَّاصَة",
+     "tgt": "submarine"
+    },
+    {
+     "translit": "umq",
+     "src": "عُمْق",
+     "tgt": "depth"
+    },
+    {
+     "translit": "daght",
+     "src": "ضَغْط",
+     "tgt": "pressure"
+    }
+   ],
+   "scenes": [
+    "A 45-year-old male aerospace engineer with closely cropped graying hair and a rugged stubble beard, wearing a heavy dark navy blue jumpsuit with reflective safety stripes, stands inside a dimly lit high-tech submarine testing facility next to a massive spherical titanium pressure hull under dramatic overhead spotlighting, cinematic film still, vertical composition, LTX motion: heavy machinery physics, industrial hydrodynamics, moody cinematic steel lighting",
+    "Same submarine testing facility setting, same male aerospace engineer in dark navy blue jumpsuit and reflective safety stripes, now calibrating digital depth sensors and hydraulic pressure gauges mounted on a thick steel control console, neon blue indicator lights reflecting on his concentrated face, cinematic film still, vertical composition, LTX motion: mechanical instrument actuation physics, digital display glow simulation, focused workspace framing",
+    "Same submarine testing facility setting, same male aerospace engineer in dark navy blue jumpsuit and reflective safety stripes, inspecting a flawless laser-welded titanium seam using a high-magnification optical scope, intense orange safety glare illuminating the polished metallic surface, cinematic film still, vertical composition, LTX motion: high-detail metal welding texture tracking, spark emission physics, sharp macro lens focus",
+    "Same submarine testing facility setting, same male aerospace engineer in dark navy blue jumpsuit and reflective safety stripes, standing confidently with arms crossed in front of the fully assembled deep-sea research submersible resting on heavy industrial hydraulic jacks, clean professional lighting, cinematic film still, vertical composition, LTX motion: minimal industrial motion, steady environmental framing, clean background for text overlay"
+   ],
+   "narration": [
+    "How do titanium submersible hulls survive crushing ocean pressures four thousand meters down?",
+    "Engineers weld seamless titanium alloy spheres designed to counteract extreme hydrostatic forces.",
+    "Step inside the control cockpit as scientists descend into pitch-black abyssal trenches."
+   ]
+  },
+  {
+   "id": "en-ar-145",
+   "channel": "english-to-arabic",
+   "pair": "en-ar",
+   "topic": "renewable-energy",
+   "seed": 62005,
+   "voice_src": "ar-SA-ZariyahNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "ar-SA-HamedNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "clean synth arpeggios, futuristic renewable energy vibe, minimal electronic tempo",
+   "words": [
+    {
+     "translit": "taqah shamsiyyah",
+     "src": "طَاقَة شَمْسِيَّة",
+     "tgt": "solar energy"
+    },
+    {
+     "translit": "lawh",
+     "src": "لَوْح",
+     "tgt": "panel"
+    },
+    {
+     "translit": "shabakah",
+     "src": "شَبَكَة",
+     "tgt": "grid"
+    }
+   ],
+   "scenes": [
+    "A 34-year-old female solar physicist with dark curly hair tied back in a ponytail, wearing a crisp white utility jumpsuit and polarized sunglasses, stands in the middle of a sprawling desert solar farm with rows of tilted photovoltaic panels stretching toward the horizon under a brilliant golden sun, cinematic film still, vertical composition, LTX motion: vast scale physics, heat shimmer atmospheric refraction, bright desert sun glare simulation",
+    "Same sprawling desert solar farm setting, same female solar physicist in crisp white utility jumpsuit and polarized sunglasses, now activating an automated electrostatic cleaning pulse on a glass solar panel surface, watching microscopic dust particles lift away in a tiny wave, bright noon lighting, cinematic film still, vertical composition, LTX motion: dust particle electrostatic repulsion simulation, clean surface tracking, sharp solar panel reflection",
+    "Same sprawling desert solar farm setting, same female solar physicist in crisp white utility jumpsuit and polarized sunglasses, holding a high-precision digital spectrometer against the ultra-clear photovoltaic glass coating, reading peak energy conversion metrics on her handheld screen, cinematic film still, vertical composition, LTX motion: macro glass surface texture tracking, light reflection physics, sharp focus on testing device",
+    "Same sprawling desert solar farm setting, same female solar physicist in crisp white utility jumpsuit and polarized sunglasses, standing with a calm smile before miles of gleaming solar arrays under a clear azure sky, clean negative space for vocabulary cards, cinematic film still, vertical composition, LTX motion: subtle heat haze motion, peaceful renewable energy landscape, clean framing for text overlay"
+   ],
+   "narration": [
+    "What cutting-edge coating allows modern solar farms to clean themselves during desert sandstorms?",
+    "Electrostatic repulsion waves push fine dust particles off photovoltaic glass panels automatically.",
+    "Explore how vast renewable energy grids power entire modern cities using desert sunlight."
+   ]
+  },
+  {
+   "id": "en-zh-146",
+   "channel": "english-to-chinese",
+   "pair": "en-zh",
+   "topic": "botanical-defense",
+   "seed": 62006,
+   "voice_src": "zh-CN-XiaoxiaoNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "zh-CN-YunxiNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "ambient pads with birdsong textures, peaceful slow evolution, organic forest mood",
+   "words": [
+    {
+     "translit": "zhí wù",
+     "src": "植物",
+     "tgt": "plant"
+    },
+    {
+     "translit": "huà xué",
+     "src": "化学",
+     "tgt": "chemical"
+    },
+    {
+     "translit": "xìn hào",
+     "src": "信号",
+     "tgt": "signal"
+    }
+   ],
+   "scenes": [
+    "A 38-year-old male forest ecologist with short brown hair and a light beard, wearing a khaki canvas field jacket and cargo pants, kneels beside an ancient mossy oak tree in a dense misty temperate forest, examining exposed roots with a magnifying loupe under soft filtered morning sunlight, cinematic film still, vertical composition, LTX motion: organic root network physics, subterranean soil moisture simulation, dappled forest canopy lighting",
+    "Same dense misty temperate forest setting, same male forest ecologist in khaki canvas field jacket and cargo pants, now injecting a harmless fluorescent tracer into a root node to track underground fungal nutrient transmission, glowing bioluminescent green veins visible on the root bark, cinematic film still, vertical composition, LTX motion: mycelial network simulation, fluid tracer dye physics, sharp focus on organic soil layers",
+    "Same dense misty temperate forest setting, same male forest ecologist in khaki canvas field jacket and cargo pants, holding a trembling oak leaf showing defensive tannin discoloration while a tiny caterpillar crawls nearby, rich earthy tones and misty background, cinematic film still, vertical composition, LTX motion: macro bark texture tracking, insect interaction physics, sharp focal depth on leaf surface",
+    "Same dense misty temperate forest setting, same male forest ecologist in khaki canvas field jacket and cargo pants, standing peacefully beneath a cathedral of towering green pine trees bathed in golden sunbeams breaking through morning fog, clean negative space, cinematic film still, vertical composition, LTX motion: gentle canopy breeze simulation, serene forest atmosphere, clean framing for vocabulary cards"
+   ],
+   "narration": [
+    "How do trees instantly warn neighboring forest trees when hungry caterpillars start eating their leaves?",
+    "Underground fungal networks transmit chemical warning signals across the entire forest ecosystem.",
+    "Discover the secret communication network operating silently beneath the damp forest floor."
+   ]
+  },
+  {
+   "id": "en-zh-147",
+   "channel": "english-to-chinese",
+   "pair": "en-zh",
+   "topic": "deep-space-comet",
+   "seed": 62007,
+   "voice_src": "zh-CN-XiaoxiaoNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "zh-CN-YunxiNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "ambient space pads with deep cosmic drone, mysterious and expansive tempo",
+   "words": [
+    {
+     "translit": "huì xīng",
+     "src": "彗星",
+     "tgt": "comet"
+    },
+    {
+     "translit": "bīng",
+     "src": "冰",
+     "tgt": "ice"
+    },
+    {
+     "translit": "chén āi",
+     "src": "尘埃",
+     "tgt": "dust"
+    }
+   ],
+   "scenes": [
+    "A 36-year-old female astrophysicist with short platinum blonde hair, wearing a sleek charcoal gray turtleneck sweater, stands inside a dark astronomical observatory control room facing a massive curved panoramic screen displaying a brilliant icy green comet streaking across a starry cosmos, cinematic film still, vertical composition, LTX motion: orbital mechanics simulation, stellar parallax motion, deep space lighting physics",
+    "Same dark astronomical observatory control room setting, same female astrophysicist in sleek charcoal gray turtleneck sweater, now manipulating floating 3D holographic telemetry data mapping the comet's hyperbolic orbital trajectory past Mars, neon blue data lines reflecting in her focused eyes, cinematic film still, vertical composition, LTX motion: interactive holographic data display physics, fluid hand gesture tracking, sharp screen glow",
+    "Same dark astronomical observatory control room setting, same female astrophysicist in sleek charcoal gray turtleneck sweater, pointing at a high-resolution spectral analysis graph revealing complex amino acid signatures captured from the comet's coma, cinematic film still, vertical composition, LTX motion: high-contrast screen reflection tracking, precise finger pointing dynamics, macro instrument detail",
+    "Same dark astronomical observatory control room setting, same female astrophysicist in sleek charcoal gray turtleneck sweater, standing calmly with arms folded while watching a breathtaking time-lapse of the night sky through a giant retractable dome ceiling, clean negative space, cinematic film still, vertical composition, LTX motion: subtle starfield twinkling simulation, serene cosmic backdrop, clean framing for text overlay"
+   ],
+   "narration": [
+    "What pristine organic molecules are locked inside ancient comets hurtling through our solar system?",
+    "Solar radiation vaporizes frozen primordial ice, releasing glowing gas tails millions of kilometers long.",
+    "Join planetary scientists tracking an interstellar visitor across the starry night sky."
+   ]
+  },
+  {
+   "id": "en-es-148",
+   "channel": "english-to-spanish",
+   "pair": "en-es",
+   "topic": "gastronomic-science",
+   "seed": 62008,
+   "voice_src": "es-ES-ElviraNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "es-ES-AlvaroNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "warm acoustic guitar, cozy gentle finger-picking rhythm, culinary atmosphere",
+   "words": [
+    {
+     "src": "fermentación",
+     "tgt": "fermentation"
+    },
+    {
+     "src": "sabor",
+     "tgt": "flavor"
+    },
+    {
+     "src": "enzima",
+     "tgt": "enzyme"
+    }
+   ],
+   "scenes": [
+    "A 42-year-old male master cheesemaker with a thick beard and friendly smile, wearing a cream-colored linen chef jacket and dark trousers, stands inside a cool, damp natural limestone aging cave lined with wooden shelves stacked with massive aging cheese wheels under soft amber wall sconces, cinematic film still, vertical composition, LTX motion: humidity condensation physics, subterranean cavern lighting, cool limestone texture simulation",
+    "Same natural limestone aging cave setting, same male master cheesemaker in cream-colored linen chef jacket and dark trousers, now using a specialized stainless steel cheese trier to extract a smooth cylindrical core sample from a large aged wheel, inspecting its creamy ivory paste under warm lighting, cinematic film still, vertical composition, LTX motion: cheese piercing tool mechanics, friction resistance physics, sharp focus on texture",
+    "Same natural limestone aging cave setting, same male master cheesemaker in cream-colored linen chef jacket and dark trousers, holding the cheese core sample up to inspect crunchy tyrosine protein crystals formed during months of natural cave fermentation, cinematic film still, vertical composition, LTX motion: macro food texture tracking, crystalline protein speckle simulation, sharp focal depth",
+    "Same natural limestone aging cave setting, same male master cheesemaker in cream-colored linen chef jacket and dark trousers, standing proudly with hands on hips before endless rows of maturing cheese wheels aging in peaceful silence, clean negative space, cinematic film still, vertical composition, LTX motion: subtle air draft simulation, serene cellar atmosphere, clean framing for vocabulary cards"
+   ],
+   "narration": [
+    "Why do master chefs age artisan cheese inside dark underground limestone caves for years?",
+    "Active bacterial cultures break down proteins, creating rich umami flavors and creamy textures.",
+    "Taste the extraordinary chemical transformation that turns simple milk into gourmet perfection."
+   ]
+  },
+  {
+   "id": "en-es-149",
+   "channel": "english-to-spanish",
+   "pair": "en-es",
+   "topic": "textile-restoration",
+   "seed": 62009,
+   "voice_src": "es-ES-ElviraNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "es-ES-AlvaroNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "delicate solo harp, flowing dreamy melody, soft reverb museum ambiance",
+   "words": [
+    {
+     "src": "tapiz",
+     "tgt": "tapisserie"
+    },
+    {
+     "src": "hilo",
+     "tgt": "thread"
+    },
+    {
+     "src": "patrimonio",
+     "tgt": "heritage"
+    }
+   ],
+   "scenes": [
+    "A 40-year-old female textile conservator with dark hair pulled back neatly, wearing a beige cotton lab coat over a dark turtleneck, stands in a brightly lit museum restoration studio facing a massive 16th-century royal tapestry mounted on a giant vertical wooden conservation frame, cinematic film still, vertical composition, LTX motion: textile tension physics, archival conservation lighting, high-precision restoration studio environment",
+    "Same museum restoration studio setting, same female textile conservator in beige cotton lab coat and dark turtleneck, now using an ultra-fine curved surgical needle to anchor a fragile wool warp thread, illuminated by a flexible LED magnifier lamp casting a warm circle of light, cinematic film still, vertical composition, LTX motion: needle and thread friction physics, fiber alignment simulation, focused workspace lighting",
+    "Same museum restoration studio setting, same female textile conservator in beige cotton lab coat and dark turtleneck, delicately blending custom-dyed camel hair threads into a worn floral motif on the antique tapestry border, matching historical color hues with extreme precision, cinematic film still, vertical composition, LTX motion: macro fiber texture tracking, high-detail thread weave simulation, sharp focal depth on fingers",
+    "Same museum restoration studio setting, same female textile conservator in beige cotton lab coat and dark turtleneck, standing calmly with hands clasped, admiring the newly stabilized tapestry section restored to vibrant historical splendor, clean negative space, cinematic film still, vertical composition, LTX motion: minimal ambient motion, peaceful gallery atmosphere, clean framing for text overlay"
+   ],
+   "narration": [
+    "How do museum conservators repair five-hundred-year-old royal tapestries without destroying original fibers?",
+    "Master conservators stitch microscopic dyed silk threads onto custom linen backing supports.",
+    "Uncover the meticulous restoration craftsmanship protecting priceless historical masterpieces from decay."
+   ]
+  },
+  {
+   "id": "es-en-150",
+   "channel": "spanish-to-english",
+   "pair": "es-en",
+   "topic": "volcanic-geology",
+   "seed": 62010,
+   "voice_src": "es-ES-ElviraNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "es-ES-AlvaroNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "energetic percussion, upbeat driving tempo with brass stabs, adventurous momentum",
+   "words": [
+    {
+     "src": "magma",
+     "tgt": "magma"
+    },
+    {
+     "src": "cráter",
+     "tgt": "crater"
+    },
+    {
+     "src": "erupción",
+     "tgt": "eruption"
+    }
+   ],
+   "scenes": [
+    "A 35-year-old male volcanologist with short dark hair and rugged outdoor gear, wearing a bright red thermal jacket and heat-resistant pants, stands on a dark basalt ridge overlooking an active volcanic crater billowing thin white steam under a dramatic overcast sky, cinematic film still, vertical composition, LTX motion: thermal convection physics, volcanic ash plume simulation, dramatic high-contrast lighting",
+    "Same dark basalt ridge setting, same male volcanologist in bright red thermal jacket and heat-resistant pants, now inserting a long titanium gas-sampling probe into a steaming volcanic vent, checking real-time sulfur dioxide levels on a rugged handheld telemetry device, cinematic film still, vertical composition, LTX motion: gas sensor probe actuation physics, thermal heat haze distortion, focused scientific fieldwork",
+    "Same dark basalt ridge setting, same male volcanologist in bright red thermal jacket and heat-resistant pants, examining a freshly cooled glassy obsidian rock sample showing sharp volcanic fracture lines reflecting the orange glow of distant magma, cinematic film still, vertical composition, LTX motion: macro mineral crystal texture tracking, high-temperature glow simulation, sharp focal depth",
+    "Same dark basalt ridge setting, same male volcanologist in bright red thermal jacket and heat-resistant pants, standing steadfast against a sweeping panoramic mountain horizon as evening clouds part over the ancient volcanic caldera, clean negative space, cinematic film still, vertical composition, LTX motion: subtle wind drift simulation, serene geological expanse, clean framing for text overlay"
+   ],
+   "narration": [
+    "What underground pressure triggers sudden violent explosions inside dormant volcanic calderas?",
+    "Superheated gas bubbles expand rapidly inside rising molten magma chambers beneath the crust.",
+    "Witness the raw geological power shaping our planet's fiery volcanic landscapes."
+   ]
+  },
+  {
+   "id": "es-en-151",
+   "channel": "spanish-to-english",
+   "pair": "es-en",
+   "topic": "marine-navigation",
+   "seed": 62011,
+   "voice_src": "es-ES-ElviraNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "es-ES-AlvaroNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "light rhythmic percussion, wonder and anticipation, world instruments ocean vibe",
+   "words": [
+    {
+     "src": "brújula",
+     "tgt": "compass"
+    },
+    {
+     "src": "marea",
+     "tgt": "tide"
+    },
+    {
+     "src": "horizonte",
+     "tgt": "horizon"
+    }
+   ],
+   "scenes": [
+    "A 39-year-old female ocean navigator with long braided dark hair, wearing a thick navy blue wool sweater and leather boots, stands on the wooden deck of a traditional tall ship holding a polished brass sextant toward the sunset horizon, cinematic film still, vertical composition, LTX motion: ocean wave buoyancy physics, rolling ship deck simulation, golden hour maritime lighting",
+    "Same traditional tall ship wooden deck setting, same female ocean navigator in thick navy blue wool sweater and leather boots, now peering through the eyepiece of the brass sextant to align the sun's lower limb with the ocean horizon, salt spray glistening in the evening light, cinematic film still, vertical composition, LTX motion: instrument mirror reflection physics, ship roll stabilization, focused celestial alignment",
+    "Same traditional tall ship wooden deck setting, same female ocean navigator in thick navy blue wool sweater and leather boots, using brass dividers and a parallel ruler to plot precise latitude coordinates on an antique parchment nautical chart spread across a teak wood table, cinematic film still, vertical composition, LTX motion: macro chart line tracking, pen ink flow physics, sharp focal depth on navigational tools",
+    "Same traditional tall ship wooden deck setting, same female ocean navigator in thick navy blue wool sweater and leather boots, standing peacefully at the helm wheel looking out over a vast calm golden ocean as twilight descends, clean negative space, cinematic film still, vertical composition, LTX motion: gentle swell motion, serene open ocean background, clean framing for vocabulary cards"
+   ],
+   "narration": [
+    "How did ancient mariners navigate across open oceans without modern satellite GPS systems?",
+    "They measured stellar elevations using brass sextants and tracked shifting coastal ocean currents.",
+    "Sail alongside maritime explorers charting uncharted waters by the light of the North Star."
+   ]
+  },
+  {
+   "id": "ar-en-152",
+   "channel": "arabic-to-english",
+   "pair": "ar-en",
+   "topic": "desert-architecture",
+   "seed": 62012,
+   "voice_src": "ar-SA-ZariyahNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "ar-SA-HamedNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "ambient pads with oud melodies, slow rhythmic pulse, cultural heritage atmosphere",
+   "words": [
+    {
+     "translit": "rawashin",
+     "src": "رَوَاشِين",
+     "tgt": "wooden lattice bay window"
+    },
+    {
+     "translit": "tahwiyah",
+     "src": "تَهْوِيَة",
+     "tgt": "natural ventilation"
+    },
+    {
+     "translit": "azl",
+     "src": "عَزْل",
+     "tgt": "thermal insulation"
+    }
+   ],
+   "scenes": [
+    "A 40-year-old Arab master carpenter with short dark beard and weathered hands, wearing a traditional white thawb and dark brown waistcoat, stands inside a grand historic coral-stone hall gazing upward at an immense intricately carved teak wood bay window structure under bright golden afternoon sunlight streaming through geometric lattices, cinematic film still, vertical composition, LTX motion: high-realism architectural physics, thermal heat shimmer, slow dramatic light diffusion",
+    "Same historic coral-stone hall setting, same Arab master carpenter in traditional white thawb and dark brown waistcoat, now adjusting a movable louver shutter on the large wooden bay window, feeling the cool draft rushing through the carved openings against his focused face, warm ambient shadows playing across textured limestone walls, cinematic film still, vertical composition, LTX motion: controlled airflow dynamics simulation, fabric and dust motion physics, focused carpenter framing",
+    "Same historic coral-stone hall setting, same Arab master carpenter in traditional white thawb and dark brown waistcoat, pointing a steady finger at the complex interlocking joinery of the window screen where moist clay pots sit inside the sill to enhance evaporative cooling, cinematic film still, vertical composition, LTX motion: high-detail wood grain tracking, micro-carving precision physics, sharp macro depth of field",
+    "Same historic coral-stone hall setting, same Arab master carpenter in traditional white thawb and dark brown waistcoat, standing peacefully with arms folded beside the towering traditional wooden window frame as soft dusk light fills the quiet interior room, clean negative space, cinematic film still, vertical composition, LTX motion: minimal ambient motion, static architectural stability, clean negative space lighting for text overlays"
+   ],
+   "narration": [
+    "Why did ancient Hijazi merchants carve massive ornate wooden windows to cool their sprawling stone mansions without electricity?",
+    "Intricate carved lattice panels catch sea breezes while filtering harsh desert sunlight to drop indoor temperatures.",
+    "Step inside this historic coastal parlor to witness centuries-old passive cooling engineering in action."
+   ]
+  },
+  {
+   "id": "ar-en-153",
+   "channel": "arabic-to-english",
+   "pair": "ar-en",
+   "topic": "nomadic-metallurgy",
+   "seed": 62013,
+   "voice_src": "ar-SA-ZariyahNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "ar-SA-HamedNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "solo cello, melancholic and dignified, cathedral reverb, slow majestic tempo",
+   "words": [
+    {
+     "translit": "khanjar",
+     "src": "خَنْجَر",
+     "tgt": "ceremonial dagger"
+    },
+    {
+     "translit": "sabikah",
+     "src": "سَبِيكَة",
+     "tgt": "metal alloy"
+    },
+    {
+     "translit": "zakhrafah",
+     "src": "زَخْرَفَة",
+     "tgt": "embossed ornamentation"
+    }
+   ],
+   "scenes": [
+    "A 45-year-old Omani master metalsmith with silver-streaked hair and intense focused eyes, wearing a dark indigo robe and wrapped turban, stands inside a rustic stone forge illuminated by the fierce orange glow of an open charcoal hearth, swinging a heavy iron hammer toward a glowing anvil, cinematic film still, vertical composition, LTX motion: high-heat convection physics, smoke and ember particle simulation, dramatic low-key workshop lighting",
+    "Same rustic stone forge setting, same Omani master metalsmith in dark indigo robe and wrapped turban, now pressing a glowing silver blade blank with steel tongs while hammering intricate geometric silver wire into the heated metal surface, sparks scattering across the dark workbench, cinematic film still, vertical composition, LTX motion: metal deformation dynamics, high-speed spark emission physics, sharp focus on anvil interaction",
+    "Same rustic stone forge setting, same Omani master metalsmith in dark indigo robe and wrapped turban, holding a gleaming curved silver dagger hilt up to inspect the flawless embossed filigree ornamentation reflecting orange firelight, cinematic film still, vertical composition, LTX motion: macro metal texture tracking, specular reflection physics, high-contrast thermal glow focus",
+    "Same rustic stone forge setting, same Omani master metalsmith in dark indigo robe and wrapped turban, standing proudly with arms crossed beside completed ceremonial daggers resting on a polished wooden display board under soft overhead lantern light, clean negative space, cinematic film still, vertical composition, LTX motion: subtle cooling steam simulation, peaceful workshop atmosphere, static framing for text cards"
+   ],
+   "narration": [
+    "How do mountain silversmiths hammer raw silver coins into razor-sharp ceremonial blades without modern industrial smelters?",
+    "Traditional charcoal hearths reach blistering temperatures to fuse multi-layered steel alloys into unbreakable patterns.",
+    "Watch the artisan strike white-hot metal to forge an enduring symbol of tribal heritage and pride."
+   ]
+  },
+  {
+   "id": "zh-en-154",
+   "channel": "chinese-to-english",
+   "pair": "zh-en",
+   "topic": "mythological-cartography",
+   "seed": 62014,
+   "voice_src": "zh-CN-XiaoxiaoNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "zh-CN-YunxiNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "clean synth arpeggios, futuristic techno rhythm, minimal electronic ambient vibe",
+   "words": [
+    {
+     "translit": "shān hǎi jīng",
+     "src": "山海经",
+     "tgt": "classic of mountains and seas"
+    },
+    {
+     "translit": "shén shòu",
+     "src": "神兽",
+     "tgt": "mythical beast"
+    },
+    {
+     "translit": "tú téng",
+     "src": "图腾",
+     "tgt": "totem"
+    }
+   ],
+   "scenes": [
+    "A 45-year-old male Chinese historian with round spectacles and neat black hair, wearing a dark scholar robe with high collar, stands inside a candlelit imperial archives room unrolling a massive fragile silk map covered in hand-painted illustrations of legendary mountains and mythical creatures, cinematic film still, vertical composition, LTX motion: archival paper aging simulation, ink diffusion physics, moody candlelit scholarly study lighting",
+    "Same candlelit imperial archives room setting, same male Chinese historian in dark scholar robe, now tracing the delicate ink lines of a mythical nine-tailed beast illustration with a slender jade stylus, warm flickering candlelight casting soft shadows across his focused face, cinematic film still, vertical composition, LTX motion: parchment flex and crease physics, ink pigment refraction, focused scholarly framing",
+    "Same candlelit imperial archives room setting, same male Chinese historian in dark scholar robe, pointing a steady finger at ancient cinnabar seal stamps and handwritten marginal notes detailing treacherous valley routes next to the illustrated beast, cinematic film still, vertical composition, LTX motion: macro silk fabric texture tracking, pigment particle simulation, sharp macro depth of field",
+    "Same candlelit imperial archives room setting, same male Chinese historian in dark scholar robe, standing peacefully with arms folded beside stacks of ancient bound bamboo slips and glowing scholar lanterns, clean negative space, cinematic film still, vertical composition, LTX motion: subtle flame flicker motion, serene study atmosphere, clean framing for vocabulary cards"
+   ],
+   "narration": [
+    "Why did ancient Han dynasty explorers map terrifying multi-headed mythical beasts across uncharted eastern territories?",
+    "Early cartographers used folkloric creatures to document dangerous mountain passes and poisonous river currents.",
+    "Unfurl this ancient mystical parchment to discover how folklore once guided real-world geography."
+   ]
+  },
+  {
+   "id": "zh-en-155",
+   "channel": "chinese-to-english",
+   "pair": "zh-en",
+   "topic": "alpine-tea-cultivation",
+   "seed": 62015,
+   "voice_src": "zh-CN-XiaoxiaoNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "zh-CN-YunxiNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "delicate solo guzheng with soft ambient reverb, flowing dreamy mountain melody",
+   "words": [
+    {
+     "translit": "yún wù",
+     "src": "云雾",
+     "tgt": "cloud and mist"
+    },
+    {
+     "translit": "fā jiào",
+     "src": "发酵",
+     "tgt": "fermentation"
+    },
+    {
+     "translit": "cǎi zhāi",
+     "src": "采摘",
+     "tgt": "harvesting"
+    }
+   ],
+   "scenes": [
+    "A 35-year-old female Chinese tea farmer with long dark hair tied in a practical ponytail, wearing a woven bamboo sun hat and dark green quilted vest over a cream tunic, stands on a precipitous misty Wuyi mountain cliffside terraced tea garden as morning clouds roll through jagged stone peaks, cinematic film still, vertical composition, LTX motion: mountain fog drift simulation, atmospheric moisture physics, soft morning sunrise lighting",
+    "Same precipitous misty Wuyi mountain cliffside setting, same female Chinese tea farmer in woven bamboo sun hat and dark green quilted vest, now carefully plucking tender green spring tea buds with nimble fingers, placing them gently into a woven bamboo basket strapped to her waist, cinematic film still, vertical composition, LTX motion: plant leaf elasticity physics, nimble finger motion dynamics, sharp focus on harvesting technique",
+    "Same precipitous misty Wuyi mountain cliffside setting, same female Chinese tea farmer in woven bamboo sun hat and dark green quilted vest, holding up a pristine two-leaf tea shoot covered in shimmering morning dew drops against the foggy mountain backdrop, cinematic film still, vertical composition, LTX motion: macro leaf trichome tracking, moisture droplet physics, sharp focal depth on fingers",
+    "Same precipitous misty Wuyi mountain cliffside setting, same female Chinese tea farmer in woven bamboo sun hat and dark green quilted vest, standing peacefully with hands resting on her basket as golden sunrays pierce through the receding mountain fog, clean negative space, cinematic film still, vertical composition, LTX motion: gentle mountain breeze motion, serene mist flow, clean framing for text overlay"
+   ],
+   "narration": [
+    "What extreme high-altitude mountain fog gives premium rock tea its legendary floral aroma?",
+    "Dense daily cloud cover shields delicate tea leaves from harsh sunlight, locking in rich amino acids.",
+    "Experience the dawn harvest where master pluckers scale steep cliffside plantations before sunrise."
+   ]
+  },
+  {
+   "id": "en-ar-156",
+   "channel": "english-to-arabic",
+   "pair": "en-ar",
+   "topic": "subterranean-hydrology",
+   "seed": 62016,
+   "voice_src": "ar-SA-ZariyahNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "ar-SA-HamedNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "tense low brass and strings, building urgency, subterranean exploration atmosphere",
+   "words": [
+    {
+     "translit": "qanah",
+     "src": "قَنَاة",
+     "tgt": "underwater aqueduct channel"
+    },
+    {
+     "translit": "jawfiyy",
+     "src": "جَوْفِيّ",
+     "tgt": "subterranean aquifer"
+    },
+    {
+     "translit": "jadhbiyah",
+     "src": "جاذبية",
+     "tgt": "gravity flow"
+    }
+   ],
+   "scenes": [
+    "A 42-year-old male hydrogeologist with short dark hair and rugged beard, wearing a waterproof olive green field jacket and headlamp, stands inside a dark hand-carved stone subterranean water tunnel holding a high-powered LED torch illuminating crystal-clear flowing water channels at his feet, cinematic film still, vertical composition, LTX motion: water ripple fluid dynamics, cavern humidity condensation physics, dramatic flashlight beam lighting",
+    "Same dark hand-carved stone subterranean water tunnel setting, same male hydrogeologist in olive green field jacket and headlamp, now measuring current flow velocity with a digital ultrasonic probe dipped into the cool aqueduct stream, blue LED screen light reflecting on his focused face, cinematic film still, vertical composition, LTX motion: hydroelectric flow simulation, rock wall seepage physics, focused scientific workspace framing",
+    "Same dark hand-carved stone subterranean water tunnel setting, same male hydrogeologist in olive green field jacket and headlamp, pointing a gloved hand at ancient chisel marks on the smooth sandstone wall where subterranean mineral deposits outline the centuries-old water line, cinematic film still, vertical composition, LTX motion: macro stone chisel mark tracking, water droplet splash physics, sharp focal depth",
+    "Same dark hand-carved stone subterranean water tunnel setting, same male hydrogeologist in olive green field jacket and headlamp, standing calmly with arms crossed beside the steady flowing underground stream illuminated by soft ambient glow, clean negative space, cinematic film still, vertical composition, LTX motion: subtle water surface shimmer, tranquil cavern atmosphere, clean framing for vocabulary cards"
+   ],
+   "narration": [
+    "How did ancient desert engineers transport fresh mountain water across miles of arid scorching sand without pumps?",
+    "Sloped subterranean gravity channels tapped hidden aquifers beneath the earth to prevent evaporation.",
+    "Descend into these dark ancient tunnels to uncover the master hydrology that bloomed desert civilizations."
+   ]
+  },
+  {
+   "id": "en-ar-157",
+   "channel": "english-to-arabic",
+   "pair": "en-ar",
+   "topic": "celestial-navigation",
+   "seed": 62017,
+   "voice_src": "ar-SA-ZariyahNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "ar-SA-HamedNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "ambient space pads with deep cosmic drone, mysterious and expansive tempo",
+   "words": [
+    {
+     "translit": "najm al-qutb",
+     "src": "نَجْم اِلْقُطْب",
+     "tgt": "polaris star"
+    },
+    {
+     "translit": "ihdaliyyat",
+     "src": "إِحْدَاثِيَّات",
+     "tgt": "coordinates"
+    },
+    {
+     "translit": "buslah",
+     "src": "بُصْلَة",
+     "tgt": "magnetic compass"
+    }
+   ],
+   "scenes": [
+    "A 36-year-old female desert astronomer with long dark curly hair tied back, wearing a navy blue hooded windbreaker and woolen scarf, stands atop a towering undulating sand dune at midnight holding an open brass navigation compass toward a brilliant Milky Way galaxy stretching across the velvet sky, cinematic film still, vertical composition, LTX motion: stellar parallax motion, starry night sky rotation physics, low-key moonlight desert lighting",
+    "Same towering undulating sand dune setting, same female desert astronomer in navy blue hooded windbreaker and woolen scarf, now holding a traditional wooden kamal sighting card at arm's length to measure stellar altitude against the North Star, cool moonlight illuminating her concentrated expression, cinematic film still, vertical composition, LTX motion: instrument alignment dynamics, hand-eye coordination physics, sharp focus on compass dial",
+    "Same towering undulating sand dune setting, same female desert astronomer in navy blue hooded windbreaker and woolen scarf, pointing at the delicate engraved degree markings on her vintage brass astrolabe while a bright constellation cluster glitters in the lens reflection, cinematic film still, vertical composition, LTX motion: macro brass engraving tracking, starlight reflection physics, sharp macro depth of field",
+    "Same towering undulating sand dune setting, same female desert astronomer in navy blue hooded windbreaker and woolen scarf, standing peacefully with arms folded against a vast, silent desert horizon glowing under starlight, clean negative space, cinematic film still, vertical composition, LTX motion: subtle sand ripple wind drift, serene celestial expanse, clean framing for text overlay"
+   ],
+   "narration": [
+    "What stellar secret allowed desert nomads to cross featureless sand seas during pitch-black moonless nights?",
+    "Navigators measured finger-widths between the horizon and Polaris to calculate exact latitude coordinates.",
+    "Stargaze across the infinite dunes where ancient celestial charts guided caravans safely home."
+   ]
+  },
+  {
+   "id": "en-zh-158",
+   "channel": "english-to-chinese",
+   "pair": "en-zh",
+   "topic": "paleolithic-ceramics",
+   "seed": 62018,
+   "voice_src": "zh-CN-XiaoxiaoNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "zh-CN-YunxiNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "warm acoustic guitar, cozy gentle finger-picking rhythm, earthy craft atmosphere",
+   "words": [
+    {
+     "translit": "táo qì",
+     "src": "陶器",
+     "tgt": "pottery"
+    },
+    {
+     "translit": "shāo yáo",
+     "src": "烧 窑",
+     "tgt": "kiln firing"
+    },
+    {
+     "translit": "yòu",
+     "src": "釉",
+     "tgt": "ceramic glaze"
+    }
+   ],
+   "scenes": [
+    "A 38-year-old male ceramic artist with short graying hair and clay-stained hands, wearing a coarse gray linen apron over a dark blue cotton shirt, stands inside a rustic open-air clay workshop next to a dome-shaped mud brick kiln billowing warm wood smoke under overcast morning light, cinematic film still, vertical composition, LTX motion: kiln combustion physics, smoke plume drift simulation, dramatic earthen workshop lighting",
+    "Same rustic open-air clay workshop setting, same male ceramic artist in coarse gray linen apron and dark blue cotton shirt, now shaping a wet gray clay vessel on a manual wooden potter's wheel, water glistening on the smooth spinning surface as his thumbs press upward, cinematic film still, vertical composition, LTX motion: clay turning mechanics, centrifugal rotation physics, focused artisan hand framing",
+    "Same rustic open-air clay workshop setting, same male ceramic artist in coarse gray linen apron and dark blue cotton shirt, using a curved wooden rib tool to smooth delicate parallel ridges onto the shoulder of a freshly thrown black clay pot, cinematic film still, vertical composition, LTX motion: macro wet clay texture tracking, tool friction physics, sharp focal depth on fingers",
+    "Same rustic open-air clay workshop setting, same male ceramic artist in coarse gray linen apron and dark blue cotton shirt, standing calmly with arms crossed beside neatly arranged rows of drying black earthenware vessels under a wooden shed roof, clean negative space, cinematic film still, vertical composition, LTX motion: minimal ambient motion, peaceful workshop background, clean framing for vocabulary cards"
+   ],
+   "narration": [
+    "Why did Neolithic potters fire clay vessels inside smothered reduction kilns to create midnight-black earthenware?",
+    "Trapped carbon smoke penetrated porous ceramic walls, turning reddish iron clay into deep obsidian black.",
+    "Examine the prehistoric firing technique that revolutionized ancient East Asian container craft."
+   ]
+  },
+  {
+   "id": "en-zh-159",
+   "channel": "english-to-chinese",
+   "pair": "en-zh",
+   "topic": "subterranean-architecture",
+   "seed": 62019,
+   "voice_src": "zh-CN-XiaoxiaoNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "zh-CN-YunxiNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "ambient pads with soft earthy resonance, peaceful slow evolution, subterranean mood",
+   "words": [
+    {
+     "translit": "yáo dòng",
+     "src": "窑洞",
+     "tgt": "cave dwelling"
+    },
+    {
+     "translit": "dì rè",
+     "src": "地热",
+     "tgt": "geothermal energy"
+    },
+    {
+     "translit": "gǒng mén",
+     "src": "拱门",
+     "tgt": "arched entryway"
+    }
+   ],
+   "scenes": [
+    "A 44-year-old female rural architect with short dark hair and a warm smile, wearing a red padded jacket and blue trousers, stands inside a sunlit sunken courtyard carved into the golden-yellow loess plateau, facing a row of arched subterranean cave dwelling entrances with red paper couplets pasted on wooden doors, cinematic film still, vertical composition, LTX motion: loess soil texture physics, sunlight diffusion across earthen walls, rustic rural lighting",
+    "Same sunlit sunken courtyard setting, same female rural architect in red padded jacket and blue trousers, now inspecting a traditional brick-lined arched ceiling inside a cozy underground bedroom, checking the temperature gauge mounted on the earthen wall, warm afternoon sunlight pouring through the paper-lattice window, cinematic film still, vertical composition, LTX motion: indoor thermal insulation physics, soft interior ambient lighting simulation, focused framing",
+    "Same sunlit sunken courtyard setting, same female rural architect in red padded jacket and blue trousers, pointing a steady finger at the seamless structural arch where compressed yellow earth meets kiln-fired brickwork, cinematic film still, vertical composition, LTX motion: macro brick wall texture tracking, mortar joint simulation, sharp macro depth of field",
+    "Same sunlit sunken courtyard setting, same female rural architect in red padded jacket and blue trousers, standing peacefully with hands folded in the center of the sunken courtyard as a wisp of smoke rises from a brick chimney against the cliff edge, clean negative space, cinematic film still, vertical composition, LTX motion: subtle smoke wisp from chimney, peaceful courtyard atmosphere, clean framing for text overlay"
+   ],
+   "narration": [
+    "How do millions of villagers live comfortably inside subterranean cliff caves where temperatures stay mild year-round?",
+    " Thick loess soil acts as a natural thermal battery, absorbing summer heat and trapping winter warmth.",
+    "Step inside this remarkable underground courtyard home carved directly into fertile yellow earth."
+   ]
+  },
+  {
+   "id": "en-es-160",
+   "channel": "english-to-spanish",
+   "pair": "en-es",
+   "topic": "marine-bioluminescence",
+   "seed": 62020,
+   "voice_src": "es-ES-ElviraNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "es-ES-AlvaroNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "ambient synthetic pads with deep underwater reverb, glowing mystic rhythm",
+   "words": [
+    {
+     "src": "bioluminiscencia",
+     "tgt": "bioluminescence"
+    },
+    {
+     "src": "plancton",
+     "tgt": "plankton"
+    },
+    {
+     "src": "laguna",
+     "tgt": "lagoon"
+    }
+   ],
+   "scenes": [
+    "A 32-year-old female marine ecologist with long dark wavy hair, wearing a black waterproof wetsuit jacket, sits inside a wooden wooden canoe floating on a pitch-black tropical lagoon as her paddle stirs up swirling clouds of brilliant neon-blue glowing plankton under a starry night sky, cinematic film still, vertical composition, LTX motion: bioluminescent fluid dynamics physics, neon blue particle emission, dark night coastal lighting",
+    "Same pitch-black tropical lagoon setting, same female marine ecologist in black waterproof wetsuit jacket, now dipping her bare hand into the dark water, lifting cupped water that drips electric blue light between her fingers, glowing neon reflections illuminating her amazed face, cinematic film still, vertical composition, LTX motion: water droplet luminescence simulation, hand motion fluid tracking, sharp focus on glowing water",
+    "Same pitch-black tropical lagoon setting, same female marine ecologist in black waterproof wetsuit jacket, holding a glass sample vial filled with sparkling blue-emitting microorganisms up to her mask, vibrant neon blue light casting sharp reflections in her eyes, cinematic film still, vertical composition, LTX motion: macro water ripple luminescence tracking, photon burst physics, sharp macro depth of field",
+    "Same pitch-black tropical lagoon setting, same female marine ecologist in black waterproof wetsuit jacket, sitting quietly in the canoe as gentle ripples of electric blue light fade softly into the dark mangrove shoreline, clean negative space, cinematic film still, vertical composition, LTX motion: subtle ripple wave motion, serene dark water surface, clean framing for vocabulary cards"
+   ],
+   "narration": [
+    "Why do tropical Caribbean lagoons burst into brilliant neon-blue light whenever the water is disturbed?",
+    "Billions of microscopic dinoflagellate plankton trigger chemical defense reactions, releasing glowing blue photons.",
+    "Sail across this magical glowing bay where every paddle stroke leaves a trail of stardust."
+   ]
+  },
+  {
+   "id": "en-es-161",
+   "channel": "english-to-spanish",
+   "pair": "en-es",
+   "topic": "historic-instrument-making",
+   "seed": 62021,
+   "voice_src": "es-ES-ElviraNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "es-ES-AlvaroNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "warm acoustic guitar, cozy gentle finger-picking rhythm, Spanish luthier atmosphere",
+   "words": [
+    {
+     "src": "guitarra",
+     "tgt": "guitar"
+    },
+    {
+     "src": "madera",
+     "tgt": "wood"
+    },
+    {
+     "src": "armonía",
+     "tgt": "harmony"
+    }
+   ],
+   "scenes": [
+    "A 48-year-old Spanish luthier with silver-gray hair and concentrated expression, wearing a cream linen shirt and leather apron, stands inside a sunlit Granada workshop filled with hanging guitar bodies, wood shavings, and specialized hand planes under warm afternoon window light, cinematic film still, vertical composition, LTX motion: wood grain resonance physics, dust particle light beam simulation, warm luthier workshop lighting",
+    "Same sunlit Granada workshop setting, same Spanish luthier in cream linen shirt and leather apron, now shaving a thin spruce soundboard with a small brass smoothing plane, paper-thin curled wood shavings falling gently onto the workbench, cinematic film still, vertical composition, LTX motion: hand plane wood shaving physics, friction resistance simulation, sharp focus on instrument top",
+    "Same sunlit Granada workshop setting, same Spanish luthier in cream linen shirt and leather apron, using a fine blade to carve intricate mosaic patterns into the soundhole rosette of a classical concert guitar, warm sunlight highlighting the natural wood tones, cinematic film still, vertical composition, LTX motion: macro wood grain tracking, rosette inlay detail physics, sharp focal depth on fingers",
+    "Same sunlit Granada workshop setting, same Spanish luthier in cream linen shirt and leather apron, standing proudly with hands resting on a completed classical guitar resting in its felt-lined cradle, clean negative space, cinematic film still, vertical composition, LTX motion: subtle ambient dust motes drift, peaceful workshop atmosphere, clean framing for text overlay"
+   ],
+   "narration": [
+    "What secret wood-aging process allows Andalusian luthier workshops to craft guitars with heavenly resonance?",
+    "Master craftsmen select quarter-sawn German spruce and Spanish cypress, curing them for decades in dry attics.",
+    "Listen to the sublime acoustic vibration born from centuries of traditional woodworking mastery."
+   ]
+  },
+  {
+   "id": "es-en-162",
+   "channel": "spanish-to-english",
+   "pair": "es-en",
+   "topic": "tropospheric-meteorology",
+   "seed": 62022,
+   "voice_src": "es-ES-ElviraNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "es-ES-AlvaroNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "energetic percussion, upbeat driving tempo with brass stabs, atmospheric storm momentum",
+   "words": [
+    {
+     "src": "tormenta",
+     "tgt": "storm"
+    },
+    {
+     "src": "relámpago",
+     "tgt": "lightning"
+    },
+    {
+     "src": "atmósfera",
+     "tgt": "atmosphere"
+    }
+   ],
+   "scenes": [
+    "A 36-year-old female storm meteorologist with short blonde hair and weather-resistant gear, wearing a yellow waterproof shell jacket and utility trousers, stands on an open grassy pampas plain beneath a towering purple-black supercell thunderstorm cloud lit by internal branching lightning flashes, cinematic film still, vertical composition, LTX motion: storm cloud convection physics, lightning flash illumination simulation, dramatic high-contrast lighting",
+    "Same open grassy pampas plain setting, same female storm meteorologist in yellow waterproof shell jacket and utility trousers, now holding a portable Doppler radar sensor and satellite telemetry tablet, green weather data screens casting sharp reflections across her intense face, cinematic film still, vertical composition, LTX motion: radar screen glow simulation, wind turbulence physics, focused scientific instrument framing",
+    "Same open grassy pampas plain setting, same female storm meteorologist in yellow waterproof shell jacket and utility trousers, pointing a gloved hand toward a jagged white lightning bolt striking a distant horizon ridge, wind whipping her hair violently across her face, cinematic film still, vertical composition, LTX motion: high-speed electrical discharge tracking, rain droplet splash physics, sharp macro depth of field",
+    "Same open grassy pampas plain setting, same female storm meteorologist in yellow waterproof shell jacket and utility trousers, standing calmly with arms folded as the heavy storm front moves away into the distance under a breaking amber sunset sky, clean negative space, cinematic film still, vertical composition, LTX motion: subtle post-storm rain mist drift, serene atmospheric clearing, clean framing for text overlay"
+   ],
+   "narration": [
+    "What massive electrical charge gradient triggers violent lightning bolts inside swirling cumulonimbus storm clouds?",
+    "Colliding ice crystals inside freezing updrafts separate positive and negative ions at terrifying scales.",
+    "Chase the roaring tempest where raw meteorological energy illuminates the dark night sky."
+   ]
+  },
+  {
+   "id": "es-en-163",
+   "channel": "spanish-to-english",
+   "pair": "es-en",
+   "topic": "deep-sea-hydrothermal-vents",
+   "seed": 62023,
+   "voice_src": "es-ES-ElviraNeural",
+   "voice_tgt": "en-US-JennyNeural",
+   "voice_src2": "es-ES-AlvaroNeural",
+   "voice_tgt2": "en-US-GuyNeural",
+   "music": "light rhythmic percussion, wonder and anticipation, deep ocean hydrothermal atmosphere",
+   "words": [
+    {
+     "src": "abismo",
+     "tgt": "abyss"
+    },
+    {
+     "src": "mineral",
+     "tgt": "mineral"
+    },
+    {
+     "src": "calor",
+     "tgt": "heat"
+    }
+   ],
+   "scenes": [
+    "A 41-year-old male deep-sea submersible pilot with short dark hair, wearing a rugged orange deep-sea diving suit harness, sits inside a glowing illuminated submarine cockpit staring through a thick glass viewport at towering black smoker chimneys spewing boiling mineral-rich fluid into the freezing abyss, cinematic film still, vertical composition, LTX motion: hydrothermal plume convection physics, particulate snow simulation, deep-sea sub-aquatic lighting",
+    "Same glowing illuminated submarine cockpit setting, same male deep-sea submersible pilot in rugged orange deep-sea diving suit harness, now operating robotic hydraulic manipulator joysticks to collect biological samples near a cluster of giant tubeworms clinging to the volcanic vent base, cinematic film still, vertical composition, LTX motion: robotic manipulator arm kinematics, particulate fluid turbulence, focused cockpit control framing",
+    "Same glowing illuminated submarine cockpit setting, same male deep-sea submersible pilot in rugged orange deep-sea diving suit harness, observing bright red plume tips of hydrothermal tubeworms swaying gracefully in the thermal mineral current outside the thick glass hatch, cinematic film still, vertical composition, LTX motion: macro biological texture tracking, organic tissue reaction physics, sharp focal depth on viewport",
+    "Same glowing illuminated submarine cockpit setting, same male deep-sea submersible pilot in rugged orange deep-sea diving suit harness, sitting calmly with arms crossed while monitoring automated telemetry data screens glowing softly in the dark cabin, clean negative space, cinematic film still, vertical composition, LTX motion: subtle ambient deep ocean current drift, serene abyss background, clean framing for text overlay"
+   ],
+   "narration": [
+    "How do exotic extremophile ecosystems thrive around boiling hydrothermal vents four thousand meters beneath the sea?",
+    "Bacterial chemosynthesis converts toxic hydrogen sulfide gases into life-sustaining energy without sunlight.",
+    "Dive into the pitch-black ocean abyss where volcanic chimneys support alien marine life."
+   ]
+  }
+ ]
+}

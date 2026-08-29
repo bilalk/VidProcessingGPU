@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reel Factory</title>
+<style>
+:root{--bg:#0b0f14;--panel:#161b22;--border:#30363d;--fg:#c9d1d9;--accent:#238636;--blue:#58a6ff;--warn:#d29922;--red:#f85149}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Segoe UI,sans-serif;background:var(--bg);color:var(--fg);padding:20px}
+h1{color:var(--blue);font-size:20px;margin:0 0 4px}
+h2{font-size:15px;color:var(--blue);margin:18px 0 8px}
+.sub{color:#8b949e;font-size:12px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:16px;margin:10px 0}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end}
+.field{display:flex;flex-direction:column;gap:4px;min-width:180px;flex:1}
+label{font-size:12px;color:#8b949e}
+input,select,button{background:#0d1117;color:var(--fg);border:1px solid var(--border);border-radius:6px;padding:8px 10px;font-size:14px}
+button{background:var(--accent);color:#fff;cursor:pointer;border:0;font-weight:600}
+button:hover{filter:brightness(1.1)}
+button:disabled{opacity:.5;cursor:not-allowed}
+button.danger{background:#b62324}
+.mono{font-family:ui-monospace,Consolas,monospace;font-size:12px;white-space:pre-wrap;word-break:break-word}
+.tag{display:inline-block;padding:2px 8px;border-radius:10px;font-size:12px;background:#21262d;border:1px solid var(--border)}
+.tag.ok{color:#3fb950;border-color:#3fb950}
+.tag.err{color:var(--red);border-color:var(--red)}
+.stat{min-width:120px;text-align:center}
+.stat .n{font-size:22px;font-weight:700;color:#3fb950}
+.stat .l{font-size:11px;color:#8b949e}
+#logbox{max-height:260px;overflow-y:auto;background:#0d1117;border-radius:6px;padding:10px}
+#progress{height:10px;background:#21262d;border-radius:6px;overflow:hidden}
+#progress>div{height:100%;background:#238636;width:0;transition:width .4s}
+.notice{background:#2b2200;border:1px solid #6e5200;border-radius:6px;padding:10px;margin-top:8px;font-size:13px}
+.hidden{display:none}
+ul{margin:6px 0;padding-left:20px}
+</style>
+</head>
+<body>
+<h1>&#9650; Reel Factory</h1>
+<div class="sub">OLD 4-panel ~60s pipeline &middot; upload two JSON manifests &middot; runs on the GPU server, saves to host</div>
+
+<div class="card">
+  <h2>1. Upload manifests</h2>
+  <div class="row">
+    <div class="field"><label>JSON file 1</label><input type="file" id="file1" accept=".json"></div>
+    <div class="field"><label>JSON file 2</label><input type="file" id="file2" accept=".json"></div>
+  </div>
+  <div class="row" style="margin-top:12px">
+    <div class="field"><label>Mode</label>
+      <select id="mode">
+        <option value="flux+ltx" selected>FLUX + LTX (mobile + desktop, ~60s)</option>
+        <option value="flux">FLUX ONLY (mobile, ~60s)</option>
+      </select>
+    </div>
+    <div class="field"><label>Subtitles</label>
+      <select id="burn">
+        <option value="1" selected>Burn onto video</option>
+        <option value="0">Handle later</option>
+      </select>
+    </div>
+  </div>
+  <div class="row" style="margin-top:12px">
+    <button id="btnAnalyze" onclick="analyze()">Analyze &amp; check</button>
+    <button id="btnStart" class="hidden" onclick="start(false)">&#9654; Start pipeline</button>
+    <button id="btnConfirm" class="hidden" onclick="start(true)">Proceed anyway (topics redundant)</button>
+  </div>
+  <div id="report" class="hidden notice"></div>
+</div>
+
+<div class="card">
+  <h2>2. GPU server</h2>
+  <div class="row">
+    <div class="field"><label>IP / host</label><input id="gpu_host" value="129.212.190.223"></div>
+    <div class="field"><label>SSH key path</label><input id="gpu_key" value="C:\Users\tester\.ssh\id_newgpu"></div>
+    <div class="field"><label>SSH user</label><input id="gpu_user" value="root" style="max-width:110px"></div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Progress</h2>
+  <div class="row">
+    <div class="stat"><div class="n" id="p_total">&ndash;</div><div class="l">total reels</div></div>
+    <div class="stat"><div class="n" id="p_done">&ndash;</div><div class="l">completed</div></div>
+    <div class="stat"><div class="n" id="p_dup">&ndash;</div><div class="l">downloaded</div></div>
+  </div>
+  <div id="progress"><div id="bar"></div></div>
+  <div class="sub" id="p_status" style="margin-top:8px">idle</div>
+  <div class="sub" id="p_meta" style="margin-top:4px"></div>
+  <div id="logbox" class="mono hidden"></div>
+  <div class="row" style="margin-top:10px">
+    <button id="btnAbort" class="danger hidden" onclick="abort()">&#9632; Abort</button>
+  </div>
+</div>
+
+<script>
+let pending = null;
+let timer = null;
+
+function analyze(){
+  const f1=document.getElementById('file1').files[0], f2=document.getElementById('file2').files[0];
+  if(!f1||!f2){alert('Choose both JSON files');return;}
+  const fd=new FormData(); fd.append('file1',f1); fd.append('file2',f2);
+  const r=document.getElementById('report'); r.classList.remove('hidden');
+  r.innerHTML='<span class="sub">analyzing&hellip;</span>';
+  fetch('/api/upload',{method:'POST',body:fd}).then(x=>x.json()).then(d=>{
+    if(d.error){ r.innerHTML='<b style="color:var(--red)">Error:</b> <span class="mono">'+d.error+'</span>'; return; }
+    pending={file_a:d.file_a, file_b:d.file_b};
+    let html='<b>Format:</b> <span class="tag '+(d.format==='aug28'||d.format==='29aug'?'ok':'err')+'">'+(d.format||'unknown')+'</span> &nbsp;'
+      +'<b>Reels:</b> '+d.reels+' &nbsp; <b>Next ID:</b> '+d.next_id+'<br>';
+    if(d.issues && d.issues.length){
+      html+='<div class="sub" style="color:var(--red)"><b>'+d.issues.length+' validation issues:</b></div><ul class="mono">'+d.issues.map(i=>'<li>'+i+'</li>').join('')+'</ul>';
+    } else { html+='<span class="tag ok">format OK</span> '; }
+    if(d.redundant_topics && d.redundant_topics.length){
+      html+='<div class="sub" style="color:var(--warn)"><b>'+d.redundant_topics.length+' redundant topics (already used):</b> '+d.redundant_topics.join(', ')+'</div>';
+      document.getElementById('btnStart').classList.add('hidden');
+      document.getElementById('btnConfirm').classList.remove('hidden');
+    } else {
+      document.getElementById('btnConfirm').classList.add('hidden');
+      document.getElementById('btnStart').classList.remove('hidden');
+    }
+    r.innerHTML=html;
+  }).catch(e=>{r.innerHTML='fetch error: '+e;});
+}
+
+function start(confirmRedundant){
+  const body={file_a:pending.file_a,file_b:pending.file_b,
+    mode:document.getElementById('mode').value,
+    burn_subtitles:document.getElementById('burn').value==='1',
+    gpu_host:document.getElementById('gpu_host').value,
+    gpu_key:document.getElementById('gpu_key').value,
+    gpu_user:document.getElementById('gpu_user').value,
+    confirm_redundant:confirmRedundant};
+  fetch('/api/start',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)})
+    .then(x=>x.json()).then(d=>{
+      if(d.error){alert('Start failed: '+d.error+(d.issues?' '+JSON.stringify(d.issues):'')+(d.redundant_topics?' '+JSON.stringify(d.redundant_topics):''));return;}
+      document.getElementById('report').classList.add('hidden');
+      document.getElementById('btnStart').classList.add('hidden');
+      document.getElementById('btnConfirm').classList.add('hidden');
+      startPolling();
+    });
+}
+
+function startPolling(){ if(timer)clearInterval(timer); timer=setInterval(poll,3000); poll(); }
+
+function poll(){
+  fetch('/api/status').then(x=>x.json()).then(d=>{
+    const running=['queued','waiting_idle','uploading','flux_running','ltx_running','aborting'];
+    document.getElementById('p_total').textContent=(d.reels_total==null?'&ndash;':d.reels_total);
+    document.getElementById('p_done').textContent=(d.reels_done==null?'&ndash;':d.reels_done);
+    document.getElementById('p_dup').textContent=(d.reels_downloaded==null?'&ndash;':d.reels_downloaded);
+    document.getElementById('p_status').textContent=(d.status||'idle')+' — '+(d.current_stage||'');
+    document.getElementById('p_meta').textContent=
+      (d.files?('files: '+d.files.join(' & ')):'')
+      +(d.detected_format?('  · format: '+d.detected_format):'')
+      +(d.current_channel?('  · channel: '+d.current_channel):'')
+      +(d.start_id?('  · start id: '+d.start_id):'');
+    if(d.reels_total){ document.getElementById('bar').style.width=(100*d.reels_downloaded/(d.reels_total*2||1))+'%'; }
+    const lb=document.getElementById('logbox');
+    if(d.log && d.log.length){ lb.classList.remove('hidden'); let h=d.log.map(escapeHtml).join('<br>'); if(d.log_tail){ h+='<br><span style="color:#8b949e">— live —</span><br>'+escapeHtml(d.log_tail); } lb.innerHTML=h; lb.scrollTop=lb.scrollHeight; }
+    const abort=document.getElementById('btnAbort');
+    if(running.includes(d.status)){abort.classList.remove('hidden');} else {abort.classList.add('hidden');}
+    if(d.status==='done'){document.getElementById('p_status').textContent='DONE ✓'; clearInterval(timer);}
+  });
+}
+
+function abort(){ fetch('/api/abort',{method:'POST'}); }
+
+function escapeHtml(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+fetch('/api/config').then(x=>x.json()).then(c=>{
+  if(c.gpu_host)document.getElementById('gpu_host').value=c.gpu_host;
+  if(c.gpu_key)document.getElementById('gpu_key').value=c.gpu_key;
+  if(c.gpu_user)document.getElementById('gpu_user').value=c.gpu_user;
+});
+startPolling();
+</script>
+</body>
+</html>

@@ -1,0 +1,353 @@
+{
+  "reels": [
+    {
+      "id": "ar-en-025",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "optics",
+      "seed": 41001,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "mysterious acoustic kanun and low frame drum pulse, ancient optics rhythm",
+      "words": [
+        {"src": "قمرة", "tgt": "dark room", "translit": "qumra"},
+        {"src": "ثقب", "tgt": "pinhole", "translit": "thaqb"},
+        {"src": "شعاع", "tgt": "ray", "translit": "shuʿāʿ"}
+      ],
+      "lines": [
+        {"src": "كيف استطاع ابن الهيثم اختراع أول كاميرا مظلمة في التاريخ وهو في السجن؟", "tgt": "How was Ibn al-Haytham able to invent history's first camera obscura while in prison?", "translit": "kayfa staṭāʿa bnu l-Haythami khitirāʿa ʾawwali kāmīrā muẓlimatin fī t-tārīkhi wa-huwa fī s-sijn?"},
+        {"src": "لاحظ مرور شعاع الضوء عبر ثقب صغير داخل قمرة مظلمة.", "tgt": "He observed a light ray passing through a small pinhole inside a dark room.", "translit": "lāḥaẓa murūra shuʿāʿi ḍ-ḍawʾi ʿabra thaqbin ṣaghīrin dākhila qumratin muẓlimah."},
+        {"src": "عكست هذه التجربة البسيطة الصورة الخارجية مقلوبة على الجدار.", "tgt": "This simple experiment projected the outside image inverted onto the wall.", "translit": "ʿakasat hādhihi t-tajribatu l-basīṭatu ṣ-ṣūrata l-khārijiyyata maqlūbatan ʿalā l-jidār."},
+        {"src": "عكست هذه التجربة البسيطة الصورة الخارجية مقلوبة على الجدار.", "tgt": "This simple experiment projected the outside image inverted onto the wall.", "translit": "ʿakasat hādhihi t-tajribatu l-basīṭatu ṣ-ṣūrata l-khārijiyyata maqlūbatan ʿalā l-jidār."}
+      ],
+      "scenes": [
+        "wide shot of a dimly lit stone cell, a 35-year-old Arab scholar in a dark grey kaftan standing inside a pitch-black room staring at a white cloth screen, a single beam of light piercing through a tiny shutter pinhole, cinematic film still, vertical composition",
+        "same stone cell, same 35-year-old Arab scholar in a dark grey kaftan, now leaning close to the tiny pinhole on a dark wooden shutter, observing the glowing beam of light cutting through dusty air, extreme close-up focus, cinematic film still, vertical composition",
+        "same stone cell, same 35-year-old Arab scholar in a dark grey kaftan, now smiling in awe as an upside-down inverted image of outdoor palm trees appears on the white cloth screen, bright optical contrast, cinematic film still, vertical composition",
+        "same stone cell, same 35-year-old Arab scholar in a dark grey kaftan, now standing peacefully beside his manuscripts near a sunlit arched window, calm scientific backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "ar-en-026",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "perfumery",
+      "seed": 41002,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "ambient acoustic oud and soft woodwind sweeps, fragrant steam tempo",
+      "words": [
+        {"src": "إنبيق", "tgt": "alembic", "translit": "inbīq"},
+        {"src": "تقطير", "tgt": "distillation", "translit": "taqṭīr"},
+        {"src": "عطر", "tgt": "fragrance", "translit": "ʿiṭr"}
+      ],
+      "lines": [
+        {"src": "كيف حول الكندي وزرياب تقطير الزهور إلى صناعة العطور العالمية؟", "tgt": "How did Al-Kindi and Ziryab transform flower distillation into the global perfume industry?", "translit": "kayfa ḥawwala l-Kindīyu wa-Ziryābu taqṭīra z-zuhūri ʾilā ṣināʿati l-ʿuṭūri l-ʿālamiyyah?"},
+        {"src": "استخدم العطارون جهاز إنبيق نحاسي لاستخلاص عطر الورد الصافي.", "tgt": "Perfumers used a copper alembic device to extract pure rose fragrance.", "translit": "istakhdama l-ʿaṭṭārūna jihāza inbīqin nuḥāsīyin li-stikhlāṣi ʿiṭri r-wardi ṣ-ṣāfī."},
+        {"src": "طورت هذه العملية الهندسية طرائق حفظ الزيوت العطرية عبر السنين.", "tgt": "This engineering process developed methods for preserving essential oils across years.", "translit": "ṭawwarat hādhihi l-ʿamaliyyatu l-handasiyyatu ṭurāʾiqa ḥifẓi z-ziyūti l-ʿaṭriyyati ʿabra s-sinīn."},
+        {"src": "طورت هذه العملية الهندسية طرائق حفظ الزيوت العطرية عبر السنين.", "tgt": "This engineering process developed methods for preserving essential oils across years.", "translit": "ṭawwarat hādhihi l-ʿamaliyyatu l-handasiyyatu ṭurāʾiqa ḥifẓi z-ziyūti l-ʿaṭriyyati ʿabra s-sinīn."}
+      ],
+      "scenes": [
+        "wide shot of a historic perfumery workshop filled with glass flasks, a 30-year-old Arab chemist in a dark olive robe standing beside a polished copper alembic still over a gentle flame, steam rising, warm ambient glow, cinematic film still, vertical composition",
+        "same perfumery workshop, same 30-year-old Arab chemist in a dark olive robe, now carefully pouring fresh red rose petals into the boiling copper vessel, intense focused expression, side lighting, cinematic film still, vertical composition",
+        "same perfumery workshop, same 30-year-old Arab chemist in a dark olive robe, now collecting pure condensed oil drops from a thin glass tube into a crystal vial, smiling in delight, golden hour light reflections, cinematic film still, vertical composition",
+        "same perfumery workshop, same 30-year-old Arab chemist in a dark olive robe, now sitting peacefully among rows of amber oil bottles, tranquil historic backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "zh-en-025",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "porcelain",
+      "seed": 41003,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "delicate guzheng plucks with high flute pads, ceramic artisan rhythm",
+      "words": [
+        {"src": "高岭土", "tgt": "kaolin clay", "translit": "gāolǐngtǔ"},
+        {"src": "窑变", "tgt": "kiln transformation", "translit": "yáobiàn"},
+        {"src": "青花", "tgt": "blue and white", "translit": "qīnghuā"}
+      ],
+      "lines": [
+        {"src": "为什么景德镇的高岭土能烧制出如玉般半透明的瓷器？", "tgt": "Why can Jingdezhen kaolin clay be fired into porcelain as translucent as jade?", "translit": "wèishénme Jǐngdézhèn de gāolǐngtǔ néng shāozhì chū rú yù bān bàn tòumíng de cíqì?"},
+        {"src": "高温极境下发生的窑变赋予了青花瓷坚硬而细腻的质地。", "tgt": "Kiln transformation under extreme high temperatures endows blue and white porcelain with a hard yet delicate texture.", "translit": "gāowēn jíjìng xià fāshēng de yáobiàn fùyǔ le qīnghuācí jiānyìng ér xìnì de zhìdì."},
+        {"src": "这种纯净的白瓷艺术风靡全球并被誉为白色黄金。", "tgt": "This pure white porcelain art swept the globe and was praised as white gold.", "translit": "zhè zhǒng chúnjìng de báicí yìshù fēngmǐ quánqiú bìng bèi yù wéi báisè huángjīn."},
+        {"src": "这种纯净的白瓷艺术风靡全球并被誉为白色黄金。", "tgt": "This pure white porcelain art swept the globe and was praised as white gold.", "translit": "zhè zhǒng chúnjìng de báicí yìshù fēngmǐ quánqiú bìng bèi yù wéi báisè huángjīn."}
+      ],
+      "scenes": [
+        "wide shot of a sunlit Jingdezhen pottery workshop, a 28-year-old Chinese ceramicist in a blue apron shaping a delicate white kaolin clay vase on a spinning wheel, clay splatters, bright morning window light, cinematic film still, vertical composition",
+        "same pottery workshop, same 28-year-old Chinese ceramicist in a blue apron, now using a fine horsehair brush to paint cobalt blue dragon motifs onto the raw unfired white porcelain vase, extreme close-up, focused expression, cinematic film still, vertical composition",
+        "same pottery workshop, same 28-year-old Chinese ceramicist in a blue apron, now holding up a fired glowing translucent blue and white porcelain bowl to a bright light beam, smiling happily, cinematic film still, vertical composition",
+        "same pottery workshop, same 28-year-old Chinese ceramicist in a blue apron, now sitting peacefully beside finished porcelain vases on wooden shelves, serene artisan backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "zh-en-026",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "tea-culture",
+      "seed": 41004,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "peaceful bamboo xun and gentle plucked strings, tea whisking pace",
+      "words": [
+        {"src": "点茶", "tgt": "tea whisking", "translit": "diǎnchá"},
+        {"src": "茶百戏", "tgt": "tea lather art", "translit": "chábǎixì"},
+        {"src": "茶沫", "tgt": "tea froth", "translit": "chámò"}
+      ],
+      "lines": [
+        {"src": "宋代茶人是如何仅凭一勺清水在绿茶沫上绘制水墨画的？", "tgt": "How did Song Dynasty tea masters draw ink paintings on green tea froth using only a spoonful of water?", "translit": "Sòngdài chárén shì rúhé jǐn píng yī sháo qīngshuǐ zài lǜchámò shàng huìzhì shuǐmòhuà de?"},
+        {"src": "通过精湛的点茶手法将茶叶末击打出密致持久的白沫。", "tgt": "Exquisite tea whisking technique whips powdered tea leaves into dense, lasting white froth.", "translit": "tōngguò jīngzhàn de diǎnchá shǒufǎ jiāng cháyèmò jīdǎ chū mìzhì chíjiǔ de báilǐng."},
+        {"src": "这种被称为茶百戏的幻变艺术曾是古代高雅的生活方式。", "tgt": "This phantom art known as tea lather art was once an elegant ancient lifestyle.", "translit": "zhè zhǒng bèi chēngwéi chábǎixì de huànbiàn yìshù céng shì gǔdài gāoyǎ de shēnghuó fāngshì."},
+        {"src": "这种被称为茶百戏的幻变艺术曾是古代高雅的生活方式。", "tgt": "This phantom art known as tea lather art was once an elegant ancient lifestyle.", "translit": "zhè zhǒng bèi chēngwéi chábǎixì de huànbiàn yìshù céng shì gǔdài gāoyǎ de shēnghuó fāngshì."}
+      ],
+      "scenes": [
+        "wide shot of an ancient Song Dynasty tea house, a 26-year-old Chinese tea master in a light grey scholar gown whisking green powdered tea in a dark ceramic bowl with a bamboo whisk, soft paper lantern light, cinematic film still, vertical composition",
+        "same tea house, same 26-year-old Chinese tea master in a light grey gown, now using a spoon tip to drip water droplets onto white tea froth creating a mountain outline image, extreme close-up focus, intense curious expression, cinematic film still, vertical composition",
+        "same tea house, same 26-year-old Chinese tea master in a light grey gown, now smiling as a clear landscape water illustration floats distinctly on top of the dense tea foam, warm ambient light, cinematic film still, vertical composition",
+        "same tea house, same 26-year-old Chinese tea master in a light grey gown, now sitting peacefully at the wooden tea table overlooking bamboo garden sunlight, serene historic backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-ar-025",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "hydraulics",
+      "seed": 41005,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "rhythmic wooden creaks with soft river flow sounds, waterwheel tempo",
+      "words": [
+        {"src": "nor
+ia", "tgt": "نَاعُورَة", "translit": "nāʿūra"},
+        {"src": "current", "tgt": "تَيَّار", "translit": "tayyār"},
+        {"src": "aqueduct", "tgt": "قَنَاة", "translit": "qanāt"}
+      ],
+      "lines": [
+        {"src": "How do giant wooden waterwheels lift river water sixty feet without electricity?", "tgt": "كيف ترفع النواعير الخشبية العملاقة مياه النهر عشرين متراً دون كهرباء؟", "translit": "kayfa tarfaʿu n-nawāʿīru l-khashabiyyatu l-ʿim lāqatu miyāha n-nahri ʿishrīna mitran dūna kahrabāʾ?"},
+        {"src": "The natural river current pushes the wooden paddles turning small mounted wooden buckets.", "tgt": "يدفع تيار النهر الطبيعي المجاديف الخشبية مديراً الصناديق المثبتة.", "translit": "yadfaʿu tayyāru n-nahri ṭ-ṭabīʿiyyu l-majādīfa l-khashabiyyata mudīran aṣ-ṣanādīqa l-muthabbatah."},
+        {"src": "Water empties continuously into stone aqueduct channels to irrigate distant crops.", "tgt": "تفرغ المياه باستمرار في قناة حجرية لري المحاصيل البعيدة.", "translit": "tufarraghu l-miyāhu bi-stimrārin fī qanātin ḥajariyyatin li-rayyi l-maḥāṣīli l-baʿīdah."},
+        {"src": "Water empties continuously into stone aqueduct channels to irrigate distant crops.", "tgt": "تفرغ المياه باستمرار في قناة حجرية لري المحاصيل البعيدة.", "translit": "tufarraghu l-miyāhu bi-stimrārin fī qanātin ḥajariyyatin li-rayyi l-maḥāṣīli l-baʿīdah."}
+      ],
+      "scenes": [
+        "wide shot of a roaring river bank in Hama, a 32-year-old Arab hydraulic engineer in a dark tunic standing on a stone bank beside a massive seventy-foot wooden noria waterwheel turning in the river flow, water splashing, cinematic film still, vertical composition",
+        "same river bank, same 32-year-old Arab hydraulic engineer in a dark tunic, now examining wooden buckets attached to the giant turning rim as they scoop up rushing river water, extreme close-up, focused expression, cinematic film still, vertical composition",
+        "same river bank, same 32-year-old Arab hydraulic engineer in a dark tunic, now watching water tip out of the top buckets into a high stone aqueduct trough, smiling in satisfaction under bright sunlight, cinematic film still, vertical composition",
+        "same river bank, same 32-year-old Arab hydraulic engineer in a dark tunic, now sitting peacefully on a stone wall beside the turning waterwheel at sunset, serene hydraulic engineering backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-ar-026",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "zoology",
+      "seed": 41006,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "ambient acoustic plucked plucks with night wind textures, nocturnal safari pace",
+      "words": [
+        {"src": "fennec", "tgt": "فَنَك", "translit": "fanak"},
+        {"src": "burrow", "tgt": "جُحْر", "translit": "juḥr"},
+        {"src": "heat", "tgt": "حَرَارَة", "translit": "ḥarāra"}
+      ],
+      "lines": [
+        {"src": "Why does the tiny Saharan fennec fox have ears six inches long?", "tgt": "لماذا يملك ثعلب الفنك الصحراوي الصغير أذنين بطولخمسة عشر سنتيمتراً؟", "translit": "limādhā yamliku thaʿlabu l-fanaki ṣ-ṣaḥrāwīyu ṣ-ṣaghīru ʾudhunayni bi-ṭūli khamsata ʿashara santīmitran?"},
+        {"src": "Massive ear blood vessels radiate excess body heat to keep cool under desert sun.", "tgt": "تطرد الأوعية الدموية في الأذنين الضخمتين حرارة الجسم المفرطة لتبديد الشوب.", "translit": "taṭrudu l-ʾawʿiyatu d-damawiyyatu fī l-ʾudhunayni l-ḍakhmatayni ḥarārata l-jismi l-mufriṭata li-tabdīdi sh-shawb."},
+        {"src": "They also detect prey moving deep inside a subterranean burrow beneath sand dunes.", "tgt": "كما تلتقط حركة الفرائص الدقيقة داخل جحر تحت رمال الصحراء.", "translit": "kamā taltaqiṭu ḥarakata l-farāʾiṣi d-daqīqata dākhila juḥrin taḥta rimāli ṣ-ṣaḥrāʾ."},
+        {"src": "They also detect prey moving deep inside a subterranean burrow beneath sand dunes.", "tgt": "كما تلتقط حركة الفرائص الدقيقة داخل جحر تحت رمال الصحراء.", "translit": "kamā taltaqiṭu ḥarakata l-farāʾiṣi d-daqīqata dākhila juḥrin taḥta rimāli ṣ-ṣaḥrāʾ."}
+      ],
+      "scenes": [
+        "wide shot of vast sandy Sahara desert dunes at dusk, a 29-year-old Arab zoologist in khaki safari gear kneeling on a dune ridge watching a small cream-colored fennec fox with massive oversized ears standing on sand, cinematic film still, vertical composition",
+        "same desert location, same 29-year-old Arab zoologist in khaki safari gear, now observing the fennec fox tilting its large ears toward the ground to listen for underground movement, extreme close-up, amazed focus, cinematic film still, vertical composition",
+        "same desert location, same 29-year-old Arab zoologist in khaki safari gear, now photographing the fennec fox digging quickly into a cool sand burrow beneath an acacia root, broad smile, cinematic film still, vertical composition",
+        "same desert location, same 29-year-old Arab zoologist in khaki safari gear, now standing peacefully on dune crest looking over deep purple night sky, tranquil wild nature scene, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-zh-025",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "crystallography",
+      "seed": 41007,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "delicate chime reverberations with ambient piano, crystal discovery tempo",
+      "words": [
+        {"src": "geode", "tgt": "晶洞", "translit": "jīngdòng"},
+        {"src": "basalt", "tgt": "玄武岩", "translit": "xuánwǔyán"},
+        {"src": "silica", "tgt": "二氧化硅", "translit": "èr'yǎnghuàguī"}
+      ],
+      "lines": [
+        {"src": "How can a plain volcanic rock hide thousands of purple quartz crystals inside?", "tgt": "一块普通的反光火山石内部是如何隐藏数千颗紫色水晶的？", "translit": "yī kuài pǔtōng de fǎnguāng huǒshānshí nèibù shì rúhé yǐncáng shù qiān kē zǐsè shuǐjīng de?"},
+        {"src": "Gas bubbles trapped in cooling basalt filled with mineral-rich silica water over millions of years.", "tgt": "玄武岩冷却时包裹的气泡在数百万年里充满了富含二氧化硅的矿物水。", "translit": "xuánwǔyán lěngquè shí bāoguǒ de qìpào zài shù bǎi wàn nián lǐ chōngmǎn le fùhán èr'yǎnghuàguī de kuàngwùshuǐ."},
+        {"src": "Cracking the outer shell exposes a dazzling purple amethyst geode chamber.", "tgt": "敲开外壳便展现出一个璀璨的紫水晶晶洞。", "translit": "qiāokāi wàiké biàn zhǎnxiàn chū yī gè cuǐcàn de zǐshuǐjīng jīngdòng."},
+        {"src": "Cracking the outer shell exposes a dazzling purple amethyst geode chamber.", "tgt": "敲开外壳便展现出一个璀璨的紫水晶晶洞。", "translit": "qiāokāi wàiké biàn zhǎnxiàn chū yī gè cuǐcàn de zǐshuǐjīng jīngdòng."}
+      ],
+      "scenes": [
+        "wide shot of a clean geology laboratory, a 28-year-old Chinese geologist in a dark blazer holding a round rough grey basalt rock and a small rock hammer over a padded table, bright light, cinematic film still, vertical composition",
+        "same geology lab, same 28-year-old Chinese geologist in a dark blazer, now gently tapping the seam line of the rock to split it open into two hollow halves, extreme close-up focus, intense curious face, cinematic film still, vertical composition",
+        "same geology lab, same 28-year-old Chinese geologist in a dark blazer, now holding open the split geode revealing sparkling deep purple amethyst crystal points reflecting desk light, broad excited smile, cinematic film still, vertical composition",
+        "same geology lab, same 28-year-old Chinese geologist in a dark blazer, now sitting peacefully beside illuminated crystal rock displays, serene scientific backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-zh-026",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "entomology",
+      "seed": 41008,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "ambient synth pads with soft woodwind plucks, firefly night pace",
+      "words": [
+        {"src": "luciferin", "tgt": "萤光素", "translit": "yíngguāngsù"},
+        {"src": "cold light", "tgt": "冷光", "translit": "lěngguāng"},
+        {"src": "flash", "tgt": "闪烁", "translit": "shǎnshuò"}
+      ],
+      "lines": [
+        {"src": "How do fireflies produce 100% efficient light without wasting a single drop of heat?", "tgt": "萤火虫是如何产生百分之百效率且完全不浪费热量的光的？", "translit": "yínghuǒchóng shì rúhé chǎnshēng bǎi fēn zhī bǎi xiàolǜ qiě wánquán bù làngfèi rèliàng de guāng de?"},
+        {"src": "An enzyme reaction involving luciferin produces pure bioluminescent cold light inside abdomen cells.", "tgt": "包含萤光素的酶反应在腹部细胞内产生纯净的生物冷光。", "translit": "bāohán yíngguāngsù de méi fǎnyìng zài fùbù xìbāo nèi chǎnshēng chúnjìng de shēngwù lěngguāng."},
+        {"src": "Their rhythmic green flash patterns serve as nocturnal communication across summer forests.", "tgt": "它们有节奏的绿色闪烁图景构成了夏日森林里的夜间交流。", "translit": "tāmen yǒu jiézòu de lǜsè shǎnshuò tújǐng gòuchéng le xiàrì sēnlín lǐ de yèjiān jiāoliú."},
+        {"src": "Their rhythmic green flash patterns serve as nocturnal communication across summer forests.", "tgt": "它们有节奏的绿色闪烁图景构成了夏日森林里的夜间交流。", "translit": "tāmen yǒu jiézòu de lǜsè shǎnshuò tújǐng gòuchéng le xiàrì sēnlín lǐ de yèjiān jiāoliú."}
+      ],
+      "scenes": [
+        "wide shot of a dark magical bamboo forest at night, a 27-year-old Chinese entomologist in a grey shirt holding a small glass jar standing among hundreds of floating yellow-green glowing firefly lights, night mist, cinematic film still, vertical composition",
+        "same night bamboo forest, same 27-year-old Chinese entomologist in a grey shirt, now observing a single glowing firefly resting on her hand, bioluminescent green light illuminating her face, extreme close-up, amazed smile, cinematic film still, vertical composition",
+        "same night bamboo forest, same 27-year-old Chinese entomologist in a grey shirt, now recording light flash interval data on a tablet screen while fireflies blink in unison around her, bright soft green glow, cinematic film still, vertical composition",
+        "same night bamboo forest, same 27-year-old Chinese entomologist in a grey shirt, now standing peacefully watching glowing firefly trails drift through dark trees, tranquil nature scene, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-es-025",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "ethnology",
+      "seed": 41009,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "warm acoustic guitar plucks with soft ocean percussion, island weaving rhythm",
+      "words": [
+        {"src": "totora", "tgt": "totora reed", "translit": ""},
+        {"src": "buoyancy", "tgt": "flotabilidad", "translit": ""},
+        {"src": "roots", "tgt": "raíces", "translit": ""}
+      ],
+      "lines": [
+        {"src": "How do Uros families construct entire floating islands on Lake Titicaca using water plants?", "tgt": "¿Cómo construyen las familias Uros islas flotantes completas en el Titicaca usando plantas?", "translit": ""},
+        {"src": "Woven totora reed layers tied to buoyant root blocks provide natural floating buoyancy.", "tgt": "Capas de totora tejidas atadas a bloques de raíces flotantes proveen flotabilidad natural.", "translit": ""},
+        {"src": "This unique ancestral lifestyle keeps homes completely dry atop high altitude lake waters.", "tgt": "Este estilo de vida ancestral mantiene hogares secos sobre aguas de alta altitud.", "translit": ""},
+        {"src": "This unique ancestral lifestyle keeps homes completely dry atop high altitude lake waters.", "tgt": "Este estilo de vida ancestral mantiene hogares secos sobre aguas de alta altitud.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of a yellow floating reed island on Lake Titicaca, a 30-year-old Spanish ethnologist in a brown jacket walking on springy woven totora reed ground past reed houses, blue sky and lake, cinematic film still, vertical composition",
+        "same floating reed island, same 30-year-old Spanish ethnologist in a brown jacket, now kneeling to inspect dense crisscrossed layers of cut totora reeds floating over root blocks in water, extreme close-up, curious face, cinematic film still, vertical composition",
+        "same floating reed island, same 30-year-old Spanish ethnologist in a brown jacket, now smiling alongside an Uros resident weaving a traditional yellow reed boat on the island edge, warm sunlight, cinematic film still, vertical composition",
+        "same floating reed island, same 30-year-old Spanish ethnologist in a brown jacket, now standing peacefully watching sunset light reflect over blue lake waters, serene cultural backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-es-026",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "herpetology",
+      "seed": 41010,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "ambient acoustic guitar with soft rainforest rain sounds, jungle discovery pace",
+      "words": [
+        {"src": "glass frog", "tgt": "rana de cristal", "translit": ""},
+        {"src": "translucent", "tgt": "translúcido", "translit": ""},
+        {"src": "organs", "tgt": "órganos", "translit": ""}
+      ],
+      "lines": [
+        {"src": "Why is the skin on the underside of a glass frog completely see-through?", "tgt": "¿Por qué la piel del vientre de una rana de cristal es totalmente transparente?", "translit": ""},
+        {"src": "Translucent belly skin makes internal beating heart organs visible while providing leaf camouflage.", "tgt": "La piel translúcida hace visibles los órganos como el corazón dando camuflaje.", "translit": ""},
+        {"src": "This glass frog adaptation helps it hide seamlessly from predators under rain-soaked leaves.", "tgt": "Esta adaptación de la rana de cristal la esconde de depredadores en hojas mojadas.", "translit": ""},
+        {"src": "This glass frog adaptation helps it hide seamlessly from predators under rain-soaked leaves.", "tgt": "Esta adaptación de la rana de cristal la esconde de depredadores en hojas mojadas.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of a sunlit tropical cloud forest in Ecuador, a 28-year-old Spanish herpetologist in a green jacket standing on a wet trail looking under broad green leaves, misty jungle light, cinematic film still, vertical composition",
+        "same cloud forest trail, same 28-year-old Spanish herpetologist in a green jacket, now using a macro lens camera to photograph a tiny lime-green glass frog resting on a glass plate, extreme close-up showing visible heart beat, cinematic film still, vertical composition",
+        "same cloud forest trail, same 28-year-old Spanish herpetologist in a green jacket, now smiling as she holds up the glass plate showing translucent frog belly skin against leaf sunlight, cinematic film still, vertical composition",
+        "same cloud forest trail, same 28-year-old Spanish herpetologist in a green jacket, now standing peacefully on a wooden trail bridge watching evening jungle mist, tranquil nature setting, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "es-en-025",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "vulcanology",
+      "seed": 41011,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "dramatic low strings with steady bass drum, volcanic landscape pace",
+      "words": [
+        {"src": "organ pipe", "tgt": "organ pipe basalt", "translit": ""},
+        {"src": "cooling", "tgt": "cooling process", "translit": ""},
+        {"src": "hexagon", "tgt": "hexagon column", "translit": ""}
+      ],
+      "lines": [
+        {"src": "¿Cómo esculpió la lava hirviente miles de columnas geométricas perfectas en la costa?", "tgt": "How did boiling lava sculpt thousands of perfect geometric columns on the coast?", "translit": ""},
+        {"src": "El rápido proceso de enfriamiento de la lava basáltica produjo fracturas en forma de hexágono.", "tgt": "The rapid basaltic lava cooling process produced fractures in hexagon shapes.", "translit": ""},
+        {"src": "Esta maravilla geológica crea acantilados con apariencia de tubos de órgano gigantes.", "tgt": "This geological wonder creates cliffs resembling giant organ pipe structures.", "translit": ""},
+        {"src": "Esta maravilla geológica crea acantilados با apariencia de tubos de órgano gigantes.", "tgt": "This geological wonder creates cliffs resembling giant organ pipe structures.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of dark basalt geometric cliff columns on a coast in La Gomera, a 31-year-old Spanish geologist in an orange jacket standing on black volcanic rocks looking up at vertical hexagonal basalt columns, ocean waves crashing, cinematic film still, vertical composition",
+        "same coastal basalt cliff, same 31-year-old Spanish geologist in an orange jacket, now running his hand over the sharp five-sided and six-sided geometric joint lines of a fallen basalt column block, extreme close-up focus, cinematic film still, vertical composition",
+        "same coastal basalt cliff, same 31-year-old Spanish geologist in an orange jacket, now photographing towering organ pipe basalt rock formations reflecting golden sunset light, smiling brightly, cinematic film still, vertical composition",
+        "same coastal basalt cliff, same 31-year-old Spanish geologist in an orange jacket, now sitting peacefully on a smooth basalt column watching dusk sea spray, serene geological backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "es-en-026",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "culture",
+      "seed": 41012,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "vibrant brass and cheerful rhythmic drums, festive street rhythm",
+      "words": [
+        {"src": "silbo", "tgt": "whistled language", "translit": ""},
+        {"src": "ravine", "tgt": "deep ravine", "translit": ""},
+        {"src": "pitch", "tgt": "sound pitch", "translit": ""}
+      ],
+      "lines": [
+        {"src": "¿Cómo lograron los habitantes de La Gomera comunicarse a kilómetros de distancia usando sólo silbidos?", "tgt": "How did La Gomera islanders communicate across miles using only whistles?", "translit": ""},
+        {"src": "El lenguaje silbo sustituye vocales con variaciones de tono que cruzan el profundo barranco.", "tgt": "The silbo language replaces vowels with sound pitch variations crossing the deep ravine.", "translit": ""},
+        {"src": "Esta tradición única reconocida por la UNESCO permite hablar a través de los valles.", "tgt": "This unique UNESCO tradition allows talking across valleys using pure whistle power.", "translit": ""},
+        {"src": "Esta tradición única reconocida por la UNESCO permite hablar a través de los valles.", "tgt": "This unique UNESCO tradition allows talking across valleys using pure whistle power.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of a deep mountain ravine in the Canary Islands, a 29-year-old Spanish linguist in a green shirt standing on a high cliff edge looking across a wide valley toward distant green hills, morning sunlight, cinematic film still, vertical composition",
+        "same mountain ravine cliff, same 29-year-old Spanish linguist in a green shirt, now placing two fingers in his mouth to produce a loud high-pitched silbo whistle across the valley, extreme close-up, focused expression, cinematic film still, vertical composition",
+        "same mountain ravine cliff, same 29-year-old Spanish linguist in a green shirt, now smiling warmly as a clear answering whistle echoes back across the canyon from a farmer on the far mountain slope, cinematic film still, vertical composition",
+        "same mountain ravine cliff, same 29-year-old Spanish linguist in a green shirt, now sitting peacefully on a stone wall overlooking the sunlit ravine, serene historic cultural scene, cinematic film still, vertical composition"
+      ]
+    }
+  ]
+}

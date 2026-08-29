@@ -1,0 +1,712 @@
+{
+  "reels": [
+    {
+      "id": "ar-en-027",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "sufi-patience",
+      "seed": 41501,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "ambient oud melody with slow contemplative rhythm, profound philosophical atmosphere",
+      "words": [
+        {
+          "term": "صَبْر",
+          "translit": "sabr",
+          "translation": "perseverance"
+        },
+        {
+          "term": "حِكْمَة",
+          "translit": "hikmah",
+          "translation": "wisdom"
+        },
+        {
+          "term": "يَقِين",
+          "translit": "yaqin",
+          "translation": "certainty"
+        }
+      ],
+      "lines": [
+        "As the Sufi master Rumi stated: 'Patience is not sitting and waiting, it is foreseeing the end goal.'",
+        "True endurance requires an unwavering vision of the future while walking through trials.",
+        "Embrace this ancient mindset to transform everyday obstacles into steps of deep spiritual growth."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "high-realism physical lighting, slow dust motes drift in sunbeams, contemplative atmosphere",
+          "prompt": "A 50-year-old Arab philosopher with a distinguished grey beard and warm expression, wearing a flowing cream-colored woolen robe, sits calmly inside an ancient stone courtyard surrounded by towering archways, holding an open leather-bound manuscript under soft golden afternoon sunlight, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "controlled physical gesture dynamics, fabric sway in gentle breeze, focused scholar framing",
+          "prompt": "Same ancient stone courtyard setting, same Arab philosopher in cream-colored woolen robe, now tracing a line of classical Arabic calligraphy on parchment with a reed pen, a serene expression reflecting deep inner certainty against weathered limestone masonry, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "high-detail paper texture tracking, ink reflection physics, sharp macro depth of field",
+          "prompt": "Same ancient stone courtyard setting, same Arab philosopher in cream-colored woolen robe, holding his hand steady as fine ink flows smoothly onto the handmade paper page, warm amber sunlight highlighting the intricate texture of the manuscript, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "minimal environmental motion, static architectural stability, clean negative space lighting for text overlays",
+          "prompt": "Same ancient stone courtyard setting, same Arab philosopher in cream-colored woolen robe, standing peacefully with hands folded against a quiet background of verdant courtyard orange trees and shadow-draped arches, clean negative space, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "ar-en-028",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "ibn-khaldun-sociology",
+      "seed": 41502,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "deep string resonance with cathedral reverb, intellectual history atmosphere",
+      "words": [
+        {
+          "term": "عُمْرَان",
+          "translit": "umran",
+          "translation": "civilization"
+        },
+        {
+          "term": "مُجْتَمَع",
+          "translit": "mujtama'",
+          "translation": "society"
+        },
+        {
+          "term": "تَارِيخ",
+          "translit": "tarikh",
+          "translation": "history"
+        }
+      ],
+      "lines": [
+        "As historian Ibn Khaldun observed: 'It is not the sword that shapes civilization, but the solidarity of society.'",
+        "Human progress relies on mutual trust and collective purpose rather than raw force.",
+        "Study this foundational sociological truth to understand how enduring cultures rise and flourish."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "historical realism physics, ambient shadow interplay, dramatic archival study lighting",
+          "prompt": "A 45-year-old Arab scholar with a sharp intellect and dark trimmed beard, wearing a deep maroon scholarly robe, stands inside a grand medieval study filled with rolled maps and stacked historical chronicles under soft chandelier light, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "parchment roll mechanics, hand movement precision physics, focused analytical framing",
+          "prompt": "Same grand medieval study setting, same Arab scholar in deep maroon scholarly robe, now unrolling a large parchment map detailing ancient trade routes, pointing at a vital crossroads intersection with intense analytical focus, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro ink diffusion tracking, parchment grain texture physics, sharp focal depth",
+          "prompt": "Same grand medieval study setting, same Arab scholar in deep maroon scholarly robe, holding a quill steady above a ledger page filled with structured demographic notes, warm side lighting emphasizing the parchment fibers, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "minimal ambient motion, static scholarly background, clean framing for text overlays",
+          "prompt": "Same grand medieval study setting, same Arab scholar in deep maroon scholarly robe, standing peacefully with arms crossed before a tall arched window looking out over a bustling city square at dusk, clean negative space, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "zh-en-027",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "confucian-harmony",
+      "seed": 41503,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "delicate guzheng melody with serene ambient pads, classical eastern philosophical mood",
+      "words": [
+        {
+          "term": "和谐",
+          "translit": "hé xié",
+          "translation": "harmony"
+        },
+        {
+          "term": "修养",
+          "translit": "xiū yǎng",
+          "translation": "self-cultivation"
+        },
+        {
+          "term": "品德",
+          "translit": "pǐn dé",
+          "translation": "virtue"
+        }
+      ],
+      "lines": [
+        "As Confucius taught: 'Excellence is not an isolated act, but a lifelong habit of moral cultivation.'",
+        "True character is forged through daily reflection and consistent dedication to righteousness.",
+        "Reflect on this timeless moral wisdom to elevate your personal conduct and relationships."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "gentle bamboo forest light diffusion physics, peaceful scholarly atmosphere, soft morning sunrays",
+          "prompt": "A 55-year-old Chinese master scholar with serene expression and traditional silver hair tied neatly, wearing a dark blue silk scholar tunic, stands inside a tranquil bamboo pavilion practicing brush calligraphy on an outdoor stone table, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "brush stroke fluidity physics, ink spreading dynamics, focused meditative framing",
+          "prompt": "Same tranquil bamboo pavilion setting, same Chinese master scholar in dark blue silk scholar tunic, now holding a fine wolf-hair brush, executing a flawless character for virtue on absorbent rice paper with total physical poise, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro paper fiber tracking, ink saturation physics, sharp focal depth on brush tip",
+          "prompt": "Same tranquil bamboo pavilion setting, same Chinese master scholar in dark blue silk scholar tunic, pointing a steady finger at the powerful balance of bold ink strokes against white paper, soft morning light catching the wet sheen of the characters, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "subtle bamboo leaf sway simulation, serene natural background, clean framing for text overlays",
+          "prompt": "Same tranquil bamboo pavilion setting, same Chinese master scholar in dark blue silk scholar tunic, standing peacefully with hands clasped before his chest, overlooking a misty lotus pond under early morning fog, clean negative space, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "zh-en-028",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "taoist-flow",
+      "seed": 41504,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "ambient stream sounds with soft flute and synth pads, flowing natural rhythm",
+      "words": [
+        {
+          "term": "无为",
+          "translit": "wú wéi",
+          "translation": "effortless action"
+        },
+        {
+          "term": "自然",
+          "translit": "zì rán",
+          "translation": "naturalness"
+        },
+        {
+          "term": "流水",
+          "translit": "liú shuǐ",
+          "translation": "flowing water"
+        }
+      ],
+      "lines": [
+        "As Laozi noted: 'Nothing is softer than water, yet nothing can overcome the hard and rigid.'",
+        "Flexibility and adaptive persistence triumph over rigid resistance in the test of time.",
+        "Embrace this ancient Daoist philosophy to navigate life's greatest challenges with grace."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "fluid water dynamics physics, mist spray simulation, moody mountain river lighting",
+          "prompt": "A 50-year-old male Taoist sage with long dark hair streaked with grey, wearing a loose flowing grey linen robe, stands beside a rushing mountain stream flowing over smooth mossy boulders under an overcast misty sky, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "water droplet surface tension physics, hand gesture fluidity, focused meditative framing",
+          "prompt": "Same rushing mountain stream setting, same male Taoist sage in loose flowing grey linen robe, now lowering his hand gracefully to touch the cold swirling water, watching currents bypass obstacles effortlessly, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro water ripple interaction, stone texture tracking, sharp focal depth",
+          "prompt": "Same rushing mountain stream setting, same male Taoist sage in loose flowing grey linen robe, pointing a calm finger at where smooth river water carves deep channels into unyielding granite rock over millennia, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "gentle mist drift simulation, serene mountain valley backdrop, clean framing for text overlays",
+          "prompt": "Same rushing mountain stream setting, same male Taoist sage in loose flowing grey linen robe, standing peacefully with arms crossed as fog rolls quietly over the pine-clad mountain slopes, clean negative space, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "en-ar-027",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "avicenna-intellect",
+      "seed": 41505,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "mysterious synth pads with deep ethereal choir, slow tempo, scholarly wonder",
+      "words": [
+        {
+          "term": "عَقْل",
+          "translit": "aql",
+          "translation": "intellect"
+        },
+        {
+          "term": "مَعْرِفَة",
+          "translit": "ma'rifah",
+          "translation": "knowledge"
+        },
+        {
+          "term": "فِلْسَفَة",
+          "translit": "falsafah",
+          "translation": "philosophy"
+        }
+      ],
+      "lines": [
+        "As the master physician Avicenna taught: 'The knowledge of anything, since all things have causes, is not acquired or complete unless it is known by its causes.'",
+        "True scientific understanding requires investigating the deep root origins of every phenomenon.",
+        "Explore this rationalist framework to unlock analytical clarity in your everyday pursuits."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "high-realism academic library physics, warm candlelight dispersion, scholarly interior lighting",
+          "prompt": "A 45-year-old male Islamic scholar with neat dark beard and intelligent eyes, wearing a dark green velvet robe over a white tunic, stands inside a grand medieval observatory library filled with celestial globes and leather medical tomes under warm brass lamp lighting, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "astrolabe ring rotation mechanics, metal reflection physics, focused scientific framing",
+          "prompt": "Same grand medieval observatory library setting, same male Islamic scholar in dark green velvet robe, now aligning the brass rings of an intricate astronomical instrument, studying celestial angles with intense intellectual focus, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro parchment ink tracking, metal instrument polish physics, sharp focal depth",
+          "prompt": "Same grand medieval observatory library setting, same male Islamic scholar in dark green velvet robe, pointing a precise finger at anatomical diagrams and geometric proofs inscribed in an open scientific manuscript, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "minimal ambient motion, static scholarly environment, clean framing for text overlays",
+          "prompt": "Same grand medieval observatory library setting, same male Islamic scholar in dark green velvet robe, standing calmly with arms crossed before a large arched window revealing a starry night sky, clean negative space, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "en-ar-028",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "al-mutanabbi-ambition",
+      "seed": 41506,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "dramatic Arabic string ensemble with steady pulse, heroic and poetic atmosphere",
+      "words": [
+        {
+          "term": "عَزِيمَة",
+          "translit": "azimah",
+          "translation": "determination"
+        },
+        {
+          "term": "مَجْد",
+          "translit": "majd",
+          "translation": "glory"
+        },
+        {
+          "term": "طُمُوح",
+          "translit": "tumuh",
+          "translation": "ambition"
+        }
+      ],
+      "lines": [
+        "As the legendary poet Al-Mutanabbi wrote: 'If you seek noble goals, do not accept anything less than the stars.'",
+        "Great achievements demand uncompromising courage and an unyielding spirit in the face of adversity.",
+        "Channel this fierce poetic ambition to conquer your most ambitious life objectives."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "dramatic desert wind physics, robe fabric flutter simulation, sunset horizon lighting",
+          "prompt": "A 38-year-old Arab poet with a sharp noble profile and intense gaze, wearing a dark embroidered Bedouin cloak over a white linen tunic, stands atop a majestic desert sandstone ridge at sunset, gazing toward an expansive horizon under fiery orange skies, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "scroll parchment unfolding dynamics, wind resistance simulation, focused poetic framing",
+          "prompt": "Same desert sandstone ridge setting, same Arab poet in dark embroidered Bedouin cloak, now unfurling a parchment scroll inscribed with verses, reading aloud with passionate expression as twilight shadows lengthen across the canyon, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro calligraphy ink tracking, paper texture flutter physics, sharp focal depth",
+          "prompt": "Same desert sandstone ridge setting, same Arab poet in dark embroidered Bedouin cloak, holding the edge of the fluttering scroll steady against a gust of wind, golden sunrays highlighting bold poetic Arabic script, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "subtle twilight wind drift, serene desert expanse, clean framing for text overlays",
+          "prompt": "Same desert sandstone ridge setting, same Arab poet in dark embroidered Bedouin cloak, standing proudly with arms crossed as the first evening stars appear in the deepening purple sky, clean negative space, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "en-zh-027",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "mencius-human-nature",
+      "seed": 41507,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "warm acoustic guitar and soft string pads, reflective eastern educational mood",
+      "words": [
+        {
+          "term": "善良",
+          "translit": "shàn liáng",
+          "translation": "benevolence"
+        },
+        {
+          "term": "本性",
+          "translit": "běn xìng",
+          "translation": "human nature"
+        },
+        {
+          "term": "恻隐",
+          "translit": "cè yǐn",
+          "translation": "compassion"
+        }
+      ],
+      "lines": [
+        "As the philosopher Mencius maintained: 'Water flows naturally downward, and human nature tends inherently toward goodness.'",
+        "Compassion and righteousness are innate seeds waiting to be nurtured within every person.",
+        "Cultivate this profound inner empathy to foster harmonious communities and personal peace."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "soft garden light diffusion physics, gentle stream flow simulation, scholarly courtyard mood",
+          "prompt": "A 48-year-old male Chinese scholar with a gentle thoughtful expression, wearing a traditional grey silk scholar gown, stands beside a stone koi pond in a classical scholar courtyard under soft filtered willow tree shade, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "water ripples from feeding simulation, hand gesture grace, focused educational framing",
+          "prompt": "Same classical scholar courtyard setting, same male Chinese scholar in traditional grey silk scholar gown, now scattering small food pellets onto the calm pond surface, watching golden fish gather peacefully in the clear water, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro water surface tension tracking, light reflection physics, sharp focal depth",
+          "prompt": "Same classical scholar courtyard setting, same male Chinese scholar in traditional grey silk scholar gown, pointing a calm finger at the gentle ripples expanding across the pond, symbolizing the ripple effect of human kindness, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "gentle willow branch sway simulation, serene courtyard backdrop, clean framing for text overlays",
+          "prompt": "Same classical scholar courtyard setting, same male Chinese scholar in traditional grey silk scholar gown, standing peacefully with hands folded before an open moon gate overlooking a tranquil garden path, clean negative space, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "en-zh-028",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "sun-tzu-strategy",
+      "seed": 41508,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "steady traditional drum pulse with clean string tension, strategic mindset atmosphere",
+      "words": [
+        {
+          "term": "智谋",
+          "translit": "zhì móu",
+          "translation": "strategy"
+        },
+        {
+          "term": "胜利",
+          "translit": "shèng lì",
+          "translation": "victory"
+        },
+        {
+          "term": " preparation",
+          "translit": "zhǔn bèi",
+          "translation": "preparation"
+        }
+      ],
+      "lines": [
+        "As Sun Tzu advised: 'Victories are won before the battle is ever fought, through meticulous planning.'",
+        "Success in any complex endeavor depends entirely on foresight, preparation, and strategic awareness.",
+        "Apply this master tactical philosophy to achieve effortless success in your modern ventures."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "strategic map layout physics, torchlight flickering shadow simulation, command tent atmosphere",
+          "prompt": "A 52-year-old ancient Chinese military strategist with a commanding presence and trimmed beard, wearing structured dark armor plates over a crimson tunic, stands inside a large wooden command tent examining a detailed silk tactical terrain map under flickering torchlight, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "carved wooden marker placement mechanics, focused tactical framing, sharp contrast lighting",
+          "prompt": "Same large wooden command tent setting, same ancient Chinese military strategist in structured dark armor plates over crimson tunic, now placing carved jade chess pieces onto strategic mountain passes on the silk map with calculated precision, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro silk map texture tracking, wood marker reflection physics, sharp focal depth",
+          "prompt": "Same large wooden command tent setting, same ancient Chinese military strategist in structured dark armor plates over crimson tunic, pointing a steady finger at a critical supply route marked on the map, warm torchlight illuminating his resolute expression, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "subtle tent fabric flutter in night breeze, serene strategic backdrop, clean framing for text overlays",
+          "prompt": "Same large wooden command tent setting, same ancient Chinese military strategist in structured dark armor plates over crimson tunic, standing proudly with arms crossed before an open tent flap overlooking a quiet mountain encampment under starlight, clean negative space, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "en-es-027",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "seneca-stoicism",
+      "seed": 41509,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "warm acoustic guitar with solemn cello accompaniment, classical Roman philosophical atmosphere",
+      "words": [
+        {
+          "term": "tiempo",
+          "translation": "time"
+        },
+        {
+          "term": "sabiduría",
+          "translation": "wisdom"
+        },
+        {
+          "term": "vida",
+          "translation": "life"
+        }
+      ],
+      "lines": [
+        "As the Roman Stoic Seneca wrote: 'It is not that we have a short time to live, but that we waste a lot of it.'",
+        "Life is sufficiently long if lived with purposeful intent rather than mindless distraction.",
+        "Master this Stoic realization to reclaim ownership of every precious moment you possess."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "classical Roman marble architecture lighting physics, warm Mediterranean sunrays, contemplative mood",
+          "prompt": "A 50-year-old Roman statesman and philosopher with short dark hair and dignified expression, wearing a draped white toga with a purple border, stands inside a grand marble peristyle courtyard featuring sculpted columns under bright afternoon sunlight, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "sun-dial shadow movement simulation, marble texture physics, focused philosophical framing",
+          "prompt": "Same grand marble peristyle courtyard setting, same Roman philosopher in draped white toga with purple border, now observing the moving shadow on an ornate stone sundial, reflecting quietly on the swift passage of daylight, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro stone carving tracking, shadow angle simulation, sharp focal depth on sundial",
+          "prompt": "Same grand marble peristyle courtyard setting, same Roman philosopher in draped white toga with purple border, pointing a calm finger at the carved Roman numerals on the sundial face as bright sunlight highlights weathered stone edges, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "subtle breeze flutter on toga fabric, serene architectural backdrop, clean framing for text overlays",
+          "prompt": "Same grand marble peristyle courtyard setting, same Roman philosopher in draped white toga with purple border, standing peacefully with arms folded against a quiet background of blooming Mediterranean laurel bushes, clean negative space, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "en-es-028",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "cervantes-perspective",
+      "seed": 41510,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "lively Spanish classical guitar strumming with warm gentle rhythm, literary heritage vibe",
+      "words": [
+        {
+          "term": "locura",
+          "translation": "folly"
+        },
+        {
+          "term": "sueño",
+          "translation": "dream"
+        },
+        {
+          "term": "realidad",
+          "translation": "reality"
+        }
+      ],
+      "lines": [
+        "As Miguel de Cervantes noted: 'Too much sanity may be madness—and the maddest of all is to see life as it is, not as it could be.'",
+        "Visionary imagination transforms ordinary reality into extraordinary possibility.",
+        "Embrace this literary wisdom to dare greatly and dream beyond conventional boundaries."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "dust motes in warm study light, Spanish Renaissance interior physics, golden hour glow",
+          "prompt": "A 55-year-old Spanish writer with a classic 17th-century goatee and expressive eyes, wearing a dark velvet doublet with a white lace ruff collar, stands inside a sunlit Castilian study surrounded by towering bookshelves and leather-bound manuscripts, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "quill pen movement dynamics, ink flow physics, focused literary framing",
+          "prompt": "Same sunlit Castilian study setting, same Spanish writer in dark velvet doublet and white lace ruff collar, now dipping a quill into an inkwell, pausing thoughtfully before writing legendary adventures onto parchment, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro quill tip paper tracking, ink drying physics, sharp focal depth",
+          "prompt": "Same sunlit Castilian study setting, same Spanish writer in dark velvet doublet and white lace ruff collar, pointing a steady quill at expressive handwritten Spanish manuscript lines glowing under warm window light, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "subtle ambient dust drift, peaceful study background, clean framing for text overlays",
+          "prompt": "Same sunlit Castilian study setting, same Spanish writer in dark velvet doublet and white lace ruff collar, standing peacefully with hands crossed before an old wooden window overlooking rolling Castilian hills at sunset, clean negative space, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "es-en-027",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "gracian-prudence",
+      "seed": 41511,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "refined classical Spanish guitar with gentle contemplative tempo, baroque intellectual mood",
+      "words": [
+        {
+          "term": "prudencia",
+          "translation": "prudence"
+        },
+        {
+          "term": "juicio",
+          "translation": "judgment"
+        },
+        {
+          "term": "excelencia",
+          "translation": "excellence"
+        }
+      ],
+      "lines": [
+        "As Spanish philosopher Baltasar Gracián wrote: 'A man's worth is judged by the quality of his mental composure under pressure.'",
+        "Emotional mastery and clear discernment are the true hallmarks of an exceptional leader.",
+        "Cultivate this sharp philosophical judgment to navigate complex social landscapes with absolute poise."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "baroque interior shadow physics, dramatic side window lighting, intellectual atmosphere",
+          "prompt": "A 45-year-old Spanish baroque scholar with dark hair and sharp perceptive eyes, wearing a formal black clerical collar robe with white cuffs, stands inside a stately stone library with arched bookshelves under dramatic shafts of afternoon sunlight, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "book page turning mechanics, paper texture friction physics, focused scholarly framing",
+          "prompt": "Same stately stone library setting, same Spanish baroque scholar in formal black clerical collar robe, now turning a heavy leather-bound aphorism book page with deliberate care, scanning philosophical maxims with calm assurance, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro print text tracking, paper fiber physics, sharp focal depth on typography",
+          "prompt": "Same stately stone library setting, same Spanish baroque scholar in formal black clerical collar robe, pointing a precise finger at printed Latin and Spanish maxims on an open page, warm sunlight catching the sharp contrast of text, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "minimal ambient motion, static architectural stability, clean framing for text overlays",
+          "prompt": "Same stately stone library setting, same Spanish baroque scholar in formal black clerical collar robe, standing peacefully with arms crossed beside a towering wooden book ladder in quiet contemplation, clean negative space, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "es-en-028",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "teresa-inner-strength",
+      "seed": 41512,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "gentle classical harp with serene ethereal reverb, spiritual depth and calm tempo",
+      "words": [
+        {
+          "term": "paciencia",
+          "translation": "patience"
+        },
+        {
+          "term": "alma",
+          "translation": "soul"
+        },
+        {
+          "term": "fortaleza",
+          "translation": "fortitude"
+        }
+      ],
+      "lines": [
+        "As Saint Teresa of Ávila taught: 'Patience attains everything; whoever has inner strength lacks nothing.'",
+        "Resilience of spirit is an impenetrable shield against life's heaviest trials and uncertainties.",
+        "Draw upon this profound spiritual fortitude to maintain unshakeable peace within your soul."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "stained glass light projection physics, atmospheric dust motes, tranquil convent chapel lighting",
+          "prompt": "A 50-year-old Spanish mystic and reformer with kind eyes and serene composure, wearing a traditional brown Carmelite habit with white wimple veil, stands inside a quiet stone monastery chapel illuminated by colorful stained glass sunlight, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "rosary bead movement mechanics, fabric drape physics, focused meditative framing",
+          "prompt": "Same quiet stone monastery chapel setting, same Spanish mystic in traditional brown Carmelite habit with white wimple veil, now holding a smooth wooden rosary softly in her hands, gazing upward with quiet internal strength and grace, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro wood grain texture tracking, light refraction physics, sharp focal depth",
+          "prompt": "Same quiet stone monastery chapel setting, same Spanish mystic in traditional brown Carmelite habit with white wimple veil, pointing a gentle hand toward an old illuminated prayer book resting on a carved oak podium, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "subtle colored light shift simulation, serene chapel background, clean framing for text overlays",
+          "prompt": "Same quiet stone monastery chapel setting, same Spanish mystic in traditional brown Carmelite habit with white wimple veil, standing peacefully with hands folded in quiet prayer as warm sunlight fills the sanctuary, clean negative space, cinematic film still, vertical composition"
+        }
+      ]
+    }
+  ]
+}

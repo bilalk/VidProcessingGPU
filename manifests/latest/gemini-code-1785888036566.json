@@ -1,0 +1,340 @@
+{
+  "reels": [
+    {
+      "id": "ar-en-025",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "mystery",
+      "seed": 41001,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "suspenseful low cello and soft bass drum, subtle ticking, mysterious tempo",
+      "words": [
+        {"src": "بوصلة", "tgt": "compass", "translit": "būṣala"},
+        {"src": "خريطة", "tgt": "map", "translit": "kharīṭa"},
+        {"src": "مفتاح", "tgt": "key", "translit": "miftāḥ"}
+      ],
+      "lines": [
+        {"src": "وجدتُ بوصلة نحاسية قديمة داخل صندوق مهجور.", "tgt": "I found an old brass compass inside an abandoned box.", "translit": "wajadtu būṣalatan nuḥāsiyyatan qadīmatan dākhila ṣundūqin mahjūr."},
+        {"src": "أشارت البوصلة إلى خريطة مخبأة خلف الجدار.", "tgt": "The compass pointed to a map hidden behind the wall.", "translit": "ashārat al-būṣalatu ilā kharīṭatin mukhba'atin khalfa al-jidār."},
+        {"src": "عثرنا أخيراً على مفتاح حديدي يفتح الباب المجهول.", "tgt": "We finally found an iron key that opens the unknown door.", "translit": "ʿatharnā akhīran ʿalā miftāḥin ḥadīdiyyin yaftaḥu al-bāba al-maj-hūl."}
+      ],
+      "scenes": [
+        "wide shot of a dusty dimly lit attic, a 28-year-old Arab woman with long wavy dark hair wearing a brown leather jacket holding an ornate brass compass, sunbeams shining through dusty air, old wooden trunks in background, cinematic film still, vertical composition",
+        "same dusty attic, medium shot of the same 28-year-old Arab woman in her brown leather jacket holding up a yellowed paper map she pulled from behind a cracked stone wall, intense curious expression, moody low key lighting, cinematic film still, vertical composition",
+        "same attic corner, close-up shot of the same 28-year-old Arab woman's hand inserting a heavy rustic iron key into an antique brass keyhole on a heavy wooden door, soft warm light focusing on the keyhole, cinematic film still, vertical composition",
+        "same dusty attic room, calm wide shot of the mysterious wooden door illuminated by warm ambient light, quiet peaceful atmosphere, soft shadows, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "ar-en-026",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "cooking-fail",
+      "seed": 41002,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "playful pizzicato strings and cheerful flute, light clumsy rhythm",
+      "words": [
+        {"src": "عجين", "tgt": "dough", "translit": "ʿajīn"},
+        {"src": "دخان", "tgt": "smoke", "translit": "dukhān"},
+        {"src": "بيتزا", "tgt": "pizza", "translit": "bītzā"}
+      ],
+      "lines": [
+        {"src": "حاولتُ تحضير عجين طازج لصنع العشاء.", "tgt": "I tried preparing fresh dough to make dinner.", "translit": "ḥāwaltu taḥḍīra ʿajīnin ṭāzijin li-ṣunʿi al-ʿashā'."},
+        {"src": "فجأة، تصاعد دخان كثيف من داخل الفرن.", "tgt": "Suddenly, thick smoke billowed from inside the oven.", "translit": "faj'atan, taṣāʿada dukhānun kathīfun min dākhili al-furn."},
+        {"src": "احترقت البيتزا وطلبنا طعاماً جاهزاً للإنقاذ.", "tgt": "The pizza burned and we ordered takeout for the rescue.", "translit": "iḥtaraqati al-bītzā wa-ṭalabnā ṭaʿāman jāhizan lil-inqādh."}
+      ],
+      "scenes": [
+        "wide shot of a bright modern kitchen, a 30-year-old Arab man wearing a gray apron and white t-shirt covered in white flour, kneading soft bread dough on a wooden island table, warm afternoon sunlight, cinematic film still, vertical composition",
+        "same modern kitchen, medium shot of the same 30-year-old Arab man in his flour-dusted gray apron coughing with wide eyes as dark gray smoke pours out from the open stove oven door, dramatic side lighting, cinematic film still, vertical composition",
+        "same kitchen countertop, close-up shot of a completely charred black pizza on a wooden board next to a freshly opened cardboard takeout box with hot fresh food, the man smiling sheepishly in background, cinematic film still, vertical composition",
+        "same modern kitchen, quiet wide shot of the clean wooden counter bathed in soft evening golden light, peaceful cozy indoor atmosphere, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "zh-en-025",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "urban-life",
+      "seed": 41003,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "upbeat lo-fi beats with rhodes piano, smooth steady urban tempo",
+      "words": [
+        {"src": "地铁", "tgt": "subway", "translit": "dìtiě"},
+        {"src": "拥挤", "tgt": "crowded", "translit": "yōngjǐ"},
+        {"src": "咖啡馆", "tgt": "cafe", "translit": "kāfēiguǎn"}
+      ],
+      "lines": [
+        {"src": "早晨的地铁站总是非常拥挤。", "tgt": "The subway station in the morning is always very crowded.", "translit": "zǎochen de dìtiězhàn zǒngshì fēicháng yōngjǐ."},
+        {"src": "列车延误了，人群开始变得焦虑。", "tgt": "The train was delayed, and the crowd started getting anxious.", "translit": "lièchē yánwù le, rénqún kāishǐ biànde jiāolǜ."},
+        {"src": "他决定走出车站，在角落的咖啡馆休息。", "tgt": "He decided to walk out and rest in a corner cafe.", "translit": "tā juédìng zǒuchū chēzhàn, zài jiǎoluò de kāfēiguǎn xiūxi."}
+      ],
+      "scenes": [
+        "wide view of a busy underground train station, a 26-year-old Chinese man wearing a dark green trench coat and black backpack standing on a crowded platform surrounded by commuters, bright artificial lights overhead, cinematic film still, vertical composition",
+        "same underground station platform, medium shot of the same 26-year-old Chinese man in his green trench coat looking anxiously at his glowing wrist watch while people crowd around him under red delay display signs, shallow depth of field, cinematic film still, vertical composition",
+        "close-up shot of the same 26-year-old Chinese man smiling calmly while sitting by a rain-streaked window in a cozy wooden cafe, holding a steaming mug with both hands, warm ambient lighting, cinematic film still, vertical composition",
+        "same corner cafe exterior, peaceful wide shot of the warm glowing cafe entrance on a quiet cobblestone street at dusk, serene urban atmosphere, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "zh-en-026",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "animals",
+      "seed": 41004,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "warm acoustic guitar and light glockenspiel, playful tender tempo",
+      "words": [
+        {"src": "小狗", "tgt": "puppy", "translit": "xiǎogǒu"},
+        {"src": "受伤", "tgt": "injured", "translit": "shōushāng"},
+        {"src": "兽医", "tgt": "veterinarian", "translit": "shòuyī"}
+      ],
+      "lines": [
+        {"src": "他在公园的大树下发现了一只孤单的小狗。", "tgt": "He found a lonely puppy under a big tree in the park.", "translit": "tā zài gōngyuán de dà shù xià fāxiàn le yī zhī gūdān de xiǎogǒu."},
+        {"src": "小狗的小腿受伤了，无法站立。", "tgt": "The puppy's calf was injured and couldn't stand.", "translit": "xiǎogǒu de xiǎotuǐ shōushāng le, wúfǎ zhànlì."},
+        {"src": "他立刻带它去找兽医，小狗得到了救治。", "tgt": "He immediately took it to the veterinarian, and the puppy was treated.", "translit": "tā líkè dài tā qù zhǎo shòuyī, xiǎogǒu dédào le jiùzhì."}
+      ],
+      "scenes": [
+        "wide shot of a leafy city park under autumn trees, a 24-year-old Chinese woman in a yellow sweater kneeling on grass next to a tiny golden puppy sitting near an oak tree, gentle sunlight filtering through leaves, cinematic film still, vertical composition",
+        "same park location, medium shot of the same 24-year-old Chinese woman in her yellow sweater carefully cradling the small whimpering puppy with a bandaged leg in her arms, compassionate worried expression, soft natural daylight, cinematic film still, vertical composition",
+        "close-up shot in a veterinary clinic, a friendly veterinarian applying a clean white wrap to the puppy's paw while the same 24-year-old Chinese woman smiles warmly beside the metal exam table, bright clean lighting, cinematic film still, vertical composition",
+        "same veterinary clinic waiting room, quiet peaceful wide shot of a sunlit wooden bench next to vibrant indoor plants, soft calming environment, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-ar-025",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "weather",
+      "seed": 41005,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "soft cello sweeps and light rain sound textures, contemplative slow tempo",
+      "words": [
+        {"src": "umbrella", "tgt": "مِظَلَّة", "translit": "miẓalla"},
+        {"src": "puddle", "tgt": "بركة ماء", "translit": "birkat māʾ"},
+        {"src": "rainbow", "tgt": "قَوْس قُزَح", "translit": "qaws quzaḥ"}
+      ],
+      "lines": [
+        {"src": "She opened her yellow umbrella against the heavy rain.", "tgt": "فتحت مظلتها الصفراء للوقاية من المطر الغزير.", "translit": "fataḥat miẓallatahā ṣ-ṣafrāʾa lil-wiqāyati mina l-maṭari l-ghazīr."},
+        {"src": "Her shoe slipped and stepped into a deep puddle.", "tgt": "انزلقت فردة حذائها ووطأت في بركة ماء عميقة.", "translit": "inzalaqat fardatu ḥidhāʾihā wa-waṭaʾat fī birkati māʾin ʿamīqa."},
+        {"src": "The clouds parted to reveal a glowing rainbow.", "tgt": "انقشعت السحب ليتجلّى قوس قزح متوهج.", "translit": "inqashaʿati s-suḥubu li-yatajallā qawsu quzaḥin mutawahhij."}
+      ],
+      "scenes": [
+        "wide shot of a wet suburban street during a rainstorm, a 27-year-old American woman in a red raincoat holding up a bright yellow umbrella while walking on sidewalk, heavy rain falling around her, dark moody storm light, cinematic film still, vertical composition",
+        "same rain-soaked street, low angle medium shot of the same 27-year-old American woman in her red raincoat reacting with shock as her leather boot splashes deep into a muddy water puddle on the pavement, water splashing upward, cinematic film still, vertical composition",
+        "close-up shot of the same 27-year-old American woman smiling up at the sky, holding her lowered umbrella, with a brilliant vivid rainbow spanning across breaking clouds in the blue sky behind her, sunbeams on face, cinematic film still, vertical composition",
+        "same peaceful neighborhood street after rain, wide shot of glistening damp pavement and green trees glowing under warm post-storm sunlight, serene peaceful mood, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-ar-026",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "festival",
+      "seed": 41006,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "festive accordion and bright hand drums, joyful celebratory rhythm",
+      "words": [
+        {"src": "lantern", "tgt": "فانُوس", "translit": "fānūs"},
+        {"src": "crowd", "tgt": "حَشْد", "translit": "ḥashd"},
+        {"src": "fireworks", "tgt": "أَلْعاب نَارِيَّة", "translit": "ʾalʿāb nāriyya"}
+      ],
+      "lines": [
+        {"src": "He carried a glowing paper lantern through the market.", "tgt": "حمل فانوساً ورقية متوهجة عبر السوق.", "translit": "ḥamala fānūsan waraqiyyatan mutawahhijatan ʿabra s-sūq."},
+        {"src": "The joyful crowd gathered tightly in the town square.", "tgt": "تجمع الحشد المبتهج بكثافة في ساحة المدينة.", "translit": "tajammaʿa l-ḥashdu l-mubtahiju bi-kathāfatin fī sāḥati l-madīna."},
+        {"src": "Spectacular fireworks illuminated the midnight sky.", "tgt": "أضاءت ألعاب نارية مذهلة السماء في منتصف الليل.", "translit": "aḍāʾat ʾalʿābun nāriyyatun mudhhilatun as-samāʾa fī muntaṣafi l-layl."}
+      ],
+      "scenes": [
+        "wide establishing shot of an ancient stone plaza at night decorated with warm string lights, a 31-year-old American man in a navy wool coat holding a glowing warm red paper lantern, festive market stalls around, cinematic film still, vertical composition",
+        "same town square, medium shot of the same 31-year-old American man in his navy wool coat navigating through a dense happy crowd of festival goers wearing winter scarves, warm ambient lantern light, festive night energy, cinematic film still, vertical composition",
+        "close-up low angle shot of the same 31-year-old American man looking up in awe as colorful golden and red fireworks explode brightly against the night sky above dark rooftop silhouettes, dynamic lighting, cinematic film still, vertical composition",
+        "same city square late at night, quiet wide shot showing soft lingering smoke trails and glowing ground lanterns in an empty festive plaza, tranquil celebratory mood, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-zh-025",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "invention",
+      "seed": 41007,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "inspiring piano build with steady synth arpeggios, progressive tempo",
+      "words": [
+        {"src": "blueprint", "tgt": "图纸", "translit": "tújǐ"},
+        {"src": "prototype", "tgt": "原型", "translit": "yuánxíng"},
+        {"src": "patent", "tgt": "专利", "translit": "zhuānlì"}
+      ],
+      "lines": [
+        {"src": "She spent months drawing the complex blueprint.", "tgt": "她花了数月时间绘制这张复杂的图纸。", "translit": "tā huā le shù yuè shíjiān huìzhì zhè zhāng fùzá de túzhǐ."},
+        {"src": "The mechanical prototype failed during the first test.", "tgt": "这个机械原型在第一次测试中失败了。", "translit": "zhège jīxiè yuánxíng zài dì yī cì cèshì zhōng shībài le."},
+        {"src": "After fixes, she successfully registered her official patent.", "tgt": "改进之后，她成功注册了自己的官方专利。", "translit": "gǎijìn zhīhòu, tā chénggōng zhùcè le zìjǐ de guānfāng zhuānlì."}
+      ],
+      "scenes": [
+        "wide perspective shot of a modern brightly lit workshop, a 29-year-old Caucasian female engineer with dark hair in a ponytail wearing a denim shirt leaning over a large wooden drafting table covered in detailed blue blueprints, desk lamp glow, cinematic film still, vertical composition",
+        "same workshop studio, medium shot of the same 29-year-old female engineer in her denim shirt looking frustrated as small metal gears pop loose from a small electronic prototype machine on her bench, tools scattered around, cinematic film still, vertical composition",
+        "close-up shot of the same 29-year-old female engineer smiling triumphantly while holding an official golden-stamped patent certificate document next to the functioning smooth-running device, bright studio lighting, cinematic film still, vertical composition",
+        "same workshop drafting table, peaceful wide shot showing neat tools, framed blueprints, and soft warm window light glowing over the organized desk, calm creative atmosphere, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-zh-026",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "friendship",
+      "seed": 41008,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "warm ukulele strumming and soft piano chords, cheerful gentle tempo",
+      "words": [
+        {"src": "secret", "tgt": "秘密", "translit": "mìmì"},
+        {"src": "letter", "tgt": "信件", "translit": "xìnjiàn"},
+        {"src": "reunion", "tgt": "重聚", "translit": "chóngjù"}
+      ],
+      "lines": [
+        {"src": "They shared a childhood secret under the old tree.", "tgt": "他们在大树下分享了一个童年的秘密。", "translit": "tāmen zài dà shù xià fēnxiǎng le yī gè tóngnián de mìmì."},
+        {"src": "Years later, she received a heartfelt hand-written letter.", "tgt": "多年后，她收到了一封感人至深的手写信件。", "translit": "duō nián hòu, tā shōudào le yī fēng gǎnrén zhì shēn de shǒuxiě xìnjiàn."},
+        {"src": "They celebrated their joyful reunion at a quiet seaside park.", "tgt": "他们在一个安静的海滨公园里庆祝幸福的重聚。", "translit": "tāmen zài yī gè ānjìng de hǎibīn gōngyuán lǐ qìngzhù xìngfú de chóngjù."}
+      ],
+      "scenes": [
+        "wide shot of a sun-dappled grassy meadow, two young adult friends sitting under a large spreading oak tree whispering happily, soft summer breeze, warm golden morning light, cinematic film still, vertical composition",
+        "medium shot of a 27-year-old Caucasian woman wearing a cream knit sweater holding a paper envelope and reading a handwritten letter with tears of joy in her eyes while standing near a cozy window, soft natural window light, cinematic film still, vertical composition",
+        "close-up emotional shot of the same 27-year-old Caucasian woman in her cream sweater hugging her long-lost friend tightly at a coastal park overlooking blue ocean waves, bright sunny sky, cinematic film still, vertical composition",
+        "same coastal park bench, peaceful wide shot looking out at the calm ocean shoreline under a glowing warm sunset sky, peaceful serene mood, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-es-025",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "career",
+      "seed": 41009,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "soft piano, professional atmosphere, steady confident tempo with light bass",
+      "words": [
+        {"src": "presentation", "tgt": "presentación", "translit": ""},
+        {"src": "mistake", "tgt": "error", "translit": ""},
+        {"src": "promotion", "tgt": "ascenso", "translit": ""}
+      ],
+      "lines": [
+        {"src": "He prepared a detailed presentation for the directors.", "tgt": "Él preparó una presentación detallada para los directores.", "translit": ""},
+        {"src": "A sudden computer glitch caused a small mistake on screen.", "tgt": "Un fallo repentino del ordenador causó un pequeño error en pantalla.", "translit": ""},
+        {"src": "He fixed it smoothly and earned his well-deserved promotion.", "tgt": "Lo corrigió con fluidez y ganó su merecido ascenso.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of a modern glass corporate boardroom, a 30-year-old Latino man in a tailored charcoal suit standing beside a large glowing digital presentation screen addressing seated executives, bright morning office lighting, cinematic film still, vertical composition",
+        "same corporate boardroom, medium shot of the same 30-year-old Latino man in his charcoal suit looking startled as the presentation screen displays a red error graphic, executive audience watching intently, cool office lighting, cinematic film still, vertical composition",
+        "close-up action shot of the same 30-year-old Latino man smiling confidently while shaking hands with an older executive across the polished boardroom table, receiving an official promotion folder, warm bright indoor lighting, cinematic film still, vertical composition",
+        "same quiet corporate boardroom, wide view looking out through floor-to-ceiling glass windows at a city skyline at sunset, serene sophisticated office atmosphere, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "en-es-026",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "sports",
+      "seed": 41010,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "energetic drums and driving brass stabs, fast athletic pace",
+      "words": [
+        {"src": "match", "tgt": "partido", "translit": ""},
+        {"src": "penalty", "tgt": "penalti", "translit": ""},
+        {"src": "trophy", "tgt": "trofeo", "translit": ""}
+      ],
+      "lines": [
+        {"src": "The final soccer match was tied in extra time.", "tgt": "El partido final de fútbol estaba empatado en la prórroga.", "translit": ""},
+        {"src": "The referee whistled and awarded a decisive penalty kick.", "tgt": "El árbitro pitó y concedió un penalti decisivo.", "translit": ""},
+        {"src": "He scored the winning goal and lifted the golden trophy.", "tgt": "Marcó el gol de la victoria y levantó el trofeo de oro.", "translit": ""}
+      ],
+      "scenes": [
+        "wide stadium shot of a bright green soccer field under bright night floodlights, a 25-year-old Hispanic athlete in a blue-striped jersey standing on the field surrounded by players, intense championship atmosphere, cinematic film still, vertical composition",
+        "same stadium pitch, medium shot of the same 25-year-old Hispanic athlete in his blue-striped jersey placing a white soccer ball carefully on the white penalty spot, focused determined facial expression, crisp stadium lights, cinematic film still, vertical composition",
+        "close-up shot of the same 25-year-old Hispanic athlete cheering joyously while lifting a shining golden trophy above his head, golden confetti falling around him in stadium floodlights, cinematic film still, vertical composition",
+        "same empty stadium field late at night, peaceful wide shot of the green pitch under soft lingering arena floodlights, majestic quiet sports stadium backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "es-en-025",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "art",
+      "seed": 41011,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "delicate solo harp, flowing dreamy melody, soft reverb space",
+      "words": [
+        {"src": "escultura", "tgt": "sculpture", "translit": ""},
+        {"src": "mármol", "tgt": "marble", "translit": ""},
+        {"src": "exposición", "tgt": "exhibition", "translit": ""}
+      ],
+      "lines": [
+        {"src": "Ella comenzó a trabajar en una nueva escultura.", "tgt": "She began working on a new sculpture.", "translit": ""},
+        {"src": "El bloque de mármol blanco tenía una grieta profunda.", "tgt": "The white marble block had a deep crack.", "translit": ""},
+        {"src": "Ella la transformó en arte para su gran exposición.", "tgt": "She transformed it into art for her major exhibition.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of a spacious art studio with high ceilings, a 28-year-old Spanish female sculptor with dark hair tied back wearing gray work overalls holding a chisel near a large white marble block, warm daylight from skylight, cinematic film still, vertical composition",
+        "same sculptor studio, close-up medium shot of the same 28-year-old Spanish woman in gray overalls holding a mallet and analyzing a faint gray vein crack running down the smooth white marble surface, focused thoughtful expression, cinematic film still, vertical composition",
+        "close-up shot of the finished polished abstract marble statue displayed on a dark pedestal in a museum hall, the same 28-year-old Spanish woman smiling proudly beside it, gallery gallery lights glowing, cinematic film still, vertical composition",
+        "same quiet museum gallery room, wide shot showing the elegant white marble sculpture standing under soft ceiling spotlights, peaceful artistic gallery backdrop, cinematic film still, vertical composition"
+      ]
+    },
+    {
+      "id": "es-en-026",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "natural-disaster",
+      "seed": 41012,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "tense low brass and strings, building urgency, cinematic storm rhythm",
+      "words": [
+        {"src": "volcán", "tgt": "volcano", "translit": ""},
+        {"src": "ceniza", "tgt": "ash", "translit": ""},
+        {"src": "refugio", "tgt": "refuge", "translit": ""}
+      ],
+      "lines": [
+        {"src": "El antiguo volcán comenzó a rugir en la distancia.", "tgt": "The ancient volcano began to roar in the distance.", "translit": ""},
+        {"src": "Una nube gris de ceniza cubrió todo el cielo.", "tgt": "A gray cloud of ash covered the entire sky.", "translit": ""},
+        {"src": "Todos llegaron a un refugio seguro a tiempo.", "tgt": "Everyone reached a safe refuge in time.", "translit": ""}
+      ],
+      "scenes": [
+        "wide shot of a rural mountain valley village, a 32-year-old Spanish man wearing a blue jacket looking toward a looming dark volcano spewing early orange sparks in the distance, dramatic overcast twilight sky, cinematic film still, vertical composition",
+        "same mountain village road, medium shot of the same 32-year-old Spanish man in his blue jacket shielding his eyes as thick gray ash clouds sweep across the sky darkening the sun, blowing debris, dramatic side lighting, cinematic film still, vertical composition",
+        "close-up shot inside a sturdy warm wooden emergency shelter building, the same 32-year-old Spanish man sitting safely while drinking a warm cup of tea with relieved villagers around him, cozy warm fire light, cinematic film still, vertical composition",
+        "same wooden mountain shelter interior, calm wide shot of glowing fireplace hearth casting gentle ambient light across dark timber beams, quiet peaceful atmosphere, cinematic film still, vertical composition"
+      ]
+    }
+  ]
+}
