@@ -27,27 +27,32 @@ This script performs, in order:
 ## 2. Models — place these in `/root/ComfyUI/models/`
 | File | Dir | Size |
 |---|---|---|
-| `ltx-2.3-22b-distilled-fp8.safetensors` | `checkpoints/` | ~29.5 GB |
-| `gemma_3_12B_it_fp4_mixed.safetensors` | `text_encoders/` | ~9.4 GB |
-| `flux1-dev.safetensors` | `checkpoints/` | ~23 GB |
+| `ltx-2.3-22b-distilled-1.1.safetensors` | `checkpoints/` | ~44 GB |
+| `gemma_3_12B_it_fp4_mixed.safetensors` | `text_encoders/` | ~9.0 GB |
+| `flux1-dev.safetensors` | `checkpoints/` | ~23.8 GB |
 | `t5xxl_fp8_e4m3fn.safetensors` | `text_encoders/` | ~4.9 GB |
 | `clip_l.safetensors` | `text_encoders/` | ~235 MB |
-| `ae.safetensors` | `vae/` | ~320 MB |
+| `ae.safetensors` | `vae/` | ~335 MB |
 
 **How to get these models — a HuggingFace token / license accept is NEVER required.**
 
-1. **Preferred — server→server copy** (fast, no auth): run **`scripts/transfer.sh`** on the
-   *new* box. First edit `OLD=` to a warm GPU box that already has the models and place the
-   matching private key at `/root/.ssh/id_ed25519_old`, then run it — it `scp`s the checkpoints,
-   text encoders, VAE, plus `bed.wav`, pipeline scripts and fonts in one shot.
-2. **Fallback — non-gated community quant checkpoints.** The exact filenames above (e.g. the
-   LTX `-distilled-fp8` and gemma `-fp4_mixed` variants) are community quantized weights, and
-   the two TEXT encoders are always un-gated on the public repo
-   `comfyanonymous/flux_text_encoders` (`t5xxl_fp8_e4m3fn.safetensors` + `clip_l.safetensors`).
+1. **Preferred — server→server copy** (fast, no auth): run `scripts/transfer.sh` on the *new* box
+   (edit `OLD=` to a warm box; put the matching key at `/root/.ssh/id_ed25519_old`). It `scp`s the
+   checkpoints, text encoders, VAE, plus `bed.wav`, pipeline scripts and fonts in one shot.
+2. **Fallback — non-gated community mirrors** (all verified `gated=False`):
+
+| File | HuggingFace repo (non-gated) |
+|---|---|
+| `ltx-2.3-22b-distilled-1.1.safetensors` | `Lightricks/LTX-2.3` |
+| `gemma_3_12B_it_fp4_mixed.safetensors` | `eraRelentless/Gemma_3_12B_it_fp4` |
+| `flux1-dev.safetensors` | `Comfy-Org/flux1-dev` |
+| `t5xxl_fp8_e4m3fn.safetensors` + `clip_l.safetensors` | `comfyanonymous/flux_text_encoders` |
+| `ae.safetensors` | `foxmail/flux_vae` |
+
+   Resumable: `curl -fL -C - -o <dest> https://huggingface.co/<REPO>/resolve/main/<FILE>`
 3. ⚠️ **NEVER** `huggingface-cli login` / paste a token / hit the gated official repos —
-   `black-forest-labs/FLUX.1-dev` (for `flux1-dev.safetensors` + `ae.safetensors`) and
-   `Lightricks/LTX2` (for `ltx-…-fp8` + `gemma-…-fp4_mixed`) are **gated** (401). If a download
-   returns 401/`gated`, STOP and use `scripts/transfer.sh` instead — do **not** ask for an HF token.
+   `black-forest-labs/FLUX.1-dev` + `FLUX.1-schnell` and Lightricks *LTX-Video* are **gated** (401).
+   A 401/`gated` means switch source or use `scripts/transfer.sh` — never ask for an HF token.
 
 ## 3. Deploy pipeline code
 ```bash

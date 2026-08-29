@@ -2,7 +2,7 @@
 import json, os, sys, time, subprocess, shutil, urllib.request, urllib.parse, concurrent.futures
 
 BASE = "http://127.0.0.1:8188"
-CKPT = "ltx-2.3-22b-distilled-fp8.safetensors"
+CKPT = "ltx-2.3-22b-distilled-1.1.safetensors"
 TE = "gemma_3_12B_it_fp4_mixed.safetensors"
 LTX_FPS = 24
 

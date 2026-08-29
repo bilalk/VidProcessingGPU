@@ -93,10 +93,9 @@ Everything flows through the **server filesystem** (no direct client↔status li
 6. Final mux uses `-c:v libx264`, never `-c:v copy`.
 7. Never `apt autoremove` / reinstall packages / redownload models.
 8. Renumber every batch to fresh ids (the web app does this automatically).
-9. Models: obtain them via `scripts/transfer.sh` (server→server, edit `OLD=`) or non-gated
-   community quant checkpoints — **never** `huggingface-cli login` / paste an HF token / pull
-   gated official repos (`black-forest-labs/FLUX.1-dev`, `Lightricks/LTX2`). A 401/`gated`
-   response means use `transfer.sh`, not a token.
+9. Models: never ask for an HF token. Use `scripts/transfer.sh` (server→server) or the non-gated
+   mirrors in `docs/GPU_SETUP.md` — never `huggingface-cli login`/gated repos (`black-forest-labs/FLUX.1-*`,
+   Lightricks *LTX-Video*). A 401/`gated` = switch source, not a token.
 
 ## 8. Definition of done
 - Server: comfyui active, models present, `status.py` serving, `bed.wav` exists.
