@@ -34,7 +34,20 @@ This script performs, in order:
 | `clip_l.safetensors` | `text_encoders/` | ~235 MB |
 | `ae.safetensors` | `vae/` | ~320 MB |
 
-Download from HuggingFace (Lightricks for LTX/FLUX) OR **`scripts/transfer.sh`** copies them server→server (`scp` from `134.199.198.57` or another warm GPU box). Models are **not gated** (LTX-2 22B is openly downloadable; FLUX.1-dev is public).
+**How to get these models — a HuggingFace token / license accept is NEVER required.**
+
+1. **Preferred — server→server copy** (fast, no auth): run **`scripts/transfer.sh`** on the
+   *new* box. First edit `OLD=` to a warm GPU box that already has the models and place the
+   matching private key at `/root/.ssh/id_ed25519_old`, then run it — it `scp`s the checkpoints,
+   text encoders, VAE, plus `bed.wav`, pipeline scripts and fonts in one shot.
+2. **Fallback — non-gated community quant checkpoints.** The exact filenames above (e.g. the
+   LTX `-distilled-fp8` and gemma `-fp4_mixed` variants) are community quantized weights, and
+   the two TEXT encoders are always un-gated on the public repo
+   `comfyanonymous/flux_text_encoders` (`t5xxl_fp8_e4m3fn.safetensors` + `clip_l.safetensors`).
+3. ⚠️ **NEVER** `huggingface-cli login` / paste a token / hit the gated official repos —
+   `black-forest-labs/FLUX.1-dev` (for `flux1-dev.safetensors` + `ae.safetensors`) and
+   `Lightricks/LTX2` (for `ltx-…-fp8` + `gemma-…-fp4_mixed`) are **gated** (401). If a download
+   returns 401/`gated`, STOP and use `scripts/transfer.sh` instead — do **not** ask for an HF token.
 
 ## 3. Deploy pipeline code
 ```bash
