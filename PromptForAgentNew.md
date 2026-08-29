@@ -54,6 +54,9 @@ git checkout BranchAug29      # (or main once merged)
   powershell -ExecutionPolicy Bypass -File install_service.ps1
   ```
 - Verify: `http://localhost:5000` loads and `/api/status` returns `"status":"idle"`.
+- **After a host reboot** the service auto-starts via the `ReelFactoryWeb` scheduled task. To start it
+  manually: `schtasks /run /tn ReelFactoryWeb` (or `powershell -File C:\ReelFactoryWeb\run_service.ps1`).
+  Always confirm `curl http://localhost:5000/api/status` before running a batch.
 
 ## 4. Drive it from the browser (`http://<client_ip>:5000`)
 1. Upload **two JSON manifests** (OLD ~60s schema — see `docs/JSON_FORMATS.md`).

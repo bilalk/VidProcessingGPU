@@ -15,6 +15,19 @@ python app.py
 ```
 Then open http://104.211.18.21:5000 (and open port 5000 in the Azure NSG).
 
+### Starting / restarting the service (after a host reboot)
+- **Auto (default):** `install_service.ps1` registers a Windows Scheduled Task **`ReelFactoryWeb`**
+  (trigger *At system startup*, runs as SYSTEM). After any reboot the service comes back by itself,
+  and `run_service.ps1` relaunches it if it ever crashes.
+- **Check it's up:** `curl http://localhost:5000/api/status` → `"status":"idle"` (or the current job).
+- **Start manually (if needed):**
+  ```powershell
+  schtasks /run /tn ReelFactoryWeb
+  # or foreground:
+  powershell -NoProfile -ExecutionPolicy Bypass -File C:\ReelFactoryWeb\run_service.ps1
+  ```
+- **Unreachable after reboot?** make sure the Azure NSG + Windows firewall still allow TCP 5000.
+
 ## Flow
 1. Upload 2 JSONs (OLD format — either **29aug** `term/translation/narration/scene-objects`
    or **aug28** `src/tgt/translit/scene-strings`; auto-detected).
