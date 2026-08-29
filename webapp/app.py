@@ -34,8 +34,8 @@ JOB = None
 
 
 def load_config():
-    d = {'gpu_host': '129.212.190.223', 'gpu_user': 'root',
-         'gpu_key': r'C:\Users\tester\.ssh\id_newgpu',
+    d = {'gpu_host': '134.199.202.142', 'gpu_user': 'root',
+         'gpu_key': r'C:\Users\tester\.ssh\aug30',
          'burn_subtitles': True, 'mode': 'flux+ltx'}
     try:
         if os.path.exists(CONFIG_PATH):

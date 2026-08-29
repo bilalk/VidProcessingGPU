@@ -23,6 +23,13 @@ git checkout BranchAug29      # (or main once merged)
 ## 2. GPU server — connect + provision (blank AMD MI300X)
 - SSH as `root`: `ssh -i <key> root@<GPU_IP>`. ComfyUI API = `http://127.0.0.1:8188` (NEVER `localhost`).
 - One-shot install: `bash scripts/setup_new_gpu2.sh` (Python venv, PyTorch ROCm 7.2, ComfyUI systemd service, Noto CJK/Arabic fonts).
+
+> 🔒 **SECURITY (non-negotiable):** ComfyUI MUST bind `127.0.0.1`, NEVER `0.0.0.0`.
+> Publicly exposing unauthenticated ComfyUI (`--listen 0.0.0.0`) is exactly how a **Monero
+> cryptominer** was injected into this project's GPU box in Aug-2026 (dropped
+> `/usr/lib/shared/multipatid` + a one-liner into ~150 `.py` files, which also crash-looped
+> ComfyUI). `setup_new_gpu2.sh` uses `127.0.0.1`; if you must expose it, put auth in front of it.
+> Expose only SSH (22, key-auth); rotate keys if a box is ever suspected.
 - Models into `/root/ComfyUI/models/` (list + sizes in `docs/GPU_SETUP.md`): `ltx-2.3-22b-distilled-fp8`, `gemma_3_12B_it_fp4_mixed`, `flux1-dev`, `t5xxl_fp8`, `clip_l`, `ae`.
 - Deploy the pipeline scripts + one-time music bed:
   ```

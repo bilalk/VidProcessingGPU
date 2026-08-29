@@ -57,7 +57,7 @@ Type=simple
 User=root
 WorkingDirectory=/root/ComfyUI
 ExecStartPre=/bin/bash -c 'for i in $(seq 1 10); do [ -e /dev/kfd ] && [ -e /dev/dri/renderD128 ] && exit 0; sleep 6; done; exit 1'
-ExecStart=/root/ComfyUI/venv/bin/python main.py --listen 0.0.0.0 --port 8188 --highvram
+ExecStart=/root/ComfyUI/venv/bin/python main.py --listen 127.0.0.1 --port 8188 --highvram
 Restart=on-failure
 RestartSec=15
 [Install]
