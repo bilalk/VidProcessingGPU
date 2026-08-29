@@ -26,3 +26,11 @@ Thumbs.db
 .DS_Store
 .vscode/
 .idea/
+
+# --- ssh keys (NEVER commit) ---
+id_ed25519
+id_ed25519.pub
+id_rsa*
+id_*.pub
+*.pem
+*.key
