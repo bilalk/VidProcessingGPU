@@ -118,3 +118,13 @@ class GPU:
             "pgrep -f 'tts_29[.]py|flux_gen_opt[.]py|assemble_29[.]py|ltx_29[.]py' | head -5",
             timeout=25)
         return bool(out.strip())
+
+    def kill_pipeline(self):
+        """Gracefully stop this batch's pipeline on the server: SIGTERM the orchestrator
+        scripts + their python workers, then clear the ComfyUI queue."""
+        self.run("pkill -f 'web_flux[.]sh|web_ltx[.]sh|tts_29[.]py|flux_gen_opt[.]py|assemble_29[.]py|ltx_29[.]py' 2>/dev/null; sleep 1; echo KILLED",
+                 timeout=40)
+        self.run("curl -s -X POST http://127.0.0.1:8188/queue "
+                 "-H 'Content-Type: application/json' -d '{\"clear\": true}' -o /dev/null; echo CLEARED",
+                 timeout=20)
+        return True

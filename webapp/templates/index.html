@@ -88,7 +88,9 @@ ul{margin:6px 0;padding-left:20px}
   <div class="sub" id="p_meta" style="margin-top:4px"></div>
   <div id="logbox" class="mono hidden"></div>
   <div class="row" style="margin-top:10px">
-    <button id="btnAbort" class="danger hidden" onclick="abort()">&#9632; Abort</button>
+    <button id="btnAbort" class="danger hidden" onclick="abort()">&#9632; Abort / Pause</button>
+    <button id="btnResume" class="hidden" onclick="resume()">&#9654; Resume</button>
+    <button id="btnEnd" class="danger hidden" onclick="end()">&#10006; End &amp; Terminate</button>
   </div>
 </div>
 
@@ -144,7 +146,7 @@ function startPolling(){ if(timer)clearInterval(timer); timer=setInterval(poll,3
 
 function poll(){
   fetch('/api/status').then(x=>x.json()).then(d=>{
-    const running=['queued','waiting_idle','uploading','flux_running','ltx_running','aborting'];
+    const running=['queued','waiting_idle','uploading','flux_running','ltx_running'];
     document.getElementById('p_total').textContent=(d.reels_total==null?'&ndash;':d.reels_total);
     document.getElementById('p_done').textContent=(d.reels_done==null?'&ndash;':d.reels_done);
     document.getElementById('p_dup').textContent=(d.reels_downloaded==null?'&ndash;':d.reels_downloaded);
@@ -153,17 +155,23 @@ function poll(){
       (d.files?('files: '+d.files.join(' & ')):'')
       +(d.detected_format?('  · format: '+d.detected_format):'')
       +(d.current_channel?('  · channel: '+d.current_channel):'')
-      +(d.start_id?('  · start id: '+d.start_id):'');
+      +(d.start_id?('  · start id: '+d.start_id):'')
+      +(d.avg_sec?('  · avg '+Math.round(d.avg_sec/60)+' min/reel'):'')
+      +(d.eta_min!=null?('  · ETA ~'+d.eta_min+' min'):'');
     if(d.reels_total){ document.getElementById('bar').style.width=(100*d.reels_downloaded/(d.reels_total*2||1))+'%'; }
     const lb=document.getElementById('logbox');
     if(d.log && d.log.length){ lb.classList.remove('hidden'); let h=d.log.map(escapeHtml).join('<br>'); if(d.log_tail){ h+='<br><span style="color:#8b949e">— live —</span><br>'+escapeHtml(d.log_tail); } lb.innerHTML=h; lb.scrollTop=lb.scrollHeight; }
-    const abort=document.getElementById('btnAbort');
-    if(running.includes(d.status)){abort.classList.remove('hidden');} else {abort.classList.add('hidden');}
+    const abort=document.getElementById('btnAbort'),res=document.getElementById('btnResume'),end=document.getElementById('btnEnd');
+    if(running.includes(d.status)){abort.classList.remove('hidden');res.classList.add('hidden');end.classList.add('hidden');}
+    else if(d.status==='paused'){abort.classList.add('hidden');res.classList.remove('hidden');end.classList.remove('hidden');}
+    else {abort.classList.add('hidden');res.classList.add('hidden');end.classList.add('hidden');}
     if(d.status==='done'){document.getElementById('p_status').textContent='DONE ✓'; clearInterval(timer);}
   });
 }
 
 function abort(){ fetch('/api/abort',{method:'POST'}); }
+function resume(){ fetch('/api/resume',{method:'POST'}); }
+function end(){ if(confirm('Terminate the pipeline on the server? This scraps the current batch.')){ fetch('/api/end',{method:'POST'}).then(()=>location.reload()); } }
 
 function escapeHtml(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 

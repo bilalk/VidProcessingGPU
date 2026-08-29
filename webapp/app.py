@@ -167,6 +167,9 @@ def _pull(job, g, remote_dir, local_dir, kind):
 
 def _poll_ltx(job, g, ltx_log):
     t0 = time.time()
+    prev_done = -1  # force an initial incremental pull to catch up
+    avg = 8.5 * 60
+    total = job.get('reels_total', 24)
     while True:
         if job.get('_abort'):
             return
@@ -176,18 +179,37 @@ def _poll_ltx(job, g, ltx_log):
             done = int(full.strip().split()[-1])
         except Exception:
             done = job.get('reels_done', 0)
-        _update(job, reels_done=done, log_tail=tailout)
+        eta_min = round((total - done) * avg / 60) if done < total else 0
+        _update(job, reels_done=done, avg_sec=avg, eta_min=eta_min, log_tail=tailout)
         for line in tailout.splitlines():
             if 'START ' in line:
                 ch = line.split('START ')[-1].strip()
                 _update(job, current_channel=ch)
                 _log(job, 'LTX channel: ' + ch)
+        if done > prev_done:
+            # incrementally download newly-completed reels (don't wait for the whole round)
+            _pull(job, g, LTX_OUT_M, LOCAL_LTX_M, 'ltx_mobile')
+            _pull(job, g, LTX_OUT_D, LOCAL_LTX_D, 'ltx_desktop')
+            prev_done = done
         if 'LTX_ALL_DONE' in tailout:
+            _pull(job, g, LTX_OUT_M, LOCAL_LTX_M, 'ltx_mobile')
+            _pull(job, g, LTX_OUT_D, LOCAL_LTX_D, 'ltx_desktop')
             return
         if time.time() - t0 > 10 * 3600:
             _log(job, 'TIMEOUT waiting for LTX_ALL_DONE')
             return
         time.sleep(20)
+
+
+def _finish(job, g):
+    """End the run: mark done normally, or leave it 'paused' if the user aborted."""
+    if job.get('_abort'):
+        _log(job, "paused by user — server pipeline left running (Resume or End)")
+        g.close()
+        return
+    g.close()
+    _log(job, "DONE — results copied to host")
+    _update(job, status='done', current_stage='complete')
 
 
 def run_job(job, start_id, manifest_a, manifest_b):
@@ -238,6 +260,9 @@ def run_job(job, start_id, manifest_a, manifest_b):
         _pull(job, g, FLUX_OUT, LOCAL_FLUX, 'flux')
 
         if mode == 'flux+ltx':
+            if job.get('_abort'):
+                g.close()
+                return
             _update(job, status='ltx_running', current_stage='LTX round (per channel)')
             _log(job, "launching LTX round ...")
             g.put_text(f"{LTX_DIR}/web_ltx.sh", _ltx_script())
@@ -249,9 +274,7 @@ def run_job(job, start_id, manifest_a, manifest_b):
             _pull(job, g, LTX_OUT_M, LOCAL_LTX_M, 'ltx_mobile')
             _pull(job, g, LTX_OUT_D, LOCAL_LTX_D, 'ltx_desktop')
 
-        g.close()
-        _log(job, "DONE — results copied to host")
-        _update(job, status='done', current_stage='complete')
+        _finish(job, g)
     except Exception as e:
         _log(job, f"ERROR: {e}")
         _log(job, traceback.format_exc())
@@ -290,6 +313,9 @@ def resume_job(job):
         _pull(job, g, FLUX_OUT, LOCAL_FLUX, 'flux')
 
         if mode == 'flux+ltx':
+            if job.get('_abort'):
+                g.close()
+                return
             _update(job, status='ltx_running', current_stage='LTX round (per channel)')
             ltx_log = f"{LTX_DIR}/logs/web_ltx.log"
             _, ltail, _ = g.run(f"tail -n 3 {ltx_log} 2>/dev/null", timeout=25)
@@ -303,9 +329,7 @@ def resume_job(job):
             _pull(job, g, LTX_OUT_M, LOCAL_LTX_M, 'ltx_mobile')
             _pull(job, g, LTX_OUT_D, LOCAL_LTX_D, 'ltx_desktop')
 
-        g.close()
-        _log(job, "DONE — results copied to host")
-        _update(job, status='done', current_stage='complete')
+        _finish(job, g)
     except Exception as e:
         _log(job, f"RESUME ERROR: {e}")
         _log(job, traceback.format_exc())
@@ -399,7 +423,7 @@ def start():
     body = request.get_json(force=True)
     with LOCK:
         if JOB and JOB.get('status') in ('queued', 'waiting_idle', 'uploading',
-                                         'flux_running', 'ltx_running'):
+                                         'flux_running', 'ltx_running', 'paused'):
             return jsonify({'error': 'a job is already running'}), 409
     pa = os.path.join(UPLOADS, os.path.basename(body['file_a']))
     pb = os.path.join(UPLOADS, os.path.basename(body['file_b']))
@@ -470,6 +494,7 @@ def status():
                     'current_channel': d.get('current_channel'), 'current_stage': d.get('current_stage'),
                     'files': d.get('files'), 'detected_format': d.get('detected_format'),
                     'start_id': d.get('start_id'), 'updated_at': d.get('updated_at'),
+                    'avg_sec': d.get('avg_sec'), 'eta_min': d.get('eta_min'),
                     'log': (d.get('log') or [])[-50:], 'log_tail': d.get('log_tail', '')})
 
 
@@ -479,8 +504,46 @@ def abort():
     if JOB:
         with LOCK:
             JOB['_abort'] = True
-            JOB['status'] = 'aborting'
+            JOB['status'] = 'paused'
             _save_job(JOB)
+    return jsonify({'ok': True})
+
+
+@app.route('/api/resume', methods=['POST'])
+def resume():
+    global JOB
+    if JOB and JOB.get('status') == 'paused':
+        with LOCK:
+            JOB['_abort'] = False
+            _save_job(JOB)
+        threading.Thread(target=resume_job, args=(JOB,), daemon=True).start()
+    return jsonify({'ok': True})
+
+
+@app.route('/api/end', methods=['POST'])
+def end():
+    global JOB
+    if JOB:
+        job = JOB
+        try:
+            g = G.GPU(job['config']['gpu_host'], job['config']['gpu_key'],
+                      job['config']['gpu_user']).connect()
+            g.kill_pipeline()
+            g.close()
+            _log(job, "server pipeline terminated gracefully")
+        except Exception as e:
+            _log(job, f"kill pipeline error: {e}")
+        with LOCK:
+            job['_abort'] = True
+            job['status'] = 'aborted'
+            job['current_stage'] = 'aborted'
+            _save_job(job)
+        _save_history({'id': job['id'], 'files': job['files'],
+                       'mode': job['config'].get('mode'),
+                       'status': 'aborted',
+                       'downloaded': job.get('reels_downloaded'),
+                       'finished_at': time.strftime('%Y-%m-%d %H:%M:%S')})
+        JOB = None
     return jsonify({'ok': True})
 
 
