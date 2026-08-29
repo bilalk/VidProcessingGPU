@@ -1,113 +1,92 @@
-# PromptForAgentNew — run a fresh 12-reel batch (OLD 4-panel ~60s pipeline) on a NEW client + NEW GPU
+# PromptForAgentNew — stand up the self-serve REEL FACTORY (web UI `:5000` + AMD GPU)
 
-You are a coding agent. Your job: take this repo and two JSON manifest files, stand up
-the pipeline on a **fresh Windows client + blank AMD GPU server**, and generate a
-**12-reel FLUX round, then a LTX round**, using the **OLD full 4-panel (~60s) method**.
-Number videos **from 0 onward** (this is a separate setup — do NOT reuse any ids from
-other machines; start clean).
+You are a coding agent. From this repo alone, stand up a **self-serve web UI** on a Windows client that drives the **OLD ~60s 4-panel pipeline** on an AMD Instinct MI300X GPU server. After the one-time setup below, the owner uploads **two JSON manifests in a browser, clicks Start**, and watches live progress on **both** the client page (`:5000`) and the GPU status page (`:80`).
 
----
+> This web app **replaces the old manual flow** (ssh + setsid + scp). Do **not** hand-run tts/flux/assemble/ltx — the web app orchestrates it.
 
-## 1. What to download / where things are
+## 0. Starting-point files (read in this order)
+1. `PromptForAgentNew.md` ← this file (master instructions).
+2. `README.md` — repo map.
+3. `webapp/README.md` — the web service (what it does, how to run).
+4. `docs/GPU_SETUP.md` — GPU provisioning (script + exact model list/sizes).
+5. `docs/JSON_FORMATS.md` — the two manifest schemas (the web app auto-detects both OLD variants).
+6. `docs/RESUME_Aug28.md` + `docs/RESUME_GUIDE_R4.md` — latest connection state + hard-won rules.
+7. `docs/ARCHITECTURE.md` — full architecture (LTX-2.3 §F, prompt-split §E).
 
-Git repo (authoritative code): `https://github.com/bilalk/VidProcessingGPU`
+## 1. Clone the repo
 ```
 git clone https://github.com/bilalk/VidProcessingGPU
-```
-Repo map:
-- `pipeline/flux/`  → FLUX round (OLD format): `tts_gen3.py`, `flux_gen_opt.py`, `assemble5.py`, `gen_bed_r3.py`, `run_dual.sh`, `launch_dual.sh`
-- `pipeline/ltx_v3/` → LTX round (OLD FLF): `run_ltx_v3.py` (+ `ltx_flf_gen.py`, `run_ltx_full.py`)
-- `pipeline/v2/`   → NEW single-scene format (IGNORE for this task — not used here)
-- `scripts/`       → GPU setup + renumber + verify + patch helpers
-- `manifests/old/` → example OLD-format JSONs
-- `docs/`          → `ARCHITECTURE.md`, `GPU_SETUP.md`, `JSON_FORMATS.md`, `RESUME_GUIDE_R4.md`
-
-**Read first (in order):** `README.md` → `docs/GPU_SETUP.md` → `docs/JSON_FORMATS.md` → `docs/RESUME_GUIDE_R4.md`.
-
-The two JSON files I will give you use the **OLD 4-panel schema** (# of reels = 12 total,
-6 channels × 2). Their exact shape is described in `docs/JSON_FORMATS.md` §"OLD format".
-
----
-
-## 2. Windows client setup
-
-- Install **Git**, **Python 3.11+**, and an **SSH client** (OpenSSH is built into Windows 10/11).
-- Copy your GPU **SSH private key** to `C:\Users\<you>\.ssh\id_newgpu` (or any path you choose).
-- Put the two JSON manifests + this repo on the client, e.g. `C:\ProjectComfy\`.
-
-Workflow direction (thin client):
-- Client: manifests + orchestration + result storage.
-- Server: all compute (FLUX stills → LTX video → TTS voice → ffmpeg assembly), driven by ComfyUI.
-
----
-
-## 3. GPU server setup (blank AMD MI300X)
-
-Follow `docs/GPU_SETUP.md` exactly:
-1. `scp scripts/setup_new_gpu2.sh root@GPU:/root/ && ssh root@GPU "bash /root/setup_new_gpu2.sh"` — installs venv, PyTorch ROCm 7.2, ComfyUI, RDP, fonts, `comfyui.service`.
-2. Download models into `/root/ComfyUI/models/` (list + sizes in `GPU_SETUP.md`): `ltx-2.3-22b-distilled-fp8`, `gemma_3_12B_it_fp4_mixed`, `flux1-dev`, `t5xxl_fp8`, `clip_l`, `ae`.
-3. Deploy code:
-   ```
-   scp pipeline/flux/*  root@GPU:/root/reels_r3/
-   scp pipeline/ltx_v3/*.py root@GPU:/root/reels_ltx/
-   ```
-4. Verify: `ssh root@GPU "systemctl is-active comfyui && curl -s http://127.0.0.1:8188/system_stats"`.
-
-> ⚠️ Use `http://127.0.0.1:8188`, NEVER `localhost`.
-
----
-
-## 4. Prepare the two JSONs (renumber from 0)
-
-Both input files reuse ids `025/026` + seeds `41001–41012`. **Renumber to fresh ids starting at 0** so there is no cache/id collision, then verify + push.
-
-```bash
-# adapt scripts/renumber_aug28.py: set start_id = 0 for file 1, 12 for file 2
-python scripts/renumber_aug28.py      # -> manifest_a.json (ids 000-011), manifest_b.json (012-023)
-python scripts/verify_aug28.py        # confirm 12 reels, 6 channels, no orientation errors
-scp manifest_a.json manifest_b.json root@GPU:/root/reels_r3/
+cd VidProcessingGPU
+git checkout BranchAug29      # (or main once merged)
 ```
 
-Correct 6 channels: `arabic-to-english, chinese-to-english, english-to-arabic, english-to-chinese, english-to-spanish, spanish-to-english`.
-If any `english-to-X` reel has `src` in the foreign language (and `tgt` English), run `scripts/fix_srctgt.py`.
+## 2. GPU server — connect + provision (blank AMD MI300X)
+- SSH as `root`: `ssh -i <key> root@<GPU_IP>`. ComfyUI API = `http://127.0.0.1:8188` (NEVER `localhost`).
+- One-shot install: `bash scripts/setup_new_gpu2.sh` (Python venv, PyTorch ROCm 7.2, ComfyUI systemd service, Noto CJK/Arabic fonts).
+- Models into `/root/ComfyUI/models/` (list + sizes in `docs/GPU_SETUP.md`): `ltx-2.3-22b-distilled-fp8`, `gemma_3_12B_it_fp4_mixed`, `flux1-dev`, `t5xxl_fp8`, `clip_l`, `ae`.
+- Deploy the pipeline scripts + one-time music bed:
+  ```
+  scp pipeline/flux/flux_gen_opt.py scripts/tts_29.py scripts/assemble_29.py root@GPU:/root/reels_r3/
+  scp scripts/ltx_29.py root@GPU:/root/reels_ltx29/
+  scp scripts/status.py root@GPU:/root/status.py
+  scp pipeline/flux/gen_bed_r3.py root@GPU:/root/reels_r3/
+  ssh root@GPU "cd /root/reels_r3 && /root/ComfyUI/venv/bin/python gen_bed_r3.py"   # creates bed.wav ONCE
+  ```
+- Start the GPU status page: `ssh root@GPU "setsid /root/ComfyUI/venv/bin/python /root/status.py > /tmp/status.log 2>&1 < /dev/null &"`
+  - `status.py` listens on `127.0.0.1:8888`. Expose it on `:80` via Caddy (`reverse_proxy :80 -> 127.0.0.1:8888`), or edit its last line to `S(('0.0.0.0', 80), H).serve_forever()`.
+- Verify: `systemctl is-active comfyui` = `active`; `curl -s 127.0.0.1:8188/system_stats` = JSON; status.py answers; `/root/reels_r3/bed.wav` exists.
 
----
+**Server layout the web app expects** (it pushes its own manifests/scripts, so only these python files + bed.wav are needed):
+- `/root/reels_r3/` → `tts_29.py`, `flux_gen_opt.py`, `assemble_29.py`, `gen_bed_r3.py`, `bed.wav`, `img/`, `tts/`.
+- `/root/reels_ltx29/` → `ltx_29.py` (it creates its own `clips_m/ clips_d/ out_mobile/ out_desktop/ build/`).
+- ⚠️ `ltx_29.py` reads the manifest from the **hardcoded** path `/root/reels_r3/manifest_29aug_all.json` (the web app writes it there) and reuses `/root/reels_r3/img` + `/root/reels_r3/tts`. Do not change these paths.
 
-## 5. FLUX round (OLD 4-panel, mobile), then review
+## 3. Windows client — install the web service
+- Prereqs: Git, Python 3.11+, OpenSSH client. Put the GPU SSH private key at `C:\Users\<you>\.ssh\id_newgpu`.
+- Deploy the web app to `C:\ReelFactoryWeb`:
+  ```
+  copy webapp\*  C:\ReelFactoryWeb\
+  cd C:\ReelFactoryWeb
+  pip install -r requirements.txt          # flask paramiko waitress
+  ```
+- Install the service — opens firewall **5000** + creates an auto-start scheduled task (**self-restarts on crash**, and `auto_resume()` re-attaches to any job that was mid-run):
+  ```
+  powershell -ExecutionPolicy Bypass -File install_service.ps1
+  ```
+- Verify: `http://localhost:5000` loads and `/api/status` returns `"status":"idle"`.
 
-```bash
-ssh root@GPU "cd /root/reels_r3 && setsid ./run_dual.sh manifest_a.json manifest_b.json > logs/run.log 2>&1 < /dev/null &"
-```
-- Phase 1: parallel TTS + FLUX burst (all stills on one ComfyUI queue).
-- Phase 2: music bed; Phase 3: SEQUENTIAL assembly (ffmpeg).
-- Output: `/root/reels_r3/out/<channel>/<id>.mp4` (mobile 1080×1920, ~55–65s each).
-- Pull a couple to the client and show the user; wait for approval before LTX.
+## 4. Drive it from the browser (`http://<client_ip>:5000`)
+1. Upload **two JSON manifests** (OLD ~60s schema — see `docs/JSON_FORMATS.md`).
+2. Pick **Mode**: `FLUX + LTX` (mobile + desktop) or `FLUX only` (mobile). Set GPU IP + SSH-key path + subtitle burn.
+3. Click **Analyze** → validates schema + orientation, **auto-detects** the `29aug` vs `aug28` variant, and reports **redundant topics** against every past JSON (it blocks and lists them, with a "proceed anyway").
+4. Click **Start** → the app renumbers to **fresh ids** (continues from the highest id found across past JSONs), pushes the canonical manifest to the server, launches the pipeline detached, polls the logs, and **pulls finished videos to the host**:
+   - FLUX → `C:\ProjectComfy\reelsGPU2\flux_29aug\<channel>\<id>.mp4`
+   - LTX → `C:\ProjectComfy\reelsGPU2\ltx_29aug_mobile\<channel>\<id>.mp4` + `ltx_29aug_desktop\...`
+5. Watch the panel: total / completed / downloaded / current channel / stage / live log. The job runs in a **background thread** — **refreshing/closing the browser is safe** (it only re-fetches `/api/status`).
 
-## 6. LTX round (OLD FLF, ~60s, mobile + desktop), one channel at a time
+## 5. GPU status page (`http://<gpu_ip>` / `:80`)
+Shows the **same** batch: `BATCH: <json1> + <json2>` · `PHASE: FLUX - … / LTX - channel …` · `done N/24` · `avg … sec/reel` · `ETA ~… min` · GPU temp/power/VRAM · ComfyUI queue · live FLUX/LTX log tail. It has a manual **Refresh** button (fetches `/api` — no auto-timer).
 
-```bash
-# for each of the 6 channels:
-ssh root@GPU "cd /root/reels_ltx && setsid python run_ltx_v3.py <channel> /root/reels_r3/manifest_a.json > logs/ch.log 2>&1 &"
-```
-- LTX-2.3 animates between the 4 FLUX keyframes (First/Last-Frame) → 3 clips + 1 recap panel.
-- Output: `/root/reels_ltx/out_v3_mobile/` + `out_v3_desktop/` (true 16:9).
-- Pull results to the client for review.
+## 6. How client ↔ server ↔ status page communicate
+Everything flows through the **server filesystem** (no direct client↔status link):
+- **Client** (web app, `:5000`) — over SSH(paramiko)/SFTP — writes `/root/reels_r3/manifest_web_g1.json`, `_g2.json`, `manifest_29aug_all.json`, `web_batch.json` (the JSON names + start id), `web_flux.sh`, and `/root/reels_ltx29/web_ltx.sh`; reads the logs to track progress; SFTP-pulls the results.
+- **Pipeline** (server, detached) writes `/root/reels_r3/logs/web_flux.log` + `/root/reels_ltx29/logs/web_ltx.log`.
+- **status.py** (server, `:80`) reads `web_batch.json` + those two logs to render the live summary.
+→ The GPU page is only up-to-date while `status.py` is running **and** the web app has written `web_batch.json`.
 
----
-
-## 7. Hard rules (violating these wastes hours)
-
+## 7. Hard rules (unchanged)
 1. `127.0.0.1:8188`, never `localhost`.
 2. No `pkill -f` over SSH — use PIDs.
-3. Long work via `setsid … > log 2>&1 < /dev/null &`, then poll the log.
-4. ONE scp stream at a time.
+3. Long work via `setsid … > log 2>&1 < /dev/null &`, then poll the log (the web app's `launch_detached()` does exactly this, and `mkdir -p`s the log dir first).
+4. ONE scp/SFTP stream at a time.
 5. ComfyUI queue ≤ ~50 jobs → LTX is channel-by-channel; FLUX bursts ≤ ~96.
 6. Final mux uses `-c:v libx264`, never `-c:v copy`.
 7. Never `apt autoremove` / reinstall packages / redownload models.
-8. Renumber every batch to fresh ids.
+8. Renumber every batch to fresh ids (the web app does this automatically).
 
 ## 8. Definition of done
-- FLUX round: 12 mobile videos, 0 errors, reviewed OK.
-- LTX round: 12 reels × (mobile + desktop), 0 errors, pulled to client.
-- Write a resume `.md` (like `docs/RESUME_Aug28.md`) recording the new server IP, ids used, and
-  next steps, so any future agent can resume without re-discovery.
+- Server: comfyui active, models present, `status.py` serving, `bed.wav` exists.
+- Client: service on `:5000` (firewall + auto-start task), `/api/status` = `idle`.
+- One end-to-end batch: upload 2 JSONs → Analyze (valid, correct auto-detected format, dedup checked) → Start → FLUX completes → (LTX completes) → all videos pulled to `C:\ProjectComfy\reelsGPU2\{flux_29aug, ltx_29aug_mobile, ltx_29aug_desktop}` → both `:5000` and `:80` show `done 24/24`.
+- Write a resume `.md` recording the new GPU IP + ids used (like `docs/RESUME_Aug28.md`).
+

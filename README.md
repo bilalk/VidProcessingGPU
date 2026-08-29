@@ -2,6 +2,8 @@
 
 Automated **AI video-generation pipelines** for bilingual "reels" / short dramatic skits. Thin **Windows client** + **AMD Instinct MI300X GPU server** (ComfyUI). Produces 9:16 mobile + 16:9 desktop videos.
 
+> **Self-serve web UI (new, on `BranchAug29`):** see `PromptForAgentNew.md` + `webapp/`. A Flask web service (Windows, port `:5000`) orchestrates the pipeline end-to-end — upload 2 JSONs, it validates / dedups / renumbers / runs FLUX (+LTX) / pulls results — and mirrors live progress on the GPU status page (port `:80`). Use it instead of the manual ssh/scp steps in §5 below.
+
 ---
 
 ## 1. Architecture (high level)
