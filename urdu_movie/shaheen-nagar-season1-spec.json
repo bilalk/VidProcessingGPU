@@ -1,0 +1,362 @@
+[
+  {
+    "character_id": "markhor",
+    "reference_image": "chars/markhor.png",
+    "name_ur": "مارخور",
+    "name_en": "Markhor",
+    "voice": "ur-PK-AsadNeural",
+    "vo_ur": "میں دیکھ رہا ہوں تمہاری ان تھکی ہوئی آنکھوں کو، جو رات بھر اسمارٹ فونز کی مصنوعی ہری اور نیلی روشنیوں میں دھرتی کا مستقبل تلاش کر رہی ہیں۔ میں تمہارے دلوں کے تجسس سے بھی واقف ہوں، اور اس نظریاتی الجھن سے بھی جس نے تمہیں بے سمت کر دیا ہے۔ اپنے وجود میں چھپے اس عقابی خون کو بیدار کرو جو لومڑی کے گندے آستانوں پر جھکنے کے لیے نہیں، بلکہ آسمان کی وسعتوں کو فتح کرنے کے لیے بنا ہے۔ پرسکون ہو جاؤ... اور دیکھو کہ جب ہم ان فتنہ گروں کا حتمی قلع قمع کرنے نکلتے ہیں، تو فتح کس کا مقدر بنتی ہے!",
+    "style": "majestic spiraled horns, hyper-detailed thick grey-and-white fur, natural Himalayan light, photorealistic, 8K, hyper-detailed, natural volumetric lighting, shallow depth of field, film grain, shot on ARRI",
+    "negative_prompt": "cartoon, anime, illustration, 3d render, plastic, airbrushed, oversaturated, deformed, extra limbs, anatomically incorrect",
+    "keyframes": [
+      {
+        "beat": 1,
+        "prompt": "A majestic Markhor with giant twisted horns standing proudly on a snowy mountain peak in northern Pakistan under natural Himalayan light.",
+        "camera": "SlowZoom-in",
+        "lighting": "natural golden hour sunbeams"
+      },
+      {
+        "beat": 2,
+        "prompt": "Close-up of the Markhor's wise, deep eyes looking down at the valley, wind gently blowing through its thick grey-and-white fur.",
+        "camera": "LowAngle static",
+        "lighting": "natural golden hour sunbeams"
+      },
+      {
+        "beat": 3,
+        "prompt": "Medium shot of the Markhor stomping its hoof firmly on the rugged cliffside, sending small rocks falling down.",
+        "camera": "Wide dynamic tracking",
+        "lighting": "natural golden hour sunbeams"
+      },
+      {
+        "beat": 4,
+        "prompt": "Side profile of the Markhor looking into the distance with a calm, protective, and regal expression, standing amidst snowy peaks.",
+        "camera": "SlowOrbit",
+        "lighting": "natural golden hour sunbeams"
+      }
+    ]
+  },
+  {
+    "character_id": "shaheen",
+    "reference_image": "chars/shaheen.png",
+    "name_ur": "شاہین",
+    "name_en": "Shaheen",
+    "voice": "ur-PK-AsadNeural",
+    "vo_ur": "تم نے مٹی کی غیرت کا سودا کر کے اپنے پر اور اپنی پرواز کھو دی، کرگس! جو بلندیوں کا مسافر لومڑی کے گندے تخت سے اپنی خوراک مانگے، وہ آسمان کا راجہ نہیں، غلاظت کا غلام ہوتا ہے! تمہارا پیٹ لومڑی کے دیے ہوئے مردار سے تو بھر سکتا ہے، لیکن میری پرواز کا وقار کبھی لومڑی کا محتاج نہیں ہو سکتا۔ میں مٹی کا پاسبان ہوں، اور میرا غوطہ تمہاری اس غلیظ حاکمیت کی موت کا پروانہ ہے!",
+    "style": "hyper-detailed feathers, razor-sharp yellow beak, golden-rimmed sharp eagle eyes, dramatic natural lighting, photorealistic, 8K, hyper-detailed, natural volumetric lighting, shallow depth of field, film grain, shot on ARRI",
+    "negative_prompt": "cartoon, anime, illustration, 3d render, plastic, airbrushed, oversaturated, deformed, extra limbs, anatomically incorrect",
+    "keyframes": [
+      {
+        "beat": 1,
+        "prompt": "A powerful Falcon (Shaheen) with sharp golden-rimmed eyes, wings spread wide, gliding effortlessly through dark stormy clouds.",
+        "camera": "SlowOrbit",
+        "lighting": "dramatic overcast with volumetric shafts of light"
+      },
+      {
+        "beat": 2,
+        "prompt": "Shaheen tilting his wings in a sharp aerodynamic angle, adjusting to a dive above a jagged mountain ridge.",
+        "camera": "High-Speed Tracking Shot",
+        "lighting": "dramatic overcast with volumetric shafts of light"
+      },
+      {
+        "beat": 3,
+        "prompt": "An extreme close-up of Shaheen descending with immense speed, talons ready for a strike, wind ruffling his chest feathers.",
+        "camera": "FlightPOV tracking",
+        "lighting": "dramatic overcast with volumetric shafts of light"
+      },
+      {
+        "beat": 4,
+        "prompt": "Shaheen soaring back up towards a clear patch of blue sky, leaving the dark storm clouds below, wings gliding calmly.",
+        "camera": "SlowZoom-out",
+        "lighting": "dramatic overcast with volumetric shafts of light"
+      }
+    ]
+  },
+  {
+    "character_id": "chakor",
+    "reference_image": "chars/chakor.png",
+    "name_ur": "چکور",
+    "name_en": "Chakor",
+    "voice": "ur-PK-UzmaNeural",
+    "vo_ur": "تھکی تھکی سی یہ آنکھیں، اداس بیٹھی ہیں، امیدِ صبح لیے، ناامید بیٹھی ہیں۔ ارے او نادان شاہین! ذرا پر تو ہلا، یہ نیلی روشنیاں تو بس فریب کی مٹی ہیں۔ تُو تو ہے چوٹی کا وارث، تُو خاک میں کیوں ہے؟ تیری اڑان ہے افلاک پر، تُو غار میں کیوں ہے؟ آ... کہ چاندنی رات تجھے پکار رہی ہے، دھرتی کی سچی مامتا تجھے پکار رہی ہے!",
+    "style": "hyper-detailed feathers, soft silver-grey plumage, warm moonlit night sky, photorealistic, 8K, hyper-detailed, natural volumetric lighting, shallow depth of field, film grain, shot on ARRI",
+    "negative_prompt": "cartoon, anime, illustration, 3d render, plastic, airbrushed, oversaturated, deformed, extra limbs, anatomically incorrect",
+    "keyframes": [
+      {
+        "beat": 1,
+        "prompt": "A beautiful silver-grey Chakor bird sitting quietly on a flowering branch, looking up at a massive, glowing full moon.",
+        "camera": "SlowZoom-in",
+        "lighting": "cool, mystical silver moonlight"
+      },
+      {
+        "beat": 2,
+        "prompt": "Chakor tilting its head slightly, beak closed, as warm silver moonlit beams illuminate its beautifully textured feathers.",
+        "camera": "Static medium close-up",
+        "lighting": "cool, mystical silver moonlight"
+      },
+      {
+        "beat": 3,
+        "prompt": "A gentle night breeze sways the flowering branch with glowing yellow fireflies floating around the serene Chakor bird.",
+        "camera": "SlowOrbit",
+        "lighting": "cool, mystical silver moonlight with glowing warm embers"
+      },
+      {
+        "beat": 4,
+        "prompt": "Chakor sitting peacefully under the starry night sky, surrounded by the soft natural glow of the moonlit valley.",
+        "camera": "SlowZoom-out",
+        "lighting": "cool, mystical silver moonlight"
+      }
+    ]
+  },
+  {
+    "character_id": "bees",
+    "reference_image": "chars/bees.png",
+    "name_ur": "شہد کی مکھی",
+    "name_en": "Honey Bees",
+    "voice": "ur-PK-UzmaNeural",
+    "vo_ur": "ہمارا اتحاد فولادی ہے، ہماری محنت دن رات کی ہے۔ ہم وہ معمار ہیں جو خاموشی سے اپنا کام کرتے ہیں اور شہد کا میٹھا رس بناتے ہیں۔ لیکن یاد رکھو! اگر کوئی مکار لومڑی یا زہریلا کیڑا ہمارے چھتے کی طرف میلی آنکھ سے دیکھے گا، تو ہمارا ایک ایک ڈنک کلاشنکوف سے زیادہ تیز چلے گا اور ہم غداروں کو چھٹی کا دودھ یاد دلا دیں گے!",
+    "style": "hyper-detailed fuzzy bodies, translucent glowing wings, detailed golden honeycomb structure, photorealistic, 8K, hyper-detailed, natural volumetric lighting, shallow depth of field, film grain, shot on ARRI",
+    "negative_prompt": "cartoon, anime, illustration, 3d render, plastic, airbrushed, oversaturated, deformed, extra limbs, anatomically incorrect",
+    "keyframes": [
+      {
+        "beat": 1,
+        "prompt": "A massive, beautifully structured golden honeycomb hanging from a clean green tree branch, surrounded by a gentle mist.",
+        "camera": "SlowZoom-in",
+        "lighting": "warm, golden volumetric sunbeams filtering through leaves"
+      },
+      {
+        "beat": 2,
+        "prompt": "Thousands of glowing honey bees moving in perfect synchronized harmony, constructing and protecting their golden hives.",
+        "camera": "Macro close-up",
+        "lighting": "warm, golden volumetric sunbeams filtering through leaves"
+      },
+      {
+        "beat": 3,
+        "prompt": "The honey bees swarm forming a dense, protective shield around the honeycomb, buzzing defensively with stingers visible.",
+        "camera": "Dynamic orbital tracker",
+        "lighting": "warm, golden volumetric sunbeams filtering through leaves"
+      },
+      {
+        "beat": 4,
+        "prompt": "The honeycomb glistening in the warm afternoon sunlight as the bees return to peaceful, organized labor.",
+        "camera": "SlowZoom-out",
+        "lighting": "warm, golden volumetric sunbeams filtering through leaves"
+      }
+    ]
+  },
+  {
+    "character_id": "fox",
+    "reference_image": "chars/fox.png",
+    "name_ur": "مکار لومڑی",
+    "name_en": "Makar Fox",
+    "voice": "ur-PK-UzmaNeural",
+    "vo_ur": "انٹرنیٹ کی آزادی... یا چٹانوں کی تاریک غلامی؟ پرانے اور قدامت پسند پاسبانوں کو مسترد کرو! یہ تمہارا فون چھین کر تمہیں چٹانوں پر قید کرنا چاہتے ہیں! ہم نے تمہیں بولنے کی آزادی دی، رنگ لائٹس دیں، اور ترقی کی راہ دکھائی! لومڑی کا ساتھ دو — جدید اور آزاد جنگل کا ساتھ دو!",
+    "style": "hyper-detailed orange-red fur, cunning sharp golden eyes, smoky dark cave throne room, photorealistic, 8K, hyper-detailed, natural volumetric lighting, shallow depth of field, film grain, shot on ARRI",
+    "negative_prompt": "cartoon, anime, illustration, 3d render, plastic, airbrushed, oversaturated, deformed, extra limbs, anatomically incorrect",
+    "keyframes": [
+      {
+        "beat": 1,
+        "prompt": "A cunning orange-red fox wearing thin round glasses, sitting on a makeshift wooden throne inside a dark, smoky cave.",
+        "camera": "SlowZoom-in",
+        "lighting": "dim low-key cinematic lighting with flickering shadows"
+      },
+      {
+        "beat": 2,
+        "prompt": "The Fox holding a modern smartphone, the glowing blue screen casting a deceptive cyan light on its sly face.",
+        "camera": "Close-up static",
+        "lighting": "dim low-key cinematic lighting with sharp cyan screen glow"
+      },
+      {
+        "beat": 3,
+        "prompt": "The Fox gesturing with its paw towards a glowing blue projection of a digital network on the cave wall, shadow stretching ominously.",
+        "camera": "LowAngle tracking",
+        "lighting": "dim low-key cinematic lighting with cyan and orange highlights"
+      },
+      {
+        "beat": 4,
+        "prompt": "The Fox sitting back on its throne with a satisfied smirk, surrounded by glowing screens of various sizes in the background.",
+        "camera": "SlowOrbit",
+        "lighting": "dim low-key cinematic lighting with flickering screens"
+      }
+    ]
+  },
+  {
+    "character_id": "keera_makora",
+    "reference_image": "chars/keera_makora.png",
+    "name_ur": "کیڑا مکوڑا پارٹی",
+    "name_en": "Keera Makora Party",
+    "voice": "ur-PK-UzmaNeural",
+    "vo_ur": "دیکھو ہم کتنے وائرل ہیں! ہماری ہر ویڈیو ٹرینڈ کرتی ہے، ہمارے فالوورز لاکھوں میں ہیں! شاہین اور مارخور کی پرانی باتیں چھوڑو، یہ پرانی صدی کے لوگ ہیں۔ ہمارے ساتھ آؤ، اسمارٹ فون اٹھاؤ، گالیاں دو، ہنگامہ کرو اور ڈیجیٹل دنیا کے بادشاہ بن جاؤ! جنگل کا نیا قانون اب ہم لکھیں گے!",
+    "style": "hyper-detailed wet insect shells, neon glowing screens, damp decaying leaves, swampy mud floor, photorealistic, 8K, hyper-detailed, natural volumetric lighting, shallow depth of field, film grain, shot on ARRI",
+    "negative_prompt": "cartoon, anime, illustration, 3d render, plastic, airbrushed, oversaturated, deformed, extra limbs, anatomically incorrect",
+    "keyframes": [
+      {
+        "beat": 1,
+        "prompt": "A swarm of dirty insects—cockroaches, beetles, and small lizards—gathered around multiple glowing smartphone screens on a muddy forest floor.",
+        "camera": "SlowZoom-in",
+        "lighting": "gloomy darkness with neon cyan and green screen glare"
+      },
+      {
+        "beat": 2,
+        "prompt": "Macro close-up of a greasy cockroach with wet wings holding a tiny glowing phone, its antennae twitching in the intense neon glow.",
+        "camera": "Macro static",
+        "lighting": "gloomy darkness with neon cyan screen glare"
+      },
+      {
+        "beat": 3,
+        "prompt": "The insects crawling aggressively over each other around a flickering pink ring light, creating a chaotic and messy digital swarm.",
+        "camera": "Shaky handheld POV tracking",
+        "lighting": "gloomy darkness with pink and blue neon glare"
+      },
+      {
+        "beat": 4,
+        "prompt": "Neon lights flickering on the wet, muddy ground as the insect swarm disperses back into the dark cracks of the forest floor.",
+        "camera": "SlowZoom-out",
+        "lighting": "gloomy darkness with fading neon glow"
+      }
+    ]
+  },
+  {
+    "character_id": "veila_haram_khor",
+    "reference_image": "chars/veila_haram_khor.png",
+    "name_ur": "ویلا حرام خور پارٹی",
+    "name_en": "Veila Haram Khor Party",
+    "voice": "ur-PK-AsadNeural",
+    "vo_ur": "اوہو... آرام سے، ذرا آرام سے! اتنی جلدی کیا ہے؟ یہ شور، یہ ہنگامہ، آخر کیوں؟ ہم رشوت نہیں لیتے، ہم تو بس 'چائے پانی' مانگتے ہیں! اگر چائے کا کپ گرم نہ ہو، تو سرکاری بابو کا قلم کیسے چلے گا؟ اگر کوئی بہت ہی ضروری کام ہے تو درخواست لکھو، تین مہریں لگواؤ، اور یاد رکھنا... کل آنا!",
+    "style": "hyper-detailed bumpy green toad skin, dusty ancient bureaucratic office, massive stacks of yellowing paper, photorealistic, 8K, hyper-detailed, natural volumetric lighting, shallow depth of field, film grain, shot on ARRI",
+    "negative_prompt": "cartoon, anime, illustration, 3d render, plastic, airbrushed, oversaturated, deformed, extra limbs, anatomically incorrect",
+    "keyframes": [
+      {
+        "beat": 1,
+        "prompt": "A massive, obese green toad (Toad Babu) wearing a tiny waistcoat and round spectacles, sitting on top of a towering stack of yellowing paper files.",
+        "camera": "LowAngle static",
+        "lighting": "warm dusty indoor office lighting with shafts of light"
+      },
+      {
+        "beat": 2,
+        "prompt": "Toad Babu holding a small porcelain teacup with steam lazily rising from it, blowing on the tea with a bored, lazy expression.",
+        "camera": "Medium close-up",
+        "lighting": "warm dusty indoor office lighting"
+      },
+      {
+        "beat": 3,
+        "prompt": "Toad Babu using his webbed hand to lazily push a thick file off the edge of his wooden desk, letting it fall into a messy pile on the floor.",
+        "camera": "Slow Tracking Shot",
+        "lighting": "warm dusty indoor office lighting"
+      },
+      {
+        "beat": 4,
+        "prompt": "Toad Babu leaning back, closing his eyes in a sleepy nap on his desk, with a lazy tortoise holding an ink stamp in the background.",
+        "camera": "SlowZoom-out",
+        "lighting": "warm dusty indoor office lighting"
+      }
+    ]
+  },
+  {
+    "character_id": "religious_hypocrites",
+    "reference_image": "chars/religious_hypocrites.png",
+    "name_ur": "ملا اور پیر اتحاد",
+    "name_en": "Mullah and Pir Alliance",
+    "voice": "ur-PK-UzmaNeural",
+    "vo_ur": "یہ ہے جنگل کا وہ سب سے تاریک اور مکروہ گٹھ جوڑ... جس نے عقیدت کو لوٹ مار کا دھندہ بنا لیا ہے! ملیے ان زرد مینڈکوں سے جو لاؤڈ اسپیکروں پر نفرت کا راگ الاپتے ہیں، اور کلاشنکوف بردار پیلے بھونڈوں کا یہ مسلح لشکر... اپنے تاریک غاروں میں ہوس کا آستانہ سجائے یہ فربہ لنگور اور معصوم جانوروں کا خون چوسنے والی جونکیں!",
+    "style": "misty dark swamp forest, detailed textures, dramatic chiaroscuro atmosphere, photorealistic, 8K, hyper-detailed, natural volumetric lighting, shallow depth of field, film grain, shot on ARRI",
+    "negative_prompt": "cartoon, anime, illustration, 3d render, plastic, airbrushed, oversaturated, deformed, extra limbs, anatomically incorrect",
+    "keyframes": [
+      {
+        "beat": 1,
+        "prompt": "A sleek, white heron (Pir Kakki Tarr) standing motionless on one leg in misty, murky swamp water under dead, mossy trees.",
+        "camera": "SlowZoom-in",
+        "lighting": "gloomy, atmospheric chiaroscuro in thick fog"
+      },
+      {
+        "beat": 2,
+        "prompt": "A swarm of yellow and black wasps (Mullah Kalashnikov) with long sharp stingers buzzing aggressively around a hollow, rotting tree stump.",
+        "camera": "Macro tracking",
+        "lighting": "gloomy, atmospheric chiaroscuro in thick fog"
+      },
+      {
+        "beat": 3,
+        "prompt": "Obese baboons wearing heavy, embroidered shawls sitting inside a dark swamp cave, greedily dividing glowing gold coins and beads.",
+        "camera": "LowAngle tracking",
+        "lighting": "gloomy, atmospheric chiaroscuro with a dim fire source"
+      },
+      {
+        "beat": 4,
+        "prompt": "Thick fog rolling aggressively over the swamp, slowly swallowing the deceptive shapes of the birds, wasps, and baboons.",
+        "camera": "SlowZoom-out",
+        "lighting": "gloomy, dark foggy twilight"
+      }
+    ]
+  },
+  {
+    "character_id": "kargas",
+    "reference_image": "chars/kargas.png",
+    "name_ur": "کرگس ٹولہ",
+    "name_en": "Kargas Group",
+    "voice": "ur-PK-AsadNeural",
+    "vo_ur": "کیوں اپنی خودداری کی ان سرد چٹانوں پر بھوکے مرتے ہو، شاہین؟ دیکھو ہمیں! ہم نے صرف ایک بار اس الہیٰ ضابطے کو توڑا... اور لومڑی نے ہمیں اس پورے آسمان پر راج کرنے کا پروانہ دے دیا! ہم مردار کھاتے ہیں، پر پیٹ تو بھرتے ہیں! تمہارا یہ خشک وقار اب لومڑی کے پنجرے کا اسیر ہونے والا ہے۔",
+    "style": "wrinkled bald red head skin, tattered black feathers, dead charred forest background, gloomy ash sky, photorealistic, 8K, hyper-detailed, natural volumetric lighting, shallow depth of field, film grain, shot on ARRI",
+    "negative_prompt": "cartoon, anime, illustration, 3d render, plastic, airbrushed, oversaturated, deformed, extra limbs, anatomically incorrect",
+    "keyframes": [
+      {
+        "beat": 1,
+        "prompt": "A large, ominous vulture with a wrinkled bald red head sitting quietly on a burnt, leafless tree branch under a gloomy ash sky.",
+        "camera": "SlowZoom-in",
+        "lighting": "gloomy overcast with cold flat lighting"
+      },
+      {
+        "beat": 2,
+        "prompt": "Close-up of the vulture's wrinkled neck, highlighting a rusted and broken golden collar hanging loosely around its throat.",
+        "camera": "Static close-up",
+        "lighting": "gloomy overcast with cold flat lighting"
+      },
+      {
+        "beat": 3,
+        "prompt": "The vulture spreading its tattered black wings, letting out a silent, mocking hiss as dry wind blows grey ash through the air.",
+        "camera": "LowAngle static",
+        "lighting": "gloomy overcast with cold flat lighting"
+      },
+      {
+        "beat": 4,
+        "prompt": "The vulture looking down from its perch towards a dark, decaying forest floor, waiting for scraps, detached from the sky.",
+        "camera": "SlowZoom-out",
+        "lighting": "gloomy overcast with cold flat lighting"
+      }
+    ]
+  },
+  {
+    "character_id": "gen_z",
+    "reference_image": "chars/gen_z.png",
+    "name_ur": "نادان شاہین اور جگنو",
+    "name_en": "Confused Gen Z",
+    "voice": "ur-PK-UzmaNeural",
+    "vo_ur": "ہم مایوس ہیں... ہمیں سچائی کی تلاش ہے۔ لیکن ہر طرف منافقت ہے، لومڑی کا فریب ہے اور کیڑوں کا زہریلا شور ہے۔ ہمیں اپنی پرواز کی طاقت تو یاد ہے، لیکن ہماری آنکھیں موبائل اسکرین کی نیلی روشنیوں میں تھک چکی ہیں۔ ہماری روح پیاسی ہے اور ہم کسی سچے پاسبان کی پکار کے منتظر ہیں جو ہمیں اندھیروں سے نکال کر بلندیوں کی طرف لے جائے۔",
+    "style": "hyper-detailed soft feathers, glowing yellow fireflies, translucent butterfly wings, intense smartphone glow, forest canopy, photorealistic, 8K, hyper-detailed, natural volumetric lighting, shallow depth of field, film grain, shot on ARRI",
+    "negative_prompt": "cartoon, anime, illustration, 3d render, plastic, airbrushed, oversaturated, deformed, extra limbs, anatomically incorrect",
+    "keyframes": [
+      {
+        "beat": 1,
+        "prompt": "Young fluffy baby eaglets, glowing yellow fireflies, and colorful butterflies with wet wings sitting together on low branches under a dark forest canopy.",
+        "camera": "SlowZoom-in",
+        "lighting": "cool dark forest with flickering fireflies"
+      },
+      {
+        "beat": 2,
+        "prompt": "The young baby eaglets staring with wide, tired eyes at the intense blue and green glow of a modern smartphone screen.",
+        "camera": "Extreme Macro Eye Shot",
+        "lighting": "intense neon cyan and green screen glow"
+      },
+      {
+        "beat": 3,
+        "prompt": "Colorful butterflies fluttering hesitantly near the glowing screens, their delicate wings casting soft shadows on wet forest leaves.",
+        "camera": "SlowOrbit",
+        "lighting": "intense neon cyan glow combined with dim yellow embers"
+      },
+      {
+        "beat": 4,
+        "prompt": "The young eaglets and butterflies looking up towards the dark sky, their faces still lit by the screens, expressing deep longing and confusion.",
+        "camera": "SlowZoom-out",
+        "lighting": "neon cyan screen glow blending into cold night darkness"
+      }
+    ]
+  }
+]
