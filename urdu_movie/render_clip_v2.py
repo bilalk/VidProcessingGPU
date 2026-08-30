@@ -57,7 +57,7 @@ def render_character(char, seed, out_dir):
     voice = char["voice"]
     style = char.get("style", "")
     negative = char.get("negative_prompt", "")
-    ref = os.path.basename(char.get("reference_image", "") or "")
+    ref = char.get("reference_image", "") or ""   # e.g. "chars/markhor.png" (relative to ComfyUI input/)
     kfs = char["keyframes"]
     for i, kf in enumerate(kfs):
         prompt = kf["prompt"] + ", " + kf.get("lighting", "")
