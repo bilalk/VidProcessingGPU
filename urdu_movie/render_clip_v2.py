@@ -10,15 +10,11 @@ _ipa = None
 
 
 def has_ipadapter():
-    """True when ComfyUI has the IPAdapter nodes (ComfyUI_IPAdapter_plus installed)."""
-    global _ipa
-    if _ipa is None:
-        try:
-            oi = json.loads(urllib.request.urlopen(BASE + "/object_info", timeout=90).read())
-            _ipa = "IPAdapterUnifiedLoader" in oi and "IPAdapter" in oi
-        except Exception:
-            _ipa = False
-    return _ipa
+    """True only when FLUX IP-Adapter is fully wired.
+    Currently False: IPAdapterUnifiedLoader exposes NO 'FLUX' preset (only SD1.5/SDXL),
+    and the SigLIP/CLIP clip_vision model is not yet installed. TODO: install clip_vision +
+    use the InstantX FLUX ipadapter path, then flip this on."""
+    return False
 
 
 def flux_keyframe(prompt, style, negative, seed, refname, prefix):
