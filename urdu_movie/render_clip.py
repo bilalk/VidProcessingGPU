@@ -23,6 +23,7 @@ WORK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "work")
 os.makedirs(WORK, exist_ok=True)
 INPUT = "/root/ComfyUI/input"   # LoadImage reads from here
 os.makedirs(INPUT, exist_ok=True)
+BED = "/root/reels_r3/bed.wav"   # 180s cinematic music bed (looped under narration)
 
 
 def post(path, data):
@@ -133,11 +134,17 @@ def concat_videos(paths, out_path):
     return out_path
 
 
-def merge(video_path, audio_path, out_path):
-    subprocess.run(["ffmpeg", "-y", "-i", video_path, "-i", audio_path,
-                    "-map", "0:v", "-map", "1:a",
+def merge(video_path, vo_path, bed_path, out_path, dur=60):
+    """Overlay Urdu VO over a low music bed, keep full clip duration (default 60s)."""
+    fc = ("[1:a]adelay=300|300[vo];"
+          "[2:a]volume=0.18[mus];"
+          "[vo][mus]amix=inputs=2:duration=longest:dropout_transition=2:normalize=0[a]")
+    subprocess.run(["ffmpeg", "-y", "-i", video_path, "-i", vo_path, "-i", bed_path,
+                    "-filter_complex", fc,
+                    "-map", "0:v", "-map", "[a]",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-pix_fmt", "yuv420p",
-                    "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", out_path],
+                    "-c:a", "aac", "-b:a", "192k",
+                    "-t", str(dur), "-movflags", "+faststart", out_path],
                    check=True, capture_output=True)
     return out_path
 
@@ -171,7 +178,7 @@ def render_clip(clip, out_dir):
     print(f"[{cid}] 3 segments concatenated -> {anim}")
     wav = tts_urdu(clip["vo_ur"], voice, os.path.join(WORK, f"{cid}_vo.mp3"))
     print(f"[{cid}] Urdu VO done ({voice})")
-    final = merge(anim, wav, os.path.join(out_dir, f"{cid}.mp4"))
+    final = merge(anim, wav, BED, os.path.join(out_dir, f"{cid}.mp4"), clip.get("duration_sec", CLIP_SEC))
     print(f"[{cid}] FINAL -> {final}")
     return final
 
