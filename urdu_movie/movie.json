@@ -23,7 +23,8 @@
         "shot_type": "SlowZoom-in",
         "camera_motion": "LowAngleShot",
         "lighting": "GoldenHourSunbeams striking the snowy peaks"
-      }
+      },
+      "voice": "ur-PK-AsadNeural"
     },
     {
       "index": 2,
@@ -38,7 +39,8 @@
         "shot_type": "HighSpeedTrackingShot",
         "camera_motion": "FlightPOV",
         "lighting": "DramaticChiaroscuro with lightning flashes"
-      }
+      },
+      "voice": "ur-PK-AsadNeural"
     },
     {
       "index": 3,
@@ -53,7 +55,8 @@
         "shot_type": "SlowOrbitalShot",
         "camera_motion": "SlowOrbitalShot",
         "lighting": "SoftMoonlightDiffuse volumetric fog floating around"
-      }
+      },
+      "voice": "ur-PK-UzmaNeural"
     },
     {
       "index": 4,
@@ -68,7 +71,8 @@
         "shot_type": "MacroLensCloseup",
         "camera_motion": "ShallowDepthofField",
         "lighting": "BrightGoldenMorningLight, high color saturation"
-      }
+      },
+      "voice": "ur-PK-UzmaNeural"
     },
     {
       "index": 5,
@@ -83,7 +87,8 @@
         "shot_type": "Canted DutchAngle",
         "camera_motion": "Canted DutchAngle",
         "lighting": "Flashing studio lights and cold artificial neon glare"
-      }
+      },
+      "voice": "ur-IN-SalmanNeural"
     },
     {
       "index": 6,
@@ -98,7 +103,8 @@
         "shot_type": "Shaky chaotic Handheld GoPro POV",
         "camera_motion": "Shaky chaotic Handheld GoPro POV",
         "lighting": "Sinister NeonGreen and ToxicBlue backlighting"
-      }
+      },
+      "voice": "ur-IN-GulNeural"
     },
     {
       "index": 7,
@@ -113,7 +119,8 @@
         "shot_type": "Superstatic slow panning",
         "camera_motion": "Superstatic slow panning across dusty shelves",
         "lighting": "Dusty atmospheric shafts of yellow light"
-      }
+      },
+      "voice": "ur-PK-AsadNeural"
     },
     {
       "index": 8,
@@ -128,7 +135,8 @@
         "shot_type": "Slow ominous tracking shot",
         "camera_motion": "Slow ominous tracking shot through the swamp weeds",
         "lighting": "Ominous twilight with thick incense smoke"
-      }
+      },
+      "voice": "ur-IN-SalmanNeural"
     },
     {
       "index": 9,
@@ -143,7 +151,8 @@
         "shot_type": "Tilt down shot",
         "camera_motion": "Tilt down shot",
         "lighting": "Sooty grey sky with dim fires in the background"
-      }
+      },
+      "voice": "ur-IN-GulNeural"
     },
     {
       "index": 10,
@@ -158,7 +167,8 @@
         "shot_type": "ExtremeMacroEyeShot",
         "camera_motion": "ExtremeMacroEyeShot",
         "lighting": "Hyper-realistic smartphone screen glow, Cyan and NeonGreen"
-      }
+      },
+      "voice": "ur-PK-UzmaNeural"
     }
   ]
 }

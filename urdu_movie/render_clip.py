@@ -5,6 +5,7 @@ import json, os, sys, time, subprocess, urllib.request, urllib.parse
 BASE = "http://127.0.0.1:8188"
 FPS = 24
 CLIP_SEC = 60
+SEG_SEC = 20   # 3 x 20s segments -> 60s clip
 FLUX_CKPT = "flux1-dev.safetensors"
 FLUX_CLIP1 = "t5xxl_fp8_e4m3fn.safetensors"
 FLUX_CLIP2 = "clip_l.safetensors"
@@ -121,9 +122,22 @@ def tts_urdu(text, voice, out_file):
     return out_file
 
 
+def concat_videos(paths, out_path):
+    lst = out_path + ".txt"
+    with open(lst, "w") as f:
+        for p in paths:
+            f.write("file '%s'\n" % p)
+    subprocess.run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst,
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-pix_fmt", "yuv420p",
+                    "-an", out_path], check=True, capture_output=True)
+    return out_path
+
+
 def merge(video_path, audio_path, out_path):
     subprocess.run(["ffmpeg", "-y", "-i", video_path, "-i", audio_path,
-                    "-c:v", "libx264", "-c:a", "aac", "-shortest", out_path],
+                    "-map", "0:v", "-map", "1:a",
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-pix_fmt", "yuv420p",
+                    "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", out_path],
                    check=True, capture_output=True)
     return out_path
 
@@ -131,20 +145,33 @@ def merge(video_path, audio_path, out_path):
 def render_clip(clip, out_dir):
     cid = clip["id"]
     v = clip["visual"]
-    start_prompt = v["prompt"] + ", wide establishing shot, calm beginning moment"
-    end_prompt = v["prompt"] + ", " + v["camera_motion"] + ", dramatic final moment"
+    voice = clip.get("voice", "ur-PK-UzmaNeural")
     seed = clip["index"] * 1000
-    s_name, s_sub = flux_keyframe(start_prompt, seed, f"{cid}_start")
-    e_name, e_sub = flux_keyframe(end_prompt, seed + 1, f"{cid}_end")
-    s_png = fetch_image(s_name, s_sub, os.path.join(INPUT, f"{cid}_start.png"))
-    e_png = fetch_image(e_name, e_sub, os.path.join(INPUT, f"{cid}_end.png"))
-    print(f"[{cid}] keyframes done")
-    v_name, v_sub = ltx_animate(f"{cid}_start.png", f"{cid}_end.png", f"{cid}_anim", v["camera_motion"], 768, 1344, CLIP_SEC * LTX_FPS, seed)
-    vid = fetch_image(v_name, v_sub, os.path.join(WORK, f"{cid}_anim.mp4"))
-    print(f"[{cid}] LTX done -> {vid}")
-    wav = tts_urdu(clip["vo_ur"], "ur-PK-UzmaNeural", os.path.join(WORK, f"{cid}_vo.mp3"))
-    print(f"[{cid}] Urdu TTS done")
-    final = merge(vid, wav, os.path.join(out_dir, f"{cid}.mp4"))
+    # 4 progressive keyframes: establish -> develop -> climax -> resolve
+    kf_prompts = [
+        v["prompt"] + ", wide establishing shot, calm beginning moment",
+        v["prompt"] + ", developing action moment",
+        v["prompt"] + ", " + v["camera_motion"] + ", peak climax moment",
+        v["prompt"] + ", " + v["camera_motion"] + ", final resolution moment",
+    ]
+    kf = []
+    for i, p in enumerate(kf_prompts):
+        nm, sub = flux_keyframe(p, seed + i, f"{cid}_kf{i+1}")
+        kf.append(fetch_image(nm, sub, os.path.join(INPUT, f"{cid}_kf{i+1}.png")))
+    print(f"[{cid}] 4 keyframes done")
+    # 3 FLF segments (20s each): kf1->kf2, kf2->kf3, kf3->kf4
+    frames = SEG_SEC * LTX_FPS
+    segs = []
+    for s in range(3):
+        nm, sub = ltx_animate(f"{cid}_kf{s+1}.png", f"{cid}_kf{s+2}.png", f"{cid}_seg{s+1}",
+                              v["camera_motion"], 768, 1344, frames, seed + 100 + s)
+        segs.append(fetch_image(nm, sub, os.path.join(WORK, f"{cid}_seg{s+1}.mp4")))
+        print(f"[{cid}] segment {s+1}/3 done")
+    anim = concat_videos(segs, os.path.join(WORK, f"{cid}_anim.mp4"))
+    print(f"[{cid}] 3 segments concatenated -> {anim}")
+    wav = tts_urdu(clip["vo_ur"], voice, os.path.join(WORK, f"{cid}_vo.mp3"))
+    print(f"[{cid}] Urdu VO done ({voice})")
+    final = merge(anim, wav, os.path.join(out_dir, f"{cid}.mp4"))
     print(f"[{cid}] FINAL -> {final}")
     return final
 
