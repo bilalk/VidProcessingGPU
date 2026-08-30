@@ -11,8 +11,17 @@ FLUX_CLIP2 = "clip_l.safetensors"
 FLUX_VAE = "ae.safetensors"
 LTX_CKPT = "ltx-2.3-22b-distilled-1.1.safetensors"
 LTX_TE = "gemma_3_12B_it_fp4_mixed.safetensors"
+LTX_FPS = 24
+NEG = ("blurry, out of focus, overexposed, underexposed, low contrast, washed out colors, "
+       "excessive noise, grainy texture, poor lighting, flickering, motion blur, distorted proportions, "
+       "unnatural skin tones, deformed facial features, extra limbs, disfigured hands, artifacts around text, "
+       "unreadable text, inconsistent perspective, camera shake, incorrect depth of field, background clutter, "
+       "jittery movement, awkward pauses, unnatural transitions, tilted camera, stylized filters, or AI artifacts.")
+SIGMAS = "1., 0.99375, 0.9875, 0.98125, 0.975, 0.909375, 0.725, 0.421875, 0.0"
 WORK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "work")
 os.makedirs(WORK, exist_ok=True)
+INPUT = "/root/ComfyUI/input"   # LoadImage reads from here
+os.makedirs(INPUT, exist_ok=True)
 
 
 def post(path, data):
@@ -58,7 +67,8 @@ def fetch_image(filename, subfolder, dest):
     return dest
 
 
-def ltx_animate(start_png, end_png, out_mp4, motion, length_frames):
+def ltx_animate(start_png, end_png, out_mp4, motion, width, height, length_frames, seed):
+    """Exact proven LTX-2.3 First/Last-Frame graph (from scripts/ltx_29.py flf_workflow)."""
     g = {
         "1": {"class_type": "LoadImage", "inputs": {"image": start_png}},
         "2": {"class_type": "LoadImage", "inputs": {"image": end_png}},
@@ -66,15 +76,32 @@ def ltx_animate(start_png, end_png, out_mp4, motion, length_frames):
         "4": {"class_type": "LTXAVTextEncoderLoader", "inputs": {"text_encoder": LTX_TE, "ckpt_name": LTX_CKPT, "device": "default"}},
         "5": {"class_type": "LTXVAudioVAELoader", "inputs": {"ckpt_name": LTX_CKPT}},
         "6": {"class_type": "CLIPTextEncode", "inputs": {"text": motion, "clip": ["4", 0]}},
-        "7": {"class_type": "CLIPTextEncode", "inputs": {"text": "blurry, out of focus, distorted, deformed", "clip": ["4", 0]}},
-        "16": {"class_type": "EmptyLTXVLatentVideo", "inputs": {"width": 768, "height": 1344, "length": length_frames, "batch_size": 1}},
-        "22": {"class_type": "CFGGuider", "inputs": {"model": ["3", 0], "positive": ["6", 0], "negative": ["7", 0], "cfg": 1.0}},
+        "7": {"class_type": "CLIPTextEncode", "inputs": {"text": NEG, "clip": ["4", 0]}},
+        "8": {"class_type": "PrimitiveInt", "inputs": {"value": width}},
+        "9": {"class_type": "PrimitiveInt", "inputs": {"value": height}},
+        "10": {"class_type": "PrimitiveInt", "inputs": {"value": LTX_FPS}},
+        "11": {"class_type": "ResizeImageMaskNode", "inputs": {"input": ["1", 0], "resize_type": "scale dimensions", "resize_type.width": ["8", 0], "resize_type.height": ["9", 0], "resize_type.crop": "center", "scale_method": "nearest-exact"}},
+        "12": {"class_type": "ResizeImageMaskNode", "inputs": {"input": ["2", 0], "resize_type": "scale dimensions", "resize_type.width": ["8", 0], "resize_type.height": ["9", 0], "resize_type.crop": "center", "scale_method": "nearest-exact"}},
+        "13": {"class_type": "GetImageSize", "inputs": {"image": ["12", 0]}},
+        "14": {"class_type": "LTXVPreprocess", "inputs": {"image": ["11", 0], "img_compression": 25}},
+        "15": {"class_type": "LTXVPreprocess", "inputs": {"image": ["12", 0], "img_compression": 25}},
+        "16": {"class_type": "EmptyLTXVLatentVideo", "inputs": {"width": ["13", 0], "height": ["13", 1], "length": length_frames, "batch_size": 1}},
+        "34": {"class_type": "ComfyMathExpression", "inputs": {"expression": "a", "values.a": ["10", 0]}},
+        "17": {"class_type": "LTXVConditioning", "inputs": {"positive": ["6", 0], "negative": ["7", 0], "frame_rate": ["34", 0]}},
+        "18": {"class_type": "LTXVAddGuide", "inputs": {"positive": ["17", 0], "negative": ["17", 1], "vae": ["3", 2], "latent": ["16", 0], "image": ["14", 0], "frame_idx": 0, "strength": 0.7}},
+        "19": {"class_type": "LTXVAddGuide", "inputs": {"positive": ["18", 0], "negative": ["18", 1], "vae": ["3", 2], "latent": ["18", 2], "image": ["15", 0], "frame_idx": -1, "strength": 0.7}},
+        "20": {"class_type": "LTXVEmptyLatentAudio", "inputs": {"frames_number": length_frames, "frame_rate": ["10", 0], "batch_size": 1, "audio_vae": ["5", 0]}},
+        "21": {"class_type": "LTXVConcatAVLatent", "inputs": {"video_latent": ["19", 2], "audio_latent": ["20", 0]}},
+        "22": {"class_type": "CFGGuider", "inputs": {"model": ["3", 0], "positive": ["19", 0], "negative": ["19", 1], "cfg": 1.0}},
         "23": {"class_type": "SamplerEulerAncestral", "inputs": {"eta": 0.0, "s_noise": 1.0}},
-        "24": {"class_type": "ManualSigmas", "inputs": {"sigmas": "1., 0.99375, 0.9875, 0.98125, 0.975, 0.909375, 0.725, 0.421875, 0.0"}},
-        "25": {"class_type": "RandomNoise", "inputs": {"noise_seed": 62000}},
-        "26": {"class_type": "SamplerCustomAdvanced", "inputs": {"noise": ["25", 0], "guider": ["22", 0], "sampler": ["23", 0], "sigmas": ["24", 0], "latent_image": ["16", 0]}},
-        "29": {"class_type": "VAEDecodeTiled", "inputs": {"samples": ["26", 0], "vae": ["3", 2], "tile_size": 768, "overlap": 64, "temporal_size": 64, "temporal_overlap": 8}},
-        "31": {"class_type": "CreateVideo", "inputs": {"images": ["29", 0], "fps": FPS}},
+        "24": {"class_type": "ManualSigmas", "inputs": {"sigmas": SIGMAS}},
+        "25": {"class_type": "RandomNoise", "inputs": {"noise_seed": seed}},
+        "26": {"class_type": "SamplerCustomAdvanced", "inputs": {"noise": ["25", 0], "guider": ["22", 0], "sampler": ["23", 0], "sigmas": ["24", 0], "latent_image": ["21", 0]}},
+        "27": {"class_type": "LTXVSeparateAVLatent", "inputs": {"av_latent": ["26", 0]}},
+        "28": {"class_type": "LTXVCropGuides", "inputs": {"positive": ["19", 0], "negative": ["19", 1], "latent": ["27", 0]}},
+        "29": {"class_type": "VAEDecodeTiled", "inputs": {"samples": ["28", 2], "vae": ["3", 2], "tile_size": 768, "overlap": 64, "temporal_size": 64, "temporal_overlap": 8}},
+        "30": {"class_type": "LTXVAudioVAEDecode", "inputs": {"samples": ["27", 1], "audio_vae": ["5", 0]}},
+        "31": {"class_type": "CreateVideo", "inputs": {"images": ["29", 0], "fps": ["34", 0], "audio": ["30", 0]}},
         "32": {"class_type": "SaveVideo", "inputs": {"video": ["31", 0], "filename_prefix": out_mp4, "format": "mp4", "codec": "h264"}},
     }
     pid = post("/prompt", {"prompt": g})["prompt_id"]
@@ -105,10 +132,10 @@ def render_clip(clip, out_dir):
     seed = clip["index"] * 1000
     s_name, s_sub = flux_keyframe(start_prompt, seed, f"{cid}_start")
     e_name, e_sub = flux_keyframe(end_prompt, seed + 1, f"{cid}_end")
-    s_png = fetch_image(s_name, s_sub, os.path.join(WORK, f"{cid}_start.png"))
-    e_png = fetch_image(e_name, e_sub, os.path.join(WORK, f"{cid}_end.png"))
+    s_png = fetch_image(s_name, s_sub, os.path.join(INPUT, f"{cid}_start.png"))
+    e_png = fetch_image(e_name, e_sub, os.path.join(INPUT, f"{cid}_end.png"))
     print(f"[{cid}] keyframes done")
-    v_name, v_sub = ltx_animate(f"{cid}_start.png", f"{cid}_end.png", f"{cid}_anim", v["camera_motion"], CLIP_SEC * FPS)
+    v_name, v_sub = ltx_animate(f"{cid}_start.png", f"{cid}_end.png", f"{cid}_anim", v["camera_motion"], 768, 1344, CLIP_SEC * LTX_FPS, seed)
     vid = fetch_image(v_name, v_sub, os.path.join(WORK, f"{cid}_anim.mp4"))
     print(f"[{cid}] LTX done -> {vid}")
     wav = tts_urdu(clip["vo_ur"], "ur-PK-AsmaNeural", os.path.join(WORK, f"{cid}_vo.mp3"))
