@@ -9,7 +9,7 @@ FLUX_CKPT = "flux1-dev.safetensors"
 FLUX_CLIP1 = "t5xxl_fp8_e4m3fn.safetensors"
 FLUX_CLIP2 = "clip_l.safetensors"
 FLUX_VAE = "ae.safetensors"
-LTX_CKPT = "ltx-2.3-22b-distilled-1.1.safetensors"
+LTX_CKPT = "ltx-2.3-22b-distilled-fp8.safetensors"   # proven with this graph; 'dev' = largest but needs non-distilled sampler config
 LTX_TE = "gemma_3_12B_it_fp4_mixed.safetensors"
 LTX_FPS = 24
 NEG = ("blurry, out of focus, overexposed, underexposed, low contrast, washed out colors, "
@@ -106,9 +106,13 @@ def ltx_animate(start_png, end_png, out_mp4, motion, width, height, length_frame
     }
     pid = post("/prompt", {"prompt": g})["prompt_id"]
     rec = poll(pid)
-    for nid, outn in rec["outputs"].items():
-        for v in outn.get("videos", []):
-            return v["filename"], v.get("subfolder", "")
+    for nid, node in rec.get("outputs", {}).items():
+        for nm, val in node.items():
+            if isinstance(val, list):
+                for v in val:
+                    if isinstance(v, dict) and v.get("filename", "").endswith(".mp4"):
+                        return v["filename"], v.get("subfolder", "")
+    return None
 
 
 def tts_urdu(text, voice, out_file):
