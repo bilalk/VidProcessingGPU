@@ -1,0 +1,60 @@
+{
+  "movie": "shaheen-nagar",
+  "title_ur": "شاہین نگر",
+  "title_en": "Shaheen Nagar",
+  "fps": 24,
+  "clip_duration_sec": 60,
+  "voice": { "vof": "ur-PK-AsmaNeural", "vom": "ur-PK-AsadNeural", "voice_alt_f": "ur-PK-UzmaNeural" },
+  "clips": [
+    {
+      "index": 1, "id": "shn-01", "character": "markhor",
+      "name_en": "Markhor", "name_ur": "TODO_URDU_NAME", "vo_ur": "TODO_URDU_VOICEOVER_LINE_1", "duration_sec": 60,
+      "visual": { "prompt": "A majestic Markhor with giant twisted horns, standing proudly on a snowy mountain peak in northern Pakistan. Hyper-realistic fur texture, deep wise eyes. 8K resolution, cinematic shot, hyper-detail.", "shot_type": "SlowZoom-in", "camera_motion": "LowAngleShot", "lighting": "GoldenHourSunbeams striking the snowy peaks" }
+    },
+    {
+      "index": 2, "id": "shn-02", "character": "shaheen",
+      "name_en": "Shaheen (Falcon)", "name_ur": "TODO_URDU_NAME", "vo_ur": "TODO_URDU_VOICEOVER_LINE_2", "duration_sec": 60,
+      "visual": { "prompt": "A powerful Falcon (Shaheen) with sharp golden-rimmed eyes, wings spread wide, gliding through dark stormy clouds. Perfect feather textures, sharp claws ready for strike. Dynamic wind effects, highly cinematic.", "shot_type": "HighSpeedTrackingShot", "camera_motion": "FlightPOV", "lighting": "DramaticChiaroscuro with lightning flashes" }
+    },
+    {
+      "index": 3, "id": "shn-03", "character": "chakor",
+      "name_en": "Chakor", "name_ur": "TODO_URDU_NAME", "vo_ur": "TODO_URDU_VOICEOVER_LINE_3", "duration_sec": 60,
+      "visual": { "prompt": "A beautiful, innocent Chakor bird sitting on a delicate wild branch under a massive, glowing full moon. Soft, detailed feathers, glittering eyes full of emotion. Ethereal, dreamy environment.", "shot_type": "SlowOrbitalShot", "camera_motion": "SlowOrbitalShot", "lighting": "SoftMoonlightDiffuse volumetric fog floating around" }
+    },
+    {
+      "index": 4, "id": "shn-04", "character": "honeybee",
+      "name_en": "HoneyBee", "name_ur": "TODO_URDU_NAME", "vo_ur": "TODO_URDU_VOICEOVER_LINE_4", "duration_sec": 60,
+      "visual": { "prompt": "A close-up of a swarm of Asiatic honey bees flying in tight, perfect golden formation above blooming mountain flowers. Sunlight refracting through their transparent wings, detailed pollen on legs.", "shot_type": "MacroLensCloseup", "camera_motion": "ShallowDepthofField", "lighting": "BrightGoldenMorningLight, high color saturation" }
+    },
+    {
+      "index": 5, "id": "shn-05", "character": "cunning-fox",
+      "name_en": "CunningFox & DangarParty", "name_ur": "TODO_URDU_NAME", "vo_ur": "TODO_URDU_VOICEOVER_LINE_5", "duration_sec": 60,
+      "visual": { "prompt": "A cunning elderly red fox wearing retro stylish glasses, sitting on a gaudy, fake glowing throne. Smiling deceitfully while offering a blue-screened smartphone. Sleek fur, sinister expression.", "shot_type": "Canted DutchAngle", "camera_motion": "Canted DutchAngle", "lighting": "Flashing studio lights and cold artificial neon glare" }
+    },
+    {
+      "index": 6, "id": "shn-06", "character": "keera-makora",
+      "name_en": "KeeraMakora Pests", "name_ur": "TODO_URDU_NAME", "vo_ur": "TODO_URDU_VOICEOVER_LINE_6", "duration_sec": 60,
+      "visual": { "prompt": "Gross, slimy cockroaches and lizards swarming inside a dark, decaying tunnel. Each bug is intensely holding a tiny smartphone and ring light, their eyes reflecting neon green codes.", "shot_type": "Shaky chaotic Handheld GoPro POV", "camera_motion": "Shaky chaotic Handheld GoPro POV", "lighting": "Sinister NeonGreen and ToxicBlue backlighting" }
+    },
+    {
+      "index": 7, "id": "shn-07", "character": "toad-redtape",
+      "name_en": "VHK (Toad / RedTape)", "name_ur": "TODO_URDU_NAME", "vo_ur": "TODO_URDU_VOICEOVER_LINE_7", "duration_sec": 60,
+      "visual": { "prompt": "A bloated, spectacled toad wearing a dusty administrative vest, sitting on top of massive mountains of decaying paper files tied with red tape. Sipping tea, looking utterly lazy and indifferent.", "shot_type": "Superstatic slow panning", "camera_motion": "Superstatic slow panning across dusty shelves", "lighting": "Dusty atmospheric shafts of yellow light" }
+    },
+    {
+      "index": 8, "id": "shn-08", "character": "pir-kakki",
+      "name_en": "PirKakki (Heron / Bagla)", "name_ur": "TODO_URDU_NAME", "vo_ur": "TODO_URDU_VOICEOVER_LINE_8", "duration_sec": 60,
+      "visual": { "prompt": "A hypocritical white heron (bagla) standing on one leg near a murky swamp, draped in a dirty white shawl. In the background shadow, bloated baboons are herding sheep, while yellow hornets swarm.", "shot_type": "Slow ominous tracking shot", "camera_motion": "Slow ominous tracking shot through the swamp weeds", "lighting": "Ominous twilight with thick incense smoke" }
+    },
+    {
+      "index": 9, "id": "shn-09", "character": "cursed-vultures",
+      "name_en": "Cursed Vultures", "name_ur": "TODO_URDU_NAME", "vo_ur": "TODO_URDU_VOICEOVER_LINE_9", "duration_sec": 60,
+      "visual": { "prompt": "A dreadful vulture with a naked, wrinkly red neck wearing a rusted golden broken collar. Its wings still show faint remnants of majestic falcon feathers. Sitting on a burnt, leafless tree branch.", "shot_type": "Tilt down shot", "camera_motion": "Tilt down shot", "lighting": "Sooty grey sky with dim fires in the background" }
+    },
+    {
+      "index": 10, "id": "shn-10", "character": "confused-genz",
+      "name_en": "Confused GenZ (eaglets)", "name_ur": "TODO_URDU_NAME", "vo_ur": "TODO_URDU_VOICEOVER_LINE_10", "duration_sec": 60,
+      "visual": { "prompt": "A group of young, fuzzy baby eaglets, glowing stray fireflies, and colorful spellbound butterflies with wet wings sitting on low branches. Their faces are illuminated by the intense blue and green glow of glowing smartphone screens, showing expressions of extreme confusion, hesitation, and longing for truth. Photorealistic details.", "shot_type": "ExtremeMacroEyeShot", "camera_motion": "ExtremeMacroEyeShot", "lighting": "Hyper-realistic smartphone screen glow, Cyan and NeonGreen" }
+    }
+  ]
+}
