@@ -142,7 +142,7 @@ def render_clip(clip, out_dir):
     v_name, v_sub = ltx_animate(f"{cid}_start.png", f"{cid}_end.png", f"{cid}_anim", v["camera_motion"], 768, 1344, CLIP_SEC * LTX_FPS, seed)
     vid = fetch_image(v_name, v_sub, os.path.join(WORK, f"{cid}_anim.mp4"))
     print(f"[{cid}] LTX done -> {vid}")
-    wav = tts_urdu(clip["vo_ur"], "ur-PK-AsmaNeural", os.path.join(WORK, f"{cid}_vo.mp3"))
+    wav = tts_urdu(clip["vo_ur"], "ur-PK-UzmaNeural", os.path.join(WORK, f"{cid}_vo.mp3"))
     print(f"[{cid}] Urdu TTS done")
     final = merge(vid, wav, os.path.join(out_dir, f"{cid}.mp4"))
     print(f"[{cid}] FINAL -> {final}")
