@@ -136,10 +136,30 @@ class GPU:
 
     def kill_pipeline(self):
         """Gracefully stop this batch's pipeline on the server: SIGTERM the orchestrator
-        scripts + their python workers, then clear the ComfyUI queue."""
-        self.run("pkill -f 'web_flux[.]sh|web_ltx[.]sh|tts_29[.]py|flux_gen_opt[.]py|assemble_29[.]py|ltx_29[.]py' 2>/dev/null; sleep 1; echo KILLED",
+        scripts + their python workers, WAIT until they are really dead, then interrupt
+        the running ComfyUI render AND clear its pending queue (verified empty).
+
+        Why the strict ordering: ComfyUI's /queue clear removes only PENDING prompts and
+        never touches the RUNNING one; and a dying worker can keep submitting for a moment
+        after pkill. The old version cleared the queue ~1s after pkill, so in-flight
+        submissions re-populated the queue AFTER the clear — observed as ~20 ghost LTX
+        clips blocking the next batch's FLUX round. Now: kill submitters -> wait for real
+        death -> interrupt the running render -> clear + verify pending==0 (retry once)."""
+        self.run("pkill -f 'web_flux[.]sh|web_ltx[.]sh|tts_29[.]py|flux_gen_opt[.]py|assemble_29[.]py|ltx_29[.]py' 2>/dev/null; echo KILLED",
                  timeout=40)
-        self.run("curl -s -X POST http://127.0.0.1:8188/queue "
-                 "-H 'Content-Type: application/json' -d '{\"clear\": true}' -o /dev/null; echo CLEARED",
+        for _ in range(15):  # wait until no pipeline worker remains (max ~15s)
+            if not self.pipeline_running():
+                break
+            time.sleep(1)
+        self.run("curl -s -X POST http://127.0.0.1:8188/interrupt -o /dev/null; echo INTERRUPTED",
                  timeout=20)
+        for _ in range(2):  # clear pending, then verify the queue is really empty
+            self.run("curl -s -X POST http://127.0.0.1:8188/queue "
+                     "-H 'Content-Type: application/json' -d '{\"clear\": true}' -o /dev/null; echo CLEARED",
+                     timeout=20)
+            _, out, _ = self.run(
+                "curl -s http://127.0.0.1:8188/queue | python3 -c 'import json,sys; d=json.load(sys.stdin); print(len(d.get(\"queue_pending\",[])))'",
+                timeout=20)
+            if out.strip() == '0':
+                break
         return True

@@ -1,3 +1,11 @@
+# Reel Factory — web service
+
+> **⚠️ READ THIS FIRST: [AGENT_HANDOFF.md](AGENT_HANDOFF.md)** — the single up-to-date
+> handoff doc (2026-09-06). Current GPU host is `134.199.207.148` (key
+> `C:\Users\faraz\.ssh\id_ed25519`); GPU status page is server-local `127.0.0.1:8889`.
+> IPs/keys mentioned below (104.211.18.21, 129.212.190.223, C:\Users\tester\...) are
+> legacy and kept only for history. JSON input standard: docs/REEL_FORMAT_STANDARD.md.
+
 # Reel Factory — web service (104.211.18.21:5000)
 
 Self-serve web UI for the **OLD ~60s 4-panel pipeline**. Upload two JSON manifests in

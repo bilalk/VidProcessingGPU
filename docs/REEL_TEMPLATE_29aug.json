@@ -1,0 +1,303 @@
+{
+  "_RULES_FOR_THE_NEXT_AGENT": [
+    "FORMAT = '29aug' (words use term/translation, lines are plain strings, scenes are objects). This is what the deployed pipeline (pipeline.py normalize -> tts_29.py / flux_gen_opt.py / assemble_29.py / ltx_29.py) is built around. Do NOT invent new keys.",
+    "RULE 1 (prevents the collapse): words[].term is ALWAYS the FOREIGN (non-English) word and words[].translation is ALWAYS the English meaning - in ALL SIX channels, INCLUDING english-to-arabic / english-to-chinese / english-to-spanish. The channel name NEVER flips the direction. English text inside 'term' = broken reel (0-byte TTS -> assemble crash -> the whole 12-reel group gets skipped).",
+    "RULE 2: lines[] = exactly 3 plain ENGLISH narration strings (hook question, fact, call-to-action). Not objects. No foreign text in lines.",
+    "RULE 3: scenes[] = exactly 4 objects with keys scene_index, shot_type, ltx_motion_profile, prompt. 'prompt' is an English image prompt (subject/setting/lighting) ending with ', cinematic film still, vertical composition'. NEVER write 'LTX motion:' inside prompt - the pipeline appends that marker itself. 'ltx_motion_profile' holds ONLY the motion/physics description.",
+    "RULE 4: voices are FIXED per channel - copy them exactly from the example reel of the same channel. voice_src = FROM-language voice, voice_tgt = TO-language voice (for english-to-* channels voice_src is the English voice on purpose - the pipeline swaps it).",
+    "RULE 5: exactly 3 words, 3 lines, 4 scenes per reel. words[].translit optional (Latin reading of the term) - keep it for ar/zh.",
+    "RULE 6: 12 reels per JSON file, 2 files per job. Same 29aug format in every reel of both files - never mix with the old aug28 src/tgt format.",
+    "RULE 7: topic = fresh kebab-case slug never used before (pipeline dedups against all past manifests). id/pair/seed are re-assigned by the pipeline - placeholders are fine. music = one short English mood string.",
+    "FINAL SELF-CHECK: for every english-to-* reel, read each words[].term - if it is English, you inverted the direction. Fix before submitting. (ar/zh terms must be non-Latin script; es terms are Spanish words.)"
+  ],
+  "reels": [
+    {
+      "id": "ar-en-XXX",
+      "channel": "arabic-to-english",
+      "pair": "ar-en",
+      "topic": "example-only-do-not-submit-1",
+      "seed": 99001,
+      "voice_src": "ar-SA-ZariyahNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "ar-SA-HamedNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "soft oud pulse with warm analog pads, calm focused momentum",
+      "words": [
+        { "term": "صبر", "translit": "sabr", "translation": "patience" },
+        { "term": "تركيز", "translit": "tarkiz", "translation": "focus" },
+        { "term": "عادة", "translit": "adah", "translation": "habit" }
+      ],
+      "lines": [
+        "Why do the people who move slowest at the start always finish the race first?",
+        "Deep focus compounds quietly while frantic multitasking burns your best hours.",
+        "Protect one quiet hour today and watch your whole week change shape."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "slow cinematic push-in, drifting dust particles in window light, calm ambient room physics",
+          "prompt": "Wide 24mm shot of a quiet sunlit home office at dawn, a focused young writer in a beige linen shirt sitting at a wooden desk with a single notebook, soft golden rays across paper, clean negative space, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "steady handheld breathing motion, pen movement physics, subtle page flutter",
+          "prompt": "Medium 50mm shot of the same writer in the beige linen shirt writing steadily in the notebook, warm desk lamp glow against cool blue morning shadows, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro ink flow tracking, paper fiber depth of field, tiny hand micro-movements",
+          "prompt": "Extreme macro 100mm close-up of a fountain pen nib laying wet ink strokes on textured cream paper, shallow creamy bokeh, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "minimal ambient motion, gentle curtain sway, stable frame for text overlays",
+          "prompt": "Serene 35mm wide shot of the same tidy desk with the closed notebook and a steaming cup of tea, expansive clean negative space in the upper third for text overlay, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "zh-en-XXX",
+      "channel": "chinese-to-english",
+      "pair": "zh-en",
+      "topic": "example-only-do-not-submit-2",
+      "seed": 99002,
+      "voice_src": "zh-CN-XiaoxiaoNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "zh-CN-YunxiNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "gentle guzheng plucks over soft lo-fi pulse, patient study atmosphere",
+      "words": [
+        { "term": "耐心", "translit": "naixin", "translation": "patience" },
+        { "term": "专注", "translit": "zhuanzhu", "translation": "focus" },
+        { "term": "习惯", "translit": "xiguan", "translation": "habit" }
+      ],
+      "lines": [
+        "Why does one hour of true focus beat an entire day of busy distraction?",
+        "Your brain wires itself around whatever you repeat calmly every single day.",
+        "Choose one small habit, repeat it slowly, and let momentum do the heavy lifting."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "slow lateral dolly, floating dust motes in light beams, quiet library ambience",
+          "prompt": "Wide 24mm shot of a peaceful old library reading room, a young student in a grey sweater at a long oak table with one open book, tall windows pouring soft morning light, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "subtle page-turn physics, calm breathing motion, stable framing",
+          "prompt": "Medium 50mm shot of the same student in the grey sweater turning a page with full attention, dust motes glowing in warm light, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro pencil graphite tracking, paper texture micro detail, sharp depth of field",
+          "prompt": "Extreme macro 100mm close-up of a pencil underlining a single sentence on cream paper, graphite tip glinting, creamy bokeh background, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "minimal ambient motion, soft light shift through windows, clean space for text overlays",
+          "prompt": "Serene 35mm wide shot of the quiet reading room with the closed book resting on the oak table, clean negative space in upper third for text overlay, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "es-en-XXX",
+      "channel": "spanish-to-english",
+      "pair": "es-en",
+      "topic": "example-only-do-not-submit-3",
+      "seed": 99003,
+      "voice_src": "es-ES-ElviraNeural",
+      "voice_tgt": "en-US-JennyNeural",
+      "voice_src2": "es-ES-AlvaroNeural",
+      "voice_tgt2": "en-US-GuyNeural",
+      "music": "warm spanish guitar arpeggios over mellow percussion, steady sunrise energy",
+      "words": [
+        { "term": "paciencia", "translit": "", "translation": "patience" },
+        { "term": "enfoque", "translit": "", "translation": "focus" },
+        { "term": "hábito", "translit": "", "translation": "habit" }
+      ],
+      "lines": [
+        "Why do small daily rituals outperform giant one-time efforts every single time?",
+        "Consistency quietly rewires your identity while intensity only rents your attention.",
+        "Start ridiculously small today and never break the chain again."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "slow sunrise light creep across tiles, gentle plant leaf sway, peaceful balcony ambience",
+          "prompt": "Wide 24mm shot of a small Mediterranean balcony garden at sunrise, a young woman in a white cotton shirt watering terracotta plants, golden light spilling over tiles, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "water stream physics, fabric sway, natural hand motion",
+          "prompt": "Medium 50mm shot of the same woman in the white cotton shirt pouring water slowly from a clay jug onto green leaves, warm rim light on her calm face, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro water droplet splash physics, soil texture detail, shallow depth of field",
+          "prompt": "Extreme macro 100mm close-up of water droplets falling onto dark rich soil beside a tiny green sprout, sparkling backlit droplets, creamy bokeh, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "minimal ambient motion, soft morning haze drift, clean negative space for text overlays",
+          "prompt": "Serene 35mm wide shot of the quiet balcony with the clay jug resting beside healthy plants, expansive clean negative space in upper third for text overlay, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "en-ar-XXX",
+      "channel": "english-to-arabic",
+      "pair": "en-ar",
+      "topic": "example-only-do-not-submit-4",
+      "seed": 99004,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "ar-SA-ZariyahNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "ar-SA-HamedNeural",
+      "music": "deep ambient drones with sparse ney flute echoes, desert dawn determination",
+      "words": [
+        { "term": "انضباط", "translit": "indibat", "translation": "discipline" },
+        { "term": "استمرارية", "translit": "istimrariyah", "translation": "consistency" },
+        { "term": "هدوء", "translit": "hudu", "translation": "calmness" }
+      ],
+      "lines": [
+        "Why does motivation always fade exactly when the real work finally begins?",
+        "Discipline is just a quiet promise you keep when nobody is watching.",
+        "Build the routine first and let the results arrive on their own schedule."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "slow dune heat shimmer, drifting sand particles, vast desert wind physics",
+          "prompt": "Wide 24mm shot of endless golden desert dunes at first light, a lone runner in a dark tracksuit jogging along a sharp dune ridge, long blue shadows, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "rhythmic running motion physics, fabric flutter, footfall sand spray",
+          "prompt": "Medium 50mm shot of the same runner in the dark tracksuit mid-stride on the dune ridge, determined face lit by warm sunrise, sand kicking up softly, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro sand grain impact physics, shoe compression detail, high-speed texture tracking",
+          "prompt": "Extreme macro 100mm close-up of a running shoe pressing into rippled golden sand, grains exploding outward in slow sunlight, razor-sharp detail with creamy bokeh, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "minimal ambient motion, soft heat haze drift, clean sky negative space for text overlays",
+          "prompt": "Serene 35mm wide shot of the empty sunlit dune ridge with a single trail of footprints fading into distance, expansive clean sky in upper third for text overlay, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "en-zh-XXX",
+      "channel": "english-to-chinese",
+      "pair": "en-zh",
+      "topic": "example-only-do-not-submit-5",
+      "seed": 99005,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "zh-CN-XiaoxiaoNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "zh-CN-YunxiNeural",
+      "music": "minimal piano notes over soft rain texture, quiet resilient mood",
+      "words": [
+        { "term": "纪律", "translit": "jilu", "translation": "discipline" },
+        { "term": "坚持", "translit": "jianchi", "translation": "persistence" },
+        { "term": "平静", "translit": "pingjing", "translation": "calmness" }
+      ],
+      "lines": [
+        "Why do we surrender to moods that last minutes when goals take months?",
+        "Rain does not negotiate with the mountain, it just keeps falling patiently.",
+        "Show up on the days you feel nothing and the streak will carry you."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "steady rainfall physics, window condensation drift, muted city ambience",
+          "prompt": "Wide 24mm shot of a rain-streaked apartment window overlooking a misty city at dusk, a person in a navy hoodie silhouetted at a small desk with one lamp glowing, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "subtle typing hand motion, warm lamp flicker physics, calm stable framing",
+          "prompt": "Medium 50mm shot of the same person in the navy hoodie typing calmly on a laptop, raindrops sliding down the dark window behind, warm pool of lamplight, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro raindrop racing physics on glass, city light refraction, shallow focus",
+          "prompt": "Extreme macro 100mm close-up of two raindrops racing down cold window glass with blurred neon city lights behind, shimmering refractions, creamy bokeh, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "minimal ambient motion, slow rain haze outside glass, clean dark negative space for text overlays",
+          "prompt": "Serene 35mm wide shot of the quiet lamplit desk beside the dark rainy window, laptop closed, expansive clean negative space in upper third for text overlay, cinematic film still, vertical composition"
+        }
+      ]
+    },
+    {
+      "id": "en-es-XXX",
+      "channel": "english-to-spanish",
+      "pair": "en-es",
+      "topic": "example-only-do-not-submit-6",
+      "seed": 99006,
+      "voice_src": "en-US-JennyNeural",
+      "voice_tgt": "es-ES-ElviraNeural",
+      "voice_src2": "en-US-GuyNeural",
+      "voice_tgt2": "es-ES-AlvaroNeural",
+      "music": "soft cajon groove with warm nylon guitar, grounded morning confidence",
+      "words": [
+        { "term": "disciplina", "translit": "", "translation": "discipline" },
+        { "term": "constancia", "translit": "", "translation": "consistency" },
+        { "term": "calma", "translit": "", "translation": "calmness" }
+      ],
+      "lines": [
+        "Why does waiting to feel ready guarantee you will never actually start?",
+        "Action creates the feeling, never the other way around.",
+        "Do one boring rep before the world wakes up and own the entire day."
+      ],
+      "scenes": [
+        {
+          "scene_index": 1,
+          "shot_type": "wide establishing shot",
+          "ltx_motion_profile": "slow morning fog drift, gentle sea breeze physics, quiet promenade ambience",
+          "prompt": "Wide 24mm shot of an empty seaside promenade at blue dawn, a man in a charcoal hoodie lacing running shoes on a stone bench, soft mist over calm water, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 2,
+          "shot_type": "medium shot",
+          "ltx_motion_profile": "shoe-tying hand motion physics, hoodie fabric sway, stable framing",
+          "prompt": "Medium 50mm shot of the same man in the charcoal hoodie tightening his shoelaces with quiet focus, pale dawn light on his face, misty sea behind, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 3,
+          "shot_type": "close-up action shot",
+          "ltx_motion_profile": "macro lace tension physics, fabric weave detail, shallow depth of field",
+          "prompt": "Extreme macro 100mm close-up of fingers pulling a running shoe lace tight, woven texture crisp, soft blue morning bokeh, cinematic film still, vertical composition"
+        },
+        {
+          "scene_index": 4,
+          "shot_type": "calm wide shot",
+          "ltx_motion_profile": "minimal ambient motion, slow mist drift over water, clean negative space for text overlays",
+          "prompt": "Serene 35mm wide shot of the empty stone bench facing the calm misty sea, expansive clean negative space in upper third for text overlay, cinematic film still, vertical composition"
+        }
+      ]
+    }
+  ]
+}
