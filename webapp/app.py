@@ -23,6 +23,7 @@ LTX_OUT_D = '/root/reels_ltx29/out_desktop'
 LOCAL_FLUX  = r'C:\ProjectComfy\reelsGPU2\flux_29aug'
 LOCAL_LTX_M = r'C:\ProjectComfy\reelsGPU2\ltx_29aug_mobile'
 LOCAL_LTX_D = r'C:\ProjectComfy\reelsGPU2\ltx_29aug_desktop'
+LOCAL_ASSETS = r'C:\ProjectComfy\reelsGPU2\assets'
 
 CHANNELS = P.CHANNELS
 
@@ -34,9 +35,9 @@ JOB = None
 
 
 def load_config():
-    d = {'gpu_host': '134.199.202.142', 'gpu_user': 'root',
-         'gpu_key': r'C:\Users\tester\.ssh\aug30',
-         'burn_subtitles': True, 'mode': 'flux+ltx'}
+    d = {'gpu_host': '134.199.196.177', 'gpu_user': 'root',
+         'gpu_key': r'C:\Users\faraz\.ssh\id_ed25519',
+         'burn_subtitles': True, 'mode': 'flux+ltx', 'pull_assets': True}
     try:
         if os.path.exists(CONFIG_PATH):
             d.update(json.load(open(CONFIG_PATH, encoding='utf-8')))
@@ -48,6 +49,18 @@ def load_config():
 def save_config(d):
     os.makedirs(STATE, exist_ok=True)
     json.dump(d, open(CONFIG_PATH, 'w', encoding='utf-8'), indent=2)
+
+
+def _server_used_ids(cfg):
+    """Read reel ids already cached on the GPU server (img/ + tts/) so the next batch
+    never collides with stale cache keyed by id."""
+    try:
+        g = G.GPU(cfg['gpu_host'], cfg['gpu_key'], cfg['gpu_user']).connect()
+        ids = g.server_used_ids()
+        g.close()
+        return ids
+    except Exception:
+        return set()
 
 
 TOPIC_DB_PATH = os.path.join(STATE, 'used_topics.json')
@@ -201,12 +214,72 @@ def _poll_ltx(job, g, ltx_log):
         time.sleep(20)
 
 
+def _pull_assets(job, g, reels):
+    """After the run completes, fetch per-reel artifacts (TTS audio, .ass subtitles,
+    and a script.txt) so the owner can edit/re-render later without touching the GPU."""
+    _update(job, current_stage='pulling assets (tts / ass / script)')
+    assets_root = os.path.join(LOCAL_ASSETS, job['id'])
+    os.makedirs(assets_root, exist_ok=True)
+    for r in reels:
+        rid = r['id']
+        d = os.path.join(assets_root, rid)
+        os.makedirs(d, exist_ok=True)
+
+        # 1) TTS audio (.mp3) — 12 clips per reel
+        for f in ('L1', 'L2', 'L3', 'w1', 'w2', 'w3', 't1', 't2', 't3'):
+            rp = f"{FLUX_DIR}/tts/{rid}_{f}.mp3"
+            lp = os.path.join(d, f'{rid}_{f}.mp3')
+            try:
+                g.get(rp, lp)
+            except Exception as e:
+                _log(job, f"  asset MISS {rid}_{f}.mp3: {e}")
+
+        # 2) .ass subtitles — from both LTX mobile + desktop (and FLUX build dir as fallback)
+        ass_sources = [
+            (f"{LTX_OUT_M}/{r['channel']}/{rid}.ass", 'mobile'),
+            (f"{LTX_OUT_D}/{r['channel']}/{rid}.ass", 'desktop'),
+            (f"{FLUX_DIR}/build_29aug/{rid}/{rid}.ass", 'flux'),
+        ]
+        for rp, tag in ass_sources:
+            lp = os.path.join(d, f'{rid}.{tag}.ass')
+            try:
+                g.get(rp, lp)
+            except Exception as e:
+                pass  # not every source exists for every reel
+
+        # 3) script.txt — bilingual script (narration + words + scenes) from the manifest
+        script_lines = [f"# {rid}", f"channel: {r.get('channel')}", f"topic: {r.get('topic')}",
+                        f"pair: {r.get('pair')}", "", "NARRATION (English):"]
+        for i, n in enumerate(r.get('narration', []), 1):
+            script_lines.append(f"{i}. {n}")
+        script_lines.append("")
+        script_lines.append("WORDS (src -> tgt):")
+        for w in r.get('words', []):
+            script_lines.append(f"- {w.get('src','')} -> {w.get('tgt','')}")
+        script_lines.append("")
+        script_lines.append("SCENES:")
+        for s in r.get('scenes', []):
+            script_lines.append(f"- {s}")
+        with open(os.path.join(d, 'script.txt'), 'w', encoding='utf-8') as fh:
+            fh.write("\n".join(script_lines))
+
+    _log(job, f"assets pulled to {assets_root}")
+
+
 def _finish(job, g):
     """End the run: mark done normally, or leave it 'paused' if the user aborted."""
     if job.get('_abort'):
         _log(job, "paused by user — server pipeline left running (Resume or End)")
         g.close()
         return
+    if job.get('config', {}).get('pull_assets', True):
+        try:
+            reels = json.load(open(job['merged_path'], encoding='utf-8'))['reels']
+            _pull_assets(job, g, reels)
+        except Exception as e:
+            _log(job, f"asset pull skipped: {e}")
+    else:
+        _log(job, "assets pull disabled — skipping")
     g.close()
     _log(job, "DONE — results copied to host")
     _update(job, status='done', current_stage='complete')
@@ -408,7 +481,7 @@ def upload():
     except Exception as e:
         return jsonify({'error': f'bad JSON: {e}'}), 400
     fmt, issues, redundant = _analyze(reels)
-    next_id = P.find_next_start_id()
+    next_id = P.find_next_start_id(extra_used=_server_used_ids(load_config()))
     return jsonify({
         'file_a': os.path.basename(p1), 'file_b': os.path.basename(p2),
         'reels': len(reels), 'format': fmt, 'issues': issues,
@@ -440,7 +513,12 @@ def start():
     if redundant and not body.get('confirm_redundant'):
         return jsonify({'error': 'redundant topics exist', 'redundant_topics': redundant}), 409
 
-    start_id = P.find_next_start_id()
+    _cfg = {
+        'gpu_host': body.get('gpu_host') or load_config()['gpu_host'],
+        'gpu_user': body.get('gpu_user') or 'root',
+        'gpu_key': body.get('gpu_key') or load_config()['gpu_key'],
+    }
+    start_id = P.find_next_start_id(extra_used=_server_used_ids(_cfg))
     na = P.normalize(reels_a, fmt, start_id)
     nb = P.normalize(reels_b, fmt, start_id + len(na))
     merged = {'reels': na + nb}
@@ -464,6 +542,7 @@ def start():
         'gpu_key': body.get('gpu_key') or load_config()['gpu_key'],
         'burn_subtitles': bool(body.get('burn_subtitles', True)),
         'mode': body.get('mode', 'flux+ltx'),
+        'pull_assets': bool(body.get('pull_assets', True)),
     }
     save_config(cfg)
 

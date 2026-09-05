@@ -58,6 +58,12 @@ ul{margin:6px 0;padding-left:20px}
         <option value="0">Handle later</option>
       </select>
     </div>
+    <div class="field"><label>Pull assets (TTS / subtitles / script)</label>
+      <select id="pullAssets">
+        <option value="1" selected>Yes — pull at end</option>
+        <option value="0">No — videos only</option>
+      </select>
+    </div>
   </div>
   <div class="row" style="margin-top:12px">
     <button id="btnAnalyze" onclick="analyze()">Analyze &amp; check</button>
@@ -128,6 +134,7 @@ function start(confirmRedundant){
   const body={file_a:pending.file_a,file_b:pending.file_b,
     mode:document.getElementById('mode').value,
     burn_subtitles:document.getElementById('burn').value==='1',
+    pull_assets:document.getElementById('pullAssets').value==='1',
     gpu_host:document.getElementById('gpu_host').value,
     gpu_key:document.getElementById('gpu_key').value,
     gpu_user:document.getElementById('gpu_user').value,

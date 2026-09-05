@@ -105,8 +105,10 @@ def collect_used_ids(dirs=None, toplevel=None):
     return used
 
 
-def find_next_start_id(dirs=None, toplevel=None):
+def find_next_start_id(dirs=None, toplevel=None, extra_used=None):
     used = collect_used_ids(dirs, toplevel)
+    if extra_used:
+        used |= set(extra_used)
     return (max(used) + 1) if used else 0
 
 

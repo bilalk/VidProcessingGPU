@@ -1,7 +1,7 @@
 # gpu.py — thin SSH/SFTP wrapper over paramiko for the remote GPU server.
 # Every call is deliberately bounded (timeouts) so a flaky link never wedges a request.
 
-import paramiko, os, time, tempfile
+import paramiko, os, re, time, tempfile
 
 DEFAULT_SSH_OPTS = dict(
     banner_timeout=30, auth_timeout=30, timeout=30,
@@ -108,6 +108,21 @@ class GPU:
             cmd += f" -name '*{ext}'"
         code, out, _ = self.run(cmd, timeout=60)
         return [p for p in out.splitlines() if p.strip()]
+
+    def server_used_ids(self):
+        """Collect numeric reel ids already present in server cache dirs (img/ + tts/),
+        across both the FLUX workspace (/root/reels_r3) and LTX workspace (/root/reels_ltx29).
+        Ids are embedded as '<anything>-NNN' in filenames."""
+        ids = set()
+        for base in ('/root/reels_r3', '/root/reels_ltx29'):
+            code, out, _ = self.run(
+                f"find {base} -type f \\( -name '*.png' -o -name '*.mp3' -o -name '*.mp4' \\) 2>/dev/null",
+                timeout=60)
+            for path in out.splitlines():
+                m = re.search(r'-(\d+)(?:_[^/]*)?\.[^.]+$', path)
+                if m:
+                    ids.add(int(m.group(1)))
+        return ids
 
     # ---- pipeline-state helpers ----
     def pipeline_running(self):
